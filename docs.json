@@ -123,24 +123,88 @@
       "destination": "/pt-BR/blivre"
     },
     {
+      "source": "/it",
+      "destination": "/it/riveduta1927"
+    },
+    {
+      "source": "/nl",
+      "destination": "/nl/nbg1951"
+    },
+    {
       "source": "/ru",
       "destination": "/ru/synodal"
     },
     {
-      "source": "/zh-Hans",
-      "destination": "/zh-Hans/cuvs"
+      "source": "/uk",
+      "destination": "/uk/bju1996"
     },
     {
-      "source": "/ko",
-      "destination": "/ko/krv1910"
+      "source": "/pl",
+      "destination": "/pl/ubg"
+    },
+    {
+      "source": "/cs",
+      "destination": "/cs/kralicka1613"
+    },
+    {
+      "source": "/ro",
+      "destination": "/ro/btf"
+    },
+    {
+      "source": "/hu",
+      "destination": "/hu/nyitott"
+    },
+    {
+      "source": "/sv",
+      "destination": "/sv/folkbibeln"
+    },
+    {
+      "source": "/da",
+      "destination": "/da/bibelen1931"
+    },
+    {
+      "source": "/no",
+      "destination": "/no/lbb"
+    },
+    {
+      "source": "/tr",
+      "destination": "/tr/ytc"
+    },
+    {
+      "source": "/ar",
+      "destination": "/ar/vandyck"
     },
     {
       "source": "/he",
       "destination": "/he/modern"
     },
     {
-      "source": "/ar",
-      "destination": "/ar/vandyck"
+      "source": "/hi",
+      "destination": "/hi/irv"
+    },
+    {
+      "source": "/id",
+      "destination": "/id/ayt"
+    },
+    {
+      "source": "/vi",
+      "destination": "/vi/vie1934"
+    },
+    {
+      "source": "/ja",
+      "destination": "/ja/shinkaiyaku1965"
+    },
+    {
+      "source": "/ko",
+      "destination": "/ko/krv1910"
+    },
+    {
+      "source": "/zh-Hans",
+      "destination": "/zh-Hans/cuvs"
+    },
+    {
+      "source": "/zh-Hant",
+      "destination": "/zh-Hant/cuvt"
     }
   ],
   "navigation": {
@@ -161,19 +225,67 @@
         "$ref": "./navigation/pt-BR.json"
       },
       {
+        "$ref": "./navigation/it.json"
+      },
+      {
+        "$ref": "./navigation/nl.json"
+      },
+      {
         "$ref": "./navigation/ru.json"
       },
       {
-        "$ref": "./navigation/zh-Hans.json"
+        "$ref": "./navigation/uk.json"
       },
       {
-        "$ref": "./navigation/ko.json"
+        "$ref": "./navigation/pl.json"
+      },
+      {
+        "$ref": "./navigation/cs.json"
+      },
+      {
+        "$ref": "./navigation/ro.json"
+      },
+      {
+        "$ref": "./navigation/hu.json"
+      },
+      {
+        "$ref": "./navigation/sv.json"
+      },
+      {
+        "$ref": "./navigation/da.json"
+      },
+      {
+        "$ref": "./navigation/no.json"
+      },
+      {
+        "$ref": "./navigation/tr.json"
+      },
+      {
+        "$ref": "./navigation/ar.json"
       },
       {
         "$ref": "./navigation/he.json"
       },
       {
-        "$ref": "./navigation/ar.json"
+        "$ref": "./navigation/hi.json"
+      },
+      {
+        "$ref": "./navigation/id.json"
+      },
+      {
+        "$ref": "./navigation/vi.json"
+      },
+      {
+        "$ref": "./navigation/ja.json"
+      },
+      {
+        "$ref": "./navigation/ko.json"
+      },
+      {
+        "$ref": "./navigation/zh-Hans.json"
+      },
+      {
+        "$ref": "./navigation/zh-Hant.json"
       }
     ]
   }

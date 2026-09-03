@@ -21,8 +21,8 @@
               "pages": [
                 {
                   "group": "창세기",
-                  "root": "ko/krv1910/genesis/index",
                   "pages": [
+                    "ko/krv1910/genesis/index",
                     "ko/krv1910/genesis/1",
                     "ko/krv1910/genesis/2",
                     "ko/krv1910/genesis/3",
@@ -77,8 +77,8 @@
                 },
                 {
                   "group": "출애굽기",
-                  "root": "ko/krv1910/exodus/index",
                   "pages": [
+                    "ko/krv1910/exodus/index",
                     "ko/krv1910/exodus/1",
                     "ko/krv1910/exodus/2",
                     "ko/krv1910/exodus/3",
@@ -123,8 +123,8 @@
                 },
                 {
                   "group": "레위기",
-                  "root": "ko/krv1910/leviticus/index",
                   "pages": [
+                    "ko/krv1910/leviticus/index",
                     "ko/krv1910/leviticus/1",
                     "ko/krv1910/leviticus/2",
                     "ko/krv1910/leviticus/3",
@@ -156,8 +156,8 @@
                 },
                 {
                   "group": "민수기",
-                  "root": "ko/krv1910/numbers/index",
                   "pages": [
+                    "ko/krv1910/numbers/index",
                     "ko/krv1910/numbers/1",
                     "ko/krv1910/numbers/2",
                     "ko/krv1910/numbers/3",
@@ -198,8 +198,8 @@
                 },
                 {
                   "group": "신명기",
-                  "root": "ko/krv1910/deuteronomy/index",
                   "pages": [
+                    "ko/krv1910/deuteronomy/index",
                     "ko/krv1910/deuteronomy/1",
                     "ko/krv1910/deuteronomy/2",
                     "ko/krv1910/deuteronomy/3",
@@ -238,8 +238,8 @@
                 },
                 {
                   "group": "여호수아",
-                  "root": "ko/krv1910/joshua/index",
                   "pages": [
+                    "ko/krv1910/joshua/index",
                     "ko/krv1910/joshua/1",
                     "ko/krv1910/joshua/2",
                     "ko/krv1910/joshua/3",
@@ -268,8 +268,8 @@
                 },
                 {
                   "group": "사사기",
-                  "root": "ko/krv1910/judges/index",
                   "pages": [
+                    "ko/krv1910/judges/index",
                     "ko/krv1910/judges/1",
                     "ko/krv1910/judges/2",
                     "ko/krv1910/judges/3",
@@ -295,8 +295,8 @@
                 },
                 {
                   "group": "룻기",
-                  "root": "ko/krv1910/ruth/index",
                   "pages": [
+                    "ko/krv1910/ruth/index",
                     "ko/krv1910/ruth/1",
                     "ko/krv1910/ruth/2",
                     "ko/krv1910/ruth/3",
@@ -305,8 +305,8 @@
                 },
                 {
                   "group": "사무엘상",
-                  "root": "ko/krv1910/1-samuel/index",
                   "pages": [
+                    "ko/krv1910/1-samuel/index",
                     "ko/krv1910/1-samuel/1",
                     "ko/krv1910/1-samuel/2",
                     "ko/krv1910/1-samuel/3",
@@ -342,8 +342,8 @@
                 },
                 {
                   "group": "사무엘하",
-                  "root": "ko/krv1910/2-samuel/index",
                   "pages": [
+                    "ko/krv1910/2-samuel/index",
                     "ko/krv1910/2-samuel/1",
                     "ko/krv1910/2-samuel/2",
                     "ko/krv1910/2-samuel/3",
@@ -372,8 +372,8 @@
                 },
                 {
                   "group": "열왕기상",
-                  "root": "ko/krv1910/1-kings/index",
                   "pages": [
+                    "ko/krv1910/1-kings/index",
                     "ko/krv1910/1-kings/1",
                     "ko/krv1910/1-kings/2",
                     "ko/krv1910/1-kings/3",
@@ -400,8 +400,8 @@
                 },
                 {
                   "group": "열왕기하",
-                  "root": "ko/krv1910/2-kings/index",
                   "pages": [
+                    "ko/krv1910/2-kings/index",
                     "ko/krv1910/2-kings/1",
                     "ko/krv1910/2-kings/2",
                     "ko/krv1910/2-kings/3",
@@ -431,8 +431,8 @@
                 },
                 {
                   "group": "역대상",
-                  "root": "ko/krv1910/1-chronicles/index",
                   "pages": [
+                    "ko/krv1910/1-chronicles/index",
                     "ko/krv1910/1-chronicles/1",
                     "ko/krv1910/1-chronicles/2",
                     "ko/krv1910/1-chronicles/3",
@@ -466,8 +466,8 @@
                 },
                 {
                   "group": "역대하",
-                  "root": "ko/krv1910/2-chronicles/index",
                   "pages": [
+                    "ko/krv1910/2-chronicles/index",
                     "ko/krv1910/2-chronicles/1",
                     "ko/krv1910/2-chronicles/2",
                     "ko/krv1910/2-chronicles/3",
@@ -508,8 +508,8 @@
                 },
                 {
                   "group": "에스라",
-                  "root": "ko/krv1910/ezra/index",
                   "pages": [
+                    "ko/krv1910/ezra/index",
                     "ko/krv1910/ezra/1",
                     "ko/krv1910/ezra/2",
                     "ko/krv1910/ezra/3",
@@ -524,8 +524,8 @@
                 },
                 {
                   "group": "느헤미야",
-                  "root": "ko/krv1910/nehemiah/index",
                   "pages": [
+                    "ko/krv1910/nehemiah/index",
                     "ko/krv1910/nehemiah/1",
                     "ko/krv1910/nehemiah/2",
                     "ko/krv1910/nehemiah/3",
@@ -543,8 +543,8 @@
                 },
                 {
                   "group": "에스더",
-                  "root": "ko/krv1910/esther/index",
                   "pages": [
+                    "ko/krv1910/esther/index",
                     "ko/krv1910/esther/1",
                     "ko/krv1910/esther/2",
                     "ko/krv1910/esther/3",
@@ -559,8 +559,8 @@
                 },
                 {
                   "group": "욥기",
-                  "root": "ko/krv1910/job/index",
                   "pages": [
+                    "ko/krv1910/job/index",
                     "ko/krv1910/job/1",
                     "ko/krv1910/job/2",
                     "ko/krv1910/job/3",
@@ -607,8 +607,8 @@
                 },
                 {
                   "group": "시편",
-                  "root": "ko/krv1910/psalms/index",
                   "pages": [
+                    "ko/krv1910/psalms/index",
                     "ko/krv1910/psalms/1",
                     "ko/krv1910/psalms/2",
                     "ko/krv1910/psalms/3",
@@ -763,8 +763,8 @@
                 },
                 {
                   "group": "잠언",
-                  "root": "ko/krv1910/proverbs/index",
                   "pages": [
+                    "ko/krv1910/proverbs/index",
                     "ko/krv1910/proverbs/1",
                     "ko/krv1910/proverbs/2",
                     "ko/krv1910/proverbs/3",
@@ -800,8 +800,8 @@
                 },
                 {
                   "group": "전도서",
-                  "root": "ko/krv1910/ecclesiastes/index",
                   "pages": [
+                    "ko/krv1910/ecclesiastes/index",
                     "ko/krv1910/ecclesiastes/1",
                     "ko/krv1910/ecclesiastes/2",
                     "ko/krv1910/ecclesiastes/3",
@@ -818,8 +818,8 @@
                 },
                 {
                   "group": "아가",
-                  "root": "ko/krv1910/song-of-solomon/index",
                   "pages": [
+                    "ko/krv1910/song-of-solomon/index",
                     "ko/krv1910/song-of-solomon/1",
                     "ko/krv1910/song-of-solomon/2",
                     "ko/krv1910/song-of-solomon/3",
@@ -832,8 +832,8 @@
                 },
                 {
                   "group": "이사야",
-                  "root": "ko/krv1910/isaiah/index",
                   "pages": [
+                    "ko/krv1910/isaiah/index",
                     "ko/krv1910/isaiah/1",
                     "ko/krv1910/isaiah/2",
                     "ko/krv1910/isaiah/3",
@@ -904,8 +904,8 @@
                 },
                 {
                   "group": "예레미야",
-                  "root": "ko/krv1910/jeremiah/index",
                   "pages": [
+                    "ko/krv1910/jeremiah/index",
                     "ko/krv1910/jeremiah/1",
                     "ko/krv1910/jeremiah/2",
                     "ko/krv1910/jeremiah/3",
@@ -962,8 +962,8 @@
                 },
                 {
                   "group": "예레미야 애가",
-                  "root": "ko/krv1910/lamentations/index",
                   "pages": [
+                    "ko/krv1910/lamentations/index",
                     "ko/krv1910/lamentations/1",
                     "ko/krv1910/lamentations/2",
                     "ko/krv1910/lamentations/3",
@@ -973,8 +973,8 @@
                 },
                 {
                   "group": "에스겔",
-                  "root": "ko/krv1910/ezekiel/index",
                   "pages": [
+                    "ko/krv1910/ezekiel/index",
                     "ko/krv1910/ezekiel/1",
                     "ko/krv1910/ezekiel/2",
                     "ko/krv1910/ezekiel/3",
@@ -1027,8 +1027,8 @@
                 },
                 {
                   "group": "다니엘",
-                  "root": "ko/krv1910/daniel/index",
                   "pages": [
+                    "ko/krv1910/daniel/index",
                     "ko/krv1910/daniel/1",
                     "ko/krv1910/daniel/2",
                     "ko/krv1910/daniel/3",
@@ -1045,8 +1045,8 @@
                 },
                 {
                   "group": "호세아",
-                  "root": "ko/krv1910/hosea/index",
                   "pages": [
+                    "ko/krv1910/hosea/index",
                     "ko/krv1910/hosea/1",
                     "ko/krv1910/hosea/2",
                     "ko/krv1910/hosea/3",
@@ -1065,8 +1065,8 @@
                 },
                 {
                   "group": "요엘",
-                  "root": "ko/krv1910/joel/index",
                   "pages": [
+                    "ko/krv1910/joel/index",
                     "ko/krv1910/joel/1",
                     "ko/krv1910/joel/2",
                     "ko/krv1910/joel/3"
@@ -1074,8 +1074,8 @@
                 },
                 {
                   "group": "아모스",
-                  "root": "ko/krv1910/amos/index",
                   "pages": [
+                    "ko/krv1910/amos/index",
                     "ko/krv1910/amos/1",
                     "ko/krv1910/amos/2",
                     "ko/krv1910/amos/3",
@@ -1089,15 +1089,15 @@
                 },
                 {
                   "group": "오바댜",
-                  "root": "ko/krv1910/obadiah/index",
                   "pages": [
+                    "ko/krv1910/obadiah/index",
                     "ko/krv1910/obadiah/1"
                   ]
                 },
                 {
                   "group": "요나",
-                  "root": "ko/krv1910/jonah/index",
                   "pages": [
+                    "ko/krv1910/jonah/index",
                     "ko/krv1910/jonah/1",
                     "ko/krv1910/jonah/2",
                     "ko/krv1910/jonah/3",
@@ -1106,8 +1106,8 @@
                 },
                 {
                   "group": "미가",
-                  "root": "ko/krv1910/micah/index",
                   "pages": [
+                    "ko/krv1910/micah/index",
                     "ko/krv1910/micah/1",
                     "ko/krv1910/micah/2",
                     "ko/krv1910/micah/3",
@@ -1119,8 +1119,8 @@
                 },
                 {
                   "group": "나훔",
-                  "root": "ko/krv1910/nahum/index",
                   "pages": [
+                    "ko/krv1910/nahum/index",
                     "ko/krv1910/nahum/1",
                     "ko/krv1910/nahum/2",
                     "ko/krv1910/nahum/3"
@@ -1128,8 +1128,8 @@
                 },
                 {
                   "group": "하박국",
-                  "root": "ko/krv1910/habakkuk/index",
                   "pages": [
+                    "ko/krv1910/habakkuk/index",
                     "ko/krv1910/habakkuk/1",
                     "ko/krv1910/habakkuk/2",
                     "ko/krv1910/habakkuk/3"
@@ -1137,8 +1137,8 @@
                 },
                 {
                   "group": "스바냐",
-                  "root": "ko/krv1910/zephaniah/index",
                   "pages": [
+                    "ko/krv1910/zephaniah/index",
                     "ko/krv1910/zephaniah/1",
                     "ko/krv1910/zephaniah/2",
                     "ko/krv1910/zephaniah/3"
@@ -1146,16 +1146,16 @@
                 },
                 {
                   "group": "학개",
-                  "root": "ko/krv1910/haggai/index",
                   "pages": [
+                    "ko/krv1910/haggai/index",
                     "ko/krv1910/haggai/1",
                     "ko/krv1910/haggai/2"
                   ]
                 },
                 {
                   "group": "스가랴",
-                  "root": "ko/krv1910/zechariah/index",
                   "pages": [
+                    "ko/krv1910/zechariah/index",
                     "ko/krv1910/zechariah/1",
                     "ko/krv1910/zechariah/2",
                     "ko/krv1910/zechariah/3",
@@ -1174,8 +1174,8 @@
                 },
                 {
                   "group": "말라기",
-                  "root": "ko/krv1910/malachi/index",
                   "pages": [
+                    "ko/krv1910/malachi/index",
                     "ko/krv1910/malachi/1",
                     "ko/krv1910/malachi/2",
                     "ko/krv1910/malachi/3",
@@ -1190,8 +1190,8 @@
               "pages": [
                 {
                   "group": "마태복음",
-                  "root": "ko/krv1910/matthew/index",
                   "pages": [
+                    "ko/krv1910/matthew/index",
                     "ko/krv1910/matthew/1",
                     "ko/krv1910/matthew/2",
                     "ko/krv1910/matthew/3",
@@ -1224,8 +1224,8 @@
                 },
                 {
                   "group": "마가복음",
-                  "root": "ko/krv1910/mark/index",
                   "pages": [
+                    "ko/krv1910/mark/index",
                     "ko/krv1910/mark/1",
                     "ko/krv1910/mark/2",
                     "ko/krv1910/mark/3",
@@ -1246,8 +1246,8 @@
                 },
                 {
                   "group": "누가복음",
-                  "root": "ko/krv1910/luke/index",
                   "pages": [
+                    "ko/krv1910/luke/index",
                     "ko/krv1910/luke/1",
                     "ko/krv1910/luke/2",
                     "ko/krv1910/luke/3",
@@ -1276,8 +1276,8 @@
                 },
                 {
                   "group": "요한복음",
-                  "root": "ko/krv1910/john/index",
                   "pages": [
+                    "ko/krv1910/john/index",
                     "ko/krv1910/john/1",
                     "ko/krv1910/john/2",
                     "ko/krv1910/john/3",
@@ -1303,8 +1303,8 @@
                 },
                 {
                   "group": "사도행전",
-                  "root": "ko/krv1910/acts/index",
                   "pages": [
+                    "ko/krv1910/acts/index",
                     "ko/krv1910/acts/1",
                     "ko/krv1910/acts/2",
                     "ko/krv1910/acts/3",
@@ -1337,8 +1337,8 @@
                 },
                 {
                   "group": "로마서",
-                  "root": "ko/krv1910/romans/index",
                   "pages": [
+                    "ko/krv1910/romans/index",
                     "ko/krv1910/romans/1",
                     "ko/krv1910/romans/2",
                     "ko/krv1910/romans/3",
@@ -1359,8 +1359,8 @@
                 },
                 {
                   "group": "고린도전서",
-                  "root": "ko/krv1910/1-corinthians/index",
                   "pages": [
+                    "ko/krv1910/1-corinthians/index",
                     "ko/krv1910/1-corinthians/1",
                     "ko/krv1910/1-corinthians/2",
                     "ko/krv1910/1-corinthians/3",
@@ -1381,8 +1381,8 @@
                 },
                 {
                   "group": "고린도후서",
-                  "root": "ko/krv1910/2-corinthians/index",
                   "pages": [
+                    "ko/krv1910/2-corinthians/index",
                     "ko/krv1910/2-corinthians/1",
                     "ko/krv1910/2-corinthians/2",
                     "ko/krv1910/2-corinthians/3",
@@ -1400,8 +1400,8 @@
                 },
                 {
                   "group": "갈라디아서",
-                  "root": "ko/krv1910/galatians/index",
                   "pages": [
+                    "ko/krv1910/galatians/index",
                     "ko/krv1910/galatians/1",
                     "ko/krv1910/galatians/2",
                     "ko/krv1910/galatians/3",
@@ -1412,8 +1412,8 @@
                 },
                 {
                   "group": "에베소서",
-                  "root": "ko/krv1910/ephesians/index",
                   "pages": [
+                    "ko/krv1910/ephesians/index",
                     "ko/krv1910/ephesians/1",
                     "ko/krv1910/ephesians/2",
                     "ko/krv1910/ephesians/3",
@@ -1424,8 +1424,8 @@
                 },
                 {
                   "group": "빌립보서",
-                  "root": "ko/krv1910/philippians/index",
                   "pages": [
+                    "ko/krv1910/philippians/index",
                     "ko/krv1910/philippians/1",
                     "ko/krv1910/philippians/2",
                     "ko/krv1910/philippians/3",
@@ -1434,8 +1434,8 @@
                 },
                 {
                   "group": "골로새서",
-                  "root": "ko/krv1910/colossians/index",
                   "pages": [
+                    "ko/krv1910/colossians/index",
                     "ko/krv1910/colossians/1",
                     "ko/krv1910/colossians/2",
                     "ko/krv1910/colossians/3",
@@ -1444,8 +1444,8 @@
                 },
                 {
                   "group": "데살로니가전서",
-                  "root": "ko/krv1910/1-thessalonians/index",
                   "pages": [
+                    "ko/krv1910/1-thessalonians/index",
                     "ko/krv1910/1-thessalonians/1",
                     "ko/krv1910/1-thessalonians/2",
                     "ko/krv1910/1-thessalonians/3",
@@ -1455,8 +1455,8 @@
                 },
                 {
                   "group": "데살로니가후서",
-                  "root": "ko/krv1910/2-thessalonians/index",
                   "pages": [
+                    "ko/krv1910/2-thessalonians/index",
                     "ko/krv1910/2-thessalonians/1",
                     "ko/krv1910/2-thessalonians/2",
                     "ko/krv1910/2-thessalonians/3"
@@ -1464,8 +1464,8 @@
                 },
                 {
                   "group": "디모데전서",
-                  "root": "ko/krv1910/1-timothy/index",
                   "pages": [
+                    "ko/krv1910/1-timothy/index",
                     "ko/krv1910/1-timothy/1",
                     "ko/krv1910/1-timothy/2",
                     "ko/krv1910/1-timothy/3",
@@ -1476,8 +1476,8 @@
                 },
                 {
                   "group": "디모데후서",
-                  "root": "ko/krv1910/2-timothy/index",
                   "pages": [
+                    "ko/krv1910/2-timothy/index",
                     "ko/krv1910/2-timothy/1",
                     "ko/krv1910/2-timothy/2",
                     "ko/krv1910/2-timothy/3",
@@ -1486,8 +1486,8 @@
                 },
                 {
                   "group": "디도서",
-                  "root": "ko/krv1910/titus/index",
                   "pages": [
+                    "ko/krv1910/titus/index",
                     "ko/krv1910/titus/1",
                     "ko/krv1910/titus/2",
                     "ko/krv1910/titus/3"
@@ -1495,15 +1495,15 @@
                 },
                 {
                   "group": "빌레몬서",
-                  "root": "ko/krv1910/philemon/index",
                   "pages": [
+                    "ko/krv1910/philemon/index",
                     "ko/krv1910/philemon/1"
                   ]
                 },
                 {
                   "group": "히브리서",
-                  "root": "ko/krv1910/hebrews/index",
                   "pages": [
+                    "ko/krv1910/hebrews/index",
                     "ko/krv1910/hebrews/1",
                     "ko/krv1910/hebrews/2",
                     "ko/krv1910/hebrews/3",
@@ -1521,8 +1521,8 @@
                 },
                 {
                   "group": "야고보서",
-                  "root": "ko/krv1910/james/index",
                   "pages": [
+                    "ko/krv1910/james/index",
                     "ko/krv1910/james/1",
                     "ko/krv1910/james/2",
                     "ko/krv1910/james/3",
@@ -1532,8 +1532,8 @@
                 },
                 {
                   "group": "베드로전서",
-                  "root": "ko/krv1910/1-peter/index",
                   "pages": [
+                    "ko/krv1910/1-peter/index",
                     "ko/krv1910/1-peter/1",
                     "ko/krv1910/1-peter/2",
                     "ko/krv1910/1-peter/3",
@@ -1542,8 +1542,8 @@
                 },
                 {
                   "group": "베드로후서",
-                  "root": "ko/krv1910/2-peter/index",
                   "pages": [
+                    "ko/krv1910/2-peter/index",
                     "ko/krv1910/2-peter/1",
                     "ko/krv1910/2-peter/2",
                     "ko/krv1910/2-peter/3"
@@ -1551,8 +1551,8 @@
                 },
                 {
                   "group": "요한1서",
-                  "root": "ko/krv1910/1-john/index",
                   "pages": [
+                    "ko/krv1910/1-john/index",
                     "ko/krv1910/1-john/1",
                     "ko/krv1910/1-john/2",
                     "ko/krv1910/1-john/3",
@@ -1562,29 +1562,29 @@
                 },
                 {
                   "group": "요한2서",
-                  "root": "ko/krv1910/2-john/index",
                   "pages": [
+                    "ko/krv1910/2-john/index",
                     "ko/krv1910/2-john/1"
                   ]
                 },
                 {
                   "group": "요한3서",
-                  "root": "ko/krv1910/3-john/index",
                   "pages": [
+                    "ko/krv1910/3-john/index",
                     "ko/krv1910/3-john/1"
                   ]
                 },
                 {
                   "group": "유다서",
-                  "root": "ko/krv1910/jude/index",
                   "pages": [
+                    "ko/krv1910/jude/index",
                     "ko/krv1910/jude/1"
                   ]
                 },
                 {
                   "group": "요한계시록",
-                  "root": "ko/krv1910/revelation/index",
                   "pages": [
+                    "ko/krv1910/revelation/index",
                     "ko/krv1910/revelation/1",
                     "ko/krv1910/revelation/2",
                     "ko/krv1910/revelation/3",

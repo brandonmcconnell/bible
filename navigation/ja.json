@@ -1,0 +1,453 @@
+{
+  "language": "ja",
+  "versions": [
+    {
+      "version": "新改訳 1965",
+      "tabs": [
+        {
+          "tab": "聖書",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "新改訳新約聖書 (1965)",
+              "icon": "book-open",
+              "pages": [
+                "ja/shinkaiyaku1965/index"
+              ]
+            },
+            {
+              "group": "新約聖書",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "マタイの福音書",
+                  "pages": [
+                    "ja/shinkaiyaku1965/matthew/index",
+                    "ja/shinkaiyaku1965/matthew/1",
+                    "ja/shinkaiyaku1965/matthew/2",
+                    "ja/shinkaiyaku1965/matthew/3",
+                    "ja/shinkaiyaku1965/matthew/4",
+                    "ja/shinkaiyaku1965/matthew/5",
+                    "ja/shinkaiyaku1965/matthew/6",
+                    "ja/shinkaiyaku1965/matthew/7",
+                    "ja/shinkaiyaku1965/matthew/8",
+                    "ja/shinkaiyaku1965/matthew/9",
+                    "ja/shinkaiyaku1965/matthew/10",
+                    "ja/shinkaiyaku1965/matthew/11",
+                    "ja/shinkaiyaku1965/matthew/12",
+                    "ja/shinkaiyaku1965/matthew/13",
+                    "ja/shinkaiyaku1965/matthew/14",
+                    "ja/shinkaiyaku1965/matthew/15",
+                    "ja/shinkaiyaku1965/matthew/16",
+                    "ja/shinkaiyaku1965/matthew/17",
+                    "ja/shinkaiyaku1965/matthew/18",
+                    "ja/shinkaiyaku1965/matthew/19",
+                    "ja/shinkaiyaku1965/matthew/20",
+                    "ja/shinkaiyaku1965/matthew/21",
+                    "ja/shinkaiyaku1965/matthew/22",
+                    "ja/shinkaiyaku1965/matthew/23",
+                    "ja/shinkaiyaku1965/matthew/24",
+                    "ja/shinkaiyaku1965/matthew/25",
+                    "ja/shinkaiyaku1965/matthew/26",
+                    "ja/shinkaiyaku1965/matthew/27",
+                    "ja/shinkaiyaku1965/matthew/28"
+                  ]
+                },
+                {
+                  "group": "マルコの福音書",
+                  "pages": [
+                    "ja/shinkaiyaku1965/mark/index",
+                    "ja/shinkaiyaku1965/mark/1",
+                    "ja/shinkaiyaku1965/mark/2",
+                    "ja/shinkaiyaku1965/mark/3",
+                    "ja/shinkaiyaku1965/mark/4",
+                    "ja/shinkaiyaku1965/mark/5",
+                    "ja/shinkaiyaku1965/mark/6",
+                    "ja/shinkaiyaku1965/mark/7",
+                    "ja/shinkaiyaku1965/mark/8",
+                    "ja/shinkaiyaku1965/mark/9",
+                    "ja/shinkaiyaku1965/mark/10",
+                    "ja/shinkaiyaku1965/mark/11",
+                    "ja/shinkaiyaku1965/mark/12",
+                    "ja/shinkaiyaku1965/mark/13",
+                    "ja/shinkaiyaku1965/mark/14",
+                    "ja/shinkaiyaku1965/mark/15",
+                    "ja/shinkaiyaku1965/mark/16"
+                  ]
+                },
+                {
+                  "group": "ルカの福音書",
+                  "pages": [
+                    "ja/shinkaiyaku1965/luke/index",
+                    "ja/shinkaiyaku1965/luke/1",
+                    "ja/shinkaiyaku1965/luke/2",
+                    "ja/shinkaiyaku1965/luke/3",
+                    "ja/shinkaiyaku1965/luke/4",
+                    "ja/shinkaiyaku1965/luke/5",
+                    "ja/shinkaiyaku1965/luke/6",
+                    "ja/shinkaiyaku1965/luke/7",
+                    "ja/shinkaiyaku1965/luke/8",
+                    "ja/shinkaiyaku1965/luke/9",
+                    "ja/shinkaiyaku1965/luke/10",
+                    "ja/shinkaiyaku1965/luke/11",
+                    "ja/shinkaiyaku1965/luke/12",
+                    "ja/shinkaiyaku1965/luke/13",
+                    "ja/shinkaiyaku1965/luke/14",
+                    "ja/shinkaiyaku1965/luke/15",
+                    "ja/shinkaiyaku1965/luke/16",
+                    "ja/shinkaiyaku1965/luke/17",
+                    "ja/shinkaiyaku1965/luke/18",
+                    "ja/shinkaiyaku1965/luke/19",
+                    "ja/shinkaiyaku1965/luke/20",
+                    "ja/shinkaiyaku1965/luke/21",
+                    "ja/shinkaiyaku1965/luke/22",
+                    "ja/shinkaiyaku1965/luke/23",
+                    "ja/shinkaiyaku1965/luke/24"
+                  ]
+                },
+                {
+                  "group": "ヨハネの福音書",
+                  "pages": [
+                    "ja/shinkaiyaku1965/john/index",
+                    "ja/shinkaiyaku1965/john/1",
+                    "ja/shinkaiyaku1965/john/2",
+                    "ja/shinkaiyaku1965/john/3",
+                    "ja/shinkaiyaku1965/john/4",
+                    "ja/shinkaiyaku1965/john/5",
+                    "ja/shinkaiyaku1965/john/6",
+                    "ja/shinkaiyaku1965/john/7",
+                    "ja/shinkaiyaku1965/john/8",
+                    "ja/shinkaiyaku1965/john/9",
+                    "ja/shinkaiyaku1965/john/10",
+                    "ja/shinkaiyaku1965/john/11",
+                    "ja/shinkaiyaku1965/john/12",
+                    "ja/shinkaiyaku1965/john/13",
+                    "ja/shinkaiyaku1965/john/14",
+                    "ja/shinkaiyaku1965/john/15",
+                    "ja/shinkaiyaku1965/john/16",
+                    "ja/shinkaiyaku1965/john/17",
+                    "ja/shinkaiyaku1965/john/18",
+                    "ja/shinkaiyaku1965/john/19",
+                    "ja/shinkaiyaku1965/john/20",
+                    "ja/shinkaiyaku1965/john/21"
+                  ]
+                },
+                {
+                  "group": "使徒の働き",
+                  "pages": [
+                    "ja/shinkaiyaku1965/acts/index",
+                    "ja/shinkaiyaku1965/acts/1",
+                    "ja/shinkaiyaku1965/acts/2",
+                    "ja/shinkaiyaku1965/acts/3",
+                    "ja/shinkaiyaku1965/acts/4",
+                    "ja/shinkaiyaku1965/acts/5",
+                    "ja/shinkaiyaku1965/acts/6",
+                    "ja/shinkaiyaku1965/acts/7",
+                    "ja/shinkaiyaku1965/acts/8",
+                    "ja/shinkaiyaku1965/acts/9",
+                    "ja/shinkaiyaku1965/acts/10",
+                    "ja/shinkaiyaku1965/acts/11",
+                    "ja/shinkaiyaku1965/acts/12",
+                    "ja/shinkaiyaku1965/acts/13",
+                    "ja/shinkaiyaku1965/acts/14",
+                    "ja/shinkaiyaku1965/acts/15",
+                    "ja/shinkaiyaku1965/acts/16",
+                    "ja/shinkaiyaku1965/acts/17",
+                    "ja/shinkaiyaku1965/acts/18",
+                    "ja/shinkaiyaku1965/acts/19",
+                    "ja/shinkaiyaku1965/acts/20",
+                    "ja/shinkaiyaku1965/acts/21",
+                    "ja/shinkaiyaku1965/acts/22",
+                    "ja/shinkaiyaku1965/acts/23",
+                    "ja/shinkaiyaku1965/acts/24",
+                    "ja/shinkaiyaku1965/acts/25",
+                    "ja/shinkaiyaku1965/acts/26",
+                    "ja/shinkaiyaku1965/acts/27",
+                    "ja/shinkaiyaku1965/acts/28"
+                  ]
+                },
+                {
+                  "group": "ローマ人への手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/romans/index",
+                    "ja/shinkaiyaku1965/romans/1",
+                    "ja/shinkaiyaku1965/romans/2",
+                    "ja/shinkaiyaku1965/romans/3",
+                    "ja/shinkaiyaku1965/romans/4",
+                    "ja/shinkaiyaku1965/romans/5",
+                    "ja/shinkaiyaku1965/romans/6",
+                    "ja/shinkaiyaku1965/romans/7",
+                    "ja/shinkaiyaku1965/romans/8",
+                    "ja/shinkaiyaku1965/romans/9",
+                    "ja/shinkaiyaku1965/romans/10",
+                    "ja/shinkaiyaku1965/romans/11",
+                    "ja/shinkaiyaku1965/romans/12",
+                    "ja/shinkaiyaku1965/romans/13",
+                    "ja/shinkaiyaku1965/romans/14",
+                    "ja/shinkaiyaku1965/romans/15",
+                    "ja/shinkaiyaku1965/romans/16"
+                  ]
+                },
+                {
+                  "group": "コリント人への手紙第一",
+                  "pages": [
+                    "ja/shinkaiyaku1965/1-corinthians/index",
+                    "ja/shinkaiyaku1965/1-corinthians/1",
+                    "ja/shinkaiyaku1965/1-corinthians/2",
+                    "ja/shinkaiyaku1965/1-corinthians/3",
+                    "ja/shinkaiyaku1965/1-corinthians/4",
+                    "ja/shinkaiyaku1965/1-corinthians/5",
+                    "ja/shinkaiyaku1965/1-corinthians/6",
+                    "ja/shinkaiyaku1965/1-corinthians/7",
+                    "ja/shinkaiyaku1965/1-corinthians/8",
+                    "ja/shinkaiyaku1965/1-corinthians/9",
+                    "ja/shinkaiyaku1965/1-corinthians/10",
+                    "ja/shinkaiyaku1965/1-corinthians/11",
+                    "ja/shinkaiyaku1965/1-corinthians/12",
+                    "ja/shinkaiyaku1965/1-corinthians/13",
+                    "ja/shinkaiyaku1965/1-corinthians/14",
+                    "ja/shinkaiyaku1965/1-corinthians/15",
+                    "ja/shinkaiyaku1965/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "コリント人への手紙第二",
+                  "pages": [
+                    "ja/shinkaiyaku1965/2-corinthians/index",
+                    "ja/shinkaiyaku1965/2-corinthians/1",
+                    "ja/shinkaiyaku1965/2-corinthians/2",
+                    "ja/shinkaiyaku1965/2-corinthians/3",
+                    "ja/shinkaiyaku1965/2-corinthians/4",
+                    "ja/shinkaiyaku1965/2-corinthians/5",
+                    "ja/shinkaiyaku1965/2-corinthians/6",
+                    "ja/shinkaiyaku1965/2-corinthians/7",
+                    "ja/shinkaiyaku1965/2-corinthians/8",
+                    "ja/shinkaiyaku1965/2-corinthians/9",
+                    "ja/shinkaiyaku1965/2-corinthians/10",
+                    "ja/shinkaiyaku1965/2-corinthians/11",
+                    "ja/shinkaiyaku1965/2-corinthians/12",
+                    "ja/shinkaiyaku1965/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "ガラテヤ人への手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/galatians/index",
+                    "ja/shinkaiyaku1965/galatians/1",
+                    "ja/shinkaiyaku1965/galatians/2",
+                    "ja/shinkaiyaku1965/galatians/3",
+                    "ja/shinkaiyaku1965/galatians/4",
+                    "ja/shinkaiyaku1965/galatians/5",
+                    "ja/shinkaiyaku1965/galatians/6"
+                  ]
+                },
+                {
+                  "group": "エペソ人への手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/ephesians/index",
+                    "ja/shinkaiyaku1965/ephesians/1",
+                    "ja/shinkaiyaku1965/ephesians/2",
+                    "ja/shinkaiyaku1965/ephesians/3",
+                    "ja/shinkaiyaku1965/ephesians/4",
+                    "ja/shinkaiyaku1965/ephesians/5",
+                    "ja/shinkaiyaku1965/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "ピリピ人への手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/philippians/index",
+                    "ja/shinkaiyaku1965/philippians/1",
+                    "ja/shinkaiyaku1965/philippians/2",
+                    "ja/shinkaiyaku1965/philippians/3",
+                    "ja/shinkaiyaku1965/philippians/4"
+                  ]
+                },
+                {
+                  "group": "コロサイ人への手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/colossians/index",
+                    "ja/shinkaiyaku1965/colossians/1",
+                    "ja/shinkaiyaku1965/colossians/2",
+                    "ja/shinkaiyaku1965/colossians/3",
+                    "ja/shinkaiyaku1965/colossians/4"
+                  ]
+                },
+                {
+                  "group": "テサロニケ人への手紙第一",
+                  "pages": [
+                    "ja/shinkaiyaku1965/1-thessalonians/index",
+                    "ja/shinkaiyaku1965/1-thessalonians/1",
+                    "ja/shinkaiyaku1965/1-thessalonians/2",
+                    "ja/shinkaiyaku1965/1-thessalonians/3",
+                    "ja/shinkaiyaku1965/1-thessalonians/4",
+                    "ja/shinkaiyaku1965/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "テサロニケ人への手紙第二",
+                  "pages": [
+                    "ja/shinkaiyaku1965/2-thessalonians/index",
+                    "ja/shinkaiyaku1965/2-thessalonians/1",
+                    "ja/shinkaiyaku1965/2-thessalonians/2",
+                    "ja/shinkaiyaku1965/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "テモテへの手紙第一",
+                  "pages": [
+                    "ja/shinkaiyaku1965/1-timothy/index",
+                    "ja/shinkaiyaku1965/1-timothy/1",
+                    "ja/shinkaiyaku1965/1-timothy/2",
+                    "ja/shinkaiyaku1965/1-timothy/3",
+                    "ja/shinkaiyaku1965/1-timothy/4",
+                    "ja/shinkaiyaku1965/1-timothy/5",
+                    "ja/shinkaiyaku1965/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "テモテへの手紙第二",
+                  "pages": [
+                    "ja/shinkaiyaku1965/2-timothy/index",
+                    "ja/shinkaiyaku1965/2-timothy/1",
+                    "ja/shinkaiyaku1965/2-timothy/2",
+                    "ja/shinkaiyaku1965/2-timothy/3",
+                    "ja/shinkaiyaku1965/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "テトスへの手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/titus/index",
+                    "ja/shinkaiyaku1965/titus/1",
+                    "ja/shinkaiyaku1965/titus/2",
+                    "ja/shinkaiyaku1965/titus/3"
+                  ]
+                },
+                {
+                  "group": "ピレモンへの手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/philemon/index",
+                    "ja/shinkaiyaku1965/philemon/1"
+                  ]
+                },
+                {
+                  "group": "ヘブル人への手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/hebrews/index",
+                    "ja/shinkaiyaku1965/hebrews/1",
+                    "ja/shinkaiyaku1965/hebrews/2",
+                    "ja/shinkaiyaku1965/hebrews/3",
+                    "ja/shinkaiyaku1965/hebrews/4",
+                    "ja/shinkaiyaku1965/hebrews/5",
+                    "ja/shinkaiyaku1965/hebrews/6",
+                    "ja/shinkaiyaku1965/hebrews/7",
+                    "ja/shinkaiyaku1965/hebrews/8",
+                    "ja/shinkaiyaku1965/hebrews/9",
+                    "ja/shinkaiyaku1965/hebrews/10",
+                    "ja/shinkaiyaku1965/hebrews/11",
+                    "ja/shinkaiyaku1965/hebrews/12",
+                    "ja/shinkaiyaku1965/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "ヤコブの手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/james/index",
+                    "ja/shinkaiyaku1965/james/1",
+                    "ja/shinkaiyaku1965/james/2",
+                    "ja/shinkaiyaku1965/james/3",
+                    "ja/shinkaiyaku1965/james/4",
+                    "ja/shinkaiyaku1965/james/5"
+                  ]
+                },
+                {
+                  "group": "ペテロの手紙第一",
+                  "pages": [
+                    "ja/shinkaiyaku1965/1-peter/index",
+                    "ja/shinkaiyaku1965/1-peter/1",
+                    "ja/shinkaiyaku1965/1-peter/2",
+                    "ja/shinkaiyaku1965/1-peter/3",
+                    "ja/shinkaiyaku1965/1-peter/4",
+                    "ja/shinkaiyaku1965/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "ペテロの手紙第二",
+                  "pages": [
+                    "ja/shinkaiyaku1965/2-peter/index",
+                    "ja/shinkaiyaku1965/2-peter/1",
+                    "ja/shinkaiyaku1965/2-peter/2",
+                    "ja/shinkaiyaku1965/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "ヨハネの手紙第一",
+                  "pages": [
+                    "ja/shinkaiyaku1965/1-john/index",
+                    "ja/shinkaiyaku1965/1-john/1",
+                    "ja/shinkaiyaku1965/1-john/2",
+                    "ja/shinkaiyaku1965/1-john/3",
+                    "ja/shinkaiyaku1965/1-john/4",
+                    "ja/shinkaiyaku1965/1-john/5"
+                  ]
+                },
+                {
+                  "group": "ヨハネの手紙第二",
+                  "pages": [
+                    "ja/shinkaiyaku1965/2-john/index",
+                    "ja/shinkaiyaku1965/2-john/1"
+                  ]
+                },
+                {
+                  "group": "ヨハネの手紙第三",
+                  "pages": [
+                    "ja/shinkaiyaku1965/3-john/index",
+                    "ja/shinkaiyaku1965/3-john/1"
+                  ]
+                },
+                {
+                  "group": "ユダの手紙",
+                  "pages": [
+                    "ja/shinkaiyaku1965/jude/index",
+                    "ja/shinkaiyaku1965/jude/1"
+                  ]
+                },
+                {
+                  "group": "ヨハネの黙示録",
+                  "pages": [
+                    "ja/shinkaiyaku1965/revelation/index",
+                    "ja/shinkaiyaku1965/revelation/1",
+                    "ja/shinkaiyaku1965/revelation/2",
+                    "ja/shinkaiyaku1965/revelation/3",
+                    "ja/shinkaiyaku1965/revelation/4",
+                    "ja/shinkaiyaku1965/revelation/5",
+                    "ja/shinkaiyaku1965/revelation/6",
+                    "ja/shinkaiyaku1965/revelation/7",
+                    "ja/shinkaiyaku1965/revelation/8",
+                    "ja/shinkaiyaku1965/revelation/9",
+                    "ja/shinkaiyaku1965/revelation/10",
+                    "ja/shinkaiyaku1965/revelation/11",
+                    "ja/shinkaiyaku1965/revelation/12",
+                    "ja/shinkaiyaku1965/revelation/13",
+                    "ja/shinkaiyaku1965/revelation/14",
+                    "ja/shinkaiyaku1965/revelation/15",
+                    "ja/shinkaiyaku1965/revelation/16",
+                    "ja/shinkaiyaku1965/revelation/17",
+                    "ja/shinkaiyaku1965/revelation/18",
+                    "ja/shinkaiyaku1965/revelation/19",
+                    "ja/shinkaiyaku1965/revelation/20",
+                    "ja/shinkaiyaku1965/revelation/21",
+                    "ja/shinkaiyaku1965/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "tag": "NT"
+    }
+  ]
+}

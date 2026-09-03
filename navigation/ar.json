@@ -21,8 +21,8 @@
               "pages": [
                 {
                   "group": "اَلتَّكْوِينُ",
-                  "root": "ar/vandyck/genesis/index",
                   "pages": [
+                    "ar/vandyck/genesis/index",
                     "ar/vandyck/genesis/1",
                     "ar/vandyck/genesis/2",
                     "ar/vandyck/genesis/3",
@@ -77,8 +77,8 @@
                 },
                 {
                   "group": "اَلْخُرُوجُ",
-                  "root": "ar/vandyck/exodus/index",
                   "pages": [
+                    "ar/vandyck/exodus/index",
                     "ar/vandyck/exodus/1",
                     "ar/vandyck/exodus/2",
                     "ar/vandyck/exodus/3",
@@ -123,8 +123,8 @@
                 },
                 {
                   "group": "اَللَّاوِيِّينَ",
-                  "root": "ar/vandyck/leviticus/index",
                   "pages": [
+                    "ar/vandyck/leviticus/index",
                     "ar/vandyck/leviticus/1",
                     "ar/vandyck/leviticus/2",
                     "ar/vandyck/leviticus/3",
@@ -156,8 +156,8 @@
                 },
                 {
                   "group": "اَلْعَدَد",
-                  "root": "ar/vandyck/numbers/index",
                   "pages": [
+                    "ar/vandyck/numbers/index",
                     "ar/vandyck/numbers/1",
                     "ar/vandyck/numbers/2",
                     "ar/vandyck/numbers/3",
@@ -198,8 +198,8 @@
                 },
                 {
                   "group": "اَلتَّثْنِيَة",
-                  "root": "ar/vandyck/deuteronomy/index",
                   "pages": [
+                    "ar/vandyck/deuteronomy/index",
                     "ar/vandyck/deuteronomy/1",
                     "ar/vandyck/deuteronomy/2",
                     "ar/vandyck/deuteronomy/3",
@@ -238,8 +238,8 @@
                 },
                 {
                   "group": "يَشُوع",
-                  "root": "ar/vandyck/joshua/index",
                   "pages": [
+                    "ar/vandyck/joshua/index",
                     "ar/vandyck/joshua/1",
                     "ar/vandyck/joshua/2",
                     "ar/vandyck/joshua/3",
@@ -268,8 +268,8 @@
                 },
                 {
                   "group": "اَلْقُضَاة",
-                  "root": "ar/vandyck/judges/index",
                   "pages": [
+                    "ar/vandyck/judges/index",
                     "ar/vandyck/judges/1",
                     "ar/vandyck/judges/2",
                     "ar/vandyck/judges/3",
@@ -295,8 +295,8 @@
                 },
                 {
                   "group": "رَاعُوث",
-                  "root": "ar/vandyck/ruth/index",
                   "pages": [
+                    "ar/vandyck/ruth/index",
                     "ar/vandyck/ruth/1",
                     "ar/vandyck/ruth/2",
                     "ar/vandyck/ruth/3",
@@ -305,8 +305,8 @@
                 },
                 {
                   "group": "صَمُوئِيلَ ٱلْأَوَّلُ",
-                  "root": "ar/vandyck/1-samuel/index",
                   "pages": [
+                    "ar/vandyck/1-samuel/index",
                     "ar/vandyck/1-samuel/1",
                     "ar/vandyck/1-samuel/2",
                     "ar/vandyck/1-samuel/3",
@@ -342,8 +342,8 @@
                 },
                 {
                   "group": "صَمُوئِيلَ ٱلثَّانِي",
-                  "root": "ar/vandyck/2-samuel/index",
                   "pages": [
+                    "ar/vandyck/2-samuel/index",
                     "ar/vandyck/2-samuel/1",
                     "ar/vandyck/2-samuel/2",
                     "ar/vandyck/2-samuel/3",
@@ -372,8 +372,8 @@
                 },
                 {
                   "group": "اَلْمُلُوكِ ٱلْأَوَّلُ",
-                  "root": "ar/vandyck/1-kings/index",
                   "pages": [
+                    "ar/vandyck/1-kings/index",
                     "ar/vandyck/1-kings/1",
                     "ar/vandyck/1-kings/2",
                     "ar/vandyck/1-kings/3",
@@ -400,8 +400,8 @@
                 },
                 {
                   "group": "اَلْمُلُوكِ ٱلثَّانِي",
-                  "root": "ar/vandyck/2-kings/index",
                   "pages": [
+                    "ar/vandyck/2-kings/index",
                     "ar/vandyck/2-kings/1",
                     "ar/vandyck/2-kings/2",
                     "ar/vandyck/2-kings/3",
@@ -431,8 +431,8 @@
                 },
                 {
                   "group": "أَخْبَارِ ٱلْأَيَّامِ ٱلْأَوَّلُ",
-                  "root": "ar/vandyck/1-chronicles/index",
                   "pages": [
+                    "ar/vandyck/1-chronicles/index",
                     "ar/vandyck/1-chronicles/1",
                     "ar/vandyck/1-chronicles/2",
                     "ar/vandyck/1-chronicles/3",
@@ -466,8 +466,8 @@
                 },
                 {
                   "group": "أَخْبَارِ ٱلْأَيَّامِ ٱلثَّانِي",
-                  "root": "ar/vandyck/2-chronicles/index",
                   "pages": [
+                    "ar/vandyck/2-chronicles/index",
                     "ar/vandyck/2-chronicles/1",
                     "ar/vandyck/2-chronicles/2",
                     "ar/vandyck/2-chronicles/3",
@@ -508,8 +508,8 @@
                 },
                 {
                   "group": "عَزْرَا",
-                  "root": "ar/vandyck/ezra/index",
                   "pages": [
+                    "ar/vandyck/ezra/index",
                     "ar/vandyck/ezra/1",
                     "ar/vandyck/ezra/2",
                     "ar/vandyck/ezra/3",
@@ -524,8 +524,8 @@
                 },
                 {
                   "group": "نَحَمْيَا",
-                  "root": "ar/vandyck/nehemiah/index",
                   "pages": [
+                    "ar/vandyck/nehemiah/index",
                     "ar/vandyck/nehemiah/1",
                     "ar/vandyck/nehemiah/2",
                     "ar/vandyck/nehemiah/3",
@@ -543,8 +543,8 @@
                 },
                 {
                   "group": "أَسْتِير",
-                  "root": "ar/vandyck/esther/index",
                   "pages": [
+                    "ar/vandyck/esther/index",
                     "ar/vandyck/esther/1",
                     "ar/vandyck/esther/2",
                     "ar/vandyck/esther/3",
@@ -559,8 +559,8 @@
                 },
                 {
                   "group": "أَيُّوبَ",
-                  "root": "ar/vandyck/job/index",
                   "pages": [
+                    "ar/vandyck/job/index",
                     "ar/vandyck/job/1",
                     "ar/vandyck/job/2",
                     "ar/vandyck/job/3",
@@ -607,8 +607,8 @@
                 },
                 {
                   "group": "اَلْمَزَامِيرُ",
-                  "root": "ar/vandyck/psalms/index",
                   "pages": [
+                    "ar/vandyck/psalms/index",
                     "ar/vandyck/psalms/1",
                     "ar/vandyck/psalms/2",
                     "ar/vandyck/psalms/3",
@@ -763,8 +763,8 @@
                 },
                 {
                   "group": "أَمْثَالٌ",
-                  "root": "ar/vandyck/proverbs/index",
                   "pages": [
+                    "ar/vandyck/proverbs/index",
                     "ar/vandyck/proverbs/1",
                     "ar/vandyck/proverbs/2",
                     "ar/vandyck/proverbs/3",
@@ -800,8 +800,8 @@
                 },
                 {
                   "group": "اَلْجَامِعَةِ",
-                  "root": "ar/vandyck/ecclesiastes/index",
                   "pages": [
+                    "ar/vandyck/ecclesiastes/index",
                     "ar/vandyck/ecclesiastes/1",
                     "ar/vandyck/ecclesiastes/2",
                     "ar/vandyck/ecclesiastes/3",
@@ -818,8 +818,8 @@
                 },
                 {
                   "group": "نَشِيدُ ٱلْأَنْشَادِ",
-                  "root": "ar/vandyck/song-of-solomon/index",
                   "pages": [
+                    "ar/vandyck/song-of-solomon/index",
                     "ar/vandyck/song-of-solomon/1",
                     "ar/vandyck/song-of-solomon/2",
                     "ar/vandyck/song-of-solomon/3",
@@ -832,8 +832,8 @@
                 },
                 {
                   "group": "إِشَعْيَاءَ",
-                  "root": "ar/vandyck/isaiah/index",
                   "pages": [
+                    "ar/vandyck/isaiah/index",
                     "ar/vandyck/isaiah/1",
                     "ar/vandyck/isaiah/2",
                     "ar/vandyck/isaiah/3",
@@ -904,8 +904,8 @@
                 },
                 {
                   "group": "إِرْمِيَا",
-                  "root": "ar/vandyck/jeremiah/index",
                   "pages": [
+                    "ar/vandyck/jeremiah/index",
                     "ar/vandyck/jeremiah/1",
                     "ar/vandyck/jeremiah/2",
                     "ar/vandyck/jeremiah/3",
@@ -962,8 +962,8 @@
                 },
                 {
                   "group": "مَرَاثِي إِرْمِيَا",
-                  "root": "ar/vandyck/lamentations/index",
                   "pages": [
+                    "ar/vandyck/lamentations/index",
                     "ar/vandyck/lamentations/1",
                     "ar/vandyck/lamentations/2",
                     "ar/vandyck/lamentations/3",
@@ -973,8 +973,8 @@
                 },
                 {
                   "group": "حِزْقِيَال",
-                  "root": "ar/vandyck/ezekiel/index",
                   "pages": [
+                    "ar/vandyck/ezekiel/index",
                     "ar/vandyck/ezekiel/1",
                     "ar/vandyck/ezekiel/2",
                     "ar/vandyck/ezekiel/3",
@@ -1027,8 +1027,8 @@
                 },
                 {
                   "group": "دَانِيآل",
-                  "root": "ar/vandyck/daniel/index",
                   "pages": [
+                    "ar/vandyck/daniel/index",
                     "ar/vandyck/daniel/1",
                     "ar/vandyck/daniel/2",
                     "ar/vandyck/daniel/3",
@@ -1045,8 +1045,8 @@
                 },
                 {
                   "group": "هُوشَع",
-                  "root": "ar/vandyck/hosea/index",
                   "pages": [
+                    "ar/vandyck/hosea/index",
                     "ar/vandyck/hosea/1",
                     "ar/vandyck/hosea/2",
                     "ar/vandyck/hosea/3",
@@ -1065,8 +1065,8 @@
                 },
                 {
                   "group": "يُوئِيل",
-                  "root": "ar/vandyck/joel/index",
                   "pages": [
+                    "ar/vandyck/joel/index",
                     "ar/vandyck/joel/1",
                     "ar/vandyck/joel/2",
                     "ar/vandyck/joel/3"
@@ -1074,8 +1074,8 @@
                 },
                 {
                   "group": "عَامُوس",
-                  "root": "ar/vandyck/amos/index",
                   "pages": [
+                    "ar/vandyck/amos/index",
                     "ar/vandyck/amos/1",
                     "ar/vandyck/amos/2",
                     "ar/vandyck/amos/3",
@@ -1089,15 +1089,15 @@
                 },
                 {
                   "group": "عُوبَدْيَا",
-                  "root": "ar/vandyck/obadiah/index",
                   "pages": [
+                    "ar/vandyck/obadiah/index",
                     "ar/vandyck/obadiah/1"
                   ]
                 },
                 {
                   "group": "يُونَان",
-                  "root": "ar/vandyck/jonah/index",
                   "pages": [
+                    "ar/vandyck/jonah/index",
                     "ar/vandyck/jonah/1",
                     "ar/vandyck/jonah/2",
                     "ar/vandyck/jonah/3",
@@ -1106,8 +1106,8 @@
                 },
                 {
                   "group": "مِيخَا",
-                  "root": "ar/vandyck/micah/index",
                   "pages": [
+                    "ar/vandyck/micah/index",
                     "ar/vandyck/micah/1",
                     "ar/vandyck/micah/2",
                     "ar/vandyck/micah/3",
@@ -1119,8 +1119,8 @@
                 },
                 {
                   "group": "نَاحُوم",
-                  "root": "ar/vandyck/nahum/index",
                   "pages": [
+                    "ar/vandyck/nahum/index",
                     "ar/vandyck/nahum/1",
                     "ar/vandyck/nahum/2",
                     "ar/vandyck/nahum/3"
@@ -1128,8 +1128,8 @@
                 },
                 {
                   "group": "حَبَقُّوق",
-                  "root": "ar/vandyck/habakkuk/index",
                   "pages": [
+                    "ar/vandyck/habakkuk/index",
                     "ar/vandyck/habakkuk/1",
                     "ar/vandyck/habakkuk/2",
                     "ar/vandyck/habakkuk/3"
@@ -1137,8 +1137,8 @@
                 },
                 {
                   "group": "صَفَنْيَا",
-                  "root": "ar/vandyck/zephaniah/index",
                   "pages": [
+                    "ar/vandyck/zephaniah/index",
                     "ar/vandyck/zephaniah/1",
                     "ar/vandyck/zephaniah/2",
                     "ar/vandyck/zephaniah/3"
@@ -1146,16 +1146,16 @@
                 },
                 {
                   "group": "حَجَّي",
-                  "root": "ar/vandyck/haggai/index",
                   "pages": [
+                    "ar/vandyck/haggai/index",
                     "ar/vandyck/haggai/1",
                     "ar/vandyck/haggai/2"
                   ]
                 },
                 {
                   "group": "زَكَريَّا",
-                  "root": "ar/vandyck/zechariah/index",
                   "pages": [
+                    "ar/vandyck/zechariah/index",
                     "ar/vandyck/zechariah/1",
                     "ar/vandyck/zechariah/2",
                     "ar/vandyck/zechariah/3",
@@ -1174,8 +1174,8 @@
                 },
                 {
                   "group": "مَلَاخِي",
-                  "root": "ar/vandyck/malachi/index",
                   "pages": [
+                    "ar/vandyck/malachi/index",
                     "ar/vandyck/malachi/1",
                     "ar/vandyck/malachi/2",
                     "ar/vandyck/malachi/3",
@@ -1190,8 +1190,8 @@
               "pages": [
                 {
                   "group": "إِنْجِيلُ مَتَّى",
-                  "root": "ar/vandyck/matthew/index",
                   "pages": [
+                    "ar/vandyck/matthew/index",
                     "ar/vandyck/matthew/1",
                     "ar/vandyck/matthew/2",
                     "ar/vandyck/matthew/3",
@@ -1224,8 +1224,8 @@
                 },
                 {
                   "group": "إِنْجِيلُ مَرْقُسَ",
-                  "root": "ar/vandyck/mark/index",
                   "pages": [
+                    "ar/vandyck/mark/index",
                     "ar/vandyck/mark/1",
                     "ar/vandyck/mark/2",
                     "ar/vandyck/mark/3",
@@ -1246,8 +1246,8 @@
                 },
                 {
                   "group": "إِنْجِيلُ لُوقَا",
-                  "root": "ar/vandyck/luke/index",
                   "pages": [
+                    "ar/vandyck/luke/index",
                     "ar/vandyck/luke/1",
                     "ar/vandyck/luke/2",
                     "ar/vandyck/luke/3",
@@ -1276,8 +1276,8 @@
                 },
                 {
                   "group": "إِنْجِيلُ يُوحَنَّا",
-                  "root": "ar/vandyck/john/index",
                   "pages": [
+                    "ar/vandyck/john/index",
                     "ar/vandyck/john/1",
                     "ar/vandyck/john/2",
                     "ar/vandyck/john/3",
@@ -1303,8 +1303,8 @@
                 },
                 {
                   "group": "أَعْمَالُ ٱلرُّسُلِ",
-                  "root": "ar/vandyck/acts/index",
                   "pages": [
+                    "ar/vandyck/acts/index",
                     "ar/vandyck/acts/1",
                     "ar/vandyck/acts/2",
                     "ar/vandyck/acts/3",
@@ -1337,8 +1337,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ رُومِيَةَ",
-                  "root": "ar/vandyck/romans/index",
                   "pages": [
+                    "ar/vandyck/romans/index",
                     "ar/vandyck/romans/1",
                     "ar/vandyck/romans/2",
                     "ar/vandyck/romans/3",
@@ -1359,8 +1359,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلأُولَى إِلَى أَهْلِ كُورِنْثُوسَ",
-                  "root": "ar/vandyck/1-corinthians/index",
                   "pages": [
+                    "ar/vandyck/1-corinthians/index",
                     "ar/vandyck/1-corinthians/1",
                     "ar/vandyck/1-corinthians/2",
                     "ar/vandyck/1-corinthians/3",
@@ -1381,8 +1381,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلثَّانِيةُ إِلَى أَهْلِ كُورِنْثُوسَ",
-                  "root": "ar/vandyck/2-corinthians/index",
                   "pages": [
+                    "ar/vandyck/2-corinthians/index",
                     "ar/vandyck/2-corinthians/1",
                     "ar/vandyck/2-corinthians/2",
                     "ar/vandyck/2-corinthians/3",
@@ -1400,8 +1400,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ غَلَاطِيَّةَ",
-                  "root": "ar/vandyck/galatians/index",
                   "pages": [
+                    "ar/vandyck/galatians/index",
                     "ar/vandyck/galatians/1",
                     "ar/vandyck/galatians/2",
                     "ar/vandyck/galatians/3",
@@ -1412,8 +1412,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ أَفَسُسَ",
-                  "root": "ar/vandyck/ephesians/index",
                   "pages": [
+                    "ar/vandyck/ephesians/index",
                     "ar/vandyck/ephesians/1",
                     "ar/vandyck/ephesians/2",
                     "ar/vandyck/ephesians/3",
@@ -1424,8 +1424,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ فِيلِبِّي",
-                  "root": "ar/vandyck/philippians/index",
                   "pages": [
+                    "ar/vandyck/philippians/index",
                     "ar/vandyck/philippians/1",
                     "ar/vandyck/philippians/2",
                     "ar/vandyck/philippians/3",
@@ -1434,8 +1434,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ كُولُوسِّي",
-                  "root": "ar/vandyck/colossians/index",
                   "pages": [
+                    "ar/vandyck/colossians/index",
                     "ar/vandyck/colossians/1",
                     "ar/vandyck/colossians/2",
                     "ar/vandyck/colossians/3",
@@ -1444,8 +1444,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلأُولَى إِلَى أَهْلِ تَسَالُونِيكِي",
-                  "root": "ar/vandyck/1-thessalonians/index",
                   "pages": [
+                    "ar/vandyck/1-thessalonians/index",
                     "ar/vandyck/1-thessalonians/1",
                     "ar/vandyck/1-thessalonians/2",
                     "ar/vandyck/1-thessalonians/3",
@@ -1455,8 +1455,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلثَّانِيةُ إِلَى أَهْلِ تَسَالُونِيكِي",
-                  "root": "ar/vandyck/2-thessalonians/index",
                   "pages": [
+                    "ar/vandyck/2-thessalonians/index",
                     "ar/vandyck/2-thessalonians/1",
                     "ar/vandyck/2-thessalonians/2",
                     "ar/vandyck/2-thessalonians/3"
@@ -1464,8 +1464,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلْأُولَى إِلَى تِيمُوثَاوُسَ",
-                  "root": "ar/vandyck/1-timothy/index",
                   "pages": [
+                    "ar/vandyck/1-timothy/index",
                     "ar/vandyck/1-timothy/1",
                     "ar/vandyck/1-timothy/2",
                     "ar/vandyck/1-timothy/3",
@@ -1476,8 +1476,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلثَّانِيةُ إِلَى تِيمُوثَاوُسَ",
-                  "root": "ar/vandyck/2-timothy/index",
                   "pages": [
+                    "ar/vandyck/2-timothy/index",
                     "ar/vandyck/2-timothy/1",
                     "ar/vandyck/2-timothy/2",
                     "ar/vandyck/2-timothy/3",
@@ -1486,8 +1486,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى تِيطُسَ",
-                  "root": "ar/vandyck/titus/index",
                   "pages": [
+                    "ar/vandyck/titus/index",
                     "ar/vandyck/titus/1",
                     "ar/vandyck/titus/2",
                     "ar/vandyck/titus/3"
@@ -1495,15 +1495,15 @@
                 },
                 {
                   "group": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى فِلِيمُونَ",
-                  "root": "ar/vandyck/philemon/index",
                   "pages": [
+                    "ar/vandyck/philemon/index",
                     "ar/vandyck/philemon/1"
                   ]
                 },
                 {
                   "group": "اَلرِّسَالَةُ إِلَى ٱلْعِبْرَانِيِّينَ",
-                  "root": "ar/vandyck/hebrews/index",
                   "pages": [
+                    "ar/vandyck/hebrews/index",
                     "ar/vandyck/hebrews/1",
                     "ar/vandyck/hebrews/2",
                     "ar/vandyck/hebrews/3",
@@ -1521,8 +1521,8 @@
                 },
                 {
                   "group": "رِسَالَةُ يَعْقُوبَ",
-                  "root": "ar/vandyck/james/index",
                   "pages": [
+                    "ar/vandyck/james/index",
                     "ar/vandyck/james/1",
                     "ar/vandyck/james/2",
                     "ar/vandyck/james/3",
@@ -1532,8 +1532,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُطْرُسَ ٱلرَّسُولِ ٱلْأُولَى",
-                  "root": "ar/vandyck/1-peter/index",
                   "pages": [
+                    "ar/vandyck/1-peter/index",
                     "ar/vandyck/1-peter/1",
                     "ar/vandyck/1-peter/2",
                     "ar/vandyck/1-peter/3",
@@ -1543,8 +1543,8 @@
                 },
                 {
                   "group": "رِسَالَةُ بُطْرُسَ ٱلرَّسُولِ ٱلثَّانِيَةُ",
-                  "root": "ar/vandyck/2-peter/index",
                   "pages": [
+                    "ar/vandyck/2-peter/index",
                     "ar/vandyck/2-peter/1",
                     "ar/vandyck/2-peter/2",
                     "ar/vandyck/2-peter/3"
@@ -1552,8 +1552,8 @@
                 },
                 {
                   "group": "رِسَالَةُ يُوحَنَّا ٱلرَّسُولِ ٱلْأُولَى",
-                  "root": "ar/vandyck/1-john/index",
                   "pages": [
+                    "ar/vandyck/1-john/index",
                     "ar/vandyck/1-john/1",
                     "ar/vandyck/1-john/2",
                     "ar/vandyck/1-john/3",
@@ -1563,29 +1563,29 @@
                 },
                 {
                   "group": "رِسَالَةُ يُوحَنَّا ٱلرَّسُولِ ٱلثَّانِيَةُ",
-                  "root": "ar/vandyck/2-john/index",
                   "pages": [
+                    "ar/vandyck/2-john/index",
                     "ar/vandyck/2-john/1"
                   ]
                 },
                 {
                   "group": "رِسَالَةُ يُوحَنَّا ٱلرَّسُولِ ٱلثَّالِثَةُ",
-                  "root": "ar/vandyck/3-john/index",
                   "pages": [
+                    "ar/vandyck/3-john/index",
                     "ar/vandyck/3-john/1"
                   ]
                 },
                 {
                   "group": "رِسَالَةُ يَهُوذَا",
-                  "root": "ar/vandyck/jude/index",
                   "pages": [
+                    "ar/vandyck/jude/index",
                     "ar/vandyck/jude/1"
                   ]
                 },
                 {
                   "group": "رُؤْيَا يُوحَنَّا ٱللَّاهُوتِيِّ",
-                  "root": "ar/vandyck/revelation/index",
                   "pages": [
+                    "ar/vandyck/revelation/index",
                     "ar/vandyck/revelation/1",
                     "ar/vandyck/revelation/2",
                     "ar/vandyck/revelation/3",
@@ -1616,6 +1616,1621 @@
         }
       ],
       "default": true
+    },
+    {
+      "version": "كتاب الحياة",
+      "tabs": [
+        {
+          "tab": "الكتاب المقدس",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "كتاب الحياة (NAV)",
+              "icon": "book-open",
+              "pages": [
+                "ar/nav/index"
+              ]
+            },
+            {
+              "group": "العهد القديم",
+              "icon": "scroll-text",
+              "pages": [
+                {
+                  "group": "التكوين",
+                  "pages": [
+                    "ar/nav/genesis/index",
+                    "ar/nav/genesis/1",
+                    "ar/nav/genesis/2",
+                    "ar/nav/genesis/3",
+                    "ar/nav/genesis/4",
+                    "ar/nav/genesis/5",
+                    "ar/nav/genesis/6",
+                    "ar/nav/genesis/7",
+                    "ar/nav/genesis/8",
+                    "ar/nav/genesis/9",
+                    "ar/nav/genesis/10",
+                    "ar/nav/genesis/11",
+                    "ar/nav/genesis/12",
+                    "ar/nav/genesis/13",
+                    "ar/nav/genesis/14",
+                    "ar/nav/genesis/15",
+                    "ar/nav/genesis/16",
+                    "ar/nav/genesis/17",
+                    "ar/nav/genesis/18",
+                    "ar/nav/genesis/19",
+                    "ar/nav/genesis/20",
+                    "ar/nav/genesis/21",
+                    "ar/nav/genesis/22",
+                    "ar/nav/genesis/23",
+                    "ar/nav/genesis/24",
+                    "ar/nav/genesis/25",
+                    "ar/nav/genesis/26",
+                    "ar/nav/genesis/27",
+                    "ar/nav/genesis/28",
+                    "ar/nav/genesis/29",
+                    "ar/nav/genesis/30",
+                    "ar/nav/genesis/31",
+                    "ar/nav/genesis/32",
+                    "ar/nav/genesis/33",
+                    "ar/nav/genesis/34",
+                    "ar/nav/genesis/35",
+                    "ar/nav/genesis/36",
+                    "ar/nav/genesis/37",
+                    "ar/nav/genesis/38",
+                    "ar/nav/genesis/39",
+                    "ar/nav/genesis/40",
+                    "ar/nav/genesis/41",
+                    "ar/nav/genesis/42",
+                    "ar/nav/genesis/43",
+                    "ar/nav/genesis/44",
+                    "ar/nav/genesis/45",
+                    "ar/nav/genesis/46",
+                    "ar/nav/genesis/47",
+                    "ar/nav/genesis/48",
+                    "ar/nav/genesis/49",
+                    "ar/nav/genesis/50"
+                  ]
+                },
+                {
+                  "group": "الخروج",
+                  "pages": [
+                    "ar/nav/exodus/index",
+                    "ar/nav/exodus/1",
+                    "ar/nav/exodus/2",
+                    "ar/nav/exodus/3",
+                    "ar/nav/exodus/4",
+                    "ar/nav/exodus/5",
+                    "ar/nav/exodus/6",
+                    "ar/nav/exodus/7",
+                    "ar/nav/exodus/8",
+                    "ar/nav/exodus/9",
+                    "ar/nav/exodus/10",
+                    "ar/nav/exodus/11",
+                    "ar/nav/exodus/12",
+                    "ar/nav/exodus/13",
+                    "ar/nav/exodus/14",
+                    "ar/nav/exodus/15",
+                    "ar/nav/exodus/16",
+                    "ar/nav/exodus/17",
+                    "ar/nav/exodus/18",
+                    "ar/nav/exodus/19",
+                    "ar/nav/exodus/20",
+                    "ar/nav/exodus/21",
+                    "ar/nav/exodus/22",
+                    "ar/nav/exodus/23",
+                    "ar/nav/exodus/24",
+                    "ar/nav/exodus/25",
+                    "ar/nav/exodus/26",
+                    "ar/nav/exodus/27",
+                    "ar/nav/exodus/28",
+                    "ar/nav/exodus/29",
+                    "ar/nav/exodus/30",
+                    "ar/nav/exodus/31",
+                    "ar/nav/exodus/32",
+                    "ar/nav/exodus/33",
+                    "ar/nav/exodus/34",
+                    "ar/nav/exodus/35",
+                    "ar/nav/exodus/36",
+                    "ar/nav/exodus/37",
+                    "ar/nav/exodus/38",
+                    "ar/nav/exodus/39",
+                    "ar/nav/exodus/40"
+                  ]
+                },
+                {
+                  "group": "اللاويين",
+                  "pages": [
+                    "ar/nav/leviticus/index",
+                    "ar/nav/leviticus/1",
+                    "ar/nav/leviticus/2",
+                    "ar/nav/leviticus/3",
+                    "ar/nav/leviticus/4",
+                    "ar/nav/leviticus/5",
+                    "ar/nav/leviticus/6",
+                    "ar/nav/leviticus/7",
+                    "ar/nav/leviticus/8",
+                    "ar/nav/leviticus/9",
+                    "ar/nav/leviticus/10",
+                    "ar/nav/leviticus/11",
+                    "ar/nav/leviticus/12",
+                    "ar/nav/leviticus/13",
+                    "ar/nav/leviticus/14",
+                    "ar/nav/leviticus/15",
+                    "ar/nav/leviticus/16",
+                    "ar/nav/leviticus/17",
+                    "ar/nav/leviticus/18",
+                    "ar/nav/leviticus/19",
+                    "ar/nav/leviticus/20",
+                    "ar/nav/leviticus/21",
+                    "ar/nav/leviticus/22",
+                    "ar/nav/leviticus/23",
+                    "ar/nav/leviticus/24",
+                    "ar/nav/leviticus/25",
+                    "ar/nav/leviticus/26",
+                    "ar/nav/leviticus/27"
+                  ]
+                },
+                {
+                  "group": "العدد",
+                  "pages": [
+                    "ar/nav/numbers/index",
+                    "ar/nav/numbers/1",
+                    "ar/nav/numbers/2",
+                    "ar/nav/numbers/3",
+                    "ar/nav/numbers/4",
+                    "ar/nav/numbers/5",
+                    "ar/nav/numbers/6",
+                    "ar/nav/numbers/7",
+                    "ar/nav/numbers/8",
+                    "ar/nav/numbers/9",
+                    "ar/nav/numbers/10",
+                    "ar/nav/numbers/11",
+                    "ar/nav/numbers/12",
+                    "ar/nav/numbers/13",
+                    "ar/nav/numbers/14",
+                    "ar/nav/numbers/15",
+                    "ar/nav/numbers/16",
+                    "ar/nav/numbers/17",
+                    "ar/nav/numbers/18",
+                    "ar/nav/numbers/19",
+                    "ar/nav/numbers/20",
+                    "ar/nav/numbers/21",
+                    "ar/nav/numbers/22",
+                    "ar/nav/numbers/23",
+                    "ar/nav/numbers/24",
+                    "ar/nav/numbers/25",
+                    "ar/nav/numbers/26",
+                    "ar/nav/numbers/27",
+                    "ar/nav/numbers/28",
+                    "ar/nav/numbers/29",
+                    "ar/nav/numbers/30",
+                    "ar/nav/numbers/31",
+                    "ar/nav/numbers/32",
+                    "ar/nav/numbers/33",
+                    "ar/nav/numbers/34",
+                    "ar/nav/numbers/35",
+                    "ar/nav/numbers/36"
+                  ]
+                },
+                {
+                  "group": "التثنية",
+                  "pages": [
+                    "ar/nav/deuteronomy/index",
+                    "ar/nav/deuteronomy/1",
+                    "ar/nav/deuteronomy/2",
+                    "ar/nav/deuteronomy/3",
+                    "ar/nav/deuteronomy/4",
+                    "ar/nav/deuteronomy/5",
+                    "ar/nav/deuteronomy/6",
+                    "ar/nav/deuteronomy/7",
+                    "ar/nav/deuteronomy/8",
+                    "ar/nav/deuteronomy/9",
+                    "ar/nav/deuteronomy/10",
+                    "ar/nav/deuteronomy/11",
+                    "ar/nav/deuteronomy/12",
+                    "ar/nav/deuteronomy/13",
+                    "ar/nav/deuteronomy/14",
+                    "ar/nav/deuteronomy/15",
+                    "ar/nav/deuteronomy/16",
+                    "ar/nav/deuteronomy/17",
+                    "ar/nav/deuteronomy/18",
+                    "ar/nav/deuteronomy/19",
+                    "ar/nav/deuteronomy/20",
+                    "ar/nav/deuteronomy/21",
+                    "ar/nav/deuteronomy/22",
+                    "ar/nav/deuteronomy/23",
+                    "ar/nav/deuteronomy/24",
+                    "ar/nav/deuteronomy/25",
+                    "ar/nav/deuteronomy/26",
+                    "ar/nav/deuteronomy/27",
+                    "ar/nav/deuteronomy/28",
+                    "ar/nav/deuteronomy/29",
+                    "ar/nav/deuteronomy/30",
+                    "ar/nav/deuteronomy/31",
+                    "ar/nav/deuteronomy/32",
+                    "ar/nav/deuteronomy/33",
+                    "ar/nav/deuteronomy/34"
+                  ]
+                },
+                {
+                  "group": "يشوع",
+                  "pages": [
+                    "ar/nav/joshua/index",
+                    "ar/nav/joshua/1",
+                    "ar/nav/joshua/2",
+                    "ar/nav/joshua/3",
+                    "ar/nav/joshua/4",
+                    "ar/nav/joshua/5",
+                    "ar/nav/joshua/6",
+                    "ar/nav/joshua/7",
+                    "ar/nav/joshua/8",
+                    "ar/nav/joshua/9",
+                    "ar/nav/joshua/10",
+                    "ar/nav/joshua/11",
+                    "ar/nav/joshua/12",
+                    "ar/nav/joshua/13",
+                    "ar/nav/joshua/14",
+                    "ar/nav/joshua/15",
+                    "ar/nav/joshua/16",
+                    "ar/nav/joshua/17",
+                    "ar/nav/joshua/18",
+                    "ar/nav/joshua/19",
+                    "ar/nav/joshua/20",
+                    "ar/nav/joshua/21",
+                    "ar/nav/joshua/22",
+                    "ar/nav/joshua/23",
+                    "ar/nav/joshua/24"
+                  ]
+                },
+                {
+                  "group": "القضاة",
+                  "pages": [
+                    "ar/nav/judges/index",
+                    "ar/nav/judges/1",
+                    "ar/nav/judges/2",
+                    "ar/nav/judges/3",
+                    "ar/nav/judges/4",
+                    "ar/nav/judges/5",
+                    "ar/nav/judges/6",
+                    "ar/nav/judges/7",
+                    "ar/nav/judges/8",
+                    "ar/nav/judges/9",
+                    "ar/nav/judges/10",
+                    "ar/nav/judges/11",
+                    "ar/nav/judges/12",
+                    "ar/nav/judges/13",
+                    "ar/nav/judges/14",
+                    "ar/nav/judges/15",
+                    "ar/nav/judges/16",
+                    "ar/nav/judges/17",
+                    "ar/nav/judges/18",
+                    "ar/nav/judges/19",
+                    "ar/nav/judges/20",
+                    "ar/nav/judges/21"
+                  ]
+                },
+                {
+                  "group": "راعوث",
+                  "pages": [
+                    "ar/nav/ruth/index",
+                    "ar/nav/ruth/1",
+                    "ar/nav/ruth/2",
+                    "ar/nav/ruth/3",
+                    "ar/nav/ruth/4"
+                  ]
+                },
+                {
+                  "group": "صموئيل الأول",
+                  "pages": [
+                    "ar/nav/1-samuel/index",
+                    "ar/nav/1-samuel/1",
+                    "ar/nav/1-samuel/2",
+                    "ar/nav/1-samuel/3",
+                    "ar/nav/1-samuel/4",
+                    "ar/nav/1-samuel/5",
+                    "ar/nav/1-samuel/6",
+                    "ar/nav/1-samuel/7",
+                    "ar/nav/1-samuel/8",
+                    "ar/nav/1-samuel/9",
+                    "ar/nav/1-samuel/10",
+                    "ar/nav/1-samuel/11",
+                    "ar/nav/1-samuel/12",
+                    "ar/nav/1-samuel/13",
+                    "ar/nav/1-samuel/14",
+                    "ar/nav/1-samuel/15",
+                    "ar/nav/1-samuel/16",
+                    "ar/nav/1-samuel/17",
+                    "ar/nav/1-samuel/18",
+                    "ar/nav/1-samuel/19",
+                    "ar/nav/1-samuel/20",
+                    "ar/nav/1-samuel/21",
+                    "ar/nav/1-samuel/22",
+                    "ar/nav/1-samuel/23",
+                    "ar/nav/1-samuel/24",
+                    "ar/nav/1-samuel/25",
+                    "ar/nav/1-samuel/26",
+                    "ar/nav/1-samuel/27",
+                    "ar/nav/1-samuel/28",
+                    "ar/nav/1-samuel/29",
+                    "ar/nav/1-samuel/30",
+                    "ar/nav/1-samuel/31"
+                  ]
+                },
+                {
+                  "group": "صموئيل الثاني",
+                  "pages": [
+                    "ar/nav/2-samuel/index",
+                    "ar/nav/2-samuel/1",
+                    "ar/nav/2-samuel/2",
+                    "ar/nav/2-samuel/3",
+                    "ar/nav/2-samuel/4",
+                    "ar/nav/2-samuel/5",
+                    "ar/nav/2-samuel/6",
+                    "ar/nav/2-samuel/7",
+                    "ar/nav/2-samuel/8",
+                    "ar/nav/2-samuel/9",
+                    "ar/nav/2-samuel/10",
+                    "ar/nav/2-samuel/11",
+                    "ar/nav/2-samuel/12",
+                    "ar/nav/2-samuel/13",
+                    "ar/nav/2-samuel/14",
+                    "ar/nav/2-samuel/15",
+                    "ar/nav/2-samuel/16",
+                    "ar/nav/2-samuel/17",
+                    "ar/nav/2-samuel/18",
+                    "ar/nav/2-samuel/19",
+                    "ar/nav/2-samuel/20",
+                    "ar/nav/2-samuel/21",
+                    "ar/nav/2-samuel/22",
+                    "ar/nav/2-samuel/23",
+                    "ar/nav/2-samuel/24"
+                  ]
+                },
+                {
+                  "group": "ملوك الأول",
+                  "pages": [
+                    "ar/nav/1-kings/index",
+                    "ar/nav/1-kings/1",
+                    "ar/nav/1-kings/2",
+                    "ar/nav/1-kings/3",
+                    "ar/nav/1-kings/4",
+                    "ar/nav/1-kings/5",
+                    "ar/nav/1-kings/6",
+                    "ar/nav/1-kings/7",
+                    "ar/nav/1-kings/8",
+                    "ar/nav/1-kings/9",
+                    "ar/nav/1-kings/10",
+                    "ar/nav/1-kings/11",
+                    "ar/nav/1-kings/12",
+                    "ar/nav/1-kings/13",
+                    "ar/nav/1-kings/14",
+                    "ar/nav/1-kings/15",
+                    "ar/nav/1-kings/16",
+                    "ar/nav/1-kings/17",
+                    "ar/nav/1-kings/18",
+                    "ar/nav/1-kings/19",
+                    "ar/nav/1-kings/20",
+                    "ar/nav/1-kings/21",
+                    "ar/nav/1-kings/22"
+                  ]
+                },
+                {
+                  "group": "ملوك الثاني",
+                  "pages": [
+                    "ar/nav/2-kings/index",
+                    "ar/nav/2-kings/1",
+                    "ar/nav/2-kings/2",
+                    "ar/nav/2-kings/3",
+                    "ar/nav/2-kings/4",
+                    "ar/nav/2-kings/5",
+                    "ar/nav/2-kings/6",
+                    "ar/nav/2-kings/7",
+                    "ar/nav/2-kings/8",
+                    "ar/nav/2-kings/9",
+                    "ar/nav/2-kings/10",
+                    "ar/nav/2-kings/11",
+                    "ar/nav/2-kings/12",
+                    "ar/nav/2-kings/13",
+                    "ar/nav/2-kings/14",
+                    "ar/nav/2-kings/15",
+                    "ar/nav/2-kings/16",
+                    "ar/nav/2-kings/17",
+                    "ar/nav/2-kings/18",
+                    "ar/nav/2-kings/19",
+                    "ar/nav/2-kings/20",
+                    "ar/nav/2-kings/21",
+                    "ar/nav/2-kings/22",
+                    "ar/nav/2-kings/23",
+                    "ar/nav/2-kings/24",
+                    "ar/nav/2-kings/25"
+                  ]
+                },
+                {
+                  "group": "أخبار الأيام الأول",
+                  "pages": [
+                    "ar/nav/1-chronicles/index",
+                    "ar/nav/1-chronicles/1",
+                    "ar/nav/1-chronicles/2",
+                    "ar/nav/1-chronicles/3",
+                    "ar/nav/1-chronicles/4",
+                    "ar/nav/1-chronicles/5",
+                    "ar/nav/1-chronicles/6",
+                    "ar/nav/1-chronicles/7",
+                    "ar/nav/1-chronicles/8",
+                    "ar/nav/1-chronicles/9",
+                    "ar/nav/1-chronicles/10",
+                    "ar/nav/1-chronicles/11",
+                    "ar/nav/1-chronicles/12",
+                    "ar/nav/1-chronicles/13",
+                    "ar/nav/1-chronicles/14",
+                    "ar/nav/1-chronicles/15",
+                    "ar/nav/1-chronicles/16",
+                    "ar/nav/1-chronicles/17",
+                    "ar/nav/1-chronicles/18",
+                    "ar/nav/1-chronicles/19",
+                    "ar/nav/1-chronicles/20",
+                    "ar/nav/1-chronicles/21",
+                    "ar/nav/1-chronicles/22",
+                    "ar/nav/1-chronicles/23",
+                    "ar/nav/1-chronicles/24",
+                    "ar/nav/1-chronicles/25",
+                    "ar/nav/1-chronicles/26",
+                    "ar/nav/1-chronicles/27",
+                    "ar/nav/1-chronicles/28",
+                    "ar/nav/1-chronicles/29"
+                  ]
+                },
+                {
+                  "group": "أخبار الأيام الثاني",
+                  "pages": [
+                    "ar/nav/2-chronicles/index",
+                    "ar/nav/2-chronicles/1",
+                    "ar/nav/2-chronicles/2",
+                    "ar/nav/2-chronicles/3",
+                    "ar/nav/2-chronicles/4",
+                    "ar/nav/2-chronicles/5",
+                    "ar/nav/2-chronicles/6",
+                    "ar/nav/2-chronicles/7",
+                    "ar/nav/2-chronicles/8",
+                    "ar/nav/2-chronicles/9",
+                    "ar/nav/2-chronicles/10",
+                    "ar/nav/2-chronicles/11",
+                    "ar/nav/2-chronicles/12",
+                    "ar/nav/2-chronicles/13",
+                    "ar/nav/2-chronicles/14",
+                    "ar/nav/2-chronicles/15",
+                    "ar/nav/2-chronicles/16",
+                    "ar/nav/2-chronicles/17",
+                    "ar/nav/2-chronicles/18",
+                    "ar/nav/2-chronicles/19",
+                    "ar/nav/2-chronicles/20",
+                    "ar/nav/2-chronicles/21",
+                    "ar/nav/2-chronicles/22",
+                    "ar/nav/2-chronicles/23",
+                    "ar/nav/2-chronicles/24",
+                    "ar/nav/2-chronicles/25",
+                    "ar/nav/2-chronicles/26",
+                    "ar/nav/2-chronicles/27",
+                    "ar/nav/2-chronicles/28",
+                    "ar/nav/2-chronicles/29",
+                    "ar/nav/2-chronicles/30",
+                    "ar/nav/2-chronicles/31",
+                    "ar/nav/2-chronicles/32",
+                    "ar/nav/2-chronicles/33",
+                    "ar/nav/2-chronicles/34",
+                    "ar/nav/2-chronicles/35",
+                    "ar/nav/2-chronicles/36"
+                  ]
+                },
+                {
+                  "group": "عزرا",
+                  "pages": [
+                    "ar/nav/ezra/index",
+                    "ar/nav/ezra/1",
+                    "ar/nav/ezra/2",
+                    "ar/nav/ezra/3",
+                    "ar/nav/ezra/4",
+                    "ar/nav/ezra/5",
+                    "ar/nav/ezra/6",
+                    "ar/nav/ezra/7",
+                    "ar/nav/ezra/8",
+                    "ar/nav/ezra/9",
+                    "ar/nav/ezra/10"
+                  ]
+                },
+                {
+                  "group": "نحميا",
+                  "pages": [
+                    "ar/nav/nehemiah/index",
+                    "ar/nav/nehemiah/1",
+                    "ar/nav/nehemiah/2",
+                    "ar/nav/nehemiah/3",
+                    "ar/nav/nehemiah/4",
+                    "ar/nav/nehemiah/5",
+                    "ar/nav/nehemiah/6",
+                    "ar/nav/nehemiah/7",
+                    "ar/nav/nehemiah/8",
+                    "ar/nav/nehemiah/9",
+                    "ar/nav/nehemiah/10",
+                    "ar/nav/nehemiah/11",
+                    "ar/nav/nehemiah/12",
+                    "ar/nav/nehemiah/13"
+                  ]
+                },
+                {
+                  "group": "أستير",
+                  "pages": [
+                    "ar/nav/esther/index",
+                    "ar/nav/esther/1",
+                    "ar/nav/esther/2",
+                    "ar/nav/esther/3",
+                    "ar/nav/esther/4",
+                    "ar/nav/esther/5",
+                    "ar/nav/esther/6",
+                    "ar/nav/esther/7",
+                    "ar/nav/esther/8",
+                    "ar/nav/esther/9",
+                    "ar/nav/esther/10"
+                  ]
+                },
+                {
+                  "group": "أيوب",
+                  "pages": [
+                    "ar/nav/job/index",
+                    "ar/nav/job/1",
+                    "ar/nav/job/2",
+                    "ar/nav/job/3",
+                    "ar/nav/job/4",
+                    "ar/nav/job/5",
+                    "ar/nav/job/6",
+                    "ar/nav/job/7",
+                    "ar/nav/job/8",
+                    "ar/nav/job/9",
+                    "ar/nav/job/10",
+                    "ar/nav/job/11",
+                    "ar/nav/job/12",
+                    "ar/nav/job/13",
+                    "ar/nav/job/14",
+                    "ar/nav/job/15",
+                    "ar/nav/job/16",
+                    "ar/nav/job/17",
+                    "ar/nav/job/18",
+                    "ar/nav/job/19",
+                    "ar/nav/job/20",
+                    "ar/nav/job/21",
+                    "ar/nav/job/22",
+                    "ar/nav/job/23",
+                    "ar/nav/job/24",
+                    "ar/nav/job/25",
+                    "ar/nav/job/26",
+                    "ar/nav/job/27",
+                    "ar/nav/job/28",
+                    "ar/nav/job/29",
+                    "ar/nav/job/30",
+                    "ar/nav/job/31",
+                    "ar/nav/job/32",
+                    "ar/nav/job/33",
+                    "ar/nav/job/34",
+                    "ar/nav/job/35",
+                    "ar/nav/job/36",
+                    "ar/nav/job/37",
+                    "ar/nav/job/38",
+                    "ar/nav/job/39",
+                    "ar/nav/job/40",
+                    "ar/nav/job/41",
+                    "ar/nav/job/42"
+                  ]
+                },
+                {
+                  "group": "المزامير",
+                  "pages": [
+                    "ar/nav/psalms/index",
+                    "ar/nav/psalms/1",
+                    "ar/nav/psalms/2",
+                    "ar/nav/psalms/3",
+                    "ar/nav/psalms/4",
+                    "ar/nav/psalms/5",
+                    "ar/nav/psalms/6",
+                    "ar/nav/psalms/7",
+                    "ar/nav/psalms/8",
+                    "ar/nav/psalms/9",
+                    "ar/nav/psalms/10",
+                    "ar/nav/psalms/11",
+                    "ar/nav/psalms/12",
+                    "ar/nav/psalms/13",
+                    "ar/nav/psalms/14",
+                    "ar/nav/psalms/15",
+                    "ar/nav/psalms/16",
+                    "ar/nav/psalms/17",
+                    "ar/nav/psalms/18",
+                    "ar/nav/psalms/19",
+                    "ar/nav/psalms/20",
+                    "ar/nav/psalms/21",
+                    "ar/nav/psalms/22",
+                    "ar/nav/psalms/23",
+                    "ar/nav/psalms/24",
+                    "ar/nav/psalms/25",
+                    "ar/nav/psalms/26",
+                    "ar/nav/psalms/27",
+                    "ar/nav/psalms/28",
+                    "ar/nav/psalms/29",
+                    "ar/nav/psalms/30",
+                    "ar/nav/psalms/31",
+                    "ar/nav/psalms/32",
+                    "ar/nav/psalms/33",
+                    "ar/nav/psalms/34",
+                    "ar/nav/psalms/35",
+                    "ar/nav/psalms/36",
+                    "ar/nav/psalms/37",
+                    "ar/nav/psalms/38",
+                    "ar/nav/psalms/39",
+                    "ar/nav/psalms/40",
+                    "ar/nav/psalms/41",
+                    "ar/nav/psalms/42",
+                    "ar/nav/psalms/43",
+                    "ar/nav/psalms/44",
+                    "ar/nav/psalms/45",
+                    "ar/nav/psalms/46",
+                    "ar/nav/psalms/47",
+                    "ar/nav/psalms/48",
+                    "ar/nav/psalms/49",
+                    "ar/nav/psalms/50",
+                    "ar/nav/psalms/51",
+                    "ar/nav/psalms/52",
+                    "ar/nav/psalms/53",
+                    "ar/nav/psalms/54",
+                    "ar/nav/psalms/55",
+                    "ar/nav/psalms/56",
+                    "ar/nav/psalms/57",
+                    "ar/nav/psalms/58",
+                    "ar/nav/psalms/59",
+                    "ar/nav/psalms/60",
+                    "ar/nav/psalms/61",
+                    "ar/nav/psalms/62",
+                    "ar/nav/psalms/63",
+                    "ar/nav/psalms/64",
+                    "ar/nav/psalms/65",
+                    "ar/nav/psalms/66",
+                    "ar/nav/psalms/67",
+                    "ar/nav/psalms/68",
+                    "ar/nav/psalms/69",
+                    "ar/nav/psalms/70",
+                    "ar/nav/psalms/71",
+                    "ar/nav/psalms/72",
+                    "ar/nav/psalms/73",
+                    "ar/nav/psalms/74",
+                    "ar/nav/psalms/75",
+                    "ar/nav/psalms/76",
+                    "ar/nav/psalms/77",
+                    "ar/nav/psalms/78",
+                    "ar/nav/psalms/79",
+                    "ar/nav/psalms/80",
+                    "ar/nav/psalms/81",
+                    "ar/nav/psalms/82",
+                    "ar/nav/psalms/83",
+                    "ar/nav/psalms/84",
+                    "ar/nav/psalms/85",
+                    "ar/nav/psalms/86",
+                    "ar/nav/psalms/87",
+                    "ar/nav/psalms/88",
+                    "ar/nav/psalms/89",
+                    "ar/nav/psalms/90",
+                    "ar/nav/psalms/91",
+                    "ar/nav/psalms/92",
+                    "ar/nav/psalms/93",
+                    "ar/nav/psalms/94",
+                    "ar/nav/psalms/95",
+                    "ar/nav/psalms/96",
+                    "ar/nav/psalms/97",
+                    "ar/nav/psalms/98",
+                    "ar/nav/psalms/99",
+                    "ar/nav/psalms/100",
+                    "ar/nav/psalms/101",
+                    "ar/nav/psalms/102",
+                    "ar/nav/psalms/103",
+                    "ar/nav/psalms/104",
+                    "ar/nav/psalms/105",
+                    "ar/nav/psalms/106",
+                    "ar/nav/psalms/107",
+                    "ar/nav/psalms/108",
+                    "ar/nav/psalms/109",
+                    "ar/nav/psalms/110",
+                    "ar/nav/psalms/111",
+                    "ar/nav/psalms/112",
+                    "ar/nav/psalms/113",
+                    "ar/nav/psalms/114",
+                    "ar/nav/psalms/115",
+                    "ar/nav/psalms/116",
+                    "ar/nav/psalms/117",
+                    "ar/nav/psalms/118",
+                    "ar/nav/psalms/119",
+                    "ar/nav/psalms/120",
+                    "ar/nav/psalms/121",
+                    "ar/nav/psalms/122",
+                    "ar/nav/psalms/123",
+                    "ar/nav/psalms/124",
+                    "ar/nav/psalms/125",
+                    "ar/nav/psalms/126",
+                    "ar/nav/psalms/127",
+                    "ar/nav/psalms/128",
+                    "ar/nav/psalms/129",
+                    "ar/nav/psalms/130",
+                    "ar/nav/psalms/131",
+                    "ar/nav/psalms/132",
+                    "ar/nav/psalms/133",
+                    "ar/nav/psalms/134",
+                    "ar/nav/psalms/135",
+                    "ar/nav/psalms/136",
+                    "ar/nav/psalms/137",
+                    "ar/nav/psalms/138",
+                    "ar/nav/psalms/139",
+                    "ar/nav/psalms/140",
+                    "ar/nav/psalms/141",
+                    "ar/nav/psalms/142",
+                    "ar/nav/psalms/143",
+                    "ar/nav/psalms/144",
+                    "ar/nav/psalms/145",
+                    "ar/nav/psalms/146",
+                    "ar/nav/psalms/147",
+                    "ar/nav/psalms/148",
+                    "ar/nav/psalms/149",
+                    "ar/nav/psalms/150"
+                  ]
+                },
+                {
+                  "group": "الأمثال",
+                  "pages": [
+                    "ar/nav/proverbs/index",
+                    "ar/nav/proverbs/1",
+                    "ar/nav/proverbs/2",
+                    "ar/nav/proverbs/3",
+                    "ar/nav/proverbs/4",
+                    "ar/nav/proverbs/5",
+                    "ar/nav/proverbs/6",
+                    "ar/nav/proverbs/7",
+                    "ar/nav/proverbs/8",
+                    "ar/nav/proverbs/9",
+                    "ar/nav/proverbs/10",
+                    "ar/nav/proverbs/11",
+                    "ar/nav/proverbs/12",
+                    "ar/nav/proverbs/13",
+                    "ar/nav/proverbs/14",
+                    "ar/nav/proverbs/15",
+                    "ar/nav/proverbs/16",
+                    "ar/nav/proverbs/17",
+                    "ar/nav/proverbs/18",
+                    "ar/nav/proverbs/19",
+                    "ar/nav/proverbs/20",
+                    "ar/nav/proverbs/21",
+                    "ar/nav/proverbs/22",
+                    "ar/nav/proverbs/23",
+                    "ar/nav/proverbs/24",
+                    "ar/nav/proverbs/25",
+                    "ar/nav/proverbs/26",
+                    "ar/nav/proverbs/27",
+                    "ar/nav/proverbs/28",
+                    "ar/nav/proverbs/29",
+                    "ar/nav/proverbs/30",
+                    "ar/nav/proverbs/31"
+                  ]
+                },
+                {
+                  "group": "الجامعة",
+                  "pages": [
+                    "ar/nav/ecclesiastes/index",
+                    "ar/nav/ecclesiastes/1",
+                    "ar/nav/ecclesiastes/2",
+                    "ar/nav/ecclesiastes/3",
+                    "ar/nav/ecclesiastes/4",
+                    "ar/nav/ecclesiastes/5",
+                    "ar/nav/ecclesiastes/6",
+                    "ar/nav/ecclesiastes/7",
+                    "ar/nav/ecclesiastes/8",
+                    "ar/nav/ecclesiastes/9",
+                    "ar/nav/ecclesiastes/10",
+                    "ar/nav/ecclesiastes/11",
+                    "ar/nav/ecclesiastes/12"
+                  ]
+                },
+                {
+                  "group": "نشيد الأنشاد",
+                  "pages": [
+                    "ar/nav/song-of-solomon/index",
+                    "ar/nav/song-of-solomon/1",
+                    "ar/nav/song-of-solomon/2",
+                    "ar/nav/song-of-solomon/3",
+                    "ar/nav/song-of-solomon/4",
+                    "ar/nav/song-of-solomon/5",
+                    "ar/nav/song-of-solomon/6",
+                    "ar/nav/song-of-solomon/7",
+                    "ar/nav/song-of-solomon/8"
+                  ]
+                },
+                {
+                  "group": "إشعياء",
+                  "pages": [
+                    "ar/nav/isaiah/index",
+                    "ar/nav/isaiah/1",
+                    "ar/nav/isaiah/2",
+                    "ar/nav/isaiah/3",
+                    "ar/nav/isaiah/4",
+                    "ar/nav/isaiah/5",
+                    "ar/nav/isaiah/6",
+                    "ar/nav/isaiah/7",
+                    "ar/nav/isaiah/8",
+                    "ar/nav/isaiah/9",
+                    "ar/nav/isaiah/10",
+                    "ar/nav/isaiah/11",
+                    "ar/nav/isaiah/12",
+                    "ar/nav/isaiah/13",
+                    "ar/nav/isaiah/14",
+                    "ar/nav/isaiah/15",
+                    "ar/nav/isaiah/16",
+                    "ar/nav/isaiah/17",
+                    "ar/nav/isaiah/18",
+                    "ar/nav/isaiah/19",
+                    "ar/nav/isaiah/20",
+                    "ar/nav/isaiah/21",
+                    "ar/nav/isaiah/22",
+                    "ar/nav/isaiah/23",
+                    "ar/nav/isaiah/24",
+                    "ar/nav/isaiah/25",
+                    "ar/nav/isaiah/26",
+                    "ar/nav/isaiah/27",
+                    "ar/nav/isaiah/28",
+                    "ar/nav/isaiah/29",
+                    "ar/nav/isaiah/30",
+                    "ar/nav/isaiah/31",
+                    "ar/nav/isaiah/32",
+                    "ar/nav/isaiah/33",
+                    "ar/nav/isaiah/34",
+                    "ar/nav/isaiah/35",
+                    "ar/nav/isaiah/36",
+                    "ar/nav/isaiah/37",
+                    "ar/nav/isaiah/38",
+                    "ar/nav/isaiah/39",
+                    "ar/nav/isaiah/40",
+                    "ar/nav/isaiah/41",
+                    "ar/nav/isaiah/42",
+                    "ar/nav/isaiah/43",
+                    "ar/nav/isaiah/44",
+                    "ar/nav/isaiah/45",
+                    "ar/nav/isaiah/46",
+                    "ar/nav/isaiah/47",
+                    "ar/nav/isaiah/48",
+                    "ar/nav/isaiah/49",
+                    "ar/nav/isaiah/50",
+                    "ar/nav/isaiah/51",
+                    "ar/nav/isaiah/52",
+                    "ar/nav/isaiah/53",
+                    "ar/nav/isaiah/54",
+                    "ar/nav/isaiah/55",
+                    "ar/nav/isaiah/56",
+                    "ar/nav/isaiah/57",
+                    "ar/nav/isaiah/58",
+                    "ar/nav/isaiah/59",
+                    "ar/nav/isaiah/60",
+                    "ar/nav/isaiah/61",
+                    "ar/nav/isaiah/62",
+                    "ar/nav/isaiah/63",
+                    "ar/nav/isaiah/64",
+                    "ar/nav/isaiah/65",
+                    "ar/nav/isaiah/66"
+                  ]
+                },
+                {
+                  "group": "إرميا",
+                  "pages": [
+                    "ar/nav/jeremiah/index",
+                    "ar/nav/jeremiah/1",
+                    "ar/nav/jeremiah/2",
+                    "ar/nav/jeremiah/3",
+                    "ar/nav/jeremiah/4",
+                    "ar/nav/jeremiah/5",
+                    "ar/nav/jeremiah/6",
+                    "ar/nav/jeremiah/7",
+                    "ar/nav/jeremiah/8",
+                    "ar/nav/jeremiah/9",
+                    "ar/nav/jeremiah/10",
+                    "ar/nav/jeremiah/11",
+                    "ar/nav/jeremiah/12",
+                    "ar/nav/jeremiah/13",
+                    "ar/nav/jeremiah/14",
+                    "ar/nav/jeremiah/15",
+                    "ar/nav/jeremiah/16",
+                    "ar/nav/jeremiah/17",
+                    "ar/nav/jeremiah/18",
+                    "ar/nav/jeremiah/19",
+                    "ar/nav/jeremiah/20",
+                    "ar/nav/jeremiah/21",
+                    "ar/nav/jeremiah/22",
+                    "ar/nav/jeremiah/23",
+                    "ar/nav/jeremiah/24",
+                    "ar/nav/jeremiah/25",
+                    "ar/nav/jeremiah/26",
+                    "ar/nav/jeremiah/27",
+                    "ar/nav/jeremiah/28",
+                    "ar/nav/jeremiah/29",
+                    "ar/nav/jeremiah/30",
+                    "ar/nav/jeremiah/31",
+                    "ar/nav/jeremiah/32",
+                    "ar/nav/jeremiah/33",
+                    "ar/nav/jeremiah/34",
+                    "ar/nav/jeremiah/35",
+                    "ar/nav/jeremiah/36",
+                    "ar/nav/jeremiah/37",
+                    "ar/nav/jeremiah/38",
+                    "ar/nav/jeremiah/39",
+                    "ar/nav/jeremiah/40",
+                    "ar/nav/jeremiah/41",
+                    "ar/nav/jeremiah/42",
+                    "ar/nav/jeremiah/43",
+                    "ar/nav/jeremiah/44",
+                    "ar/nav/jeremiah/45",
+                    "ar/nav/jeremiah/46",
+                    "ar/nav/jeremiah/47",
+                    "ar/nav/jeremiah/48",
+                    "ar/nav/jeremiah/49",
+                    "ar/nav/jeremiah/50",
+                    "ar/nav/jeremiah/51",
+                    "ar/nav/jeremiah/52"
+                  ]
+                },
+                {
+                  "group": "مراثي إرميا",
+                  "pages": [
+                    "ar/nav/lamentations/index",
+                    "ar/nav/lamentations/1",
+                    "ar/nav/lamentations/2",
+                    "ar/nav/lamentations/3",
+                    "ar/nav/lamentations/4",
+                    "ar/nav/lamentations/5"
+                  ]
+                },
+                {
+                  "group": "حزقيال",
+                  "pages": [
+                    "ar/nav/ezekiel/index",
+                    "ar/nav/ezekiel/1",
+                    "ar/nav/ezekiel/2",
+                    "ar/nav/ezekiel/3",
+                    "ar/nav/ezekiel/4",
+                    "ar/nav/ezekiel/5",
+                    "ar/nav/ezekiel/6",
+                    "ar/nav/ezekiel/7",
+                    "ar/nav/ezekiel/8",
+                    "ar/nav/ezekiel/9",
+                    "ar/nav/ezekiel/10",
+                    "ar/nav/ezekiel/11",
+                    "ar/nav/ezekiel/12",
+                    "ar/nav/ezekiel/13",
+                    "ar/nav/ezekiel/14",
+                    "ar/nav/ezekiel/15",
+                    "ar/nav/ezekiel/16",
+                    "ar/nav/ezekiel/17",
+                    "ar/nav/ezekiel/18",
+                    "ar/nav/ezekiel/19",
+                    "ar/nav/ezekiel/20",
+                    "ar/nav/ezekiel/21",
+                    "ar/nav/ezekiel/22",
+                    "ar/nav/ezekiel/23",
+                    "ar/nav/ezekiel/24",
+                    "ar/nav/ezekiel/25",
+                    "ar/nav/ezekiel/26",
+                    "ar/nav/ezekiel/27",
+                    "ar/nav/ezekiel/28",
+                    "ar/nav/ezekiel/29",
+                    "ar/nav/ezekiel/30",
+                    "ar/nav/ezekiel/31",
+                    "ar/nav/ezekiel/32",
+                    "ar/nav/ezekiel/33",
+                    "ar/nav/ezekiel/34",
+                    "ar/nav/ezekiel/35",
+                    "ar/nav/ezekiel/36",
+                    "ar/nav/ezekiel/37",
+                    "ar/nav/ezekiel/38",
+                    "ar/nav/ezekiel/39",
+                    "ar/nav/ezekiel/40",
+                    "ar/nav/ezekiel/41",
+                    "ar/nav/ezekiel/42",
+                    "ar/nav/ezekiel/43",
+                    "ar/nav/ezekiel/44",
+                    "ar/nav/ezekiel/45",
+                    "ar/nav/ezekiel/46",
+                    "ar/nav/ezekiel/47",
+                    "ar/nav/ezekiel/48"
+                  ]
+                },
+                {
+                  "group": "دانيال",
+                  "pages": [
+                    "ar/nav/daniel/index",
+                    "ar/nav/daniel/1",
+                    "ar/nav/daniel/2",
+                    "ar/nav/daniel/3",
+                    "ar/nav/daniel/4",
+                    "ar/nav/daniel/5",
+                    "ar/nav/daniel/6",
+                    "ar/nav/daniel/7",
+                    "ar/nav/daniel/8",
+                    "ar/nav/daniel/9",
+                    "ar/nav/daniel/10",
+                    "ar/nav/daniel/11",
+                    "ar/nav/daniel/12"
+                  ]
+                },
+                {
+                  "group": "هوشع",
+                  "pages": [
+                    "ar/nav/hosea/index",
+                    "ar/nav/hosea/1",
+                    "ar/nav/hosea/2",
+                    "ar/nav/hosea/3",
+                    "ar/nav/hosea/4",
+                    "ar/nav/hosea/5",
+                    "ar/nav/hosea/6",
+                    "ar/nav/hosea/7",
+                    "ar/nav/hosea/8",
+                    "ar/nav/hosea/9",
+                    "ar/nav/hosea/10",
+                    "ar/nav/hosea/11",
+                    "ar/nav/hosea/12",
+                    "ar/nav/hosea/13",
+                    "ar/nav/hosea/14"
+                  ]
+                },
+                {
+                  "group": "يوئيل",
+                  "pages": [
+                    "ar/nav/joel/index",
+                    "ar/nav/joel/1",
+                    "ar/nav/joel/2",
+                    "ar/nav/joel/3"
+                  ]
+                },
+                {
+                  "group": "عاموس",
+                  "pages": [
+                    "ar/nav/amos/index",
+                    "ar/nav/amos/1",
+                    "ar/nav/amos/2",
+                    "ar/nav/amos/3",
+                    "ar/nav/amos/4",
+                    "ar/nav/amos/5",
+                    "ar/nav/amos/6",
+                    "ar/nav/amos/7",
+                    "ar/nav/amos/8",
+                    "ar/nav/amos/9"
+                  ]
+                },
+                {
+                  "group": "عوبديا",
+                  "pages": [
+                    "ar/nav/obadiah/index",
+                    "ar/nav/obadiah/1"
+                  ]
+                },
+                {
+                  "group": "يونان",
+                  "pages": [
+                    "ar/nav/jonah/index",
+                    "ar/nav/jonah/1",
+                    "ar/nav/jonah/2",
+                    "ar/nav/jonah/3",
+                    "ar/nav/jonah/4"
+                  ]
+                },
+                {
+                  "group": "ميخا",
+                  "pages": [
+                    "ar/nav/micah/index",
+                    "ar/nav/micah/1",
+                    "ar/nav/micah/2",
+                    "ar/nav/micah/3",
+                    "ar/nav/micah/4",
+                    "ar/nav/micah/5",
+                    "ar/nav/micah/6",
+                    "ar/nav/micah/7"
+                  ]
+                },
+                {
+                  "group": "ناحوم",
+                  "pages": [
+                    "ar/nav/nahum/index",
+                    "ar/nav/nahum/1",
+                    "ar/nav/nahum/2",
+                    "ar/nav/nahum/3"
+                  ]
+                },
+                {
+                  "group": "حبقوق",
+                  "pages": [
+                    "ar/nav/habakkuk/index",
+                    "ar/nav/habakkuk/1",
+                    "ar/nav/habakkuk/2",
+                    "ar/nav/habakkuk/3"
+                  ]
+                },
+                {
+                  "group": "صفنيا",
+                  "pages": [
+                    "ar/nav/zephaniah/index",
+                    "ar/nav/zephaniah/1",
+                    "ar/nav/zephaniah/2",
+                    "ar/nav/zephaniah/3"
+                  ]
+                },
+                {
+                  "group": "حجي",
+                  "pages": [
+                    "ar/nav/haggai/index",
+                    "ar/nav/haggai/1",
+                    "ar/nav/haggai/2"
+                  ]
+                },
+                {
+                  "group": "زكريا",
+                  "pages": [
+                    "ar/nav/zechariah/index",
+                    "ar/nav/zechariah/1",
+                    "ar/nav/zechariah/2",
+                    "ar/nav/zechariah/3",
+                    "ar/nav/zechariah/4",
+                    "ar/nav/zechariah/5",
+                    "ar/nav/zechariah/6",
+                    "ar/nav/zechariah/7",
+                    "ar/nav/zechariah/8",
+                    "ar/nav/zechariah/9",
+                    "ar/nav/zechariah/10",
+                    "ar/nav/zechariah/11",
+                    "ar/nav/zechariah/12",
+                    "ar/nav/zechariah/13",
+                    "ar/nav/zechariah/14"
+                  ]
+                },
+                {
+                  "group": "ملاخي",
+                  "pages": [
+                    "ar/nav/malachi/index",
+                    "ar/nav/malachi/1",
+                    "ar/nav/malachi/2",
+                    "ar/nav/malachi/3",
+                    "ar/nav/malachi/4"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "العهد الجديد",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "الإنجيل كما دونه متى",
+                  "pages": [
+                    "ar/nav/matthew/index",
+                    "ar/nav/matthew/1",
+                    "ar/nav/matthew/2",
+                    "ar/nav/matthew/3",
+                    "ar/nav/matthew/4",
+                    "ar/nav/matthew/5",
+                    "ar/nav/matthew/6",
+                    "ar/nav/matthew/7",
+                    "ar/nav/matthew/8",
+                    "ar/nav/matthew/9",
+                    "ar/nav/matthew/10",
+                    "ar/nav/matthew/11",
+                    "ar/nav/matthew/12",
+                    "ar/nav/matthew/13",
+                    "ar/nav/matthew/14",
+                    "ar/nav/matthew/15",
+                    "ar/nav/matthew/16",
+                    "ar/nav/matthew/17",
+                    "ar/nav/matthew/18",
+                    "ar/nav/matthew/19",
+                    "ar/nav/matthew/20",
+                    "ar/nav/matthew/21",
+                    "ar/nav/matthew/22",
+                    "ar/nav/matthew/23",
+                    "ar/nav/matthew/24",
+                    "ar/nav/matthew/25",
+                    "ar/nav/matthew/26",
+                    "ar/nav/matthew/27",
+                    "ar/nav/matthew/28"
+                  ]
+                },
+                {
+                  "group": "الإنجيل كما دونه مرقس",
+                  "pages": [
+                    "ar/nav/mark/index",
+                    "ar/nav/mark/1",
+                    "ar/nav/mark/2",
+                    "ar/nav/mark/3",
+                    "ar/nav/mark/4",
+                    "ar/nav/mark/5",
+                    "ar/nav/mark/6",
+                    "ar/nav/mark/7",
+                    "ar/nav/mark/8",
+                    "ar/nav/mark/9",
+                    "ar/nav/mark/10",
+                    "ar/nav/mark/11",
+                    "ar/nav/mark/12",
+                    "ar/nav/mark/13",
+                    "ar/nav/mark/14",
+                    "ar/nav/mark/15",
+                    "ar/nav/mark/16"
+                  ]
+                },
+                {
+                  "group": "الإنجيل كما دونه لوقا",
+                  "pages": [
+                    "ar/nav/luke/index",
+                    "ar/nav/luke/1",
+                    "ar/nav/luke/2",
+                    "ar/nav/luke/3",
+                    "ar/nav/luke/4",
+                    "ar/nav/luke/5",
+                    "ar/nav/luke/6",
+                    "ar/nav/luke/7",
+                    "ar/nav/luke/8",
+                    "ar/nav/luke/9",
+                    "ar/nav/luke/10",
+                    "ar/nav/luke/11",
+                    "ar/nav/luke/12",
+                    "ar/nav/luke/13",
+                    "ar/nav/luke/14",
+                    "ar/nav/luke/15",
+                    "ar/nav/luke/16",
+                    "ar/nav/luke/17",
+                    "ar/nav/luke/18",
+                    "ar/nav/luke/19",
+                    "ar/nav/luke/20",
+                    "ar/nav/luke/21",
+                    "ar/nav/luke/22",
+                    "ar/nav/luke/23",
+                    "ar/nav/luke/24"
+                  ]
+                },
+                {
+                  "group": "الإنجيل كما دونه يوحنا",
+                  "pages": [
+                    "ar/nav/john/index",
+                    "ar/nav/john/1",
+                    "ar/nav/john/2",
+                    "ar/nav/john/3",
+                    "ar/nav/john/4",
+                    "ar/nav/john/5",
+                    "ar/nav/john/6",
+                    "ar/nav/john/7",
+                    "ar/nav/john/8",
+                    "ar/nav/john/9",
+                    "ar/nav/john/10",
+                    "ar/nav/john/11",
+                    "ar/nav/john/12",
+                    "ar/nav/john/13",
+                    "ar/nav/john/14",
+                    "ar/nav/john/15",
+                    "ar/nav/john/16",
+                    "ar/nav/john/17",
+                    "ar/nav/john/18",
+                    "ar/nav/john/19",
+                    "ar/nav/john/20",
+                    "ar/nav/john/21"
+                  ]
+                },
+                {
+                  "group": "أعمال الرسل",
+                  "pages": [
+                    "ar/nav/acts/index",
+                    "ar/nav/acts/1",
+                    "ar/nav/acts/2",
+                    "ar/nav/acts/3",
+                    "ar/nav/acts/4",
+                    "ar/nav/acts/5",
+                    "ar/nav/acts/6",
+                    "ar/nav/acts/7",
+                    "ar/nav/acts/8",
+                    "ar/nav/acts/9",
+                    "ar/nav/acts/10",
+                    "ar/nav/acts/11",
+                    "ar/nav/acts/12",
+                    "ar/nav/acts/13",
+                    "ar/nav/acts/14",
+                    "ar/nav/acts/15",
+                    "ar/nav/acts/16",
+                    "ar/nav/acts/17",
+                    "ar/nav/acts/18",
+                    "ar/nav/acts/19",
+                    "ar/nav/acts/20",
+                    "ar/nav/acts/21",
+                    "ar/nav/acts/22",
+                    "ar/nav/acts/23",
+                    "ar/nav/acts/24",
+                    "ar/nav/acts/25",
+                    "ar/nav/acts/26",
+                    "ar/nav/acts/27",
+                    "ar/nav/acts/28"
+                  ]
+                },
+                {
+                  "group": "الرسالة إلى مؤمني روما",
+                  "pages": [
+                    "ar/nav/romans/index",
+                    "ar/nav/romans/1",
+                    "ar/nav/romans/2",
+                    "ar/nav/romans/3",
+                    "ar/nav/romans/4",
+                    "ar/nav/romans/5",
+                    "ar/nav/romans/6",
+                    "ar/nav/romans/7",
+                    "ar/nav/romans/8",
+                    "ar/nav/romans/9",
+                    "ar/nav/romans/10",
+                    "ar/nav/romans/11",
+                    "ar/nav/romans/12",
+                    "ar/nav/romans/13",
+                    "ar/nav/romans/14",
+                    "ar/nav/romans/15",
+                    "ar/nav/romans/16"
+                  ]
+                },
+                {
+                  "group": "الرسالة الأولى إلى مؤمني كورنثوس",
+                  "pages": [
+                    "ar/nav/1-corinthians/index",
+                    "ar/nav/1-corinthians/1",
+                    "ar/nav/1-corinthians/2",
+                    "ar/nav/1-corinthians/3",
+                    "ar/nav/1-corinthians/4",
+                    "ar/nav/1-corinthians/5",
+                    "ar/nav/1-corinthians/6",
+                    "ar/nav/1-corinthians/7",
+                    "ar/nav/1-corinthians/8",
+                    "ar/nav/1-corinthians/9",
+                    "ar/nav/1-corinthians/10",
+                    "ar/nav/1-corinthians/11",
+                    "ar/nav/1-corinthians/12",
+                    "ar/nav/1-corinthians/13",
+                    "ar/nav/1-corinthians/14",
+                    "ar/nav/1-corinthians/15",
+                    "ar/nav/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "الرسالة الثانية إلى مؤمني كورنثوس",
+                  "pages": [
+                    "ar/nav/2-corinthians/index",
+                    "ar/nav/2-corinthians/1",
+                    "ar/nav/2-corinthians/2",
+                    "ar/nav/2-corinthians/3",
+                    "ar/nav/2-corinthians/4",
+                    "ar/nav/2-corinthians/5",
+                    "ar/nav/2-corinthians/6",
+                    "ar/nav/2-corinthians/7",
+                    "ar/nav/2-corinthians/8",
+                    "ar/nav/2-corinthians/9",
+                    "ar/nav/2-corinthians/10",
+                    "ar/nav/2-corinthians/11",
+                    "ar/nav/2-corinthians/12",
+                    "ar/nav/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "الرسالة إلى مؤمني غلاطية",
+                  "pages": [
+                    "ar/nav/galatians/index",
+                    "ar/nav/galatians/1",
+                    "ar/nav/galatians/2",
+                    "ar/nav/galatians/3",
+                    "ar/nav/galatians/4",
+                    "ar/nav/galatians/5",
+                    "ar/nav/galatians/6"
+                  ]
+                },
+                {
+                  "group": "الرسالة إلى مؤمني أفسس",
+                  "pages": [
+                    "ar/nav/ephesians/index",
+                    "ar/nav/ephesians/1",
+                    "ar/nav/ephesians/2",
+                    "ar/nav/ephesians/3",
+                    "ar/nav/ephesians/4",
+                    "ar/nav/ephesians/5",
+                    "ar/nav/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "الرسالة إلى مؤمني فيلبي",
+                  "pages": [
+                    "ar/nav/philippians/index",
+                    "ar/nav/philippians/1",
+                    "ar/nav/philippians/2",
+                    "ar/nav/philippians/3",
+                    "ar/nav/philippians/4"
+                  ]
+                },
+                {
+                  "group": "الرسالة إلى مؤمني كولوسي",
+                  "pages": [
+                    "ar/nav/colossians/index",
+                    "ar/nav/colossians/1",
+                    "ar/nav/colossians/2",
+                    "ar/nav/colossians/3",
+                    "ar/nav/colossians/4"
+                  ]
+                },
+                {
+                  "group": "الرسالة الأولى إلى مؤمني تسالونيكي",
+                  "pages": [
+                    "ar/nav/1-thessalonians/index",
+                    "ar/nav/1-thessalonians/1",
+                    "ar/nav/1-thessalonians/2",
+                    "ar/nav/1-thessalonians/3",
+                    "ar/nav/1-thessalonians/4",
+                    "ar/nav/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "الرسالة الثانية إلى مؤمني تسالونيكي",
+                  "pages": [
+                    "ar/nav/2-thessalonians/index",
+                    "ar/nav/2-thessalonians/1",
+                    "ar/nav/2-thessalonians/2",
+                    "ar/nav/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "الرسالة الأولى إلى تيموثاوس",
+                  "pages": [
+                    "ar/nav/1-timothy/index",
+                    "ar/nav/1-timothy/1",
+                    "ar/nav/1-timothy/2",
+                    "ar/nav/1-timothy/3",
+                    "ar/nav/1-timothy/4",
+                    "ar/nav/1-timothy/5",
+                    "ar/nav/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "الرسالة الثانية إلى تيموثاوس",
+                  "pages": [
+                    "ar/nav/2-timothy/index",
+                    "ar/nav/2-timothy/1",
+                    "ar/nav/2-timothy/2",
+                    "ar/nav/2-timothy/3",
+                    "ar/nav/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "الرسالة إلى تيطس",
+                  "pages": [
+                    "ar/nav/titus/index",
+                    "ar/nav/titus/1",
+                    "ar/nav/titus/2",
+                    "ar/nav/titus/3"
+                  ]
+                },
+                {
+                  "group": "الرسالة إلى فليمون",
+                  "pages": [
+                    "ar/nav/philemon/index",
+                    "ar/nav/philemon/1"
+                  ]
+                },
+                {
+                  "group": "الرسالة إلى العبرانيين",
+                  "pages": [
+                    "ar/nav/hebrews/index",
+                    "ar/nav/hebrews/1",
+                    "ar/nav/hebrews/2",
+                    "ar/nav/hebrews/3",
+                    "ar/nav/hebrews/4",
+                    "ar/nav/hebrews/5",
+                    "ar/nav/hebrews/6",
+                    "ar/nav/hebrews/7",
+                    "ar/nav/hebrews/8",
+                    "ar/nav/hebrews/9",
+                    "ar/nav/hebrews/10",
+                    "ar/nav/hebrews/11",
+                    "ar/nav/hebrews/12",
+                    "ar/nav/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "رسالة يعقوب",
+                  "pages": [
+                    "ar/nav/james/index",
+                    "ar/nav/james/1",
+                    "ar/nav/james/2",
+                    "ar/nav/james/3",
+                    "ar/nav/james/4",
+                    "ar/nav/james/5"
+                  ]
+                },
+                {
+                  "group": "رسالة بطرس الأولى",
+                  "pages": [
+                    "ar/nav/1-peter/index",
+                    "ar/nav/1-peter/1",
+                    "ar/nav/1-peter/2",
+                    "ar/nav/1-peter/3",
+                    "ar/nav/1-peter/4",
+                    "ar/nav/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "رسالة بطرس الثانية",
+                  "pages": [
+                    "ar/nav/2-peter/index",
+                    "ar/nav/2-peter/1",
+                    "ar/nav/2-peter/2",
+                    "ar/nav/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "رسالة يوحنا الأولى",
+                  "pages": [
+                    "ar/nav/1-john/index",
+                    "ar/nav/1-john/1",
+                    "ar/nav/1-john/2",
+                    "ar/nav/1-john/3",
+                    "ar/nav/1-john/4",
+                    "ar/nav/1-john/5"
+                  ]
+                },
+                {
+                  "group": "رسالة يوحنا الثانية",
+                  "pages": [
+                    "ar/nav/2-john/index",
+                    "ar/nav/2-john/1"
+                  ]
+                },
+                {
+                  "group": "رسالة يوحنا الثالثة",
+                  "pages": [
+                    "ar/nav/3-john/index",
+                    "ar/nav/3-john/1"
+                  ]
+                },
+                {
+                  "group": "رسالة يهوذا",
+                  "pages": [
+                    "ar/nav/jude/index",
+                    "ar/nav/jude/1"
+                  ]
+                },
+                {
+                  "group": "رؤيا يوحنا",
+                  "pages": [
+                    "ar/nav/revelation/index",
+                    "ar/nav/revelation/1",
+                    "ar/nav/revelation/2",
+                    "ar/nav/revelation/3",
+                    "ar/nav/revelation/4",
+                    "ar/nav/revelation/5",
+                    "ar/nav/revelation/6",
+                    "ar/nav/revelation/7",
+                    "ar/nav/revelation/8",
+                    "ar/nav/revelation/9",
+                    "ar/nav/revelation/10",
+                    "ar/nav/revelation/11",
+                    "ar/nav/revelation/12",
+                    "ar/nav/revelation/13",
+                    "ar/nav/revelation/14",
+                    "ar/nav/revelation/15",
+                    "ar/nav/revelation/16",
+                    "ar/nav/revelation/17",
+                    "ar/nav/revelation/18",
+                    "ar/nav/revelation/19",
+                    "ar/nav/revelation/20",
+                    "ar/nav/revelation/21",
+                    "ar/nav/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

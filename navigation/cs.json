@@ -1,0 +1,2515 @@
+{
+  "language": "cs",
+  "versions": [
+    {
+      "version": "Kralická 1613",
+      "tabs": [
+        {
+          "tab": "Bible",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Bible Kralická 1613",
+              "icon": "book-open",
+              "pages": [
+                "cs/kralicka1613/index"
+              ]
+            },
+            {
+              "group": "Starý zákon",
+              "icon": "scroll-text",
+              "pages": [
+                {
+                  "group": "1 Mojžíšova",
+                  "pages": [
+                    "cs/kralicka1613/genesis/index",
+                    "cs/kralicka1613/genesis/1",
+                    "cs/kralicka1613/genesis/2",
+                    "cs/kralicka1613/genesis/3",
+                    "cs/kralicka1613/genesis/4",
+                    "cs/kralicka1613/genesis/5",
+                    "cs/kralicka1613/genesis/6",
+                    "cs/kralicka1613/genesis/7",
+                    "cs/kralicka1613/genesis/8",
+                    "cs/kralicka1613/genesis/9",
+                    "cs/kralicka1613/genesis/10",
+                    "cs/kralicka1613/genesis/11",
+                    "cs/kralicka1613/genesis/12",
+                    "cs/kralicka1613/genesis/13",
+                    "cs/kralicka1613/genesis/14",
+                    "cs/kralicka1613/genesis/15",
+                    "cs/kralicka1613/genesis/16",
+                    "cs/kralicka1613/genesis/17",
+                    "cs/kralicka1613/genesis/18",
+                    "cs/kralicka1613/genesis/19",
+                    "cs/kralicka1613/genesis/20",
+                    "cs/kralicka1613/genesis/21",
+                    "cs/kralicka1613/genesis/22",
+                    "cs/kralicka1613/genesis/23",
+                    "cs/kralicka1613/genesis/24",
+                    "cs/kralicka1613/genesis/25",
+                    "cs/kralicka1613/genesis/26",
+                    "cs/kralicka1613/genesis/27",
+                    "cs/kralicka1613/genesis/28",
+                    "cs/kralicka1613/genesis/29",
+                    "cs/kralicka1613/genesis/30",
+                    "cs/kralicka1613/genesis/31",
+                    "cs/kralicka1613/genesis/32",
+                    "cs/kralicka1613/genesis/33",
+                    "cs/kralicka1613/genesis/34",
+                    "cs/kralicka1613/genesis/35",
+                    "cs/kralicka1613/genesis/36",
+                    "cs/kralicka1613/genesis/37",
+                    "cs/kralicka1613/genesis/38",
+                    "cs/kralicka1613/genesis/39",
+                    "cs/kralicka1613/genesis/40",
+                    "cs/kralicka1613/genesis/41",
+                    "cs/kralicka1613/genesis/42",
+                    "cs/kralicka1613/genesis/43",
+                    "cs/kralicka1613/genesis/44",
+                    "cs/kralicka1613/genesis/45",
+                    "cs/kralicka1613/genesis/46",
+                    "cs/kralicka1613/genesis/47",
+                    "cs/kralicka1613/genesis/48",
+                    "cs/kralicka1613/genesis/49",
+                    "cs/kralicka1613/genesis/50"
+                  ]
+                },
+                {
+                  "group": "2 Mojžíšova",
+                  "pages": [
+                    "cs/kralicka1613/exodus/index",
+                    "cs/kralicka1613/exodus/1",
+                    "cs/kralicka1613/exodus/2",
+                    "cs/kralicka1613/exodus/3",
+                    "cs/kralicka1613/exodus/4",
+                    "cs/kralicka1613/exodus/5",
+                    "cs/kralicka1613/exodus/6",
+                    "cs/kralicka1613/exodus/7",
+                    "cs/kralicka1613/exodus/8",
+                    "cs/kralicka1613/exodus/9",
+                    "cs/kralicka1613/exodus/10",
+                    "cs/kralicka1613/exodus/11",
+                    "cs/kralicka1613/exodus/12",
+                    "cs/kralicka1613/exodus/13",
+                    "cs/kralicka1613/exodus/14",
+                    "cs/kralicka1613/exodus/15",
+                    "cs/kralicka1613/exodus/16",
+                    "cs/kralicka1613/exodus/17",
+                    "cs/kralicka1613/exodus/18",
+                    "cs/kralicka1613/exodus/19",
+                    "cs/kralicka1613/exodus/20",
+                    "cs/kralicka1613/exodus/21",
+                    "cs/kralicka1613/exodus/22",
+                    "cs/kralicka1613/exodus/23",
+                    "cs/kralicka1613/exodus/24",
+                    "cs/kralicka1613/exodus/25",
+                    "cs/kralicka1613/exodus/26",
+                    "cs/kralicka1613/exodus/27",
+                    "cs/kralicka1613/exodus/28",
+                    "cs/kralicka1613/exodus/29",
+                    "cs/kralicka1613/exodus/30",
+                    "cs/kralicka1613/exodus/31",
+                    "cs/kralicka1613/exodus/32",
+                    "cs/kralicka1613/exodus/33",
+                    "cs/kralicka1613/exodus/34",
+                    "cs/kralicka1613/exodus/35",
+                    "cs/kralicka1613/exodus/36",
+                    "cs/kralicka1613/exodus/37",
+                    "cs/kralicka1613/exodus/38",
+                    "cs/kralicka1613/exodus/39",
+                    "cs/kralicka1613/exodus/40"
+                  ]
+                },
+                {
+                  "group": "3 Mojžíšova",
+                  "pages": [
+                    "cs/kralicka1613/leviticus/index",
+                    "cs/kralicka1613/leviticus/1",
+                    "cs/kralicka1613/leviticus/2",
+                    "cs/kralicka1613/leviticus/3",
+                    "cs/kralicka1613/leviticus/4",
+                    "cs/kralicka1613/leviticus/5",
+                    "cs/kralicka1613/leviticus/6",
+                    "cs/kralicka1613/leviticus/7",
+                    "cs/kralicka1613/leviticus/8",
+                    "cs/kralicka1613/leviticus/9",
+                    "cs/kralicka1613/leviticus/10",
+                    "cs/kralicka1613/leviticus/11",
+                    "cs/kralicka1613/leviticus/12",
+                    "cs/kralicka1613/leviticus/13",
+                    "cs/kralicka1613/leviticus/14",
+                    "cs/kralicka1613/leviticus/15",
+                    "cs/kralicka1613/leviticus/16",
+                    "cs/kralicka1613/leviticus/17",
+                    "cs/kralicka1613/leviticus/18",
+                    "cs/kralicka1613/leviticus/19",
+                    "cs/kralicka1613/leviticus/20",
+                    "cs/kralicka1613/leviticus/21",
+                    "cs/kralicka1613/leviticus/22",
+                    "cs/kralicka1613/leviticus/23",
+                    "cs/kralicka1613/leviticus/24",
+                    "cs/kralicka1613/leviticus/25",
+                    "cs/kralicka1613/leviticus/26",
+                    "cs/kralicka1613/leviticus/27"
+                  ]
+                },
+                {
+                  "group": "4 Mojžíšova",
+                  "pages": [
+                    "cs/kralicka1613/numbers/index",
+                    "cs/kralicka1613/numbers/1",
+                    "cs/kralicka1613/numbers/2",
+                    "cs/kralicka1613/numbers/3",
+                    "cs/kralicka1613/numbers/4",
+                    "cs/kralicka1613/numbers/5",
+                    "cs/kralicka1613/numbers/6",
+                    "cs/kralicka1613/numbers/7",
+                    "cs/kralicka1613/numbers/8",
+                    "cs/kralicka1613/numbers/9",
+                    "cs/kralicka1613/numbers/10",
+                    "cs/kralicka1613/numbers/11",
+                    "cs/kralicka1613/numbers/12",
+                    "cs/kralicka1613/numbers/13",
+                    "cs/kralicka1613/numbers/14",
+                    "cs/kralicka1613/numbers/15",
+                    "cs/kralicka1613/numbers/16",
+                    "cs/kralicka1613/numbers/17",
+                    "cs/kralicka1613/numbers/18",
+                    "cs/kralicka1613/numbers/19",
+                    "cs/kralicka1613/numbers/20",
+                    "cs/kralicka1613/numbers/21",
+                    "cs/kralicka1613/numbers/22",
+                    "cs/kralicka1613/numbers/23",
+                    "cs/kralicka1613/numbers/24",
+                    "cs/kralicka1613/numbers/25",
+                    "cs/kralicka1613/numbers/26",
+                    "cs/kralicka1613/numbers/27",
+                    "cs/kralicka1613/numbers/28",
+                    "cs/kralicka1613/numbers/29",
+                    "cs/kralicka1613/numbers/30",
+                    "cs/kralicka1613/numbers/31",
+                    "cs/kralicka1613/numbers/32",
+                    "cs/kralicka1613/numbers/33",
+                    "cs/kralicka1613/numbers/34",
+                    "cs/kralicka1613/numbers/35",
+                    "cs/kralicka1613/numbers/36"
+                  ]
+                },
+                {
+                  "group": "5 Mojžíšova",
+                  "pages": [
+                    "cs/kralicka1613/deuteronomy/index",
+                    "cs/kralicka1613/deuteronomy/1",
+                    "cs/kralicka1613/deuteronomy/2",
+                    "cs/kralicka1613/deuteronomy/3",
+                    "cs/kralicka1613/deuteronomy/4",
+                    "cs/kralicka1613/deuteronomy/5",
+                    "cs/kralicka1613/deuteronomy/6",
+                    "cs/kralicka1613/deuteronomy/7",
+                    "cs/kralicka1613/deuteronomy/8",
+                    "cs/kralicka1613/deuteronomy/9",
+                    "cs/kralicka1613/deuteronomy/10",
+                    "cs/kralicka1613/deuteronomy/11",
+                    "cs/kralicka1613/deuteronomy/12",
+                    "cs/kralicka1613/deuteronomy/13",
+                    "cs/kralicka1613/deuteronomy/14",
+                    "cs/kralicka1613/deuteronomy/15",
+                    "cs/kralicka1613/deuteronomy/16",
+                    "cs/kralicka1613/deuteronomy/17",
+                    "cs/kralicka1613/deuteronomy/18",
+                    "cs/kralicka1613/deuteronomy/19",
+                    "cs/kralicka1613/deuteronomy/20",
+                    "cs/kralicka1613/deuteronomy/21",
+                    "cs/kralicka1613/deuteronomy/22",
+                    "cs/kralicka1613/deuteronomy/23",
+                    "cs/kralicka1613/deuteronomy/24",
+                    "cs/kralicka1613/deuteronomy/25",
+                    "cs/kralicka1613/deuteronomy/26",
+                    "cs/kralicka1613/deuteronomy/27",
+                    "cs/kralicka1613/deuteronomy/28",
+                    "cs/kralicka1613/deuteronomy/29",
+                    "cs/kralicka1613/deuteronomy/30",
+                    "cs/kralicka1613/deuteronomy/31",
+                    "cs/kralicka1613/deuteronomy/32",
+                    "cs/kralicka1613/deuteronomy/33",
+                    "cs/kralicka1613/deuteronomy/34"
+                  ]
+                },
+                {
+                  "group": "Jozue",
+                  "pages": [
+                    "cs/kralicka1613/joshua/index",
+                    "cs/kralicka1613/joshua/1",
+                    "cs/kralicka1613/joshua/2",
+                    "cs/kralicka1613/joshua/3",
+                    "cs/kralicka1613/joshua/4",
+                    "cs/kralicka1613/joshua/5",
+                    "cs/kralicka1613/joshua/6",
+                    "cs/kralicka1613/joshua/7",
+                    "cs/kralicka1613/joshua/8",
+                    "cs/kralicka1613/joshua/9",
+                    "cs/kralicka1613/joshua/10",
+                    "cs/kralicka1613/joshua/11",
+                    "cs/kralicka1613/joshua/12",
+                    "cs/kralicka1613/joshua/13",
+                    "cs/kralicka1613/joshua/14",
+                    "cs/kralicka1613/joshua/15",
+                    "cs/kralicka1613/joshua/16",
+                    "cs/kralicka1613/joshua/17",
+                    "cs/kralicka1613/joshua/18",
+                    "cs/kralicka1613/joshua/19",
+                    "cs/kralicka1613/joshua/20",
+                    "cs/kralicka1613/joshua/21",
+                    "cs/kralicka1613/joshua/22",
+                    "cs/kralicka1613/joshua/23",
+                    "cs/kralicka1613/joshua/24"
+                  ]
+                },
+                {
+                  "group": "Soudců",
+                  "pages": [
+                    "cs/kralicka1613/judges/index",
+                    "cs/kralicka1613/judges/1",
+                    "cs/kralicka1613/judges/2",
+                    "cs/kralicka1613/judges/3",
+                    "cs/kralicka1613/judges/4",
+                    "cs/kralicka1613/judges/5",
+                    "cs/kralicka1613/judges/6",
+                    "cs/kralicka1613/judges/7",
+                    "cs/kralicka1613/judges/8",
+                    "cs/kralicka1613/judges/9",
+                    "cs/kralicka1613/judges/10",
+                    "cs/kralicka1613/judges/11",
+                    "cs/kralicka1613/judges/12",
+                    "cs/kralicka1613/judges/13",
+                    "cs/kralicka1613/judges/14",
+                    "cs/kralicka1613/judges/15",
+                    "cs/kralicka1613/judges/16",
+                    "cs/kralicka1613/judges/17",
+                    "cs/kralicka1613/judges/18",
+                    "cs/kralicka1613/judges/19",
+                    "cs/kralicka1613/judges/20",
+                    "cs/kralicka1613/judges/21"
+                  ]
+                },
+                {
+                  "group": "Rút",
+                  "pages": [
+                    "cs/kralicka1613/ruth/index",
+                    "cs/kralicka1613/ruth/1",
+                    "cs/kralicka1613/ruth/2",
+                    "cs/kralicka1613/ruth/3",
+                    "cs/kralicka1613/ruth/4"
+                  ]
+                },
+                {
+                  "group": "1 Samuelova",
+                  "pages": [
+                    "cs/kralicka1613/1-samuel/index",
+                    "cs/kralicka1613/1-samuel/1",
+                    "cs/kralicka1613/1-samuel/2",
+                    "cs/kralicka1613/1-samuel/3",
+                    "cs/kralicka1613/1-samuel/4",
+                    "cs/kralicka1613/1-samuel/5",
+                    "cs/kralicka1613/1-samuel/6",
+                    "cs/kralicka1613/1-samuel/7",
+                    "cs/kralicka1613/1-samuel/8",
+                    "cs/kralicka1613/1-samuel/9",
+                    "cs/kralicka1613/1-samuel/10",
+                    "cs/kralicka1613/1-samuel/11",
+                    "cs/kralicka1613/1-samuel/12",
+                    "cs/kralicka1613/1-samuel/13",
+                    "cs/kralicka1613/1-samuel/14",
+                    "cs/kralicka1613/1-samuel/15",
+                    "cs/kralicka1613/1-samuel/16",
+                    "cs/kralicka1613/1-samuel/17",
+                    "cs/kralicka1613/1-samuel/18",
+                    "cs/kralicka1613/1-samuel/19",
+                    "cs/kralicka1613/1-samuel/20",
+                    "cs/kralicka1613/1-samuel/21",
+                    "cs/kralicka1613/1-samuel/22",
+                    "cs/kralicka1613/1-samuel/23",
+                    "cs/kralicka1613/1-samuel/24",
+                    "cs/kralicka1613/1-samuel/25",
+                    "cs/kralicka1613/1-samuel/26",
+                    "cs/kralicka1613/1-samuel/27",
+                    "cs/kralicka1613/1-samuel/28",
+                    "cs/kralicka1613/1-samuel/29",
+                    "cs/kralicka1613/1-samuel/30",
+                    "cs/kralicka1613/1-samuel/31"
+                  ]
+                },
+                {
+                  "group": "2 Samuelova",
+                  "pages": [
+                    "cs/kralicka1613/2-samuel/index",
+                    "cs/kralicka1613/2-samuel/1",
+                    "cs/kralicka1613/2-samuel/2",
+                    "cs/kralicka1613/2-samuel/3",
+                    "cs/kralicka1613/2-samuel/4",
+                    "cs/kralicka1613/2-samuel/5",
+                    "cs/kralicka1613/2-samuel/6",
+                    "cs/kralicka1613/2-samuel/7",
+                    "cs/kralicka1613/2-samuel/8",
+                    "cs/kralicka1613/2-samuel/9",
+                    "cs/kralicka1613/2-samuel/10",
+                    "cs/kralicka1613/2-samuel/11",
+                    "cs/kralicka1613/2-samuel/12",
+                    "cs/kralicka1613/2-samuel/13",
+                    "cs/kralicka1613/2-samuel/14",
+                    "cs/kralicka1613/2-samuel/15",
+                    "cs/kralicka1613/2-samuel/16",
+                    "cs/kralicka1613/2-samuel/17",
+                    "cs/kralicka1613/2-samuel/18",
+                    "cs/kralicka1613/2-samuel/19",
+                    "cs/kralicka1613/2-samuel/20",
+                    "cs/kralicka1613/2-samuel/21",
+                    "cs/kralicka1613/2-samuel/22",
+                    "cs/kralicka1613/2-samuel/23",
+                    "cs/kralicka1613/2-samuel/24"
+                  ]
+                },
+                {
+                  "group": "1 Královská",
+                  "pages": [
+                    "cs/kralicka1613/1-kings/index",
+                    "cs/kralicka1613/1-kings/1",
+                    "cs/kralicka1613/1-kings/2",
+                    "cs/kralicka1613/1-kings/3",
+                    "cs/kralicka1613/1-kings/4",
+                    "cs/kralicka1613/1-kings/5",
+                    "cs/kralicka1613/1-kings/6",
+                    "cs/kralicka1613/1-kings/7",
+                    "cs/kralicka1613/1-kings/8",
+                    "cs/kralicka1613/1-kings/9",
+                    "cs/kralicka1613/1-kings/10",
+                    "cs/kralicka1613/1-kings/11",
+                    "cs/kralicka1613/1-kings/12",
+                    "cs/kralicka1613/1-kings/13",
+                    "cs/kralicka1613/1-kings/14",
+                    "cs/kralicka1613/1-kings/15",
+                    "cs/kralicka1613/1-kings/16",
+                    "cs/kralicka1613/1-kings/17",
+                    "cs/kralicka1613/1-kings/18",
+                    "cs/kralicka1613/1-kings/19",
+                    "cs/kralicka1613/1-kings/20",
+                    "cs/kralicka1613/1-kings/21",
+                    "cs/kralicka1613/1-kings/22"
+                  ]
+                },
+                {
+                  "group": "2 Královská",
+                  "pages": [
+                    "cs/kralicka1613/2-kings/index",
+                    "cs/kralicka1613/2-kings/1",
+                    "cs/kralicka1613/2-kings/2",
+                    "cs/kralicka1613/2-kings/3",
+                    "cs/kralicka1613/2-kings/4",
+                    "cs/kralicka1613/2-kings/5",
+                    "cs/kralicka1613/2-kings/6",
+                    "cs/kralicka1613/2-kings/7",
+                    "cs/kralicka1613/2-kings/8",
+                    "cs/kralicka1613/2-kings/9",
+                    "cs/kralicka1613/2-kings/10",
+                    "cs/kralicka1613/2-kings/11",
+                    "cs/kralicka1613/2-kings/12",
+                    "cs/kralicka1613/2-kings/13",
+                    "cs/kralicka1613/2-kings/14",
+                    "cs/kralicka1613/2-kings/15",
+                    "cs/kralicka1613/2-kings/16",
+                    "cs/kralicka1613/2-kings/17",
+                    "cs/kralicka1613/2-kings/18",
+                    "cs/kralicka1613/2-kings/19",
+                    "cs/kralicka1613/2-kings/20",
+                    "cs/kralicka1613/2-kings/21",
+                    "cs/kralicka1613/2-kings/22",
+                    "cs/kralicka1613/2-kings/23",
+                    "cs/kralicka1613/2-kings/24",
+                    "cs/kralicka1613/2-kings/25"
+                  ]
+                },
+                {
+                  "group": "1 Letopisu",
+                  "pages": [
+                    "cs/kralicka1613/1-chronicles/index",
+                    "cs/kralicka1613/1-chronicles/1",
+                    "cs/kralicka1613/1-chronicles/2",
+                    "cs/kralicka1613/1-chronicles/3",
+                    "cs/kralicka1613/1-chronicles/4",
+                    "cs/kralicka1613/1-chronicles/5",
+                    "cs/kralicka1613/1-chronicles/6",
+                    "cs/kralicka1613/1-chronicles/7",
+                    "cs/kralicka1613/1-chronicles/8",
+                    "cs/kralicka1613/1-chronicles/9",
+                    "cs/kralicka1613/1-chronicles/10",
+                    "cs/kralicka1613/1-chronicles/11",
+                    "cs/kralicka1613/1-chronicles/12",
+                    "cs/kralicka1613/1-chronicles/13",
+                    "cs/kralicka1613/1-chronicles/14",
+                    "cs/kralicka1613/1-chronicles/15",
+                    "cs/kralicka1613/1-chronicles/16",
+                    "cs/kralicka1613/1-chronicles/17",
+                    "cs/kralicka1613/1-chronicles/18",
+                    "cs/kralicka1613/1-chronicles/19",
+                    "cs/kralicka1613/1-chronicles/20",
+                    "cs/kralicka1613/1-chronicles/21",
+                    "cs/kralicka1613/1-chronicles/22",
+                    "cs/kralicka1613/1-chronicles/23",
+                    "cs/kralicka1613/1-chronicles/24",
+                    "cs/kralicka1613/1-chronicles/25",
+                    "cs/kralicka1613/1-chronicles/26",
+                    "cs/kralicka1613/1-chronicles/27",
+                    "cs/kralicka1613/1-chronicles/28",
+                    "cs/kralicka1613/1-chronicles/29"
+                  ]
+                },
+                {
+                  "group": "2 Letopisu",
+                  "pages": [
+                    "cs/kralicka1613/2-chronicles/index",
+                    "cs/kralicka1613/2-chronicles/1",
+                    "cs/kralicka1613/2-chronicles/2",
+                    "cs/kralicka1613/2-chronicles/3",
+                    "cs/kralicka1613/2-chronicles/4",
+                    "cs/kralicka1613/2-chronicles/5",
+                    "cs/kralicka1613/2-chronicles/6",
+                    "cs/kralicka1613/2-chronicles/7",
+                    "cs/kralicka1613/2-chronicles/8",
+                    "cs/kralicka1613/2-chronicles/9",
+                    "cs/kralicka1613/2-chronicles/10",
+                    "cs/kralicka1613/2-chronicles/11",
+                    "cs/kralicka1613/2-chronicles/12",
+                    "cs/kralicka1613/2-chronicles/13",
+                    "cs/kralicka1613/2-chronicles/14",
+                    "cs/kralicka1613/2-chronicles/15",
+                    "cs/kralicka1613/2-chronicles/16",
+                    "cs/kralicka1613/2-chronicles/17",
+                    "cs/kralicka1613/2-chronicles/18",
+                    "cs/kralicka1613/2-chronicles/19",
+                    "cs/kralicka1613/2-chronicles/20",
+                    "cs/kralicka1613/2-chronicles/21",
+                    "cs/kralicka1613/2-chronicles/22",
+                    "cs/kralicka1613/2-chronicles/23",
+                    "cs/kralicka1613/2-chronicles/24",
+                    "cs/kralicka1613/2-chronicles/25",
+                    "cs/kralicka1613/2-chronicles/26",
+                    "cs/kralicka1613/2-chronicles/27",
+                    "cs/kralicka1613/2-chronicles/28",
+                    "cs/kralicka1613/2-chronicles/29",
+                    "cs/kralicka1613/2-chronicles/30",
+                    "cs/kralicka1613/2-chronicles/31",
+                    "cs/kralicka1613/2-chronicles/32",
+                    "cs/kralicka1613/2-chronicles/33",
+                    "cs/kralicka1613/2-chronicles/34",
+                    "cs/kralicka1613/2-chronicles/35",
+                    "cs/kralicka1613/2-chronicles/36"
+                  ]
+                },
+                {
+                  "group": "Ezdráš",
+                  "pages": [
+                    "cs/kralicka1613/ezra/index",
+                    "cs/kralicka1613/ezra/1",
+                    "cs/kralicka1613/ezra/2",
+                    "cs/kralicka1613/ezra/3",
+                    "cs/kralicka1613/ezra/4",
+                    "cs/kralicka1613/ezra/5",
+                    "cs/kralicka1613/ezra/6",
+                    "cs/kralicka1613/ezra/7",
+                    "cs/kralicka1613/ezra/8",
+                    "cs/kralicka1613/ezra/9",
+                    "cs/kralicka1613/ezra/10"
+                  ]
+                },
+                {
+                  "group": "Nehemjáš",
+                  "pages": [
+                    "cs/kralicka1613/nehemiah/index",
+                    "cs/kralicka1613/nehemiah/1",
+                    "cs/kralicka1613/nehemiah/2",
+                    "cs/kralicka1613/nehemiah/3",
+                    "cs/kralicka1613/nehemiah/4",
+                    "cs/kralicka1613/nehemiah/5",
+                    "cs/kralicka1613/nehemiah/6",
+                    "cs/kralicka1613/nehemiah/7",
+                    "cs/kralicka1613/nehemiah/8",
+                    "cs/kralicka1613/nehemiah/9",
+                    "cs/kralicka1613/nehemiah/10",
+                    "cs/kralicka1613/nehemiah/11",
+                    "cs/kralicka1613/nehemiah/12",
+                    "cs/kralicka1613/nehemiah/13"
+                  ]
+                },
+                {
+                  "group": "Ester",
+                  "pages": [
+                    "cs/kralicka1613/esther/index",
+                    "cs/kralicka1613/esther/1",
+                    "cs/kralicka1613/esther/2",
+                    "cs/kralicka1613/esther/3",
+                    "cs/kralicka1613/esther/4",
+                    "cs/kralicka1613/esther/5",
+                    "cs/kralicka1613/esther/6",
+                    "cs/kralicka1613/esther/7",
+                    "cs/kralicka1613/esther/8",
+                    "cs/kralicka1613/esther/9",
+                    "cs/kralicka1613/esther/10"
+                  ]
+                },
+                {
+                  "group": "Jób",
+                  "pages": [
+                    "cs/kralicka1613/job/index",
+                    "cs/kralicka1613/job/1",
+                    "cs/kralicka1613/job/2",
+                    "cs/kralicka1613/job/3",
+                    "cs/kralicka1613/job/4",
+                    "cs/kralicka1613/job/5",
+                    "cs/kralicka1613/job/6",
+                    "cs/kralicka1613/job/7",
+                    "cs/kralicka1613/job/8",
+                    "cs/kralicka1613/job/9",
+                    "cs/kralicka1613/job/10",
+                    "cs/kralicka1613/job/11",
+                    "cs/kralicka1613/job/12",
+                    "cs/kralicka1613/job/13",
+                    "cs/kralicka1613/job/14",
+                    "cs/kralicka1613/job/15",
+                    "cs/kralicka1613/job/16",
+                    "cs/kralicka1613/job/17",
+                    "cs/kralicka1613/job/18",
+                    "cs/kralicka1613/job/19",
+                    "cs/kralicka1613/job/20",
+                    "cs/kralicka1613/job/21",
+                    "cs/kralicka1613/job/22",
+                    "cs/kralicka1613/job/23",
+                    "cs/kralicka1613/job/24",
+                    "cs/kralicka1613/job/25",
+                    "cs/kralicka1613/job/26",
+                    "cs/kralicka1613/job/27",
+                    "cs/kralicka1613/job/28",
+                    "cs/kralicka1613/job/29",
+                    "cs/kralicka1613/job/30",
+                    "cs/kralicka1613/job/31",
+                    "cs/kralicka1613/job/32",
+                    "cs/kralicka1613/job/33",
+                    "cs/kralicka1613/job/34",
+                    "cs/kralicka1613/job/35",
+                    "cs/kralicka1613/job/36",
+                    "cs/kralicka1613/job/37",
+                    "cs/kralicka1613/job/38",
+                    "cs/kralicka1613/job/39",
+                    "cs/kralicka1613/job/40",
+                    "cs/kralicka1613/job/41",
+                    "cs/kralicka1613/job/42"
+                  ]
+                },
+                {
+                  "group": "Žalmy",
+                  "pages": [
+                    "cs/kralicka1613/psalms/index",
+                    "cs/kralicka1613/psalms/1",
+                    "cs/kralicka1613/psalms/2",
+                    "cs/kralicka1613/psalms/3",
+                    "cs/kralicka1613/psalms/4",
+                    "cs/kralicka1613/psalms/5",
+                    "cs/kralicka1613/psalms/6",
+                    "cs/kralicka1613/psalms/7",
+                    "cs/kralicka1613/psalms/8",
+                    "cs/kralicka1613/psalms/9",
+                    "cs/kralicka1613/psalms/10",
+                    "cs/kralicka1613/psalms/11",
+                    "cs/kralicka1613/psalms/12",
+                    "cs/kralicka1613/psalms/13",
+                    "cs/kralicka1613/psalms/14",
+                    "cs/kralicka1613/psalms/15",
+                    "cs/kralicka1613/psalms/16",
+                    "cs/kralicka1613/psalms/17",
+                    "cs/kralicka1613/psalms/18",
+                    "cs/kralicka1613/psalms/19",
+                    "cs/kralicka1613/psalms/20",
+                    "cs/kralicka1613/psalms/21",
+                    "cs/kralicka1613/psalms/22",
+                    "cs/kralicka1613/psalms/23",
+                    "cs/kralicka1613/psalms/24",
+                    "cs/kralicka1613/psalms/25",
+                    "cs/kralicka1613/psalms/26",
+                    "cs/kralicka1613/psalms/27",
+                    "cs/kralicka1613/psalms/28",
+                    "cs/kralicka1613/psalms/29",
+                    "cs/kralicka1613/psalms/30",
+                    "cs/kralicka1613/psalms/31",
+                    "cs/kralicka1613/psalms/32",
+                    "cs/kralicka1613/psalms/33",
+                    "cs/kralicka1613/psalms/34",
+                    "cs/kralicka1613/psalms/35",
+                    "cs/kralicka1613/psalms/36",
+                    "cs/kralicka1613/psalms/37",
+                    "cs/kralicka1613/psalms/38",
+                    "cs/kralicka1613/psalms/39",
+                    "cs/kralicka1613/psalms/40",
+                    "cs/kralicka1613/psalms/41",
+                    "cs/kralicka1613/psalms/42",
+                    "cs/kralicka1613/psalms/43",
+                    "cs/kralicka1613/psalms/44",
+                    "cs/kralicka1613/psalms/45",
+                    "cs/kralicka1613/psalms/46",
+                    "cs/kralicka1613/psalms/47",
+                    "cs/kralicka1613/psalms/48",
+                    "cs/kralicka1613/psalms/49",
+                    "cs/kralicka1613/psalms/50",
+                    "cs/kralicka1613/psalms/51",
+                    "cs/kralicka1613/psalms/52",
+                    "cs/kralicka1613/psalms/53",
+                    "cs/kralicka1613/psalms/54",
+                    "cs/kralicka1613/psalms/55",
+                    "cs/kralicka1613/psalms/56",
+                    "cs/kralicka1613/psalms/57",
+                    "cs/kralicka1613/psalms/58",
+                    "cs/kralicka1613/psalms/59",
+                    "cs/kralicka1613/psalms/60",
+                    "cs/kralicka1613/psalms/61",
+                    "cs/kralicka1613/psalms/62",
+                    "cs/kralicka1613/psalms/63",
+                    "cs/kralicka1613/psalms/64",
+                    "cs/kralicka1613/psalms/65",
+                    "cs/kralicka1613/psalms/66",
+                    "cs/kralicka1613/psalms/67",
+                    "cs/kralicka1613/psalms/68",
+                    "cs/kralicka1613/psalms/69",
+                    "cs/kralicka1613/psalms/70",
+                    "cs/kralicka1613/psalms/71",
+                    "cs/kralicka1613/psalms/72",
+                    "cs/kralicka1613/psalms/73",
+                    "cs/kralicka1613/psalms/74",
+                    "cs/kralicka1613/psalms/75",
+                    "cs/kralicka1613/psalms/76",
+                    "cs/kralicka1613/psalms/77",
+                    "cs/kralicka1613/psalms/78",
+                    "cs/kralicka1613/psalms/79",
+                    "cs/kralicka1613/psalms/80",
+                    "cs/kralicka1613/psalms/81",
+                    "cs/kralicka1613/psalms/82",
+                    "cs/kralicka1613/psalms/83",
+                    "cs/kralicka1613/psalms/84",
+                    "cs/kralicka1613/psalms/85",
+                    "cs/kralicka1613/psalms/86",
+                    "cs/kralicka1613/psalms/87",
+                    "cs/kralicka1613/psalms/88",
+                    "cs/kralicka1613/psalms/89",
+                    "cs/kralicka1613/psalms/90",
+                    "cs/kralicka1613/psalms/91",
+                    "cs/kralicka1613/psalms/92",
+                    "cs/kralicka1613/psalms/93",
+                    "cs/kralicka1613/psalms/94",
+                    "cs/kralicka1613/psalms/95",
+                    "cs/kralicka1613/psalms/96",
+                    "cs/kralicka1613/psalms/97",
+                    "cs/kralicka1613/psalms/98",
+                    "cs/kralicka1613/psalms/99",
+                    "cs/kralicka1613/psalms/100",
+                    "cs/kralicka1613/psalms/101",
+                    "cs/kralicka1613/psalms/102",
+                    "cs/kralicka1613/psalms/103",
+                    "cs/kralicka1613/psalms/104",
+                    "cs/kralicka1613/psalms/105",
+                    "cs/kralicka1613/psalms/106",
+                    "cs/kralicka1613/psalms/107",
+                    "cs/kralicka1613/psalms/108",
+                    "cs/kralicka1613/psalms/109",
+                    "cs/kralicka1613/psalms/110",
+                    "cs/kralicka1613/psalms/111",
+                    "cs/kralicka1613/psalms/112",
+                    "cs/kralicka1613/psalms/113",
+                    "cs/kralicka1613/psalms/114",
+                    "cs/kralicka1613/psalms/115",
+                    "cs/kralicka1613/psalms/116",
+                    "cs/kralicka1613/psalms/117",
+                    "cs/kralicka1613/psalms/118",
+                    "cs/kralicka1613/psalms/119",
+                    "cs/kralicka1613/psalms/120",
+                    "cs/kralicka1613/psalms/121",
+                    "cs/kralicka1613/psalms/122",
+                    "cs/kralicka1613/psalms/123",
+                    "cs/kralicka1613/psalms/124",
+                    "cs/kralicka1613/psalms/125",
+                    "cs/kralicka1613/psalms/126",
+                    "cs/kralicka1613/psalms/127",
+                    "cs/kralicka1613/psalms/128",
+                    "cs/kralicka1613/psalms/129",
+                    "cs/kralicka1613/psalms/130",
+                    "cs/kralicka1613/psalms/131",
+                    "cs/kralicka1613/psalms/132",
+                    "cs/kralicka1613/psalms/133",
+                    "cs/kralicka1613/psalms/134",
+                    "cs/kralicka1613/psalms/135",
+                    "cs/kralicka1613/psalms/136",
+                    "cs/kralicka1613/psalms/137",
+                    "cs/kralicka1613/psalms/138",
+                    "cs/kralicka1613/psalms/139",
+                    "cs/kralicka1613/psalms/140",
+                    "cs/kralicka1613/psalms/141",
+                    "cs/kralicka1613/psalms/142",
+                    "cs/kralicka1613/psalms/143",
+                    "cs/kralicka1613/psalms/144",
+                    "cs/kralicka1613/psalms/145",
+                    "cs/kralicka1613/psalms/146",
+                    "cs/kralicka1613/psalms/147",
+                    "cs/kralicka1613/psalms/148",
+                    "cs/kralicka1613/psalms/149",
+                    "cs/kralicka1613/psalms/150"
+                  ]
+                },
+                {
+                  "group": "Přísloví",
+                  "pages": [
+                    "cs/kralicka1613/proverbs/index",
+                    "cs/kralicka1613/proverbs/1",
+                    "cs/kralicka1613/proverbs/2",
+                    "cs/kralicka1613/proverbs/3",
+                    "cs/kralicka1613/proverbs/4",
+                    "cs/kralicka1613/proverbs/5",
+                    "cs/kralicka1613/proverbs/6",
+                    "cs/kralicka1613/proverbs/7",
+                    "cs/kralicka1613/proverbs/8",
+                    "cs/kralicka1613/proverbs/9",
+                    "cs/kralicka1613/proverbs/10",
+                    "cs/kralicka1613/proverbs/11",
+                    "cs/kralicka1613/proverbs/12",
+                    "cs/kralicka1613/proverbs/13",
+                    "cs/kralicka1613/proverbs/14",
+                    "cs/kralicka1613/proverbs/15",
+                    "cs/kralicka1613/proverbs/16",
+                    "cs/kralicka1613/proverbs/17",
+                    "cs/kralicka1613/proverbs/18",
+                    "cs/kralicka1613/proverbs/19",
+                    "cs/kralicka1613/proverbs/20",
+                    "cs/kralicka1613/proverbs/21",
+                    "cs/kralicka1613/proverbs/22",
+                    "cs/kralicka1613/proverbs/23",
+                    "cs/kralicka1613/proverbs/24",
+                    "cs/kralicka1613/proverbs/25",
+                    "cs/kralicka1613/proverbs/26",
+                    "cs/kralicka1613/proverbs/27",
+                    "cs/kralicka1613/proverbs/28",
+                    "cs/kralicka1613/proverbs/29",
+                    "cs/kralicka1613/proverbs/30",
+                    "cs/kralicka1613/proverbs/31"
+                  ]
+                },
+                {
+                  "group": "Kazatel",
+                  "pages": [
+                    "cs/kralicka1613/ecclesiastes/index",
+                    "cs/kralicka1613/ecclesiastes/1",
+                    "cs/kralicka1613/ecclesiastes/2",
+                    "cs/kralicka1613/ecclesiastes/3",
+                    "cs/kralicka1613/ecclesiastes/4",
+                    "cs/kralicka1613/ecclesiastes/5",
+                    "cs/kralicka1613/ecclesiastes/6",
+                    "cs/kralicka1613/ecclesiastes/7",
+                    "cs/kralicka1613/ecclesiastes/8",
+                    "cs/kralicka1613/ecclesiastes/9",
+                    "cs/kralicka1613/ecclesiastes/10",
+                    "cs/kralicka1613/ecclesiastes/11",
+                    "cs/kralicka1613/ecclesiastes/12"
+                  ]
+                },
+                {
+                  "group": "Píseň písní",
+                  "pages": [
+                    "cs/kralicka1613/song-of-solomon/index",
+                    "cs/kralicka1613/song-of-solomon/1",
+                    "cs/kralicka1613/song-of-solomon/2",
+                    "cs/kralicka1613/song-of-solomon/3",
+                    "cs/kralicka1613/song-of-solomon/4",
+                    "cs/kralicka1613/song-of-solomon/5",
+                    "cs/kralicka1613/song-of-solomon/6",
+                    "cs/kralicka1613/song-of-solomon/7",
+                    "cs/kralicka1613/song-of-solomon/8"
+                  ]
+                },
+                {
+                  "group": "Izajáš",
+                  "pages": [
+                    "cs/kralicka1613/isaiah/index",
+                    "cs/kralicka1613/isaiah/1",
+                    "cs/kralicka1613/isaiah/2",
+                    "cs/kralicka1613/isaiah/3",
+                    "cs/kralicka1613/isaiah/4",
+                    "cs/kralicka1613/isaiah/5",
+                    "cs/kralicka1613/isaiah/6",
+                    "cs/kralicka1613/isaiah/7",
+                    "cs/kralicka1613/isaiah/8",
+                    "cs/kralicka1613/isaiah/9",
+                    "cs/kralicka1613/isaiah/10",
+                    "cs/kralicka1613/isaiah/11",
+                    "cs/kralicka1613/isaiah/12",
+                    "cs/kralicka1613/isaiah/13",
+                    "cs/kralicka1613/isaiah/14",
+                    "cs/kralicka1613/isaiah/15",
+                    "cs/kralicka1613/isaiah/16",
+                    "cs/kralicka1613/isaiah/17",
+                    "cs/kralicka1613/isaiah/18",
+                    "cs/kralicka1613/isaiah/19",
+                    "cs/kralicka1613/isaiah/20",
+                    "cs/kralicka1613/isaiah/21",
+                    "cs/kralicka1613/isaiah/22",
+                    "cs/kralicka1613/isaiah/23",
+                    "cs/kralicka1613/isaiah/24",
+                    "cs/kralicka1613/isaiah/25",
+                    "cs/kralicka1613/isaiah/26",
+                    "cs/kralicka1613/isaiah/27",
+                    "cs/kralicka1613/isaiah/28",
+                    "cs/kralicka1613/isaiah/29",
+                    "cs/kralicka1613/isaiah/30",
+                    "cs/kralicka1613/isaiah/31",
+                    "cs/kralicka1613/isaiah/32",
+                    "cs/kralicka1613/isaiah/33",
+                    "cs/kralicka1613/isaiah/34",
+                    "cs/kralicka1613/isaiah/35",
+                    "cs/kralicka1613/isaiah/36",
+                    "cs/kralicka1613/isaiah/37",
+                    "cs/kralicka1613/isaiah/38",
+                    "cs/kralicka1613/isaiah/39",
+                    "cs/kralicka1613/isaiah/40",
+                    "cs/kralicka1613/isaiah/41",
+                    "cs/kralicka1613/isaiah/42",
+                    "cs/kralicka1613/isaiah/43",
+                    "cs/kralicka1613/isaiah/44",
+                    "cs/kralicka1613/isaiah/45",
+                    "cs/kralicka1613/isaiah/46",
+                    "cs/kralicka1613/isaiah/47",
+                    "cs/kralicka1613/isaiah/48",
+                    "cs/kralicka1613/isaiah/49",
+                    "cs/kralicka1613/isaiah/50",
+                    "cs/kralicka1613/isaiah/51",
+                    "cs/kralicka1613/isaiah/52",
+                    "cs/kralicka1613/isaiah/53",
+                    "cs/kralicka1613/isaiah/54",
+                    "cs/kralicka1613/isaiah/55",
+                    "cs/kralicka1613/isaiah/56",
+                    "cs/kralicka1613/isaiah/57",
+                    "cs/kralicka1613/isaiah/58",
+                    "cs/kralicka1613/isaiah/59",
+                    "cs/kralicka1613/isaiah/60",
+                    "cs/kralicka1613/isaiah/61",
+                    "cs/kralicka1613/isaiah/62",
+                    "cs/kralicka1613/isaiah/63",
+                    "cs/kralicka1613/isaiah/64",
+                    "cs/kralicka1613/isaiah/65",
+                    "cs/kralicka1613/isaiah/66"
+                  ]
+                },
+                {
+                  "group": "Jeremjáš",
+                  "pages": [
+                    "cs/kralicka1613/jeremiah/index",
+                    "cs/kralicka1613/jeremiah/1",
+                    "cs/kralicka1613/jeremiah/2",
+                    "cs/kralicka1613/jeremiah/3",
+                    "cs/kralicka1613/jeremiah/4",
+                    "cs/kralicka1613/jeremiah/5",
+                    "cs/kralicka1613/jeremiah/6",
+                    "cs/kralicka1613/jeremiah/7",
+                    "cs/kralicka1613/jeremiah/8",
+                    "cs/kralicka1613/jeremiah/9",
+                    "cs/kralicka1613/jeremiah/10",
+                    "cs/kralicka1613/jeremiah/11",
+                    "cs/kralicka1613/jeremiah/12",
+                    "cs/kralicka1613/jeremiah/13",
+                    "cs/kralicka1613/jeremiah/14",
+                    "cs/kralicka1613/jeremiah/15",
+                    "cs/kralicka1613/jeremiah/16",
+                    "cs/kralicka1613/jeremiah/17",
+                    "cs/kralicka1613/jeremiah/18",
+                    "cs/kralicka1613/jeremiah/19",
+                    "cs/kralicka1613/jeremiah/20",
+                    "cs/kralicka1613/jeremiah/21",
+                    "cs/kralicka1613/jeremiah/22",
+                    "cs/kralicka1613/jeremiah/23",
+                    "cs/kralicka1613/jeremiah/24",
+                    "cs/kralicka1613/jeremiah/25",
+                    "cs/kralicka1613/jeremiah/26",
+                    "cs/kralicka1613/jeremiah/27",
+                    "cs/kralicka1613/jeremiah/28",
+                    "cs/kralicka1613/jeremiah/29",
+                    "cs/kralicka1613/jeremiah/30",
+                    "cs/kralicka1613/jeremiah/31",
+                    "cs/kralicka1613/jeremiah/32",
+                    "cs/kralicka1613/jeremiah/33",
+                    "cs/kralicka1613/jeremiah/34",
+                    "cs/kralicka1613/jeremiah/35",
+                    "cs/kralicka1613/jeremiah/36",
+                    "cs/kralicka1613/jeremiah/37",
+                    "cs/kralicka1613/jeremiah/38",
+                    "cs/kralicka1613/jeremiah/39",
+                    "cs/kralicka1613/jeremiah/40",
+                    "cs/kralicka1613/jeremiah/41",
+                    "cs/kralicka1613/jeremiah/42",
+                    "cs/kralicka1613/jeremiah/43",
+                    "cs/kralicka1613/jeremiah/44",
+                    "cs/kralicka1613/jeremiah/45",
+                    "cs/kralicka1613/jeremiah/46",
+                    "cs/kralicka1613/jeremiah/47",
+                    "cs/kralicka1613/jeremiah/48",
+                    "cs/kralicka1613/jeremiah/49",
+                    "cs/kralicka1613/jeremiah/50",
+                    "cs/kralicka1613/jeremiah/51",
+                    "cs/kralicka1613/jeremiah/52"
+                  ]
+                },
+                {
+                  "group": "Pláč",
+                  "pages": [
+                    "cs/kralicka1613/lamentations/index",
+                    "cs/kralicka1613/lamentations/1",
+                    "cs/kralicka1613/lamentations/2",
+                    "cs/kralicka1613/lamentations/3",
+                    "cs/kralicka1613/lamentations/4",
+                    "cs/kralicka1613/lamentations/5"
+                  ]
+                },
+                {
+                  "group": "Ezechiel",
+                  "pages": [
+                    "cs/kralicka1613/ezekiel/index",
+                    "cs/kralicka1613/ezekiel/1",
+                    "cs/kralicka1613/ezekiel/2",
+                    "cs/kralicka1613/ezekiel/3",
+                    "cs/kralicka1613/ezekiel/4",
+                    "cs/kralicka1613/ezekiel/5",
+                    "cs/kralicka1613/ezekiel/6",
+                    "cs/kralicka1613/ezekiel/7",
+                    "cs/kralicka1613/ezekiel/8",
+                    "cs/kralicka1613/ezekiel/9",
+                    "cs/kralicka1613/ezekiel/10",
+                    "cs/kralicka1613/ezekiel/11",
+                    "cs/kralicka1613/ezekiel/12",
+                    "cs/kralicka1613/ezekiel/13",
+                    "cs/kralicka1613/ezekiel/14",
+                    "cs/kralicka1613/ezekiel/15",
+                    "cs/kralicka1613/ezekiel/16",
+                    "cs/kralicka1613/ezekiel/17",
+                    "cs/kralicka1613/ezekiel/18",
+                    "cs/kralicka1613/ezekiel/19",
+                    "cs/kralicka1613/ezekiel/20",
+                    "cs/kralicka1613/ezekiel/21",
+                    "cs/kralicka1613/ezekiel/22",
+                    "cs/kralicka1613/ezekiel/23",
+                    "cs/kralicka1613/ezekiel/24",
+                    "cs/kralicka1613/ezekiel/25",
+                    "cs/kralicka1613/ezekiel/26",
+                    "cs/kralicka1613/ezekiel/27",
+                    "cs/kralicka1613/ezekiel/28",
+                    "cs/kralicka1613/ezekiel/29",
+                    "cs/kralicka1613/ezekiel/30",
+                    "cs/kralicka1613/ezekiel/31",
+                    "cs/kralicka1613/ezekiel/32",
+                    "cs/kralicka1613/ezekiel/33",
+                    "cs/kralicka1613/ezekiel/34",
+                    "cs/kralicka1613/ezekiel/35",
+                    "cs/kralicka1613/ezekiel/36",
+                    "cs/kralicka1613/ezekiel/37",
+                    "cs/kralicka1613/ezekiel/38",
+                    "cs/kralicka1613/ezekiel/39",
+                    "cs/kralicka1613/ezekiel/40",
+                    "cs/kralicka1613/ezekiel/41",
+                    "cs/kralicka1613/ezekiel/42",
+                    "cs/kralicka1613/ezekiel/43",
+                    "cs/kralicka1613/ezekiel/44",
+                    "cs/kralicka1613/ezekiel/45",
+                    "cs/kralicka1613/ezekiel/46",
+                    "cs/kralicka1613/ezekiel/47",
+                    "cs/kralicka1613/ezekiel/48"
+                  ]
+                },
+                {
+                  "group": "Daniel",
+                  "pages": [
+                    "cs/kralicka1613/daniel/index",
+                    "cs/kralicka1613/daniel/1",
+                    "cs/kralicka1613/daniel/2",
+                    "cs/kralicka1613/daniel/3",
+                    "cs/kralicka1613/daniel/4",
+                    "cs/kralicka1613/daniel/5",
+                    "cs/kralicka1613/daniel/6",
+                    "cs/kralicka1613/daniel/7",
+                    "cs/kralicka1613/daniel/8",
+                    "cs/kralicka1613/daniel/9",
+                    "cs/kralicka1613/daniel/10",
+                    "cs/kralicka1613/daniel/11",
+                    "cs/kralicka1613/daniel/12"
+                  ]
+                },
+                {
+                  "group": "Ozeáš",
+                  "pages": [
+                    "cs/kralicka1613/hosea/index",
+                    "cs/kralicka1613/hosea/1",
+                    "cs/kralicka1613/hosea/2",
+                    "cs/kralicka1613/hosea/3",
+                    "cs/kralicka1613/hosea/4",
+                    "cs/kralicka1613/hosea/5",
+                    "cs/kralicka1613/hosea/6",
+                    "cs/kralicka1613/hosea/7",
+                    "cs/kralicka1613/hosea/8",
+                    "cs/kralicka1613/hosea/9",
+                    "cs/kralicka1613/hosea/10",
+                    "cs/kralicka1613/hosea/11",
+                    "cs/kralicka1613/hosea/12",
+                    "cs/kralicka1613/hosea/13",
+                    "cs/kralicka1613/hosea/14"
+                  ]
+                },
+                {
+                  "group": "Jóel",
+                  "pages": [
+                    "cs/kralicka1613/joel/index",
+                    "cs/kralicka1613/joel/1",
+                    "cs/kralicka1613/joel/2",
+                    "cs/kralicka1613/joel/3"
+                  ]
+                },
+                {
+                  "group": "Ámos",
+                  "pages": [
+                    "cs/kralicka1613/amos/index",
+                    "cs/kralicka1613/amos/1",
+                    "cs/kralicka1613/amos/2",
+                    "cs/kralicka1613/amos/3",
+                    "cs/kralicka1613/amos/4",
+                    "cs/kralicka1613/amos/5",
+                    "cs/kralicka1613/amos/6",
+                    "cs/kralicka1613/amos/7",
+                    "cs/kralicka1613/amos/8",
+                    "cs/kralicka1613/amos/9"
+                  ]
+                },
+                {
+                  "group": "Abdijáš",
+                  "pages": [
+                    "cs/kralicka1613/obadiah/index",
+                    "cs/kralicka1613/obadiah/1"
+                  ]
+                },
+                {
+                  "group": "Jonáš",
+                  "pages": [
+                    "cs/kralicka1613/jonah/index",
+                    "cs/kralicka1613/jonah/1",
+                    "cs/kralicka1613/jonah/2",
+                    "cs/kralicka1613/jonah/3",
+                    "cs/kralicka1613/jonah/4"
+                  ]
+                },
+                {
+                  "group": "Micheáš",
+                  "pages": [
+                    "cs/kralicka1613/micah/index",
+                    "cs/kralicka1613/micah/1",
+                    "cs/kralicka1613/micah/2",
+                    "cs/kralicka1613/micah/3",
+                    "cs/kralicka1613/micah/4",
+                    "cs/kralicka1613/micah/5",
+                    "cs/kralicka1613/micah/6",
+                    "cs/kralicka1613/micah/7"
+                  ]
+                },
+                {
+                  "group": "Nahum",
+                  "pages": [
+                    "cs/kralicka1613/nahum/index",
+                    "cs/kralicka1613/nahum/1",
+                    "cs/kralicka1613/nahum/2",
+                    "cs/kralicka1613/nahum/3"
+                  ]
+                },
+                {
+                  "group": "Abakuk",
+                  "pages": [
+                    "cs/kralicka1613/habakkuk/index",
+                    "cs/kralicka1613/habakkuk/1",
+                    "cs/kralicka1613/habakkuk/2",
+                    "cs/kralicka1613/habakkuk/3"
+                  ]
+                },
+                {
+                  "group": "Sofonjáš",
+                  "pages": [
+                    "cs/kralicka1613/zephaniah/index",
+                    "cs/kralicka1613/zephaniah/1",
+                    "cs/kralicka1613/zephaniah/2",
+                    "cs/kralicka1613/zephaniah/3"
+                  ]
+                },
+                {
+                  "group": "Ageus",
+                  "pages": [
+                    "cs/kralicka1613/haggai/index",
+                    "cs/kralicka1613/haggai/1",
+                    "cs/kralicka1613/haggai/2"
+                  ]
+                },
+                {
+                  "group": "Zacharjáš",
+                  "pages": [
+                    "cs/kralicka1613/zechariah/index",
+                    "cs/kralicka1613/zechariah/1",
+                    "cs/kralicka1613/zechariah/2",
+                    "cs/kralicka1613/zechariah/3",
+                    "cs/kralicka1613/zechariah/4",
+                    "cs/kralicka1613/zechariah/5",
+                    "cs/kralicka1613/zechariah/6",
+                    "cs/kralicka1613/zechariah/7",
+                    "cs/kralicka1613/zechariah/8",
+                    "cs/kralicka1613/zechariah/9",
+                    "cs/kralicka1613/zechariah/10",
+                    "cs/kralicka1613/zechariah/11",
+                    "cs/kralicka1613/zechariah/12",
+                    "cs/kralicka1613/zechariah/13",
+                    "cs/kralicka1613/zechariah/14"
+                  ]
+                },
+                {
+                  "group": "Malachiáš",
+                  "pages": [
+                    "cs/kralicka1613/malachi/index",
+                    "cs/kralicka1613/malachi/1",
+                    "cs/kralicka1613/malachi/2",
+                    "cs/kralicka1613/malachi/3",
+                    "cs/kralicka1613/malachi/4"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "Nový zákon",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Matouš",
+                  "pages": [
+                    "cs/kralicka1613/matthew/index",
+                    "cs/kralicka1613/matthew/1",
+                    "cs/kralicka1613/matthew/2",
+                    "cs/kralicka1613/matthew/3",
+                    "cs/kralicka1613/matthew/4",
+                    "cs/kralicka1613/matthew/5",
+                    "cs/kralicka1613/matthew/6",
+                    "cs/kralicka1613/matthew/7",
+                    "cs/kralicka1613/matthew/8",
+                    "cs/kralicka1613/matthew/9",
+                    "cs/kralicka1613/matthew/10",
+                    "cs/kralicka1613/matthew/11",
+                    "cs/kralicka1613/matthew/12",
+                    "cs/kralicka1613/matthew/13",
+                    "cs/kralicka1613/matthew/14",
+                    "cs/kralicka1613/matthew/15",
+                    "cs/kralicka1613/matthew/16",
+                    "cs/kralicka1613/matthew/17",
+                    "cs/kralicka1613/matthew/18",
+                    "cs/kralicka1613/matthew/19",
+                    "cs/kralicka1613/matthew/20",
+                    "cs/kralicka1613/matthew/21",
+                    "cs/kralicka1613/matthew/22",
+                    "cs/kralicka1613/matthew/23",
+                    "cs/kralicka1613/matthew/24",
+                    "cs/kralicka1613/matthew/25",
+                    "cs/kralicka1613/matthew/26",
+                    "cs/kralicka1613/matthew/27",
+                    "cs/kralicka1613/matthew/28"
+                  ]
+                },
+                {
+                  "group": "Marek",
+                  "pages": [
+                    "cs/kralicka1613/mark/index",
+                    "cs/kralicka1613/mark/1",
+                    "cs/kralicka1613/mark/2",
+                    "cs/kralicka1613/mark/3",
+                    "cs/kralicka1613/mark/4",
+                    "cs/kralicka1613/mark/5",
+                    "cs/kralicka1613/mark/6",
+                    "cs/kralicka1613/mark/7",
+                    "cs/kralicka1613/mark/8",
+                    "cs/kralicka1613/mark/9",
+                    "cs/kralicka1613/mark/10",
+                    "cs/kralicka1613/mark/11",
+                    "cs/kralicka1613/mark/12",
+                    "cs/kralicka1613/mark/13",
+                    "cs/kralicka1613/mark/14",
+                    "cs/kralicka1613/mark/15",
+                    "cs/kralicka1613/mark/16"
+                  ]
+                },
+                {
+                  "group": "Lukáš",
+                  "pages": [
+                    "cs/kralicka1613/luke/index",
+                    "cs/kralicka1613/luke/1",
+                    "cs/kralicka1613/luke/2",
+                    "cs/kralicka1613/luke/3",
+                    "cs/kralicka1613/luke/4",
+                    "cs/kralicka1613/luke/5",
+                    "cs/kralicka1613/luke/6",
+                    "cs/kralicka1613/luke/7",
+                    "cs/kralicka1613/luke/8",
+                    "cs/kralicka1613/luke/9",
+                    "cs/kralicka1613/luke/10",
+                    "cs/kralicka1613/luke/11",
+                    "cs/kralicka1613/luke/12",
+                    "cs/kralicka1613/luke/13",
+                    "cs/kralicka1613/luke/14",
+                    "cs/kralicka1613/luke/15",
+                    "cs/kralicka1613/luke/16",
+                    "cs/kralicka1613/luke/17",
+                    "cs/kralicka1613/luke/18",
+                    "cs/kralicka1613/luke/19",
+                    "cs/kralicka1613/luke/20",
+                    "cs/kralicka1613/luke/21",
+                    "cs/kralicka1613/luke/22",
+                    "cs/kralicka1613/luke/23",
+                    "cs/kralicka1613/luke/24"
+                  ]
+                },
+                {
+                  "group": "Jan",
+                  "pages": [
+                    "cs/kralicka1613/john/index",
+                    "cs/kralicka1613/john/1",
+                    "cs/kralicka1613/john/2",
+                    "cs/kralicka1613/john/3",
+                    "cs/kralicka1613/john/4",
+                    "cs/kralicka1613/john/5",
+                    "cs/kralicka1613/john/6",
+                    "cs/kralicka1613/john/7",
+                    "cs/kralicka1613/john/8",
+                    "cs/kralicka1613/john/9",
+                    "cs/kralicka1613/john/10",
+                    "cs/kralicka1613/john/11",
+                    "cs/kralicka1613/john/12",
+                    "cs/kralicka1613/john/13",
+                    "cs/kralicka1613/john/14",
+                    "cs/kralicka1613/john/15",
+                    "cs/kralicka1613/john/16",
+                    "cs/kralicka1613/john/17",
+                    "cs/kralicka1613/john/18",
+                    "cs/kralicka1613/john/19",
+                    "cs/kralicka1613/john/20",
+                    "cs/kralicka1613/john/21"
+                  ]
+                },
+                {
+                  "group": "Skutky apoštolské",
+                  "pages": [
+                    "cs/kralicka1613/acts/index",
+                    "cs/kralicka1613/acts/1",
+                    "cs/kralicka1613/acts/2",
+                    "cs/kralicka1613/acts/3",
+                    "cs/kralicka1613/acts/4",
+                    "cs/kralicka1613/acts/5",
+                    "cs/kralicka1613/acts/6",
+                    "cs/kralicka1613/acts/7",
+                    "cs/kralicka1613/acts/8",
+                    "cs/kralicka1613/acts/9",
+                    "cs/kralicka1613/acts/10",
+                    "cs/kralicka1613/acts/11",
+                    "cs/kralicka1613/acts/12",
+                    "cs/kralicka1613/acts/13",
+                    "cs/kralicka1613/acts/14",
+                    "cs/kralicka1613/acts/15",
+                    "cs/kralicka1613/acts/16",
+                    "cs/kralicka1613/acts/17",
+                    "cs/kralicka1613/acts/18",
+                    "cs/kralicka1613/acts/19",
+                    "cs/kralicka1613/acts/20",
+                    "cs/kralicka1613/acts/21",
+                    "cs/kralicka1613/acts/22",
+                    "cs/kralicka1613/acts/23",
+                    "cs/kralicka1613/acts/24",
+                    "cs/kralicka1613/acts/25",
+                    "cs/kralicka1613/acts/26",
+                    "cs/kralicka1613/acts/27",
+                    "cs/kralicka1613/acts/28"
+                  ]
+                },
+                {
+                  "group": "Římanům",
+                  "pages": [
+                    "cs/kralicka1613/romans/index",
+                    "cs/kralicka1613/romans/1",
+                    "cs/kralicka1613/romans/2",
+                    "cs/kralicka1613/romans/3",
+                    "cs/kralicka1613/romans/4",
+                    "cs/kralicka1613/romans/5",
+                    "cs/kralicka1613/romans/6",
+                    "cs/kralicka1613/romans/7",
+                    "cs/kralicka1613/romans/8",
+                    "cs/kralicka1613/romans/9",
+                    "cs/kralicka1613/romans/10",
+                    "cs/kralicka1613/romans/11",
+                    "cs/kralicka1613/romans/12",
+                    "cs/kralicka1613/romans/13",
+                    "cs/kralicka1613/romans/14",
+                    "cs/kralicka1613/romans/15",
+                    "cs/kralicka1613/romans/16"
+                  ]
+                },
+                {
+                  "group": "1 Korintským",
+                  "pages": [
+                    "cs/kralicka1613/1-corinthians/index",
+                    "cs/kralicka1613/1-corinthians/1",
+                    "cs/kralicka1613/1-corinthians/2",
+                    "cs/kralicka1613/1-corinthians/3",
+                    "cs/kralicka1613/1-corinthians/4",
+                    "cs/kralicka1613/1-corinthians/5",
+                    "cs/kralicka1613/1-corinthians/6",
+                    "cs/kralicka1613/1-corinthians/7",
+                    "cs/kralicka1613/1-corinthians/8",
+                    "cs/kralicka1613/1-corinthians/9",
+                    "cs/kralicka1613/1-corinthians/10",
+                    "cs/kralicka1613/1-corinthians/11",
+                    "cs/kralicka1613/1-corinthians/12",
+                    "cs/kralicka1613/1-corinthians/13",
+                    "cs/kralicka1613/1-corinthians/14",
+                    "cs/kralicka1613/1-corinthians/15",
+                    "cs/kralicka1613/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2 Korintským",
+                  "pages": [
+                    "cs/kralicka1613/2-corinthians/index",
+                    "cs/kralicka1613/2-corinthians/1",
+                    "cs/kralicka1613/2-corinthians/2",
+                    "cs/kralicka1613/2-corinthians/3",
+                    "cs/kralicka1613/2-corinthians/4",
+                    "cs/kralicka1613/2-corinthians/5",
+                    "cs/kralicka1613/2-corinthians/6",
+                    "cs/kralicka1613/2-corinthians/7",
+                    "cs/kralicka1613/2-corinthians/8",
+                    "cs/kralicka1613/2-corinthians/9",
+                    "cs/kralicka1613/2-corinthians/10",
+                    "cs/kralicka1613/2-corinthians/11",
+                    "cs/kralicka1613/2-corinthians/12",
+                    "cs/kralicka1613/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "Galatským",
+                  "pages": [
+                    "cs/kralicka1613/galatians/index",
+                    "cs/kralicka1613/galatians/1",
+                    "cs/kralicka1613/galatians/2",
+                    "cs/kralicka1613/galatians/3",
+                    "cs/kralicka1613/galatians/4",
+                    "cs/kralicka1613/galatians/5",
+                    "cs/kralicka1613/galatians/6"
+                  ]
+                },
+                {
+                  "group": "Efezským",
+                  "pages": [
+                    "cs/kralicka1613/ephesians/index",
+                    "cs/kralicka1613/ephesians/1",
+                    "cs/kralicka1613/ephesians/2",
+                    "cs/kralicka1613/ephesians/3",
+                    "cs/kralicka1613/ephesians/4",
+                    "cs/kralicka1613/ephesians/5",
+                    "cs/kralicka1613/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "Filipským",
+                  "pages": [
+                    "cs/kralicka1613/philippians/index",
+                    "cs/kralicka1613/philippians/1",
+                    "cs/kralicka1613/philippians/2",
+                    "cs/kralicka1613/philippians/3",
+                    "cs/kralicka1613/philippians/4"
+                  ]
+                },
+                {
+                  "group": "Koloským",
+                  "pages": [
+                    "cs/kralicka1613/colossians/index",
+                    "cs/kralicka1613/colossians/1",
+                    "cs/kralicka1613/colossians/2",
+                    "cs/kralicka1613/colossians/3",
+                    "cs/kralicka1613/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1 Tesalonickým",
+                  "pages": [
+                    "cs/kralicka1613/1-thessalonians/index",
+                    "cs/kralicka1613/1-thessalonians/1",
+                    "cs/kralicka1613/1-thessalonians/2",
+                    "cs/kralicka1613/1-thessalonians/3",
+                    "cs/kralicka1613/1-thessalonians/4",
+                    "cs/kralicka1613/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2 Tesalonickým",
+                  "pages": [
+                    "cs/kralicka1613/2-thessalonians/index",
+                    "cs/kralicka1613/2-thessalonians/1",
+                    "cs/kralicka1613/2-thessalonians/2",
+                    "cs/kralicka1613/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1 Timoteovi",
+                  "pages": [
+                    "cs/kralicka1613/1-timothy/index",
+                    "cs/kralicka1613/1-timothy/1",
+                    "cs/kralicka1613/1-timothy/2",
+                    "cs/kralicka1613/1-timothy/3",
+                    "cs/kralicka1613/1-timothy/4",
+                    "cs/kralicka1613/1-timothy/5",
+                    "cs/kralicka1613/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2 Timoteovi",
+                  "pages": [
+                    "cs/kralicka1613/2-timothy/index",
+                    "cs/kralicka1613/2-timothy/1",
+                    "cs/kralicka1613/2-timothy/2",
+                    "cs/kralicka1613/2-timothy/3",
+                    "cs/kralicka1613/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "Titovi",
+                  "pages": [
+                    "cs/kralicka1613/titus/index",
+                    "cs/kralicka1613/titus/1",
+                    "cs/kralicka1613/titus/2",
+                    "cs/kralicka1613/titus/3"
+                  ]
+                },
+                {
+                  "group": "Filemonovi",
+                  "pages": [
+                    "cs/kralicka1613/philemon/index",
+                    "cs/kralicka1613/philemon/1"
+                  ]
+                },
+                {
+                  "group": "Židům",
+                  "pages": [
+                    "cs/kralicka1613/hebrews/index",
+                    "cs/kralicka1613/hebrews/1",
+                    "cs/kralicka1613/hebrews/2",
+                    "cs/kralicka1613/hebrews/3",
+                    "cs/kralicka1613/hebrews/4",
+                    "cs/kralicka1613/hebrews/5",
+                    "cs/kralicka1613/hebrews/6",
+                    "cs/kralicka1613/hebrews/7",
+                    "cs/kralicka1613/hebrews/8",
+                    "cs/kralicka1613/hebrews/9",
+                    "cs/kralicka1613/hebrews/10",
+                    "cs/kralicka1613/hebrews/11",
+                    "cs/kralicka1613/hebrews/12",
+                    "cs/kralicka1613/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "Jakubův",
+                  "pages": [
+                    "cs/kralicka1613/james/index",
+                    "cs/kralicka1613/james/1",
+                    "cs/kralicka1613/james/2",
+                    "cs/kralicka1613/james/3",
+                    "cs/kralicka1613/james/4",
+                    "cs/kralicka1613/james/5"
+                  ]
+                },
+                {
+                  "group": "1 Petrův",
+                  "pages": [
+                    "cs/kralicka1613/1-peter/index",
+                    "cs/kralicka1613/1-peter/1",
+                    "cs/kralicka1613/1-peter/2",
+                    "cs/kralicka1613/1-peter/3",
+                    "cs/kralicka1613/1-peter/4",
+                    "cs/kralicka1613/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "2 Petrův",
+                  "pages": [
+                    "cs/kralicka1613/2-peter/index",
+                    "cs/kralicka1613/2-peter/1",
+                    "cs/kralicka1613/2-peter/2",
+                    "cs/kralicka1613/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "1 Janův",
+                  "pages": [
+                    "cs/kralicka1613/1-john/index",
+                    "cs/kralicka1613/1-john/1",
+                    "cs/kralicka1613/1-john/2",
+                    "cs/kralicka1613/1-john/3",
+                    "cs/kralicka1613/1-john/4",
+                    "cs/kralicka1613/1-john/5"
+                  ]
+                },
+                {
+                  "group": "2 Janův",
+                  "pages": [
+                    "cs/kralicka1613/2-john/index",
+                    "cs/kralicka1613/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3 Janův",
+                  "pages": [
+                    "cs/kralicka1613/3-john/index",
+                    "cs/kralicka1613/3-john/1"
+                  ]
+                },
+                {
+                  "group": "Judův",
+                  "pages": [
+                    "cs/kralicka1613/jude/index",
+                    "cs/kralicka1613/jude/1"
+                  ]
+                },
+                {
+                  "group": "Zjevení Janovo",
+                  "pages": [
+                    "cs/kralicka1613/revelation/index",
+                    "cs/kralicka1613/revelation/1",
+                    "cs/kralicka1613/revelation/2",
+                    "cs/kralicka1613/revelation/3",
+                    "cs/kralicka1613/revelation/4",
+                    "cs/kralicka1613/revelation/5",
+                    "cs/kralicka1613/revelation/6",
+                    "cs/kralicka1613/revelation/7",
+                    "cs/kralicka1613/revelation/8",
+                    "cs/kralicka1613/revelation/9",
+                    "cs/kralicka1613/revelation/10",
+                    "cs/kralicka1613/revelation/11",
+                    "cs/kralicka1613/revelation/12",
+                    "cs/kralicka1613/revelation/13",
+                    "cs/kralicka1613/revelation/14",
+                    "cs/kralicka1613/revelation/15",
+                    "cs/kralicka1613/revelation/16",
+                    "cs/kralicka1613/revelation/17",
+                    "cs/kralicka1613/revelation/18",
+                    "cs/kralicka1613/revelation/19",
+                    "cs/kralicka1613/revelation/20",
+                    "cs/kralicka1613/revelation/21",
+                    "cs/kralicka1613/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "default": true
+    },
+    {
+      "version": "NKB",
+      "tabs": [
+        {
+          "tab": "Bible",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Nová Bible Kralická",
+              "icon": "book-open",
+              "pages": [
+                "cs/nkb/index"
+              ]
+            },
+            {
+              "group": "Nový zákon",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Matouš",
+                  "pages": [
+                    "cs/nkb/matthew/index",
+                    "cs/nkb/matthew/1",
+                    "cs/nkb/matthew/2",
+                    "cs/nkb/matthew/3",
+                    "cs/nkb/matthew/4",
+                    "cs/nkb/matthew/5",
+                    "cs/nkb/matthew/6",
+                    "cs/nkb/matthew/7",
+                    "cs/nkb/matthew/8",
+                    "cs/nkb/matthew/9",
+                    "cs/nkb/matthew/10",
+                    "cs/nkb/matthew/11",
+                    "cs/nkb/matthew/12",
+                    "cs/nkb/matthew/13",
+                    "cs/nkb/matthew/14",
+                    "cs/nkb/matthew/15",
+                    "cs/nkb/matthew/16",
+                    "cs/nkb/matthew/17",
+                    "cs/nkb/matthew/18",
+                    "cs/nkb/matthew/19",
+                    "cs/nkb/matthew/20",
+                    "cs/nkb/matthew/21",
+                    "cs/nkb/matthew/22",
+                    "cs/nkb/matthew/23",
+                    "cs/nkb/matthew/24",
+                    "cs/nkb/matthew/25",
+                    "cs/nkb/matthew/26",
+                    "cs/nkb/matthew/27",
+                    "cs/nkb/matthew/28"
+                  ]
+                },
+                {
+                  "group": "Marek",
+                  "pages": [
+                    "cs/nkb/mark/index",
+                    "cs/nkb/mark/1",
+                    "cs/nkb/mark/2",
+                    "cs/nkb/mark/3",
+                    "cs/nkb/mark/4",
+                    "cs/nkb/mark/5",
+                    "cs/nkb/mark/6",
+                    "cs/nkb/mark/7",
+                    "cs/nkb/mark/8",
+                    "cs/nkb/mark/9",
+                    "cs/nkb/mark/10",
+                    "cs/nkb/mark/11",
+                    "cs/nkb/mark/12",
+                    "cs/nkb/mark/13",
+                    "cs/nkb/mark/14",
+                    "cs/nkb/mark/15",
+                    "cs/nkb/mark/16"
+                  ]
+                },
+                {
+                  "group": "Lukáš",
+                  "pages": [
+                    "cs/nkb/luke/index",
+                    "cs/nkb/luke/1",
+                    "cs/nkb/luke/2",
+                    "cs/nkb/luke/3",
+                    "cs/nkb/luke/4",
+                    "cs/nkb/luke/5",
+                    "cs/nkb/luke/6",
+                    "cs/nkb/luke/7",
+                    "cs/nkb/luke/8",
+                    "cs/nkb/luke/9",
+                    "cs/nkb/luke/10",
+                    "cs/nkb/luke/11",
+                    "cs/nkb/luke/12",
+                    "cs/nkb/luke/13",
+                    "cs/nkb/luke/14",
+                    "cs/nkb/luke/15",
+                    "cs/nkb/luke/16",
+                    "cs/nkb/luke/17",
+                    "cs/nkb/luke/18",
+                    "cs/nkb/luke/19",
+                    "cs/nkb/luke/20",
+                    "cs/nkb/luke/21",
+                    "cs/nkb/luke/22",
+                    "cs/nkb/luke/23",
+                    "cs/nkb/luke/24"
+                  ]
+                },
+                {
+                  "group": "Jan",
+                  "pages": [
+                    "cs/nkb/john/index",
+                    "cs/nkb/john/1",
+                    "cs/nkb/john/2",
+                    "cs/nkb/john/3",
+                    "cs/nkb/john/4",
+                    "cs/nkb/john/5",
+                    "cs/nkb/john/6",
+                    "cs/nkb/john/7",
+                    "cs/nkb/john/8",
+                    "cs/nkb/john/9",
+                    "cs/nkb/john/10",
+                    "cs/nkb/john/11",
+                    "cs/nkb/john/12",
+                    "cs/nkb/john/13",
+                    "cs/nkb/john/14",
+                    "cs/nkb/john/15",
+                    "cs/nkb/john/16",
+                    "cs/nkb/john/17",
+                    "cs/nkb/john/18",
+                    "cs/nkb/john/19",
+                    "cs/nkb/john/20",
+                    "cs/nkb/john/21"
+                  ]
+                },
+                {
+                  "group": "Skutky apoštolské",
+                  "pages": [
+                    "cs/nkb/acts/index",
+                    "cs/nkb/acts/1",
+                    "cs/nkb/acts/2",
+                    "cs/nkb/acts/3",
+                    "cs/nkb/acts/4",
+                    "cs/nkb/acts/5",
+                    "cs/nkb/acts/6",
+                    "cs/nkb/acts/7",
+                    "cs/nkb/acts/8",
+                    "cs/nkb/acts/9",
+                    "cs/nkb/acts/10",
+                    "cs/nkb/acts/11",
+                    "cs/nkb/acts/12",
+                    "cs/nkb/acts/13",
+                    "cs/nkb/acts/14",
+                    "cs/nkb/acts/15",
+                    "cs/nkb/acts/16",
+                    "cs/nkb/acts/17",
+                    "cs/nkb/acts/18",
+                    "cs/nkb/acts/19",
+                    "cs/nkb/acts/20",
+                    "cs/nkb/acts/21",
+                    "cs/nkb/acts/22",
+                    "cs/nkb/acts/23",
+                    "cs/nkb/acts/24",
+                    "cs/nkb/acts/25",
+                    "cs/nkb/acts/26",
+                    "cs/nkb/acts/27",
+                    "cs/nkb/acts/28"
+                  ]
+                },
+                {
+                  "group": "Římanům",
+                  "pages": [
+                    "cs/nkb/romans/index",
+                    "cs/nkb/romans/1",
+                    "cs/nkb/romans/2",
+                    "cs/nkb/romans/3",
+                    "cs/nkb/romans/4",
+                    "cs/nkb/romans/5",
+                    "cs/nkb/romans/6",
+                    "cs/nkb/romans/7",
+                    "cs/nkb/romans/8",
+                    "cs/nkb/romans/9",
+                    "cs/nkb/romans/10",
+                    "cs/nkb/romans/11",
+                    "cs/nkb/romans/12",
+                    "cs/nkb/romans/13",
+                    "cs/nkb/romans/14",
+                    "cs/nkb/romans/15",
+                    "cs/nkb/romans/16"
+                  ]
+                },
+                {
+                  "group": "1.list Korintským",
+                  "pages": [
+                    "cs/nkb/1-corinthians/index",
+                    "cs/nkb/1-corinthians/1",
+                    "cs/nkb/1-corinthians/2",
+                    "cs/nkb/1-corinthians/3",
+                    "cs/nkb/1-corinthians/4",
+                    "cs/nkb/1-corinthians/5",
+                    "cs/nkb/1-corinthians/6",
+                    "cs/nkb/1-corinthians/7",
+                    "cs/nkb/1-corinthians/8",
+                    "cs/nkb/1-corinthians/9",
+                    "cs/nkb/1-corinthians/10",
+                    "cs/nkb/1-corinthians/11",
+                    "cs/nkb/1-corinthians/12",
+                    "cs/nkb/1-corinthians/13",
+                    "cs/nkb/1-corinthians/14",
+                    "cs/nkb/1-corinthians/15",
+                    "cs/nkb/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2.list Korintským",
+                  "pages": [
+                    "cs/nkb/2-corinthians/index",
+                    "cs/nkb/2-corinthians/1",
+                    "cs/nkb/2-corinthians/2",
+                    "cs/nkb/2-corinthians/3",
+                    "cs/nkb/2-corinthians/4",
+                    "cs/nkb/2-corinthians/5",
+                    "cs/nkb/2-corinthians/6",
+                    "cs/nkb/2-corinthians/7",
+                    "cs/nkb/2-corinthians/8",
+                    "cs/nkb/2-corinthians/9",
+                    "cs/nkb/2-corinthians/10",
+                    "cs/nkb/2-corinthians/11",
+                    "cs/nkb/2-corinthians/12",
+                    "cs/nkb/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "Galatským",
+                  "pages": [
+                    "cs/nkb/galatians/index",
+                    "cs/nkb/galatians/1",
+                    "cs/nkb/galatians/2",
+                    "cs/nkb/galatians/3",
+                    "cs/nkb/galatians/4",
+                    "cs/nkb/galatians/5",
+                    "cs/nkb/galatians/6"
+                  ]
+                },
+                {
+                  "group": "Efezským",
+                  "pages": [
+                    "cs/nkb/ephesians/index",
+                    "cs/nkb/ephesians/1",
+                    "cs/nkb/ephesians/2",
+                    "cs/nkb/ephesians/3",
+                    "cs/nkb/ephesians/4",
+                    "cs/nkb/ephesians/5",
+                    "cs/nkb/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "Filipským",
+                  "pages": [
+                    "cs/nkb/philippians/index",
+                    "cs/nkb/philippians/1",
+                    "cs/nkb/philippians/2",
+                    "cs/nkb/philippians/3",
+                    "cs/nkb/philippians/4"
+                  ]
+                },
+                {
+                  "group": "Koloským",
+                  "pages": [
+                    "cs/nkb/colossians/index",
+                    "cs/nkb/colossians/1",
+                    "cs/nkb/colossians/2",
+                    "cs/nkb/colossians/3",
+                    "cs/nkb/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1.list Tesalonickým",
+                  "pages": [
+                    "cs/nkb/1-thessalonians/index",
+                    "cs/nkb/1-thessalonians/1",
+                    "cs/nkb/1-thessalonians/2",
+                    "cs/nkb/1-thessalonians/3",
+                    "cs/nkb/1-thessalonians/4",
+                    "cs/nkb/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2.list Tesalonickým",
+                  "pages": [
+                    "cs/nkb/2-thessalonians/index",
+                    "cs/nkb/2-thessalonians/1",
+                    "cs/nkb/2-thessalonians/2",
+                    "cs/nkb/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1.list Timoteovi",
+                  "pages": [
+                    "cs/nkb/1-timothy/index",
+                    "cs/nkb/1-timothy/1",
+                    "cs/nkb/1-timothy/2",
+                    "cs/nkb/1-timothy/3",
+                    "cs/nkb/1-timothy/4",
+                    "cs/nkb/1-timothy/5",
+                    "cs/nkb/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2.list Timoteovi",
+                  "pages": [
+                    "cs/nkb/2-timothy/index",
+                    "cs/nkb/2-timothy/1",
+                    "cs/nkb/2-timothy/2",
+                    "cs/nkb/2-timothy/3",
+                    "cs/nkb/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "Titovi",
+                  "pages": [
+                    "cs/nkb/titus/index",
+                    "cs/nkb/titus/1",
+                    "cs/nkb/titus/2",
+                    "cs/nkb/titus/3"
+                  ]
+                },
+                {
+                  "group": "Filemonovi",
+                  "pages": [
+                    "cs/nkb/philemon/index",
+                    "cs/nkb/philemon/1"
+                  ]
+                },
+                {
+                  "group": "Židům",
+                  "pages": [
+                    "cs/nkb/hebrews/index",
+                    "cs/nkb/hebrews/1",
+                    "cs/nkb/hebrews/2",
+                    "cs/nkb/hebrews/3",
+                    "cs/nkb/hebrews/4",
+                    "cs/nkb/hebrews/5",
+                    "cs/nkb/hebrews/6",
+                    "cs/nkb/hebrews/7",
+                    "cs/nkb/hebrews/8",
+                    "cs/nkb/hebrews/9",
+                    "cs/nkb/hebrews/10",
+                    "cs/nkb/hebrews/11",
+                    "cs/nkb/hebrews/12",
+                    "cs/nkb/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "List Jakubův",
+                  "pages": [
+                    "cs/nkb/james/index",
+                    "cs/nkb/james/1",
+                    "cs/nkb/james/2",
+                    "cs/nkb/james/3",
+                    "cs/nkb/james/4",
+                    "cs/nkb/james/5"
+                  ]
+                },
+                {
+                  "group": "1.list Petrův",
+                  "pages": [
+                    "cs/nkb/1-peter/index",
+                    "cs/nkb/1-peter/1",
+                    "cs/nkb/1-peter/2",
+                    "cs/nkb/1-peter/3",
+                    "cs/nkb/1-peter/4",
+                    "cs/nkb/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "2.list Petrův",
+                  "pages": [
+                    "cs/nkb/2-peter/index",
+                    "cs/nkb/2-peter/1",
+                    "cs/nkb/2-peter/2",
+                    "cs/nkb/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "1.list Janův",
+                  "pages": [
+                    "cs/nkb/1-john/index",
+                    "cs/nkb/1-john/1",
+                    "cs/nkb/1-john/2",
+                    "cs/nkb/1-john/3",
+                    "cs/nkb/1-john/4",
+                    "cs/nkb/1-john/5"
+                  ]
+                },
+                {
+                  "group": "2.list Janův",
+                  "pages": [
+                    "cs/nkb/2-john/index",
+                    "cs/nkb/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3.list Janův",
+                  "pages": [
+                    "cs/nkb/3-john/index",
+                    "cs/nkb/3-john/1"
+                  ]
+                },
+                {
+                  "group": "List Judův",
+                  "pages": [
+                    "cs/nkb/jude/index",
+                    "cs/nkb/jude/1"
+                  ]
+                },
+                {
+                  "group": "Zjevení Janovo",
+                  "pages": [
+                    "cs/nkb/revelation/index",
+                    "cs/nkb/revelation/1",
+                    "cs/nkb/revelation/2",
+                    "cs/nkb/revelation/3",
+                    "cs/nkb/revelation/4",
+                    "cs/nkb/revelation/5",
+                    "cs/nkb/revelation/6",
+                    "cs/nkb/revelation/7",
+                    "cs/nkb/revelation/8",
+                    "cs/nkb/revelation/9",
+                    "cs/nkb/revelation/10",
+                    "cs/nkb/revelation/11",
+                    "cs/nkb/revelation/12",
+                    "cs/nkb/revelation/13",
+                    "cs/nkb/revelation/14",
+                    "cs/nkb/revelation/15",
+                    "cs/nkb/revelation/16",
+                    "cs/nkb/revelation/17",
+                    "cs/nkb/revelation/18",
+                    "cs/nkb/revelation/19",
+                    "cs/nkb/revelation/20",
+                    "cs/nkb/revelation/21",
+                    "cs/nkb/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tag": "NT"
+    },
+    {
+      "version": "SNC",
+      "tabs": [
+        {
+          "tab": "Bible",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Slovo na cestu",
+              "icon": "book-open",
+              "pages": [
+                "cs/snc/index"
+              ]
+            },
+            {
+              "group": "Nový zákon",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Matouš",
+                  "pages": [
+                    "cs/snc/matthew/index",
+                    "cs/snc/matthew/1",
+                    "cs/snc/matthew/2",
+                    "cs/snc/matthew/3",
+                    "cs/snc/matthew/4",
+                    "cs/snc/matthew/5",
+                    "cs/snc/matthew/6",
+                    "cs/snc/matthew/7",
+                    "cs/snc/matthew/8",
+                    "cs/snc/matthew/9",
+                    "cs/snc/matthew/10",
+                    "cs/snc/matthew/11",
+                    "cs/snc/matthew/12",
+                    "cs/snc/matthew/13",
+                    "cs/snc/matthew/14",
+                    "cs/snc/matthew/15",
+                    "cs/snc/matthew/16",
+                    "cs/snc/matthew/17",
+                    "cs/snc/matthew/18",
+                    "cs/snc/matthew/19",
+                    "cs/snc/matthew/20",
+                    "cs/snc/matthew/21",
+                    "cs/snc/matthew/22",
+                    "cs/snc/matthew/23",
+                    "cs/snc/matthew/24",
+                    "cs/snc/matthew/25",
+                    "cs/snc/matthew/26",
+                    "cs/snc/matthew/27",
+                    "cs/snc/matthew/28"
+                  ]
+                },
+                {
+                  "group": "Marek",
+                  "pages": [
+                    "cs/snc/mark/index",
+                    "cs/snc/mark/1",
+                    "cs/snc/mark/2",
+                    "cs/snc/mark/3",
+                    "cs/snc/mark/4",
+                    "cs/snc/mark/5",
+                    "cs/snc/mark/6",
+                    "cs/snc/mark/7",
+                    "cs/snc/mark/8",
+                    "cs/snc/mark/9",
+                    "cs/snc/mark/10",
+                    "cs/snc/mark/11",
+                    "cs/snc/mark/12",
+                    "cs/snc/mark/13",
+                    "cs/snc/mark/14",
+                    "cs/snc/mark/15",
+                    "cs/snc/mark/16"
+                  ]
+                },
+                {
+                  "group": "Lukáš",
+                  "pages": [
+                    "cs/snc/luke/index",
+                    "cs/snc/luke/1",
+                    "cs/snc/luke/2",
+                    "cs/snc/luke/3",
+                    "cs/snc/luke/4",
+                    "cs/snc/luke/5",
+                    "cs/snc/luke/6",
+                    "cs/snc/luke/7",
+                    "cs/snc/luke/8",
+                    "cs/snc/luke/9",
+                    "cs/snc/luke/10",
+                    "cs/snc/luke/11",
+                    "cs/snc/luke/12",
+                    "cs/snc/luke/13",
+                    "cs/snc/luke/14",
+                    "cs/snc/luke/15",
+                    "cs/snc/luke/16",
+                    "cs/snc/luke/17",
+                    "cs/snc/luke/18",
+                    "cs/snc/luke/19",
+                    "cs/snc/luke/20",
+                    "cs/snc/luke/21",
+                    "cs/snc/luke/22",
+                    "cs/snc/luke/23",
+                    "cs/snc/luke/24"
+                  ]
+                },
+                {
+                  "group": "Jan",
+                  "pages": [
+                    "cs/snc/john/index",
+                    "cs/snc/john/1",
+                    "cs/snc/john/2",
+                    "cs/snc/john/3",
+                    "cs/snc/john/4",
+                    "cs/snc/john/5",
+                    "cs/snc/john/6",
+                    "cs/snc/john/7",
+                    "cs/snc/john/8",
+                    "cs/snc/john/9",
+                    "cs/snc/john/10",
+                    "cs/snc/john/11",
+                    "cs/snc/john/12",
+                    "cs/snc/john/13",
+                    "cs/snc/john/14",
+                    "cs/snc/john/15",
+                    "cs/snc/john/16",
+                    "cs/snc/john/17",
+                    "cs/snc/john/18",
+                    "cs/snc/john/19",
+                    "cs/snc/john/20",
+                    "cs/snc/john/21"
+                  ]
+                },
+                {
+                  "group": "Skutky",
+                  "pages": [
+                    "cs/snc/acts/index",
+                    "cs/snc/acts/1",
+                    "cs/snc/acts/2",
+                    "cs/snc/acts/3",
+                    "cs/snc/acts/4",
+                    "cs/snc/acts/5",
+                    "cs/snc/acts/6",
+                    "cs/snc/acts/7",
+                    "cs/snc/acts/8",
+                    "cs/snc/acts/9",
+                    "cs/snc/acts/10",
+                    "cs/snc/acts/11",
+                    "cs/snc/acts/12",
+                    "cs/snc/acts/13",
+                    "cs/snc/acts/14",
+                    "cs/snc/acts/15",
+                    "cs/snc/acts/16",
+                    "cs/snc/acts/17",
+                    "cs/snc/acts/18",
+                    "cs/snc/acts/19",
+                    "cs/snc/acts/20",
+                    "cs/snc/acts/21",
+                    "cs/snc/acts/22",
+                    "cs/snc/acts/23",
+                    "cs/snc/acts/24",
+                    "cs/snc/acts/25",
+                    "cs/snc/acts/26",
+                    "cs/snc/acts/27",
+                    "cs/snc/acts/28"
+                  ]
+                },
+                {
+                  "group": "Římanům",
+                  "pages": [
+                    "cs/snc/romans/index",
+                    "cs/snc/romans/1",
+                    "cs/snc/romans/2",
+                    "cs/snc/romans/3",
+                    "cs/snc/romans/4",
+                    "cs/snc/romans/5",
+                    "cs/snc/romans/6",
+                    "cs/snc/romans/7",
+                    "cs/snc/romans/8",
+                    "cs/snc/romans/9",
+                    "cs/snc/romans/10",
+                    "cs/snc/romans/11",
+                    "cs/snc/romans/12",
+                    "cs/snc/romans/13",
+                    "cs/snc/romans/14",
+                    "cs/snc/romans/15",
+                    "cs/snc/romans/16"
+                  ]
+                },
+                {
+                  "group": "1. Korintským",
+                  "pages": [
+                    "cs/snc/1-corinthians/index",
+                    "cs/snc/1-corinthians/1",
+                    "cs/snc/1-corinthians/2",
+                    "cs/snc/1-corinthians/3",
+                    "cs/snc/1-corinthians/4",
+                    "cs/snc/1-corinthians/5",
+                    "cs/snc/1-corinthians/6",
+                    "cs/snc/1-corinthians/7",
+                    "cs/snc/1-corinthians/8",
+                    "cs/snc/1-corinthians/9",
+                    "cs/snc/1-corinthians/10",
+                    "cs/snc/1-corinthians/11",
+                    "cs/snc/1-corinthians/12",
+                    "cs/snc/1-corinthians/13",
+                    "cs/snc/1-corinthians/14",
+                    "cs/snc/1-corinthians/15",
+                    "cs/snc/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2. Korintským",
+                  "pages": [
+                    "cs/snc/2-corinthians/index",
+                    "cs/snc/2-corinthians/1",
+                    "cs/snc/2-corinthians/2",
+                    "cs/snc/2-corinthians/3",
+                    "cs/snc/2-corinthians/4",
+                    "cs/snc/2-corinthians/5",
+                    "cs/snc/2-corinthians/6",
+                    "cs/snc/2-corinthians/7",
+                    "cs/snc/2-corinthians/8",
+                    "cs/snc/2-corinthians/9",
+                    "cs/snc/2-corinthians/10",
+                    "cs/snc/2-corinthians/11",
+                    "cs/snc/2-corinthians/12",
+                    "cs/snc/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "Galatským",
+                  "pages": [
+                    "cs/snc/galatians/index",
+                    "cs/snc/galatians/1",
+                    "cs/snc/galatians/2",
+                    "cs/snc/galatians/3",
+                    "cs/snc/galatians/4",
+                    "cs/snc/galatians/5",
+                    "cs/snc/galatians/6"
+                  ]
+                },
+                {
+                  "group": "Efezským",
+                  "pages": [
+                    "cs/snc/ephesians/index",
+                    "cs/snc/ephesians/1",
+                    "cs/snc/ephesians/2",
+                    "cs/snc/ephesians/3",
+                    "cs/snc/ephesians/4",
+                    "cs/snc/ephesians/5",
+                    "cs/snc/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "Filipským",
+                  "pages": [
+                    "cs/snc/philippians/index",
+                    "cs/snc/philippians/1",
+                    "cs/snc/philippians/2",
+                    "cs/snc/philippians/3",
+                    "cs/snc/philippians/4"
+                  ]
+                },
+                {
+                  "group": "Koloským",
+                  "pages": [
+                    "cs/snc/colossians/index",
+                    "cs/snc/colossians/1",
+                    "cs/snc/colossians/2",
+                    "cs/snc/colossians/3",
+                    "cs/snc/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1. Tesalonickým",
+                  "pages": [
+                    "cs/snc/1-thessalonians/index",
+                    "cs/snc/1-thessalonians/1",
+                    "cs/snc/1-thessalonians/2",
+                    "cs/snc/1-thessalonians/3",
+                    "cs/snc/1-thessalonians/4",
+                    "cs/snc/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2. Tesalonickým",
+                  "pages": [
+                    "cs/snc/2-thessalonians/index",
+                    "cs/snc/2-thessalonians/1",
+                    "cs/snc/2-thessalonians/2",
+                    "cs/snc/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1. Timotejovi",
+                  "pages": [
+                    "cs/snc/1-timothy/index",
+                    "cs/snc/1-timothy/1",
+                    "cs/snc/1-timothy/2",
+                    "cs/snc/1-timothy/3",
+                    "cs/snc/1-timothy/4",
+                    "cs/snc/1-timothy/5",
+                    "cs/snc/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2. Timotejovi",
+                  "pages": [
+                    "cs/snc/2-timothy/index",
+                    "cs/snc/2-timothy/1",
+                    "cs/snc/2-timothy/2",
+                    "cs/snc/2-timothy/3",
+                    "cs/snc/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "Titovi",
+                  "pages": [
+                    "cs/snc/titus/index",
+                    "cs/snc/titus/1",
+                    "cs/snc/titus/2",
+                    "cs/snc/titus/3"
+                  ]
+                },
+                {
+                  "group": "Filemonovi",
+                  "pages": [
+                    "cs/snc/philemon/index",
+                    "cs/snc/philemon/1"
+                  ]
+                },
+                {
+                  "group": "Židům",
+                  "pages": [
+                    "cs/snc/hebrews/index",
+                    "cs/snc/hebrews/1",
+                    "cs/snc/hebrews/2",
+                    "cs/snc/hebrews/3",
+                    "cs/snc/hebrews/4",
+                    "cs/snc/hebrews/5",
+                    "cs/snc/hebrews/6",
+                    "cs/snc/hebrews/7",
+                    "cs/snc/hebrews/8",
+                    "cs/snc/hebrews/9",
+                    "cs/snc/hebrews/10",
+                    "cs/snc/hebrews/11",
+                    "cs/snc/hebrews/12",
+                    "cs/snc/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "Jakubův",
+                  "pages": [
+                    "cs/snc/james/index",
+                    "cs/snc/james/1",
+                    "cs/snc/james/2",
+                    "cs/snc/james/3",
+                    "cs/snc/james/4",
+                    "cs/snc/james/5"
+                  ]
+                },
+                {
+                  "group": "1. Petrův",
+                  "pages": [
+                    "cs/snc/1-peter/index",
+                    "cs/snc/1-peter/1",
+                    "cs/snc/1-peter/2",
+                    "cs/snc/1-peter/3",
+                    "cs/snc/1-peter/4",
+                    "cs/snc/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "2. Petrův",
+                  "pages": [
+                    "cs/snc/2-peter/index",
+                    "cs/snc/2-peter/1",
+                    "cs/snc/2-peter/2",
+                    "cs/snc/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "1. Janův",
+                  "pages": [
+                    "cs/snc/1-john/index",
+                    "cs/snc/1-john/1",
+                    "cs/snc/1-john/2",
+                    "cs/snc/1-john/3",
+                    "cs/snc/1-john/4",
+                    "cs/snc/1-john/5"
+                  ]
+                },
+                {
+                  "group": "2. Janův",
+                  "pages": [
+                    "cs/snc/2-john/index",
+                    "cs/snc/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3. Janův",
+                  "pages": [
+                    "cs/snc/3-john/index",
+                    "cs/snc/3-john/1"
+                  ]
+                },
+                {
+                  "group": "Judův",
+                  "pages": [
+                    "cs/snc/jude/index",
+                    "cs/snc/jude/1"
+                  ]
+                },
+                {
+                  "group": "Zjevení",
+                  "pages": [
+                    "cs/snc/revelation/index",
+                    "cs/snc/revelation/1",
+                    "cs/snc/revelation/2",
+                    "cs/snc/revelation/3",
+                    "cs/snc/revelation/4",
+                    "cs/snc/revelation/5",
+                    "cs/snc/revelation/6",
+                    "cs/snc/revelation/7",
+                    "cs/snc/revelation/8",
+                    "cs/snc/revelation/9",
+                    "cs/snc/revelation/10",
+                    "cs/snc/revelation/11",
+                    "cs/snc/revelation/12",
+                    "cs/snc/revelation/13",
+                    "cs/snc/revelation/14",
+                    "cs/snc/revelation/15",
+                    "cs/snc/revelation/16",
+                    "cs/snc/revelation/17",
+                    "cs/snc/revelation/18",
+                    "cs/snc/revelation/19",
+                    "cs/snc/revelation/20",
+                    "cs/snc/revelation/21",
+                    "cs/snc/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tag": "NT"
+    }
+  ]
+}
