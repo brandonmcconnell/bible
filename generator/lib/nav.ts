@@ -2,8 +2,8 @@
  * Mintlify `docs.json` navigation types and builders.
  *
  * Structure: languages → versions (one per translation) → tabs → groups →
- * pages. Each book is a nested group whose `root` is the book landing page and
- * whose pages are its chapters.
+ * pages. Each book is a nested group (a plain dropdown in the sidebar) whose
+ * first page is the book's own overview page followed by its chapters.
  */
 import type { MintlifyLanguage } from './i18n.ts';
 import type { PublishedTranslation } from './model.ts';
@@ -20,12 +20,22 @@ export interface NavGroup {
   pages: NavPage[];
 }
 
+export interface NavMenuItem {
+  item: string;
+  icon?: string;
+  description?: string;
+  href?: string;
+  pages?: NavPage[];
+  groups?: NavGroup[];
+}
+
 export interface NavTab {
   tab: string;
   icon?: string;
   href?: string;
   groups?: NavGroup[];
   pages?: NavPage[];
+  menu?: NavMenuItem[];
 }
 
 export interface NavVersion {
@@ -53,7 +63,7 @@ export interface Redirect {
 
 const SECTION_ICONS = { ot: 'scroll-text', nt: 'cross', extra: 'book-copy' } as const;
 
-/** Builds the "Bible" tab for a translation: sections → books → chapters. */
+/** Builds the "Bible" tab for a translation: sections → books → [overview, chapters]. */
 export function buildBibleTab(translation: PublishedTranslation): NavTab {
   const groups: NavGroup[] = [
     { group: translation.name, icon: 'book-open', pages: [`${translation.path}/index`] },
@@ -64,8 +74,7 @@ export function buildBibleTab(translation: PublishedTranslation): NavTab {
       icon: SECTION_ICONS[section.key],
       pages: section.books.map((book) => ({
         group: book.name,
-        root: `${book.path}/index`,
-        pages: book.chapters.map((chapter) => chapterPath(book, chapter.number)),
+        pages: [`${book.path}/index`, ...book.chapters.map((chapter) => chapterPath(book, chapter.number))],
       })),
     });
   }
@@ -80,4 +89,9 @@ export function buildVersion(translation: PublishedTranslation, extraTabs: NavTa
   if (translation.config.default) version.default = true;
   if (translation.config.tag) version.tag = translation.config.tag;
   return version;
+}
+
+/** A tab that links to an existing section instead of duplicating its pages. */
+export function linkTab(tab: NavTab, href: string): NavTab {
+  return { tab: tab.tab, icon: tab.icon ?? 'link', href };
 }

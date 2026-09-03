@@ -453,6 +453,73 @@ function decodeDatasetBook(value: unknown, ctx: string): DatasetBook {
 }
 
 // ---------------------------------------------------------------------------
+// Commentaries
+// ---------------------------------------------------------------------------
+
+export interface CommentarySummary {
+  id: string;
+  name: string;
+  englishName: string;
+  website: string;
+  licenseUrl: string;
+  licenseNotes: string | undefined;
+  language: string;
+  numberOfBooks: number;
+  totalNumberOfChapters: number;
+  totalNumberOfVerses: number;
+}
+
+export interface CommentaryBook {
+  id: string;
+  name: string;
+  commonName: string;
+  introduction: string | undefined;
+  order: number;
+  numberOfChapters: number;
+  /** Null when the commentary has an introduction for the book but no chapter notes. */
+  firstChapterNumber: number | null;
+  lastChapterNumber: number | null;
+  totalNumberOfVerses: number;
+}
+
+export interface CommentaryChapter {
+  number: number;
+  introduction: string | undefined;
+  content: ChapterVerse[];
+}
+
+function decodeCommentarySummary(value: unknown, ctx: string): CommentarySummary {
+  const o = expectRecord(value, ctx);
+  return {
+    id: expectString(o.id, `${ctx}.id`),
+    name: expectString(o.name, `${ctx}.name`),
+    englishName: expectString(o.englishName, `${ctx}.englishName`),
+    website: expectString(o.website, `${ctx}.website`),
+    licenseUrl: expectString(o.licenseUrl, `${ctx}.licenseUrl`),
+    licenseNotes: optionalString(o.licenseNotes, `${ctx}.licenseNotes`),
+    language: expectString(o.language, `${ctx}.language`),
+    numberOfBooks: expectNumber(o.numberOfBooks, `${ctx}.numberOfBooks`),
+    totalNumberOfChapters: expectNumber(o.totalNumberOfChapters, `${ctx}.totalNumberOfChapters`),
+    totalNumberOfVerses: expectNumber(o.totalNumberOfVerses, `${ctx}.totalNumberOfVerses`),
+  };
+}
+
+function decodeCommentaryBook(value: unknown, ctx: string): CommentaryBook {
+  const o = expectRecord(value, ctx);
+  return {
+    id: expectString(o.id, `${ctx}.id`),
+    name: expectString(o.name, `${ctx}.name`),
+    commonName: expectString(o.commonName, `${ctx}.commonName`),
+    introduction: optionalString(o.introduction, `${ctx}.introduction`),
+    order: expectNumber(o.order, `${ctx}.order`),
+    numberOfChapters: expectNumber(o.numberOfChapters, `${ctx}.numberOfChapters`),
+    firstChapterNumber: optionalNumber(o.firstChapterNumber, `${ctx}.firstChapterNumber`) ?? null,
+    lastChapterNumber: optionalNumber(o.lastChapterNumber, `${ctx}.lastChapterNumber`) ?? null,
+    totalNumberOfVerses: expectNumber(o.totalNumberOfVerses, `${ctx}.totalNumberOfVerses`),
+  };
+}
+
+// ---------------------------------------------------------------------------
 // Client
 // ---------------------------------------------------------------------------
 
@@ -529,6 +596,31 @@ export class HelloAoClient {
     return {
       translation: decodeTranslationSummary(o.translation, `${ctx}.translation`),
       books: decodeArray(o.books, `${ctx}.books`, decodeCompleteBook),
+    };
+  }
+
+  async availableCommentaries(): Promise<CommentarySummary[]> {
+    const o = expectRecord(await this.getJson('/api/available_commentaries.json'), 'available_commentaries');
+    return decodeArray(o.commentaries, 'available_commentaries.commentaries', decodeCommentarySummary);
+  }
+
+  async commentaryBooks(commentaryId: string): Promise<CommentaryBook[]> {
+    const ctx = `c/${commentaryId}/books`;
+    const o = expectRecord(await this.getJson(`/api/c/${commentaryId}/books.json`), ctx);
+    return decodeArray(o.books, `${ctx}.books`, decodeCommentaryBook);
+  }
+
+  async commentaryChapter(commentaryId: string, bookId: string, chapter: number): Promise<CommentaryChapter> {
+    const ctx = `c/${commentaryId}/${bookId}/${chapter}`;
+    const o = expectRecord(await this.getJson(`/api/c/${commentaryId}/${bookId}/${chapter}.json`), ctx);
+    const c = expectRecord(o.chapter, `${ctx}.chapter`);
+    const content = decodeArray(c.content, `${ctx}.chapter.content`, decodeChapterItem).filter(
+      (item): item is ChapterVerse => item.type === 'verse',
+    );
+    return {
+      number: expectNumber(c.number, `${ctx}.chapter.number`),
+      introduction: optionalString(c.introduction, `${ctx}.chapter.introduction`),
+      content,
     };
   }
 

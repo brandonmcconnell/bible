@@ -18,6 +18,13 @@ export interface ChapterRenderOptions {
   studyBasePath: string | undefined;
   /** Cross references for this chapter; the top few per verse are embedded as `data-xref`. */
   crossRefs: CrossRefChapter | undefined;
+  /** Commentary chapter pages covering this chapter. */
+  commentaries: readonly CommentaryLink[] | undefined;
+}
+
+export interface CommentaryLink {
+  name: string;
+  path: string;
 }
 
 /** How many cross references to embed per verse for the CSS `::after` display. */
@@ -255,22 +262,36 @@ function renderFootnotes(notes: Map<number, FootnoteEntry>, ui: PublishedTransla
   );
 }
 
-function renderEntities(entities: EntityChapter, studyBasePath: string, ui: PublishedTranslation['ui']): string {
+function renderRelated(
+  entities: EntityChapter | undefined,
+  commentaries: readonly CommentaryLink[] | undefined,
+  studyBasePath: string | undefined,
+  ui: PublishedTranslation['ui'],
+): string {
   const rows: string[] = [];
-  const row = (label: string, type: 'people' | 'places' | 'events', items: Array<{ id: string; name: string; verses: number[] }>): void => {
+  const row = (label: string, items: string[]): void => {
     if (items.length === 0) return;
-    const links = items
-      .map(
-        (item) =>
-          `<span className="ent">[${escapeText(item.name)}](${studyBasePath}/${type}/${entitySlug(item.id)})<span className="entv">${formatVerseList(item.verses)}</span></span>`,
-      )
-      .join('\n');
     // The opening tag must be alone on its line for MDX to treat the div as a flow element.
-    rows.push('<div className="entrow">', `<span className="entk">${escapeText(label)}</span>`, links, '</div>', '');
+    rows.push('<div className="entrow">', `<span className="entk">${escapeText(label)}</span>`, ...items, '</div>', '');
   };
-  row(ui.people, 'people', entities.people);
-  row(ui.places, 'places', entities.places);
-  row(ui.events, 'events', entities.events);
+  const mentions = (type: 'people' | 'places' | 'events', items: Array<{ id: string; name: string; verses: number[] }>): string[] =>
+    studyBasePath
+      ? items.map(
+          (item) =>
+            `<span className="ent">[${escapeText(item.name)}](${studyBasePath}/${type}/${entitySlug(item.id)})<span className="entv">${formatVerseList(item.verses)}</span></span>`,
+        )
+      : [];
+  if (entities) {
+    row(ui.people, mentions('people', entities.people));
+    row(ui.places, mentions('places', entities.places));
+    row(ui.events, mentions('events', entities.events));
+  }
+  if (commentaries && commentaries.length > 0) {
+    row(
+      ui.commentaries,
+      commentaries.map((c) => `<span className="ent">[${escapeText(c.name)}](${c.path})</span>`),
+    );
+  }
   if (rows.length === 0) return '';
   return ['<div className="bible-entities">', '', `## ${escapeHeading(ui.inThisChapter)}`, '', ...rows, '', '</div>'].join('\n');
 }
@@ -357,10 +378,8 @@ export function renderChapterPage(
   const footnotes = renderFootnotes(notes, ui);
   if (footnotes) parts.push('', footnotes);
 
-  if (options.entities && options.studyBasePath) {
-    const entities = renderEntities(options.entities, options.studyBasePath, ui);
-    if (entities) parts.push('', entities);
-  }
+  const related = renderRelated(options.entities, options.commentaries, options.studyBasePath, ui);
+  if (related) parts.push('', related);
 
   parts.push('');
   return parts.join('\n');
@@ -379,6 +398,7 @@ export function renderBookPage(translation: PublishedTranslation, book: Publishe
   const lines: string[] = [
     frontmatter({
       title: book.name,
+      sidebarTitle: ui.overview,
       description: book.title ?? `${book.name} · ${translation.name}`,
     }),
     `<div className="bible-book" lang="${translation.language.htmlLang}" dir="${translation.dir}" data-book="${book.id}" data-translation="${translation.slug}">`,

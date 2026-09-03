@@ -1,30 +1,41 @@
 /**
- * Build entry point. Fetches every configured translation from the Free Use
- * Bible API and generates the whole Mintlify site: MDX pages for every
- * chapter, book and translation, navigation JSON, `docs.json`, the client
- * manifest, cross-reference data and the study section.
+ * Build entry point. Discovers every translation the Free Use Bible API offers
+ * in a language Mintlify can represent, then generates the whole site: MDX
+ * pages for every chapter, book and translation, commentaries, the study
+ * section, navigation JSON, `docs.json`, the client manifest and
+ * cross-reference data.
  *
  *   npm run build              # full build
  *   npm run build:sample       # a handful of books/chapters for quick iteration
- *   npm run build -- --no-study --no-xref --translations=eng_kjv,BSB
+ *   npm run build -- --no-study --no-xref --no-commentaries --translations=eng_kjv,BSB
  */
 import { join } from 'node:path';
-import { siteConfig, type LanguageConfig, type TranslationConfig } from './config.ts';
-import { ensureDir, removePath, writeText } from './lib/fs.ts';
-import { HelloAoClient, type CompleteTranslation, type EntityChapter } from './lib/helloao.ts';
-import { uiStrings } from './lib/i18n.ts';
+import { siteConfig, type LanguageDefinition } from './config.ts';
+import { buildCommentaries, type CommentaryLink } from './lib/commentary.ts';
+import { ensureDir, mapConcurrent, removePath, writeText } from './lib/fs.ts';
+import { HelloAoClient, type CompleteTranslation, type EntityChapter, type TranslationSummary } from './lib/helloao.ts';
+import { uiStrings, type MintlifyLanguage } from './lib/i18n.ts';
 import { buildManifest, manifestScript } from './lib/manifest.ts';
-import { buildPublishedTranslation, chapterPath, formatNumber, type PublishedTranslation } from './lib/model.ts';
-import { buildVersion, type NavLanguage, type NavRef, type NavTab, type Redirect } from './lib/nav.ts';
+import {
+  buildPublishedTranslation,
+  chapterPath,
+  formatNumber,
+  resolveTranslation,
+  type PublishedTranslation,
+  type ResolvedTranslation,
+} from './lib/model.ts';
+import { buildVersion, linkTab, type NavLanguage, type NavRef, type NavTab, type Redirect } from './lib/nav.ts';
 import { renderBookPage, renderChapterPage, renderTranslationPage } from './lib/render.ts';
 import { buildStudySection } from './lib/study.ts';
 import { buildCrossReferences, crossRefKey, type CrossRefIndex } from './lib/xref.ts';
 import { docsBase, REPOSITORY_URL, type DocsJson } from './site.ts';
+import { slugify } from './lib/mdx.ts';
 
 interface CliOptions {
   sample: boolean;
   cleanOnly: boolean;
   study: boolean;
+  commentaries: boolean;
   crossReferences: boolean;
   /** Restrict the build to these translation ids (comma separated on the CLI). */
   translations: Set<string> | undefined;
@@ -34,7 +45,8 @@ interface CliOptions {
 
 const SAMPLE_BOOKS = new Set(['GEN', 'PSA', 'MAT', 'JHN', 'TOB', '1MA']);
 const SAMPLE_MAX_CHAPTER = 3;
-const SAMPLE_LANGUAGES = new Set(['en', 'es', 'he']);
+const SAMPLE_LANGUAGES = new Set<MintlifyLanguage>(['en', 'es', 'he']);
+const SAMPLE_TRANSLATIONS_PER_LANGUAGE = 4;
 const MANIFEST_SCRIPT_PATH = 'theme/bible-manifest.js';
 
 function parseCli(argv: readonly string[]): CliOptions {
@@ -42,6 +54,7 @@ function parseCli(argv: readonly string[]): CliOptions {
     sample: false,
     cleanOnly: false,
     study: true,
+    commentaries: true,
     crossReferences: siteConfig.crossReferences,
     translations: undefined,
     inlineNavigation: false,
@@ -50,6 +63,7 @@ function parseCli(argv: readonly string[]): CliOptions {
     if (arg === '--sample') options.sample = true;
     else if (arg === '--clean-only') options.cleanOnly = true;
     else if (arg === '--no-study') options.study = false;
+    else if (arg === '--no-commentaries') options.commentaries = false;
     else if (arg === '--no-xref') options.crossReferences = false;
     else if (arg === '--inline-navigation') options.inlineNavigation = true;
     else if (arg.startsWith('--translations=')) {
@@ -65,6 +79,10 @@ function log(message: string): void {
   process.stdout.write(`${message}\n`);
 }
 
+function sampleFilter(bookId: string, chapter: number): boolean {
+  return SAMPLE_BOOKS.has(bookId) && chapter <= SAMPLE_MAX_CHAPTER;
+}
+
 function restrictToSample(complete: CompleteTranslation): CompleteTranslation {
   return {
     translation: complete.translation,
@@ -74,18 +92,89 @@ function restrictToSample(complete: CompleteTranslation): CompleteTranslation {
   };
 }
 
-async function cleanOutputs(languages: readonly LanguageConfig[]): Promise<void> {
+async function cleanOutputs(languages: readonly LanguageDefinition[]): Promise<void> {
   const targets = new Set<string>([siteConfig.navigationDir, siteConfig.dataDir, 'docs.json', MANIFEST_SCRIPT_PATH]);
   for (const language of languages) targets.add(language.code);
   for (const target of targets) await removePath(target);
 }
 
 interface LanguageBuild {
-  config: LanguageConfig;
+  config: LanguageDefinition;
   translations: PublishedTranslation[];
   studyBasePath: string | undefined;
   studyTab: NavTab | undefined;
+  commentaryBasePath: string | undefined;
+  commentaryTab: NavTab | undefined;
+  commentaryLinks: Map<string, CommentaryLink[]>;
   chapterEntities: Map<string, EntityChapter>;
+}
+
+// ---------------------------------------------------------------------------
+// Discovery: map every API translation to a Mintlify language
+// ---------------------------------------------------------------------------
+
+interface Discovered {
+  byLanguage: Map<MintlifyLanguage, TranslationSummary[]>;
+  skipped: TranslationSummary[];
+}
+
+function discoverTranslations(summaries: readonly TranslationSummary[], languages: readonly LanguageDefinition[], options: CliOptions): Discovered {
+  const byIso = new Map<string, LanguageDefinition>();
+  for (const language of languages) for (const iso of language.iso) byIso.set(iso, language);
+  const byCode = new Map(languages.map((l) => [l.code, l]));
+
+  const byLanguage = new Map<MintlifyLanguage, TranslationSummary[]>();
+  const skipped: TranslationSummary[] = [];
+  for (const summary of summaries) {
+    const overrides = siteConfig.curated[summary.id];
+    if (overrides?.exclude) continue;
+    if (options.translations && !options.translations.has(summary.id)) continue;
+    if (summary.numberOfBooks < siteConfig.minBooks) continue;
+    const language = overrides?.language ? byCode.get(overrides.language) : byIso.get(summary.language);
+    if (!language) {
+      skipped.push(summary);
+      continue;
+    }
+    const list = byLanguage.get(language.code) ?? [];
+    list.push(summary);
+    byLanguage.set(language.code, list);
+  }
+  return { byLanguage, skipped };
+}
+
+/** Default first, then complete translations alphabetically, then partial ones. */
+function orderTranslations(translations: PublishedTranslation[]): PublishedTranslation[] {
+  const completeness = (t: PublishedTranslation): number => (t.books.length >= 66 ? 0 : 1);
+  return [...translations].sort((a, b) => {
+    if (a.config.default !== b.config.default) return a.config.default ? -1 : 1;
+    if (completeness(a) !== completeness(b)) return completeness(a) - completeness(b);
+    return a.label.localeCompare(b.label, 'en', { numeric: true });
+  });
+}
+
+/** Ensures exactly one default per language: explicit, else the most complete translation. */
+function ensureDefault(translations: PublishedTranslation[]): void {
+  const explicit = translations.filter((t) => t.config.default);
+  if (explicit.length === 1) return;
+  for (const t of translations) t.config.default = false;
+  const best = [...translations].sort((a, b) => {
+    if (a.books.length !== b.books.length) return b.books.length - a.books.length;
+    return b.summary.totalNumberOfVerses - a.summary.totalNumberOfVerses;
+  })[0];
+  if (best) best.config.default = true;
+}
+
+/** Slugs must be unique within a language; collisions fall back to the API id. */
+function uniqueSlug(resolved: ResolvedTranslation, taken: Set<string>): string {
+  let slug = resolved.slug;
+  if (taken.has(slug)) slug = slugify(resolved.id);
+  let suffix = 2;
+  while (taken.has(slug)) {
+    slug = `${slugify(resolved.id)}-${suffix}`;
+    suffix += 1;
+  }
+  taken.add(slug);
+  return slug;
 }
 
 async function main(): Promise<void> {
@@ -98,29 +187,53 @@ async function main(): Promise<void> {
 
   const client = new HelloAoClient({ cacheDir: siteConfig.cacheDir, concurrency: siteConfig.concurrency });
 
+  // -------------------------------------------------------------------------
+  // 1. Discover, fetch and model every translation
+  // -------------------------------------------------------------------------
+  log('Discovering translations…');
+  const summaries = await client.availableTranslations();
   const languages = siteConfig.languages.filter((language) => !options.sample || SAMPLE_LANGUAGES.has(language.code));
+  const discovered = discoverTranslations(summaries, languages, options);
+  const skippedLanguages = new Set(discovered.skipped.map((s) => s.language));
+  log(`  ${summaries.length} translations in the API; ${discovered.skipped.length} in ${skippedLanguages.size} languages Mintlify cannot represent were skipped`);
+
   const builds: LanguageBuild[] = [];
   let pageCount = 0;
 
-  // -------------------------------------------------------------------------
-  // 1. Fetch and model every translation
-  // -------------------------------------------------------------------------
   for (const language of languages) {
-    const selected = language.translations.filter((t) => !options.translations || options.translations.has(t.id));
+    let selected = discovered.byLanguage.get(language.code) ?? [];
     if (selected.length === 0) continue;
-    const published: PublishedTranslation[] = [];
-    for (const translationConfig of selected) {
-      log(`Fetching ${translationConfig.id} (${language.code}/${translationConfig.slug})…`);
-      const complete = await client.completeTranslation(translationConfig.id);
-      const model = buildPublishedTranslation(language, translationConfig, options.sample ? restrictToSample(complete) : complete);
-      published.push(model);
+    if (options.sample) {
+      const curatedFirst = [...selected].sort((a, b) => Number(Boolean(siteConfig.curated[b.id]?.default)) - Number(Boolean(siteConfig.curated[a.id]?.default)));
+      selected = curatedFirst.slice(0, SAMPLE_TRANSLATIONS_PER_LANGUAGE);
     }
-    ensureDefault(published, selected);
+    log(`Fetching ${selected.length} translation(s) for ${language.code}…`);
+    const completes = await mapConcurrent(selected, 4, (summary) => client.completeTranslation(summary.id));
+
+    const taken = new Set<string>();
+    const published: PublishedTranslation[] = [];
+    completes.forEach((complete, index) => {
+      const summary = selected[index];
+      if (!summary) return;
+      // Tags and canon are derived from the full book list even in sample builds.
+      const bookIds = complete.books.filter((b) => b.chapters.length > 0).map((b) => b.id);
+      if (bookIds.length === 0) return;
+      const resolved = resolveTranslation(summary, siteConfig.curated[summary.id], bookIds);
+      resolved.slug = uniqueSlug(resolved, taken);
+      const model = buildPublishedTranslation(language, resolved, options.sample ? restrictToSample(complete) : complete);
+      if (model.books.length > 0) published.push(model);
+    });
+    if (published.length === 0) continue;
+    ensureDefault(published);
+
     builds.push({
       config: language,
-      translations: published,
+      translations: orderTranslations(published),
       studyBasePath: options.study && language.study ? `${language.code}/study` : undefined,
       studyTab: undefined,
+      commentaryBasePath: options.commentaries && language.commentaries ? `${language.code}/commentary` : undefined,
+      commentaryTab: undefined,
+      commentaryLinks: new Map(),
       chapterEntities: new Map(),
     });
   }
@@ -137,7 +250,7 @@ async function main(): Promise<void> {
       siteConfig.datasets.crossReferences,
       join(siteConfig.dataDir, 'xref'),
       siteConfig.concurrency,
-      options.sample ? (bookId, chapter) => SAMPLE_BOOKS.has(bookId) && chapter <= SAMPLE_MAX_CHAPTER : undefined,
+      options.sample ? sampleFilter : undefined,
       (done, total) => {
         if (done - lastReported >= 250 || done === total) {
           lastReported = done;
@@ -150,27 +263,49 @@ async function main(): Promise<void> {
   }
 
   // -------------------------------------------------------------------------
-  // 3. Study section (per language that opts in)
+  // 3. Study section and commentaries (per language that opts in)
   // -------------------------------------------------------------------------
   for (const build of builds) {
-    if (!build.studyBasePath) continue;
     const linkTranslation = build.translations.find((t) => t.config.default) ?? build.translations[0];
     if (!linkTranslation) continue;
-    log(`Building study section for ${build.config.code}…`);
-    const result = await buildStudySection({
-      client,
-      datasetId: siteConfig.datasets.entities,
-      basePath: build.studyBasePath,
-      linkTranslation,
-      ui: uiStrings(build.config.code),
-      concurrency: siteConfig.concurrency,
-      limitEntities: options.sample ? 40 : undefined,
-      onProgress: (message) => log(`  ${message}`),
-    });
-    build.studyTab = result.tab;
-    build.chapterEntities = result.chapterEntities;
-    pageCount += result.pages;
-    log(`  ${formatNumber(result.pages, 'en')} study pages`);
+    const ui = uiStrings(build.config.code);
+
+    if (build.studyBasePath) {
+      log(`Building study section for ${build.config.code}…`);
+      const result = await buildStudySection({
+        client,
+        datasetId: siteConfig.datasets.entities,
+        basePath: build.studyBasePath,
+        linkTranslation,
+        ui,
+        concurrency: siteConfig.concurrency,
+        limitEntities: options.sample ? 40 : undefined,
+        onProgress: (message) => log(`  ${message}`),
+      });
+      build.studyTab = result.tab;
+      build.chapterEntities = result.chapterEntities;
+      pageCount += result.pages;
+      log(`  ${formatNumber(result.pages, 'en')} study pages`);
+    }
+
+    if (build.commentaryBasePath && build.config.commentaries) {
+      log(`Building commentaries for ${build.config.code}…`);
+      const result = await buildCommentaries({
+        client,
+        language: build.config,
+        selection: options.sample ? ['matthew-henry', 'jamieson-fausset-brown'] : build.config.commentaries,
+        basePath: build.commentaryBasePath,
+        linkTranslation,
+        ui,
+        concurrency: siteConfig.concurrency,
+        filter: options.sample ? sampleFilter : undefined,
+        onProgress: (message) => log(`  ${message}`),
+      });
+      build.commentaryTab = result.tab;
+      build.commentaryLinks = result.chapterLinks;
+      pageCount += result.pages;
+      log(`  ${formatNumber(result.pages, 'en')} commentary pages`);
+    }
   }
 
   // -------------------------------------------------------------------------
@@ -188,6 +323,7 @@ async function main(): Promise<void> {
             entities: build.studyBasePath ? build.chapterEntities.get(key) : undefined,
             studyBasePath: build.studyBasePath ? `/${build.studyBasePath}` : undefined,
             crossRefs: crossRefs.get(key),
+            commentaries: build.commentaryLinks.get(key),
           });
           await writeText(`${chapterPath(book, chapter.number)}.mdx`, mdx);
           pages += 1;
@@ -217,12 +353,12 @@ async function main(): Promise<void> {
 
     const versions = build.translations.map((translation) => {
       const extraTabs: NavTab[] = [];
+      const isDefault = translation === defaultTranslation;
       if (build.studyTab && build.studyBasePath) {
-        extraTabs.push(
-          translation === defaultTranslation
-            ? build.studyTab
-            : { tab: build.studyTab.tab, icon: build.studyTab.icon ?? 'library', href: `/${build.studyBasePath}` },
-        );
+        extraTabs.push(isDefault ? build.studyTab : linkTab(build.studyTab, `/${build.studyBasePath}`));
+      }
+      if (build.commentaryTab && build.commentaryBasePath) {
+        extraTabs.push(isDefault ? build.commentaryTab : linkTab(build.commentaryTab, `/${build.commentaryBasePath}`));
       }
       return buildVersion(translation, extraTabs);
     });
@@ -252,6 +388,7 @@ async function main(): Promise<void> {
       config: build.config,
       translations: build.translations,
       studyBasePath: build.studyBasePath ? `/${build.studyBasePath}` : undefined,
+      commentaryBasePath: build.commentaryBasePath ? `/${build.commentaryBasePath}` : undefined,
     })),
     xrefBaseUrls,
   );
@@ -259,14 +396,7 @@ async function main(): Promise<void> {
 
   const seconds = ((Date.now() - started) / 1000).toFixed(1);
   const translationCount = builds.reduce((n, b) => n + b.translations.length, 0);
-  log(`Done: ${formatNumber(pageCount, 'en')} pages across ${translationCount} translations in ${seconds}s`);
-}
-
-function ensureDefault(published: PublishedTranslation[], configs: readonly TranslationConfig[]): void {
-  if (published.some((t) => t.config.default)) return;
-  const first = published[0];
-  const firstConfig = configs[0];
-  if (first && firstConfig) first.config.default = true;
+  log(`Done: ${formatNumber(pageCount, 'en')} pages across ${translationCount} translations in ${builds.length} languages in ${seconds}s`);
 }
 
 main().catch((error: unknown) => {

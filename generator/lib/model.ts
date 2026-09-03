@@ -2,10 +2,23 @@
  * Builds the publishable model of a translation: which books it has, how they
  * are grouped into sections, and where each page lives.
  */
-import type { LanguageConfig, TranslationConfig } from '../config.ts';
+import type { Canon, LanguageDefinition, TranslationOverrides } from '../config.ts';
 import { bookSlug, canonicalOrder, CATHOLIC_OLD_TESTAMENT_ORDER, englishBookName, sectionOf, type Section } from './books.ts';
 import type { ChapterData, CompleteTranslation, TranslationBook, TranslationSummary } from './helloao.ts';
 import { RTL_LANGUAGES, uiStrings, type UiStrings } from './i18n.ts';
+import { slugify } from './mdx.ts';
+
+/** Fully resolved per-translation settings (overrides merged with derived defaults). */
+export interface ResolvedTranslation {
+  id: string;
+  slug: string;
+  label: string;
+  name: string;
+  canon: Canon;
+  extraBooksLabel: 'apocrypha' | 'deuterocanon';
+  default: boolean;
+  tag: string | undefined;
+}
 
 export interface PublishedBook {
   id: string;
@@ -28,8 +41,8 @@ export interface PublishedSection {
 }
 
 export interface PublishedTranslation {
-  language: LanguageConfig;
-  config: TranslationConfig;
+  language: LanguageDefinition;
+  config: ResolvedTranslation;
   summary: TranslationSummary;
   ui: UiStrings;
   name: string;
@@ -43,20 +56,54 @@ export interface PublishedTranslation {
   bookById: Map<string, PublishedBook>;
 }
 
+const CATHOLIC_NAME_PATTERN = /catholic|douay|vulgat|crampon|canisius|jerusalem|deuterocanon/i;
+
+/**
+ * Merges curated overrides with values derived from the API summary. Slug
+ * uniqueness within a language is enforced by the caller.
+ */
+export function resolveTranslation(summary: TranslationSummary, overrides: TranslationOverrides | undefined, bookIds: readonly string[]): ResolvedTranslation {
+  const hasOt = bookIds.some((id) => sectionOf(id) === 'ot');
+  const hasNt = bookIds.some((id) => sectionOf(id) === 'nt');
+  const hasExtra = bookIds.some((id) => sectionOf(id) === 'extra');
+  const looksCatholic = CATHOLIC_NAME_PATTERN.test(`${summary.name} ${summary.englishName}`);
+  const canon: Canon = overrides?.canon ?? (hasExtra && looksCatholic ? 'catholic' : 'protestant');
+
+  let tag = overrides?.tag;
+  if (tag === undefined) {
+    if (hasExtra) tag = canon === 'catholic' ? 'Catholic' : 'Apocrypha';
+    else if (hasNt && !hasOt) tag = 'NT';
+    else if (hasOt && !hasNt) tag = 'OT';
+    else if (bookIds.length < 66) tag = 'Partial';
+  }
+
+  const shortName = summary.shortName.trim();
+  const derivedSlug = slugify(shortName.length > 0 ? shortName : summary.id);
+  return {
+    id: summary.id,
+    slug: overrides?.slug ?? (derivedSlug === 'item' ? slugify(summary.id) : derivedSlug),
+    label: overrides?.label ?? (shortName.length > 0 ? shortName : summary.id),
+    name: overrides?.name ?? summary.name,
+    canon,
+    extraBooksLabel: overrides?.extraBooksLabel ?? (canon === 'catholic' ? 'deuterocanon' : 'apocrypha'),
+    default: overrides?.default ?? false,
+    tag,
+  };
+}
+
 export function buildPublishedTranslation(
-  language: LanguageConfig,
-  config: TranslationConfig,
+  language: LanguageDefinition,
+  config: ResolvedTranslation,
   complete: CompleteTranslation,
 ): PublishedTranslation {
   const ui = uiStrings(language.code);
   const path = `${language.code}/${config.slug}`;
-  const canon = config.canon ?? 'protestant';
 
   const books: PublishedBook[] = complete.books
     .filter((book) => book.chapters.length > 0)
     .map((book) => toPublishedBook(book, path));
 
-  const sections = canon === 'catholic' ? catholicSections(books, ui) : protestantSections(books, ui, config);
+  const sections = config.canon === 'catholic' ? catholicSections(books, ui) : protestantSections(books, ui, config);
   const ordered = sections.flatMap((section) => section.books);
   const dir: 'ltr' | 'rtl' = complete.translation.textDirection === 'rtl' || RTL_LANGUAGES.has(language.code) ? 'rtl' : 'ltr';
 
@@ -65,7 +112,7 @@ export function buildPublishedTranslation(
     config,
     summary: complete.translation,
     ui,
-    name: config.name ?? complete.translation.name,
+    name: config.name,
     label: config.label,
     slug: config.slug,
     path,
@@ -95,7 +142,7 @@ function byCanonicalOrder(a: PublishedBook, b: PublishedBook): number {
   return canonicalOrder(a.id) - canonicalOrder(b.id);
 }
 
-function protestantSections(books: PublishedBook[], ui: UiStrings, config: TranslationConfig): PublishedSection[] {
+function protestantSections(books: PublishedBook[], ui: UiStrings, config: ResolvedTranslation): PublishedSection[] {
   const ot = books.filter((b) => b.section === 'ot').sort(byCanonicalOrder);
   const nt = books.filter((b) => b.section === 'nt').sort(byCanonicalOrder);
   const extra = books.filter((b) => b.section === 'extra').sort(byCanonicalOrder);

@@ -6,10 +6,13 @@
  * It is emitted as a `.js` file (`theme/bible-manifest.js`) because Mintlify
  * injects every `.js` file in the content directory into every page, which
  * guarantees availability in both `mint dev` and production. Because it ships
- * with every page it is kept compact: chapter lists are stored once per book
- * in `bookChapters` and translations only record deviations from them.
+ * with every page it is kept compact:
+ *  - `bookChapters` holds the most common chapter spec per book; translations
+ *    only list their book ids (`b`) and deviations (`x`);
+ *  - localized book names are stored once per language (`bookNames`, taken
+ *    from the default translation) rather than per translation.
  */
-import type { LanguageConfig } from '../config.ts';
+import type { LanguageDefinition } from '../config.ts';
 import { allKnownBookIds, bookSlug, englishBookName, englishBookNames } from './books.ts';
 import type { UiStrings } from './i18n.ts';
 import { uiStrings } from './i18n.ts';
@@ -18,20 +21,15 @@ import type { PublishedTranslation } from './model.ts';
 /** Chapter count when chapters run 1..n, otherwise the explicit list of chapter numbers. */
 export type ChapterSpec = number | number[];
 
-export interface ManifestBook {
-  /** Localized name; omitted when identical to the English name. */
-  n?: string;
-  /** Chapters; omitted when identical to `Manifest.bookChapters[bookId]`. */
-  c?: ChapterSpec;
-}
-
 export interface ManifestTranslation {
   id: string;
   label: string;
   name: string;
   dir: 'ltr' | 'rtl';
-  /** Books in display order. Insertion order is significant. */
-  books: Record<string, ManifestBook>;
+  /** Book ids in display order, or the key of a shared list in `Manifest.bookSets`. */
+  b: string[] | string;
+  /** Chapter specs that differ from `Manifest.bookChapters`. */
+  x?: Record<string, ChapterSpec>;
 }
 
 export interface ManifestLanguage {
@@ -39,7 +37,10 @@ export interface ManifestLanguage {
   htmlLang: string;
   default: string;
   study: string | undefined;
+  commentary: string | undefined;
   ui: UiStrings;
+  /** Localized book names (from the default translation) that differ from English. */
+  bookNames: Record<string, string>;
   translations: Record<string, ManifestTranslation>;
 }
 
@@ -51,13 +52,16 @@ export interface Manifest {
   bookNames: Record<string, string>;
   /** The most common chapter spec for each book across all translations. */
   bookChapters: Record<string, ChapterSpec>;
+  /** Book lists shared by several translations (e.g. the 66-book Protestant canon). */
+  bookSets: Record<string, string[]>;
   languages: Record<string, ManifestLanguage>;
 }
 
 export interface ManifestInput {
-  config: LanguageConfig;
+  config: LanguageDefinition;
   translations: PublishedTranslation[];
   studyBasePath: string | undefined;
+  commentaryBasePath: string | undefined;
 }
 
 function chapterSpec(translation: PublishedTranslation, bookId: string): ChapterSpec | undefined {
@@ -97,43 +101,65 @@ export function buildManifest(languages: readonly ManifestInput[], xrefBaseUrls:
   const allTranslations = languages.flatMap((l) => l.translations);
   const bookChapters = commonChapterSpecs(allTranslations);
 
+  // Book lists used by more than one translation are stored once.
+  const bookListCounts = new Map<string, number>();
+  for (const translation of allTranslations) {
+    const key = translation.books.map((b) => b.id).join(',');
+    bookListCounts.set(key, (bookListCounts.get(key) ?? 0) + 1);
+  }
+  const bookSetIds = new Map<string, string>();
+  const bookSets: Record<string, string[]> = {};
+  for (const [key, count] of [...bookListCounts.entries()].sort((a, b) => b[1] - a[1])) {
+    if (count < 2) continue;
+    const id = `s${bookSetIds.size}`;
+    bookSetIds.set(key, id);
+    bookSets[id] = key.split(',');
+  }
+
   const manifest: Manifest = {
     generatedAt: new Date().toISOString(),
     xrefBaseUrls,
     bookSlugs,
     bookNames: englishBookNames(),
     bookChapters,
+    bookSets,
     languages: {},
   };
 
-  for (const { config, translations, studyBasePath } of languages) {
+  for (const { config, translations, studyBasePath, commentaryBasePath } of languages) {
     const defaultTranslation = translations.find((t) => t.config.default) ?? translations[0];
     if (!defaultTranslation) continue;
+    const bookNames: Record<string, string> = {};
+    for (const book of defaultTranslation.books) {
+      if (book.name !== englishBookName(book.id)) bookNames[book.id] = book.name;
+    }
     const entry: ManifestLanguage = {
       name: config.name,
       htmlLang: config.htmlLang,
       default: defaultTranslation.slug,
       study: studyBasePath,
+      commentary: commentaryBasePath,
       ui: uiStrings(config.code),
+      bookNames,
       translations: {},
     };
     for (const translation of translations) {
-      const books: Record<string, ManifestBook> = {};
+      const deviations: Record<string, ChapterSpec> = {};
       for (const book of translation.books) {
-        const manifestBook: ManifestBook = {};
-        if (book.name !== englishBookName(book.id)) manifestBook.n = book.name;
         const spec = chapterSpec(translation, book.id);
-        if (spec !== undefined && JSON.stringify(spec) !== JSON.stringify(bookChapters[book.id])) manifestBook.c = spec;
+        if (spec !== undefined && JSON.stringify(spec) !== JSON.stringify(bookChapters[book.id])) deviations[book.id] = spec;
         if (bookSlugs[book.id] === undefined) bookSlugs[book.id] = book.slug;
-        books[book.id] = manifestBook;
       }
-      entry.translations[translation.slug] = {
+      const bookIds = translation.books.map((book) => book.id);
+      const manifestTranslation: ManifestTranslation = {
         id: translation.summary.id,
         label: translation.label,
         name: translation.name,
         dir: translation.dir,
-        books,
+        b: bookSetIds.get(bookIds.join(',')) ?? bookIds,
       };
+      if (Object.keys(deviations).length > 0) manifestTranslation.x = deviations;
+      entry.translations[translation.slug] = manifestTranslation;
     }
     manifest.languages[config.code] = entry;
   }

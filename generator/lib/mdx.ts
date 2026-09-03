@@ -4,8 +4,11 @@
  * ends up in a page goes through one of the escape functions below.
  */
 
+// Order matters: `&` and `#` must be escaped before any replacement that
+// introduces `&#…;` entities, otherwise those entities would be re-escaped.
 const TEXT_ESCAPES: ReadonlyArray<readonly [RegExp, string]> = [
   [/&/g, '&amp;'],
+  [/#/g, '&#35;'],
   [/</g, '&lt;'],
   [/>/g, '&gt;'],
   [/\{/g, '&#123;'],
@@ -19,7 +22,6 @@ const TEXT_ESCAPES: ReadonlyArray<readonly [RegExp, string]> = [
   [/\$/g, '&#36;'],
   [/\\/g, '&#92;'],
   [/\|/g, '&#124;'],
-  [/#/g, '&#35;'],
 ];
 
 /** Escapes text that will appear as a child text node inside JSX or inline Markdown. */

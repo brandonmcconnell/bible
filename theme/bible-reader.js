@@ -8,7 +8,8 @@
  *     translation), text size controls and toggles for verse numbers,
  *     footnotes, headings, cross references, red-letter text and serif font;
  *   - verse selection with copy-with-reference and a cross-reference panel;
- *   - #v5 / #v5-8 deep links and ←/→ keyboard chapter navigation.
+ *   - #v5 / #v5-8 deep links and ←/→ keyboard chapter navigation;
+   - sidebar decoration: chapter lists become wrapping grids of numbers.
  * Settings persist in localStorage and are applied as classes on <html> so the
  * stylesheet does the actual work.
  */
@@ -120,6 +121,7 @@
   }
 
   function init() {
+    decorateSidebar();
     var chapter = currentChapter();
     var actions = document.getElementById('bible-actions');
     if (!chapter) {
@@ -266,20 +268,31 @@
     var target = ctx.language.translations[targetSlug];
     if (!target) return;
     var base = '/' + ctx.lang + '/' + targetSlug;
-    var book = target.books ? target.books[ctx.bookId] : null;
     var url = base;
-    if (book) {
+    if (translationHasBook(ctx, target, ctx.bookId)) {
       url = base + '/' + ctx.bookSlug;
-      if (hasChapter(chapterSpec(ctx, ctx.bookId, book), ctx.chapter)) url += '/' + ctx.chapter + window.location.hash;
+      if (hasChapter(chapterSpec(ctx, ctx.bookId, target), ctx.chapter)) url += '/' + ctx.chapter + window.location.hash;
     }
     window.location.assign(url);
   }
 
   /** Resolves a book's chapter spec: the translation's own, or the shared default. */
-  function chapterSpec(ctx, bookId, book) {
-    if (book && book.c !== undefined) return book.c;
+  function chapterSpec(ctx, bookId, translation) {
+    if (translation && translation.x && translation.x[bookId] !== undefined) return translation.x[bookId];
     if (ctx.manifest && ctx.manifest.bookChapters) return ctx.manifest.bookChapters[bookId];
     return undefined;
+  }
+
+  /** A translation's book ids: its own list, or a shared set referenced by key. */
+  function bookList(ctx, translation) {
+    if (!translation) return [];
+    if (Array.isArray(translation.b)) return translation.b;
+    var sets = ctx.manifest && ctx.manifest.bookSets ? ctx.manifest.bookSets : {};
+    return Array.isArray(sets[translation.b]) ? sets[translation.b] : [];
+  }
+
+  function translationHasBook(ctx, translation, bookId) {
+    return bookList(ctx, translation).indexOf(bookId) !== -1;
   }
 
   function hasChapter(spec, chapter) {
@@ -378,7 +391,7 @@
     var copy = el('button', { type: 'button', class: 'ba-primary', text: t(ui, 'copy', 'Copy') });
     copy.addEventListener('click', function () {
       var lines = [];
-      for (var i = 0; i < numbers.length; i += 1) lines.push(numbers[i] + ' ' + verseText(chapter, numbers[i]));
+      for (var i = 0; i < numbers.length; i += 1) lines.push('[' + numbers[i] + '] ' + verseText(chapter, numbers[i]));
       var url = window.location.origin + window.location.pathname + '#v' + numbers[0] + (numbers.length > 1 ? '-' + numbers[numbers.length - 1] : '');
       var payload = lines.join('\n') + '\n— ' + ref + ' (' + ctx.translationLabel + ')\n' + url;
       copyText(payload).then(function () {
@@ -499,9 +512,7 @@
   }
 
   function bookName(ctx, bookId) {
-    if (ctx.translation && ctx.translation.books && ctx.translation.books[bookId] && ctx.translation.books[bookId].n) {
-      return ctx.translation.books[bookId].n;
-    }
+    if (ctx.language && ctx.language.bookNames && ctx.language.bookNames[bookId]) return ctx.language.bookNames[bookId];
     if (ctx.manifest && ctx.manifest.bookNames && ctx.manifest.bookNames[bookId]) return ctx.manifest.bookNames[bookId];
     return bookId;
   }
@@ -512,13 +523,13 @@
     if (!slug) return null;
     var translationSlug = ctx.translationSlug;
     var translation = ctx.translation;
-    if (!translation || !translation.books[bookId]) {
+    if (!translationHasBook(ctx, translation, bookId)) {
       // Fall back to the language's default translation when this one lacks the book.
       translationSlug = ctx.language.default;
       translation = ctx.language.translations[translationSlug];
-      if (!translation || !translation.books[bookId]) return null;
+      if (!translationHasBook(ctx, translation, bookId)) return null;
     }
-    if (!hasChapter(chapterSpec(ctx, bookId, translation.books[bookId]), chapter)) return null;
+    if (!hasChapter(chapterSpec(ctx, bookId, translation), chapter)) return null;
     return '/' + ctx.lang + '/' + translationSlug + '/' + slug + '/' + chapter + '#v' + verse;
   }
 
@@ -595,8 +606,8 @@
     }
   }
 
-  function chapterList(ctx, bookId, book) {
-    var spec = chapterSpec(ctx, bookId, book);
+  function chapterList(ctx, bookId, translation) {
+    var spec = chapterSpec(ctx, bookId, translation);
     if (typeof spec === 'number') {
       var list = [];
       for (var i = 1; i <= spec; i += 1) list.push(i);
@@ -607,10 +618,10 @@
 
   function adjacentChapterUrl(ctx, direction) {
     if (!ctx.translation || !ctx.manifest) return null;
-    var bookIds = Object.keys(ctx.translation.books);
+    var bookIds = bookList(ctx, ctx.translation);
     var bookIndex = bookIds.indexOf(ctx.bookId);
     if (bookIndex === -1) return null;
-    var chapters = chapterList(ctx, ctx.bookId, ctx.translation.books[ctx.bookId]);
+    var chapters = chapterList(ctx, ctx.bookId, ctx.translation);
     var chapterIndex = chapters.indexOf(ctx.chapter);
     var targetBook = ctx.bookId;
     var targetChapter = null;
@@ -619,7 +630,7 @@
     } else {
       var nextBookId = bookIds[bookIndex + direction];
       if (!nextBookId) return null;
-      var nextChapters = chapterList(ctx, nextBookId, ctx.translation.books[nextBookId]);
+      var nextChapters = chapterList(ctx, nextBookId, ctx.translation);
       if (nextChapters.length === 0) return null;
       targetBook = nextBookId;
       targetChapter = direction > 0 ? nextChapters[0] : nextChapters[nextChapters.length - 1];
@@ -627,6 +638,28 @@
     var slug = ctx.manifest.bookSlugs ? ctx.manifest.bookSlugs[targetBook] : null;
     if (!slug) return null;
     return '/' + ctx.lang + '/' + ctx.translationSlug + '/' + slug + '/' + targetChapter;
+  }
+
+  // -------------------------------------------------------------------------
+  // Sidebar: render chapter lists as wrapping grids of numbers
+  // -------------------------------------------------------------------------
+
+  var CHAPTER_PATH = /^\/[^/]+\/[^/]+\/.+\/\d+$/;
+
+  function decorateSidebar() {
+    var sidebar = document.getElementById('sidebar-content') || document.getElementById('mobile-nav-content');
+    if (!sidebar) return;
+    var items = sidebar.querySelectorAll('li[id]:not(.bible-ch):not(.bible-ch-checked)');
+    for (var i = 0; i < items.length; i += 1) {
+      var li = items[i];
+      li.classList.add('bible-ch-checked');
+      if (!CHAPTER_PATH.test(li.id)) continue;
+      li.classList.add('bible-ch');
+      var list = li.parentElement;
+      if (list && list.tagName === 'UL' && !list.classList.contains('bible-ch-grid')) {
+        list.classList.add('bible-ch-grid');
+      }
+    }
   }
 
   // -------------------------------------------------------------------------
