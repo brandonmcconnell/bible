@@ -106,6 +106,10 @@ html.bible-hide-headings .bible-chapter h2 {
   margin-inline-start: 0.4em;
 }
 
+.bible-chapter .bp.poetry > .v + .v::before {
+  margin-inline-start: 0;
+}
+
 .bible-chapter .v.vc::before,
 html.bible-hide-verse-numbers .bible-chapter .v::before {
   content: none;
@@ -339,6 +343,7 @@ html.bible-hide-footnotes .bible-footnotes {
 
 .bible-toolbar .bt-group {
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.25rem;
 }
