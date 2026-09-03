@@ -1,0 +1,698 @@
+/* ==========================================================================
+   The Bible on Mintlify — reader styles
+   Verse numbers are drawn with ::before and cross references with ::after so
+   the scripture text itself stays clean and copyable.
+   ========================================================================== */
+
+:root {
+  --bible-font-scale: 1;
+  --bible-serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+  --bible-accent: #8b1e2d;
+  --bible-accent-soft: rgba(139, 30, 45, 0.1);
+  --bible-woj: #a61b2b;
+  --bible-muted: #6b6b6b;
+  --bible-surface: #ffffff;
+  --bible-surface-2: #f6f4f2;
+  --bible-border: rgba(0, 0, 0, 0.1);
+  --bible-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+html.dark {
+  --bible-accent: #e8a0a8;
+  --bible-accent-soft: rgba(232, 160, 168, 0.14);
+  --bible-woj: #f19aa4;
+  --bible-muted: #a3a3a3;
+  --bible-surface: #17171a;
+  --bible-surface-2: #1f1f23;
+  --bible-border: rgba(255, 255, 255, 0.12);
+  --bible-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* Mintlify renders Markdown paragraphs nested inside JSX as inline
+   <span data-as="p">; restore block layout inside generated wrappers. */
+.bible-home span[data-as="p"],
+.bible-book span[data-as="p"],
+.bible-entity span[data-as="p"],
+.bible-index span[data-as="p"] {
+  display: block;
+  margin: 1.25em 0;
+}
+
+/* --------------------------------------------------------------------------
+   Chapter text
+   -------------------------------------------------------------------------- */
+
+.bible-chapter {
+  font-size: calc(1.0625rem * var(--bible-font-scale));
+  line-height: 1.8;
+}
+
+.bible-chapter .bt {
+  font-family: var(--bible-serif);
+  text-wrap: pretty;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+html.bible-sans .bible-chapter .bt {
+  font-family: inherit;
+}
+
+.bible-chapter .bp {
+  margin: 0 0 1.15em;
+}
+
+.bible-chapter .bp:last-child {
+  margin-bottom: 0;
+}
+
+.bible-chapter h2 {
+  font-family: var(--bible-serif);
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin: 1.6em 0 0.6em;
+  color: inherit;
+}
+
+.bible-chapter .bt + h2,
+.bible-chapter > h2:first-child {
+  margin-top: 0.4em;
+}
+
+html.bible-hide-headings .bible-chapter h2 {
+  display: none;
+}
+
+/* Verse numbers */
+.bible-chapter .v::before {
+  content: attr(data-v);
+  display: inline-block;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.6em;
+  font-weight: 700;
+  line-height: 0;
+  vertical-align: 0.55em;
+  color: var(--bible-accent);
+  margin-inline-end: 0.2em;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Keep the number off the previous verse's final punctuation. */
+.bible-chapter .bp > .v + .v::before {
+  margin-inline-start: 0.4em;
+}
+
+.bible-chapter .v.vc::before,
+html.bible-hide-verse-numbers .bible-chapter .v::before {
+  content: none;
+}
+
+/* Cross references (populated at build time, revealed by the toolbar) */
+.bible-chapter .v[data-xref]::after {
+  content: "[" attr(data-xref) "]";
+  display: none;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.68em;
+  font-style: italic;
+  color: var(--bible-muted);
+  margin-inline-start: 0.35em;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html.bible-show-xrefs .bible-chapter .v[data-xref]::after {
+  display: inline;
+}
+
+/* Verse interaction states */
+.bible-chapter .v {
+  cursor: pointer;
+  border-radius: 0.2em;
+  transition: background-color 120ms ease;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  scroll-margin-top: 7rem;
+}
+
+.bible-chapter .v:hover {
+  background: color-mix(in srgb, var(--bible-accent) 6%, transparent);
+}
+
+.bible-chapter .v.is-selected,
+.bible-chapter .v:target {
+  background: var(--bible-accent-soft);
+  box-shadow: 0 0 0 0.18em var(--bible-accent-soft);
+}
+
+/* Poetry */
+.bible-chapter .bp.poetry > .v {
+  display: block;
+}
+
+.bible-chapter .bp.poetry > .v + .v {
+  margin-top: 0.15em;
+}
+
+.bible-chapter .pl-2 {
+  padding-inline-start: 1.6em;
+}
+
+.bible-chapter .pl-3 {
+  padding-inline-start: 3.2em;
+}
+
+.bible-chapter .pl-4 {
+  padding-inline-start: 4.8em;
+}
+
+/* Words of Jesus */
+.bible-chapter .woj {
+  color: var(--bible-woj);
+}
+
+html.bible-no-red-letter .bible-chapter .woj {
+  color: inherit;
+}
+
+/* Hebrew subtitles (Psalm superscriptions) and descriptive text */
+.bible-chapter .hs {
+  font-style: italic;
+  opacity: 0.85;
+  margin: 0 0 0.75em;
+}
+
+.bible-chapter .desc {
+  font-style: italic;
+}
+
+/* Footnote markers */
+.bible-chapter sup.fn {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.6em;
+  line-height: 0;
+  vertical-align: 0.6em;
+  margin-inline-start: 0.08em;
+  position: relative;
+}
+
+.bible-chapter sup.fn a {
+  color: var(--bible-muted);
+  font-weight: 600;
+  text-decoration: none;
+  border: 0;
+  padding: 0 0.15em;
+}
+
+.bible-chapter sup.fn a:hover {
+  color: var(--bible-accent);
+}
+
+.bible-chapter sup.fn a::after {
+  content: attr(data-fn);
+  position: absolute;
+  inset-inline-start: 0;
+  bottom: 1.4em;
+  z-index: 30;
+  display: none;
+  width: max-content;
+  max-width: min(22rem, 80vw);
+  padding: 0.55rem 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--bible-border);
+  background: var(--bible-surface);
+  color: inherit;
+  box-shadow: var(--bible-shadow);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.45;
+  text-align: start;
+  white-space: normal;
+  pointer-events: none;
+}
+
+.bible-chapter sup.fn a:hover::after,
+.bible-chapter sup.fn a:focus-visible::after {
+  display: block;
+}
+
+html.bible-hide-footnotes .bible-chapter sup.fn,
+html.bible-hide-footnotes .bible-footnotes {
+  display: none;
+}
+
+/* Footnote list */
+.bible-footnotes .fnl {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.bible-footnotes .fnl li {
+  margin: 0.25rem 0;
+  padding-inline-start: 1.9rem;
+  position: relative;
+}
+
+.bible-footnotes .fnl .fnb {
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0;
+  width: 1.4rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--bible-accent);
+  text-decoration: none;
+  border: 0;
+}
+
+.bible-footnotes .fnl .fnr {
+  font-weight: 600;
+  color: var(--bible-muted);
+  margin-inline-end: 0.3rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* "In this chapter" entity rows */
+.bible-entities .entrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  align-items: baseline;
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.bible-entities .entk {
+  font-weight: 600;
+  color: var(--bible-muted);
+  min-width: 4.5rem;
+}
+
+.ent {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  background: var(--bible-surface-2);
+  border: 1px solid var(--bible-border);
+  white-space: nowrap;
+}
+
+.ent a {
+  text-decoration: none;
+  border: 0;
+  font-weight: 500;
+}
+
+.ent .entv {
+  font-size: 0.75em;
+  color: var(--bible-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --------------------------------------------------------------------------
+   Reader toolbar (injected by theme/bible-reader.js)
+   -------------------------------------------------------------------------- */
+
+.bible-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--bible-border);
+  border-radius: 0.75rem;
+  background: var(--bible-surface-2);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.bible-toolbar .bt-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.bible-toolbar .bt-spacer {
+  flex: 1 1 auto;
+}
+
+.bible-toolbar select,
+.bible-toolbar button {
+  appearance: none;
+  -webkit-appearance: none;
+  font: inherit;
+  color: inherit;
+  background: var(--bible-surface);
+  border: 1px solid var(--bible-border);
+  border-radius: 0.5rem;
+  padding: 0.35rem 0.6rem;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.bible-toolbar select {
+  padding-inline-end: 1.6rem;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 0.9rem) 55%, calc(100% - 0.6rem) 55%;
+  background-size: 0.3rem 0.3rem, 0.3rem 0.3rem;
+  background-repeat: no-repeat;
+  max-width: 14rem;
+  text-overflow: ellipsis;
+}
+
+[dir="rtl"] .bible-toolbar select {
+  background-position: 0.9rem 55%, 0.6rem 55%;
+  padding-inline-end: 0.6rem;
+  padding-inline-start: 1.6rem;
+}
+
+.bible-toolbar button:hover,
+.bible-toolbar select:hover {
+  border-color: var(--bible-accent);
+}
+
+.bible-toolbar button:focus-visible,
+.bible-toolbar select:focus-visible {
+  outline: 2px solid var(--bible-accent);
+  outline-offset: 1px;
+}
+
+.bible-toolbar button[aria-pressed="true"] {
+  background: var(--bible-accent);
+  border-color: var(--bible-accent);
+  color: #fff;
+}
+
+html.dark .bible-toolbar button[aria-pressed="true"] {
+  color: #1a0a0d;
+}
+
+.bible-toolbar .bt-font button {
+  min-width: 2.1rem;
+  font-weight: 600;
+}
+
+.bible-toolbar .bt-font button:first-child {
+  font-size: 0.75rem;
+}
+
+.bible-toolbar .bt-font button:last-child {
+  font-size: 0.95rem;
+}
+
+.bible-toolbar .bt-icon {
+  padding: 0.35rem 0.5rem;
+}
+
+/* --------------------------------------------------------------------------
+   Selection action bar and popover (injected by theme/bible-reader.js)
+   -------------------------------------------------------------------------- */
+
+.bible-actions {
+  position: fixed;
+  left: 50%;
+  bottom: 1.25rem;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.55rem 0.45rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--bible-border);
+  background: var(--bible-surface);
+  box-shadow: var(--bible-shadow);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.85rem;
+  max-width: calc(100vw - 2rem);
+}
+
+.bible-actions[hidden] {
+  display: none;
+}
+
+.bible-actions .ba-ref {
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 14rem;
+}
+
+.bible-actions button {
+  font: inherit;
+  color: inherit;
+  background: var(--bible-surface-2);
+  border: 1px solid var(--bible-border);
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.bible-actions button:hover {
+  border-color: var(--bible-accent);
+}
+
+.bible-actions button.ba-primary {
+  background: var(--bible-accent);
+  border-color: var(--bible-accent);
+  color: #fff;
+}
+
+html.dark .bible-actions button.ba-primary {
+  color: #1a0a0d;
+}
+
+.bible-panel {
+  position: fixed;
+  left: 50%;
+  bottom: 4.5rem;
+  transform: translateX(-50%);
+  z-index: 60;
+  width: min(34rem, calc(100vw - 2rem));
+  max-height: min(24rem, 60vh);
+  overflow: auto;
+  padding: 0.9rem 1rem;
+  border-radius: 0.9rem;
+  border: 1px solid var(--bible-border);
+  background: var(--bible-surface);
+  box-shadow: var(--bible-shadow);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.875rem;
+}
+
+.bible-panel[hidden] {
+  display: none;
+}
+
+.bible-panel h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--bible-muted);
+}
+
+.bible-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.25rem 0.75rem;
+}
+
+.bible-panel li a {
+  text-decoration: none;
+  border: 0;
+  display: inline-flex;
+  gap: 0.3rem;
+  align-items: baseline;
+}
+
+.bible-panel li a .score {
+  font-size: 0.75em;
+  color: var(--bible-muted);
+}
+
+.bible-panel .bp-empty {
+  color: var(--bible-muted);
+}
+
+/* --------------------------------------------------------------------------
+   Landing pages: book and chapter grids, stats
+   -------------------------------------------------------------------------- */
+
+.bmeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  margin: 0 0 1.25rem;
+  font-size: 0.85rem;
+  color: var(--bible-muted);
+}
+
+.bmeta span::before {
+  content: "•";
+  margin-inline-end: 0.5rem;
+  color: var(--bible-accent);
+}
+
+.cgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
+  gap: 0.4rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.cgrid a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  border-radius: 0.6rem;
+  border: 1px solid var(--bible-border);
+  background: var(--bible-surface-2);
+  text-decoration: none;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: inherit;
+  transition: border-color 120ms ease, background-color 120ms ease;
+}
+
+.cgrid a:hover {
+  border-color: var(--bible-accent);
+  background: var(--bible-accent-soft);
+}
+
+.bgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.4rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.bgrid .bg-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--bible-border);
+  background: var(--bible-surface-2);
+}
+
+.bgrid .bg-item a {
+  text-decoration: none;
+  border: 0;
+  font-weight: 500;
+  color: inherit;
+}
+
+.bgrid .bg-item:hover {
+  border-color: var(--bible-accent);
+}
+
+.bgrid .bg-count {
+  font-size: 0.75rem;
+  color: var(--bible-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --------------------------------------------------------------------------
+   Study pages: facts, maps, indexes
+   -------------------------------------------------------------------------- */
+
+.facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 1rem;
+  margin: 0 0 1.5rem;
+  padding: 0.9rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--bible-border);
+  background: var(--bible-surface-2);
+  font-size: 0.9rem;
+}
+
+.facts .fact {
+  display: contents;
+}
+
+.facts .factk {
+  color: var(--bible-muted);
+  font-weight: 600;
+}
+
+.bmap-wrap {
+  margin: 0 0 1.25rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid var(--bible-border);
+  background: var(--bible-surface-2);
+}
+
+.bmap {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  border: 0;
+}
+
+.bmap-link {
+  display: block;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  border: 0;
+}
+
+.entgrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.bible-timeline table {
+  font-size: 0.9rem;
+}
+
+/* --------------------------------------------------------------------------
+   Print
+   -------------------------------------------------------------------------- */
+
+@media print {
+  .bible-toolbar,
+  .bible-actions,
+  .bible-panel,
+  #sidebar,
+  #navbar,
+  #table-of-contents,
+  #pagination,
+  footer {
+    display: none !important;
+  }
+
+  .bible-chapter {
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  .bible-chapter .v[data-xref]::after {
+    display: none !important;
+  }
+}

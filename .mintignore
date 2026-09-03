@@ -1,0 +1,8 @@
+# Generator source and API cache are not documentation content.
+generator/
+.cache/
+.github/
+node_modules/
+package.json
+package-lock.json
+tsconfig.json
