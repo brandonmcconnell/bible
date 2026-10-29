@@ -1,0 +1,36 @@
+name: Regenerate content
+
+# Rebuilds every generated page from the Free Use Bible API and opens a pull
+# request when anything changed. Run it manually after editing
+# generator/config.ts, or let the monthly schedule pick up upstream fixes.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 1 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npx mint validate
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: chore/regenerate-content
+          title: 'chore: regenerate Bible content'
+          commit-message: 'chore: regenerate Bible content from the Free Use Bible API'
+          body: |
+            Automated rebuild of all generated pages, navigation and data files.
+            Review the diff for upstream text corrections or new footnotes before merging.
+          labels: automated

@@ -1,0 +1,25 @@
+{
+  "name": "bible-mintlify",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Bible as a Mintlify docs site: every translation, book, chapter and verse generated from open Bible APIs.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsx generator/build.ts",
+    "build:sample": "tsx generator/build.ts --sample",
+    "clean": "tsx generator/build.ts --clean-only",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "dev": "mint dev",
+    "validate": "mint validate",
+    "broken-links": "mint broken-links"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "mint": "^4.2.863",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

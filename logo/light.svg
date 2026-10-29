@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="36" viewBox="0 0 168 36" role="img" aria-label="The Bible">
+  <g fill="none" stroke="#8B1E2D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 8.5c-3.2-2.4-7.6-3-12-1.6v20.4c4.4-1.4 8.8-.8 12 1.6 3.2-2.4 7.6-3 12-1.6V6.9c-4.4-1.4-8.8-.8-12 1.6z"/>
+    <path d="M18 8.5v20.4"/>
+    <path d="M23.5 13.8v7.2M20.6 16.6h5.8"/>
+  </g>
+  <text x="40" y="24.5" font-family="'Source Serif 4', Georgia, 'Times New Roman', serif" font-size="19" font-weight="600" fill="#1c1917" letter-spacing="0.2">The Bible</text>
+</svg>

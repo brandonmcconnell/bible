@@ -1,0 +1,2068 @@
+{
+  "language": "tr",
+  "versions": [
+    {
+      "version": "YTC",
+      "tabs": [
+        {
+          "tab": "Kutsal Kitap",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Yorumsuz Türkçe Çeviri",
+              "icon": "book-open",
+              "pages": [
+                "tr/ytc/index"
+              ]
+            },
+            {
+              "group": "Eski Antlaşma",
+              "icon": "scroll-text",
+              "pages": [
+                {
+                  "group": "YARATILIŞ",
+                  "pages": [
+                    "tr/ytc/genesis/index",
+                    "tr/ytc/genesis/1",
+                    "tr/ytc/genesis/2",
+                    "tr/ytc/genesis/3",
+                    "tr/ytc/genesis/4",
+                    "tr/ytc/genesis/5",
+                    "tr/ytc/genesis/6",
+                    "tr/ytc/genesis/7",
+                    "tr/ytc/genesis/8",
+                    "tr/ytc/genesis/9",
+                    "tr/ytc/genesis/10",
+                    "tr/ytc/genesis/11",
+                    "tr/ytc/genesis/12",
+                    "tr/ytc/genesis/13",
+                    "tr/ytc/genesis/14",
+                    "tr/ytc/genesis/15",
+                    "tr/ytc/genesis/16",
+                    "tr/ytc/genesis/17",
+                    "tr/ytc/genesis/18",
+                    "tr/ytc/genesis/19",
+                    "tr/ytc/genesis/20",
+                    "tr/ytc/genesis/21",
+                    "tr/ytc/genesis/22",
+                    "tr/ytc/genesis/23",
+                    "tr/ytc/genesis/24",
+                    "tr/ytc/genesis/25",
+                    "tr/ytc/genesis/26",
+                    "tr/ytc/genesis/27",
+                    "tr/ytc/genesis/28",
+                    "tr/ytc/genesis/29",
+                    "tr/ytc/genesis/30",
+                    "tr/ytc/genesis/31",
+                    "tr/ytc/genesis/32",
+                    "tr/ytc/genesis/33",
+                    "tr/ytc/genesis/34",
+                    "tr/ytc/genesis/35",
+                    "tr/ytc/genesis/36",
+                    "tr/ytc/genesis/37",
+                    "tr/ytc/genesis/38",
+                    "tr/ytc/genesis/39",
+                    "tr/ytc/genesis/40",
+                    "tr/ytc/genesis/41",
+                    "tr/ytc/genesis/42",
+                    "tr/ytc/genesis/43",
+                    "tr/ytc/genesis/44",
+                    "tr/ytc/genesis/45",
+                    "tr/ytc/genesis/46",
+                    "tr/ytc/genesis/47",
+                    "tr/ytc/genesis/48",
+                    "tr/ytc/genesis/49",
+                    "tr/ytc/genesis/50"
+                  ]
+                },
+                {
+                  "group": "ÇIKIŞ",
+                  "pages": [
+                    "tr/ytc/exodus/index",
+                    "tr/ytc/exodus/1",
+                    "tr/ytc/exodus/2",
+                    "tr/ytc/exodus/3",
+                    "tr/ytc/exodus/4",
+                    "tr/ytc/exodus/5",
+                    "tr/ytc/exodus/6",
+                    "tr/ytc/exodus/7",
+                    "tr/ytc/exodus/8",
+                    "tr/ytc/exodus/9",
+                    "tr/ytc/exodus/10",
+                    "tr/ytc/exodus/11",
+                    "tr/ytc/exodus/12",
+                    "tr/ytc/exodus/13",
+                    "tr/ytc/exodus/14",
+                    "tr/ytc/exodus/15",
+                    "tr/ytc/exodus/16",
+                    "tr/ytc/exodus/17",
+                    "tr/ytc/exodus/18",
+                    "tr/ytc/exodus/19",
+                    "tr/ytc/exodus/20",
+                    "tr/ytc/exodus/21",
+                    "tr/ytc/exodus/22",
+                    "tr/ytc/exodus/23",
+                    "tr/ytc/exodus/24",
+                    "tr/ytc/exodus/25",
+                    "tr/ytc/exodus/26",
+                    "tr/ytc/exodus/27",
+                    "tr/ytc/exodus/28",
+                    "tr/ytc/exodus/29",
+                    "tr/ytc/exodus/30",
+                    "tr/ytc/exodus/31",
+                    "tr/ytc/exodus/32",
+                    "tr/ytc/exodus/33",
+                    "tr/ytc/exodus/34",
+                    "tr/ytc/exodus/35",
+                    "tr/ytc/exodus/36",
+                    "tr/ytc/exodus/37",
+                    "tr/ytc/exodus/38",
+                    "tr/ytc/exodus/39",
+                    "tr/ytc/exodus/40"
+                  ]
+                },
+                {
+                  "group": "LEVİLİLER",
+                  "pages": [
+                    "tr/ytc/leviticus/index",
+                    "tr/ytc/leviticus/1",
+                    "tr/ytc/leviticus/2",
+                    "tr/ytc/leviticus/3",
+                    "tr/ytc/leviticus/4",
+                    "tr/ytc/leviticus/5",
+                    "tr/ytc/leviticus/6",
+                    "tr/ytc/leviticus/7",
+                    "tr/ytc/leviticus/8",
+                    "tr/ytc/leviticus/9",
+                    "tr/ytc/leviticus/10",
+                    "tr/ytc/leviticus/11",
+                    "tr/ytc/leviticus/12",
+                    "tr/ytc/leviticus/13",
+                    "tr/ytc/leviticus/14",
+                    "tr/ytc/leviticus/15",
+                    "tr/ytc/leviticus/16",
+                    "tr/ytc/leviticus/17",
+                    "tr/ytc/leviticus/18",
+                    "tr/ytc/leviticus/19",
+                    "tr/ytc/leviticus/20",
+                    "tr/ytc/leviticus/21",
+                    "tr/ytc/leviticus/22",
+                    "tr/ytc/leviticus/23",
+                    "tr/ytc/leviticus/24",
+                    "tr/ytc/leviticus/25",
+                    "tr/ytc/leviticus/26",
+                    "tr/ytc/leviticus/27"
+                  ]
+                },
+                {
+                  "group": "SAYILAR",
+                  "pages": [
+                    "tr/ytc/numbers/index",
+                    "tr/ytc/numbers/1",
+                    "tr/ytc/numbers/2",
+                    "tr/ytc/numbers/3",
+                    "tr/ytc/numbers/4",
+                    "tr/ytc/numbers/5",
+                    "tr/ytc/numbers/6",
+                    "tr/ytc/numbers/7",
+                    "tr/ytc/numbers/8",
+                    "tr/ytc/numbers/9",
+                    "tr/ytc/numbers/10",
+                    "tr/ytc/numbers/11",
+                    "tr/ytc/numbers/12",
+                    "tr/ytc/numbers/13",
+                    "tr/ytc/numbers/14",
+                    "tr/ytc/numbers/15",
+                    "tr/ytc/numbers/16",
+                    "tr/ytc/numbers/17",
+                    "tr/ytc/numbers/18",
+                    "tr/ytc/numbers/19",
+                    "tr/ytc/numbers/20",
+                    "tr/ytc/numbers/21",
+                    "tr/ytc/numbers/22",
+                    "tr/ytc/numbers/23",
+                    "tr/ytc/numbers/24",
+                    "tr/ytc/numbers/25",
+                    "tr/ytc/numbers/26",
+                    "tr/ytc/numbers/27",
+                    "tr/ytc/numbers/28",
+                    "tr/ytc/numbers/29",
+                    "tr/ytc/numbers/30",
+                    "tr/ytc/numbers/31",
+                    "tr/ytc/numbers/32",
+                    "tr/ytc/numbers/33",
+                    "tr/ytc/numbers/34",
+                    "tr/ytc/numbers/35",
+                    "tr/ytc/numbers/36"
+                  ]
+                },
+                {
+                  "group": "YASA'NIN TEKRARI",
+                  "pages": [
+                    "tr/ytc/deuteronomy/index",
+                    "tr/ytc/deuteronomy/1",
+                    "tr/ytc/deuteronomy/2",
+                    "tr/ytc/deuteronomy/3",
+                    "tr/ytc/deuteronomy/4",
+                    "tr/ytc/deuteronomy/5",
+                    "tr/ytc/deuteronomy/6",
+                    "tr/ytc/deuteronomy/7",
+                    "tr/ytc/deuteronomy/8",
+                    "tr/ytc/deuteronomy/9",
+                    "tr/ytc/deuteronomy/10",
+                    "tr/ytc/deuteronomy/11",
+                    "tr/ytc/deuteronomy/12",
+                    "tr/ytc/deuteronomy/13",
+                    "tr/ytc/deuteronomy/14",
+                    "tr/ytc/deuteronomy/15",
+                    "tr/ytc/deuteronomy/16",
+                    "tr/ytc/deuteronomy/17",
+                    "tr/ytc/deuteronomy/18",
+                    "tr/ytc/deuteronomy/19",
+                    "tr/ytc/deuteronomy/20",
+                    "tr/ytc/deuteronomy/21",
+                    "tr/ytc/deuteronomy/22",
+                    "tr/ytc/deuteronomy/23",
+                    "tr/ytc/deuteronomy/24",
+                    "tr/ytc/deuteronomy/25",
+                    "tr/ytc/deuteronomy/26",
+                    "tr/ytc/deuteronomy/27",
+                    "tr/ytc/deuteronomy/28",
+                    "tr/ytc/deuteronomy/29",
+                    "tr/ytc/deuteronomy/30",
+                    "tr/ytc/deuteronomy/31",
+                    "tr/ytc/deuteronomy/32",
+                    "tr/ytc/deuteronomy/33",
+                    "tr/ytc/deuteronomy/34"
+                  ]
+                },
+                {
+                  "group": "YEŞU",
+                  "pages": [
+                    "tr/ytc/joshua/index",
+                    "tr/ytc/joshua/1",
+                    "tr/ytc/joshua/2",
+                    "tr/ytc/joshua/3",
+                    "tr/ytc/joshua/4",
+                    "tr/ytc/joshua/5",
+                    "tr/ytc/joshua/6",
+                    "tr/ytc/joshua/7",
+                    "tr/ytc/joshua/8",
+                    "tr/ytc/joshua/9",
+                    "tr/ytc/joshua/10",
+                    "tr/ytc/joshua/11",
+                    "tr/ytc/joshua/12",
+                    "tr/ytc/joshua/13",
+                    "tr/ytc/joshua/14",
+                    "tr/ytc/joshua/15",
+                    "tr/ytc/joshua/16",
+                    "tr/ytc/joshua/17",
+                    "tr/ytc/joshua/18",
+                    "tr/ytc/joshua/19",
+                    "tr/ytc/joshua/20",
+                    "tr/ytc/joshua/21",
+                    "tr/ytc/joshua/22",
+                    "tr/ytc/joshua/23",
+                    "tr/ytc/joshua/24"
+                  ]
+                },
+                {
+                  "group": "HÂKİMLER",
+                  "pages": [
+                    "tr/ytc/judges/index",
+                    "tr/ytc/judges/1",
+                    "tr/ytc/judges/2",
+                    "tr/ytc/judges/3",
+                    "tr/ytc/judges/4",
+                    "tr/ytc/judges/5",
+                    "tr/ytc/judges/6",
+                    "tr/ytc/judges/7",
+                    "tr/ytc/judges/8",
+                    "tr/ytc/judges/9",
+                    "tr/ytc/judges/10",
+                    "tr/ytc/judges/11",
+                    "tr/ytc/judges/12",
+                    "tr/ytc/judges/13",
+                    "tr/ytc/judges/14",
+                    "tr/ytc/judges/15",
+                    "tr/ytc/judges/16",
+                    "tr/ytc/judges/17",
+                    "tr/ytc/judges/18",
+                    "tr/ytc/judges/19",
+                    "tr/ytc/judges/20",
+                    "tr/ytc/judges/21"
+                  ]
+                },
+                {
+                  "group": "RUT",
+                  "pages": [
+                    "tr/ytc/ruth/index",
+                    "tr/ytc/ruth/1",
+                    "tr/ytc/ruth/2",
+                    "tr/ytc/ruth/3",
+                    "tr/ytc/ruth/4"
+                  ]
+                },
+                {
+                  "group": "I. SAMUEL",
+                  "pages": [
+                    "tr/ytc/1-samuel/index",
+                    "tr/ytc/1-samuel/1",
+                    "tr/ytc/1-samuel/2",
+                    "tr/ytc/1-samuel/3",
+                    "tr/ytc/1-samuel/4",
+                    "tr/ytc/1-samuel/5",
+                    "tr/ytc/1-samuel/6",
+                    "tr/ytc/1-samuel/7",
+                    "tr/ytc/1-samuel/8",
+                    "tr/ytc/1-samuel/9",
+                    "tr/ytc/1-samuel/10",
+                    "tr/ytc/1-samuel/11",
+                    "tr/ytc/1-samuel/12",
+                    "tr/ytc/1-samuel/13",
+                    "tr/ytc/1-samuel/14",
+                    "tr/ytc/1-samuel/15",
+                    "tr/ytc/1-samuel/16",
+                    "tr/ytc/1-samuel/17",
+                    "tr/ytc/1-samuel/18",
+                    "tr/ytc/1-samuel/19",
+                    "tr/ytc/1-samuel/20",
+                    "tr/ytc/1-samuel/21",
+                    "tr/ytc/1-samuel/22",
+                    "tr/ytc/1-samuel/23",
+                    "tr/ytc/1-samuel/24",
+                    "tr/ytc/1-samuel/25",
+                    "tr/ytc/1-samuel/26",
+                    "tr/ytc/1-samuel/27",
+                    "tr/ytc/1-samuel/28",
+                    "tr/ytc/1-samuel/29",
+                    "tr/ytc/1-samuel/30",
+                    "tr/ytc/1-samuel/31"
+                  ]
+                },
+                {
+                  "group": "2. SAMUEL",
+                  "pages": [
+                    "tr/ytc/2-samuel/index",
+                    "tr/ytc/2-samuel/1",
+                    "tr/ytc/2-samuel/2",
+                    "tr/ytc/2-samuel/3",
+                    "tr/ytc/2-samuel/4",
+                    "tr/ytc/2-samuel/5",
+                    "tr/ytc/2-samuel/6",
+                    "tr/ytc/2-samuel/7",
+                    "tr/ytc/2-samuel/8",
+                    "tr/ytc/2-samuel/9",
+                    "tr/ytc/2-samuel/10",
+                    "tr/ytc/2-samuel/11",
+                    "tr/ytc/2-samuel/12",
+                    "tr/ytc/2-samuel/13",
+                    "tr/ytc/2-samuel/14",
+                    "tr/ytc/2-samuel/15",
+                    "tr/ytc/2-samuel/16",
+                    "tr/ytc/2-samuel/17",
+                    "tr/ytc/2-samuel/18",
+                    "tr/ytc/2-samuel/19",
+                    "tr/ytc/2-samuel/20",
+                    "tr/ytc/2-samuel/21",
+                    "tr/ytc/2-samuel/22",
+                    "tr/ytc/2-samuel/23",
+                    "tr/ytc/2-samuel/24"
+                  ]
+                },
+                {
+                  "group": "1. KRALLAR",
+                  "pages": [
+                    "tr/ytc/1-kings/index",
+                    "tr/ytc/1-kings/1",
+                    "tr/ytc/1-kings/2",
+                    "tr/ytc/1-kings/3",
+                    "tr/ytc/1-kings/4",
+                    "tr/ytc/1-kings/5",
+                    "tr/ytc/1-kings/6",
+                    "tr/ytc/1-kings/7",
+                    "tr/ytc/1-kings/8",
+                    "tr/ytc/1-kings/9",
+                    "tr/ytc/1-kings/10",
+                    "tr/ytc/1-kings/11",
+                    "tr/ytc/1-kings/12",
+                    "tr/ytc/1-kings/13",
+                    "tr/ytc/1-kings/14",
+                    "tr/ytc/1-kings/15",
+                    "tr/ytc/1-kings/16",
+                    "tr/ytc/1-kings/17",
+                    "tr/ytc/1-kings/18",
+                    "tr/ytc/1-kings/19",
+                    "tr/ytc/1-kings/20",
+                    "tr/ytc/1-kings/21",
+                    "tr/ytc/1-kings/22"
+                  ]
+                },
+                {
+                  "group": "2. KRALLAR",
+                  "pages": [
+                    "tr/ytc/2-kings/index",
+                    "tr/ytc/2-kings/1",
+                    "tr/ytc/2-kings/2",
+                    "tr/ytc/2-kings/3",
+                    "tr/ytc/2-kings/4",
+                    "tr/ytc/2-kings/5",
+                    "tr/ytc/2-kings/6",
+                    "tr/ytc/2-kings/7",
+                    "tr/ytc/2-kings/8",
+                    "tr/ytc/2-kings/9",
+                    "tr/ytc/2-kings/10",
+                    "tr/ytc/2-kings/11",
+                    "tr/ytc/2-kings/12",
+                    "tr/ytc/2-kings/13",
+                    "tr/ytc/2-kings/14",
+                    "tr/ytc/2-kings/15",
+                    "tr/ytc/2-kings/16",
+                    "tr/ytc/2-kings/17",
+                    "tr/ytc/2-kings/18",
+                    "tr/ytc/2-kings/19",
+                    "tr/ytc/2-kings/20",
+                    "tr/ytc/2-kings/21",
+                    "tr/ytc/2-kings/22",
+                    "tr/ytc/2-kings/23",
+                    "tr/ytc/2-kings/24",
+                    "tr/ytc/2-kings/25"
+                  ]
+                },
+                {
+                  "group": "1. TARİHLER",
+                  "pages": [
+                    "tr/ytc/1-chronicles/index",
+                    "tr/ytc/1-chronicles/1",
+                    "tr/ytc/1-chronicles/2",
+                    "tr/ytc/1-chronicles/3",
+                    "tr/ytc/1-chronicles/4",
+                    "tr/ytc/1-chronicles/5",
+                    "tr/ytc/1-chronicles/6",
+                    "tr/ytc/1-chronicles/7",
+                    "tr/ytc/1-chronicles/8",
+                    "tr/ytc/1-chronicles/9",
+                    "tr/ytc/1-chronicles/10",
+                    "tr/ytc/1-chronicles/11",
+                    "tr/ytc/1-chronicles/12",
+                    "tr/ytc/1-chronicles/13",
+                    "tr/ytc/1-chronicles/14",
+                    "tr/ytc/1-chronicles/15",
+                    "tr/ytc/1-chronicles/16",
+                    "tr/ytc/1-chronicles/17",
+                    "tr/ytc/1-chronicles/18",
+                    "tr/ytc/1-chronicles/19",
+                    "tr/ytc/1-chronicles/20",
+                    "tr/ytc/1-chronicles/21",
+                    "tr/ytc/1-chronicles/22",
+                    "tr/ytc/1-chronicles/23",
+                    "tr/ytc/1-chronicles/24",
+                    "tr/ytc/1-chronicles/25",
+                    "tr/ytc/1-chronicles/26",
+                    "tr/ytc/1-chronicles/27",
+                    "tr/ytc/1-chronicles/28",
+                    "tr/ytc/1-chronicles/29"
+                  ]
+                },
+                {
+                  "group": "2. TARİHLER",
+                  "pages": [
+                    "tr/ytc/2-chronicles/index",
+                    "tr/ytc/2-chronicles/1",
+                    "tr/ytc/2-chronicles/2",
+                    "tr/ytc/2-chronicles/3",
+                    "tr/ytc/2-chronicles/4",
+                    "tr/ytc/2-chronicles/5",
+                    "tr/ytc/2-chronicles/6",
+                    "tr/ytc/2-chronicles/7",
+                    "tr/ytc/2-chronicles/8",
+                    "tr/ytc/2-chronicles/9",
+                    "tr/ytc/2-chronicles/10",
+                    "tr/ytc/2-chronicles/11",
+                    "tr/ytc/2-chronicles/12",
+                    "tr/ytc/2-chronicles/13",
+                    "tr/ytc/2-chronicles/14",
+                    "tr/ytc/2-chronicles/15",
+                    "tr/ytc/2-chronicles/16",
+                    "tr/ytc/2-chronicles/17",
+                    "tr/ytc/2-chronicles/18",
+                    "tr/ytc/2-chronicles/19",
+                    "tr/ytc/2-chronicles/20",
+                    "tr/ytc/2-chronicles/21",
+                    "tr/ytc/2-chronicles/22",
+                    "tr/ytc/2-chronicles/23",
+                    "tr/ytc/2-chronicles/24",
+                    "tr/ytc/2-chronicles/25",
+                    "tr/ytc/2-chronicles/26",
+                    "tr/ytc/2-chronicles/27",
+                    "tr/ytc/2-chronicles/28",
+                    "tr/ytc/2-chronicles/29",
+                    "tr/ytc/2-chronicles/30",
+                    "tr/ytc/2-chronicles/31",
+                    "tr/ytc/2-chronicles/32",
+                    "tr/ytc/2-chronicles/33",
+                    "tr/ytc/2-chronicles/34",
+                    "tr/ytc/2-chronicles/35",
+                    "tr/ytc/2-chronicles/36"
+                  ]
+                },
+                {
+                  "group": "EZRA",
+                  "pages": [
+                    "tr/ytc/ezra/index",
+                    "tr/ytc/ezra/1",
+                    "tr/ytc/ezra/2",
+                    "tr/ytc/ezra/3",
+                    "tr/ytc/ezra/4",
+                    "tr/ytc/ezra/5",
+                    "tr/ytc/ezra/6",
+                    "tr/ytc/ezra/7",
+                    "tr/ytc/ezra/8",
+                    "tr/ytc/ezra/9",
+                    "tr/ytc/ezra/10"
+                  ]
+                },
+                {
+                  "group": "NEHEMYA",
+                  "pages": [
+                    "tr/ytc/nehemiah/index",
+                    "tr/ytc/nehemiah/1",
+                    "tr/ytc/nehemiah/2",
+                    "tr/ytc/nehemiah/3",
+                    "tr/ytc/nehemiah/4",
+                    "tr/ytc/nehemiah/5",
+                    "tr/ytc/nehemiah/6",
+                    "tr/ytc/nehemiah/7",
+                    "tr/ytc/nehemiah/8",
+                    "tr/ytc/nehemiah/9",
+                    "tr/ytc/nehemiah/10",
+                    "tr/ytc/nehemiah/11",
+                    "tr/ytc/nehemiah/12",
+                    "tr/ytc/nehemiah/13"
+                  ]
+                },
+                {
+                  "group": "ESTER",
+                  "pages": [
+                    "tr/ytc/esther/index",
+                    "tr/ytc/esther/1",
+                    "tr/ytc/esther/2",
+                    "tr/ytc/esther/3",
+                    "tr/ytc/esther/4",
+                    "tr/ytc/esther/5",
+                    "tr/ytc/esther/6",
+                    "tr/ytc/esther/7",
+                    "tr/ytc/esther/8",
+                    "tr/ytc/esther/9",
+                    "tr/ytc/esther/10"
+                  ]
+                },
+                {
+                  "group": "İYOV",
+                  "pages": [
+                    "tr/ytc/job/index",
+                    "tr/ytc/job/1",
+                    "tr/ytc/job/2",
+                    "tr/ytc/job/3",
+                    "tr/ytc/job/4",
+                    "tr/ytc/job/5",
+                    "tr/ytc/job/6",
+                    "tr/ytc/job/7",
+                    "tr/ytc/job/8",
+                    "tr/ytc/job/9",
+                    "tr/ytc/job/10",
+                    "tr/ytc/job/11",
+                    "tr/ytc/job/12",
+                    "tr/ytc/job/13",
+                    "tr/ytc/job/14",
+                    "tr/ytc/job/15",
+                    "tr/ytc/job/16",
+                    "tr/ytc/job/17",
+                    "tr/ytc/job/18",
+                    "tr/ytc/job/19",
+                    "tr/ytc/job/20",
+                    "tr/ytc/job/21",
+                    "tr/ytc/job/22",
+                    "tr/ytc/job/23",
+                    "tr/ytc/job/24",
+                    "tr/ytc/job/25",
+                    "tr/ytc/job/26",
+                    "tr/ytc/job/27",
+                    "tr/ytc/job/28",
+                    "tr/ytc/job/29",
+                    "tr/ytc/job/30",
+                    "tr/ytc/job/31",
+                    "tr/ytc/job/32",
+                    "tr/ytc/job/33",
+                    "tr/ytc/job/34",
+                    "tr/ytc/job/35",
+                    "tr/ytc/job/36",
+                    "tr/ytc/job/37",
+                    "tr/ytc/job/38",
+                    "tr/ytc/job/39",
+                    "tr/ytc/job/40",
+                    "tr/ytc/job/41",
+                    "tr/ytc/job/42"
+                  ]
+                },
+                {
+                  "group": "MEZMURLAR",
+                  "pages": [
+                    "tr/ytc/psalms/index",
+                    "tr/ytc/psalms/1",
+                    "tr/ytc/psalms/2",
+                    "tr/ytc/psalms/3",
+                    "tr/ytc/psalms/4",
+                    "tr/ytc/psalms/5",
+                    "tr/ytc/psalms/6",
+                    "tr/ytc/psalms/7",
+                    "tr/ytc/psalms/8",
+                    "tr/ytc/psalms/9",
+                    "tr/ytc/psalms/10",
+                    "tr/ytc/psalms/11",
+                    "tr/ytc/psalms/12",
+                    "tr/ytc/psalms/13",
+                    "tr/ytc/psalms/14",
+                    "tr/ytc/psalms/15",
+                    "tr/ytc/psalms/16",
+                    "tr/ytc/psalms/17",
+                    "tr/ytc/psalms/18",
+                    "tr/ytc/psalms/19",
+                    "tr/ytc/psalms/20",
+                    "tr/ytc/psalms/21",
+                    "tr/ytc/psalms/22",
+                    "tr/ytc/psalms/23",
+                    "tr/ytc/psalms/24",
+                    "tr/ytc/psalms/25",
+                    "tr/ytc/psalms/26",
+                    "tr/ytc/psalms/27",
+                    "tr/ytc/psalms/28",
+                    "tr/ytc/psalms/29",
+                    "tr/ytc/psalms/30",
+                    "tr/ytc/psalms/31",
+                    "tr/ytc/psalms/32",
+                    "tr/ytc/psalms/33",
+                    "tr/ytc/psalms/34",
+                    "tr/ytc/psalms/35",
+                    "tr/ytc/psalms/36",
+                    "tr/ytc/psalms/37",
+                    "tr/ytc/psalms/38",
+                    "tr/ytc/psalms/39",
+                    "tr/ytc/psalms/40",
+                    "tr/ytc/psalms/41",
+                    "tr/ytc/psalms/42",
+                    "tr/ytc/psalms/43",
+                    "tr/ytc/psalms/44",
+                    "tr/ytc/psalms/45",
+                    "tr/ytc/psalms/46",
+                    "tr/ytc/psalms/47",
+                    "tr/ytc/psalms/48",
+                    "tr/ytc/psalms/49",
+                    "tr/ytc/psalms/50",
+                    "tr/ytc/psalms/51",
+                    "tr/ytc/psalms/52",
+                    "tr/ytc/psalms/53",
+                    "tr/ytc/psalms/54",
+                    "tr/ytc/psalms/55",
+                    "tr/ytc/psalms/56",
+                    "tr/ytc/psalms/57",
+                    "tr/ytc/psalms/58",
+                    "tr/ytc/psalms/59",
+                    "tr/ytc/psalms/60",
+                    "tr/ytc/psalms/61",
+                    "tr/ytc/psalms/62",
+                    "tr/ytc/psalms/63",
+                    "tr/ytc/psalms/64",
+                    "tr/ytc/psalms/65",
+                    "tr/ytc/psalms/66",
+                    "tr/ytc/psalms/67",
+                    "tr/ytc/psalms/68",
+                    "tr/ytc/psalms/69",
+                    "tr/ytc/psalms/70",
+                    "tr/ytc/psalms/71",
+                    "tr/ytc/psalms/72",
+                    "tr/ytc/psalms/73",
+                    "tr/ytc/psalms/74",
+                    "tr/ytc/psalms/75",
+                    "tr/ytc/psalms/76",
+                    "tr/ytc/psalms/77",
+                    "tr/ytc/psalms/78",
+                    "tr/ytc/psalms/79",
+                    "tr/ytc/psalms/80",
+                    "tr/ytc/psalms/81",
+                    "tr/ytc/psalms/82",
+                    "tr/ytc/psalms/83",
+                    "tr/ytc/psalms/84",
+                    "tr/ytc/psalms/85",
+                    "tr/ytc/psalms/86",
+                    "tr/ytc/psalms/87",
+                    "tr/ytc/psalms/88",
+                    "tr/ytc/psalms/89",
+                    "tr/ytc/psalms/90",
+                    "tr/ytc/psalms/91",
+                    "tr/ytc/psalms/92",
+                    "tr/ytc/psalms/93",
+                    "tr/ytc/psalms/94",
+                    "tr/ytc/psalms/95",
+                    "tr/ytc/psalms/96",
+                    "tr/ytc/psalms/97",
+                    "tr/ytc/psalms/98",
+                    "tr/ytc/psalms/99",
+                    "tr/ytc/psalms/100",
+                    "tr/ytc/psalms/101",
+                    "tr/ytc/psalms/102",
+                    "tr/ytc/psalms/103",
+                    "tr/ytc/psalms/104",
+                    "tr/ytc/psalms/105",
+                    "tr/ytc/psalms/106",
+                    "tr/ytc/psalms/107",
+                    "tr/ytc/psalms/108",
+                    "tr/ytc/psalms/109",
+                    "tr/ytc/psalms/110",
+                    "tr/ytc/psalms/111",
+                    "tr/ytc/psalms/112",
+                    "tr/ytc/psalms/113",
+                    "tr/ytc/psalms/114",
+                    "tr/ytc/psalms/115",
+                    "tr/ytc/psalms/116",
+                    "tr/ytc/psalms/117",
+                    "tr/ytc/psalms/118",
+                    "tr/ytc/psalms/119",
+                    "tr/ytc/psalms/120",
+                    "tr/ytc/psalms/121",
+                    "tr/ytc/psalms/122",
+                    "tr/ytc/psalms/123",
+                    "tr/ytc/psalms/124",
+                    "tr/ytc/psalms/125",
+                    "tr/ytc/psalms/126",
+                    "tr/ytc/psalms/127",
+                    "tr/ytc/psalms/128",
+                    "tr/ytc/psalms/129",
+                    "tr/ytc/psalms/130",
+                    "tr/ytc/psalms/131",
+                    "tr/ytc/psalms/132",
+                    "tr/ytc/psalms/133",
+                    "tr/ytc/psalms/134",
+                    "tr/ytc/psalms/135",
+                    "tr/ytc/psalms/136",
+                    "tr/ytc/psalms/137",
+                    "tr/ytc/psalms/138",
+                    "tr/ytc/psalms/139",
+                    "tr/ytc/psalms/140",
+                    "tr/ytc/psalms/141",
+                    "tr/ytc/psalms/142",
+                    "tr/ytc/psalms/143",
+                    "tr/ytc/psalms/144",
+                    "tr/ytc/psalms/145",
+                    "tr/ytc/psalms/146",
+                    "tr/ytc/psalms/147",
+                    "tr/ytc/psalms/148",
+                    "tr/ytc/psalms/149",
+                    "tr/ytc/psalms/150"
+                  ]
+                },
+                {
+                  "group": "ÖZDEYİŞLER",
+                  "pages": [
+                    "tr/ytc/proverbs/index",
+                    "tr/ytc/proverbs/1",
+                    "tr/ytc/proverbs/2",
+                    "tr/ytc/proverbs/3",
+                    "tr/ytc/proverbs/4",
+                    "tr/ytc/proverbs/5",
+                    "tr/ytc/proverbs/6",
+                    "tr/ytc/proverbs/7",
+                    "tr/ytc/proverbs/8",
+                    "tr/ytc/proverbs/9",
+                    "tr/ytc/proverbs/10",
+                    "tr/ytc/proverbs/11",
+                    "tr/ytc/proverbs/12",
+                    "tr/ytc/proverbs/13",
+                    "tr/ytc/proverbs/14",
+                    "tr/ytc/proverbs/15",
+                    "tr/ytc/proverbs/16",
+                    "tr/ytc/proverbs/17",
+                    "tr/ytc/proverbs/18",
+                    "tr/ytc/proverbs/19",
+                    "tr/ytc/proverbs/20",
+                    "tr/ytc/proverbs/21",
+                    "tr/ytc/proverbs/22",
+                    "tr/ytc/proverbs/23",
+                    "tr/ytc/proverbs/24",
+                    "tr/ytc/proverbs/25",
+                    "tr/ytc/proverbs/26",
+                    "tr/ytc/proverbs/27",
+                    "tr/ytc/proverbs/28",
+                    "tr/ytc/proverbs/29",
+                    "tr/ytc/proverbs/30",
+                    "tr/ytc/proverbs/31"
+                  ]
+                },
+                {
+                  "group": "VAİZ",
+                  "pages": [
+                    "tr/ytc/ecclesiastes/index",
+                    "tr/ytc/ecclesiastes/1",
+                    "tr/ytc/ecclesiastes/2",
+                    "tr/ytc/ecclesiastes/3",
+                    "tr/ytc/ecclesiastes/4",
+                    "tr/ytc/ecclesiastes/5",
+                    "tr/ytc/ecclesiastes/6",
+                    "tr/ytc/ecclesiastes/7",
+                    "tr/ytc/ecclesiastes/8",
+                    "tr/ytc/ecclesiastes/9",
+                    "tr/ytc/ecclesiastes/10",
+                    "tr/ytc/ecclesiastes/11",
+                    "tr/ytc/ecclesiastes/12"
+                  ]
+                },
+                {
+                  "group": "SOLOMON'UN EZGİSİ",
+                  "pages": [
+                    "tr/ytc/song-of-solomon/index",
+                    "tr/ytc/song-of-solomon/1",
+                    "tr/ytc/song-of-solomon/2",
+                    "tr/ytc/song-of-solomon/3",
+                    "tr/ytc/song-of-solomon/4",
+                    "tr/ytc/song-of-solomon/5",
+                    "tr/ytc/song-of-solomon/6",
+                    "tr/ytc/song-of-solomon/7",
+                    "tr/ytc/song-of-solomon/8"
+                  ]
+                },
+                {
+                  "group": "YEŞAYA",
+                  "pages": [
+                    "tr/ytc/isaiah/index",
+                    "tr/ytc/isaiah/1",
+                    "tr/ytc/isaiah/2",
+                    "tr/ytc/isaiah/3",
+                    "tr/ytc/isaiah/4",
+                    "tr/ytc/isaiah/5",
+                    "tr/ytc/isaiah/6",
+                    "tr/ytc/isaiah/7",
+                    "tr/ytc/isaiah/8",
+                    "tr/ytc/isaiah/9",
+                    "tr/ytc/isaiah/10",
+                    "tr/ytc/isaiah/11",
+                    "tr/ytc/isaiah/12",
+                    "tr/ytc/isaiah/13",
+                    "tr/ytc/isaiah/14",
+                    "tr/ytc/isaiah/15",
+                    "tr/ytc/isaiah/16",
+                    "tr/ytc/isaiah/17",
+                    "tr/ytc/isaiah/18",
+                    "tr/ytc/isaiah/19",
+                    "tr/ytc/isaiah/20",
+                    "tr/ytc/isaiah/21",
+                    "tr/ytc/isaiah/22",
+                    "tr/ytc/isaiah/23",
+                    "tr/ytc/isaiah/24",
+                    "tr/ytc/isaiah/25",
+                    "tr/ytc/isaiah/26",
+                    "tr/ytc/isaiah/27",
+                    "tr/ytc/isaiah/28",
+                    "tr/ytc/isaiah/29",
+                    "tr/ytc/isaiah/30",
+                    "tr/ytc/isaiah/31",
+                    "tr/ytc/isaiah/32",
+                    "tr/ytc/isaiah/33",
+                    "tr/ytc/isaiah/34",
+                    "tr/ytc/isaiah/35",
+                    "tr/ytc/isaiah/36",
+                    "tr/ytc/isaiah/37",
+                    "tr/ytc/isaiah/38",
+                    "tr/ytc/isaiah/39",
+                    "tr/ytc/isaiah/40",
+                    "tr/ytc/isaiah/41",
+                    "tr/ytc/isaiah/42",
+                    "tr/ytc/isaiah/43",
+                    "tr/ytc/isaiah/44",
+                    "tr/ytc/isaiah/45",
+                    "tr/ytc/isaiah/46",
+                    "tr/ytc/isaiah/47",
+                    "tr/ytc/isaiah/48",
+                    "tr/ytc/isaiah/49",
+                    "tr/ytc/isaiah/50",
+                    "tr/ytc/isaiah/51",
+                    "tr/ytc/isaiah/52",
+                    "tr/ytc/isaiah/53",
+                    "tr/ytc/isaiah/54",
+                    "tr/ytc/isaiah/55",
+                    "tr/ytc/isaiah/56",
+                    "tr/ytc/isaiah/57",
+                    "tr/ytc/isaiah/58",
+                    "tr/ytc/isaiah/59",
+                    "tr/ytc/isaiah/60",
+                    "tr/ytc/isaiah/61",
+                    "tr/ytc/isaiah/62",
+                    "tr/ytc/isaiah/63",
+                    "tr/ytc/isaiah/64",
+                    "tr/ytc/isaiah/65",
+                    "tr/ytc/isaiah/66"
+                  ]
+                },
+                {
+                  "group": "YEREMYA",
+                  "pages": [
+                    "tr/ytc/jeremiah/index",
+                    "tr/ytc/jeremiah/1",
+                    "tr/ytc/jeremiah/2",
+                    "tr/ytc/jeremiah/3",
+                    "tr/ytc/jeremiah/4",
+                    "tr/ytc/jeremiah/5",
+                    "tr/ytc/jeremiah/6",
+                    "tr/ytc/jeremiah/7",
+                    "tr/ytc/jeremiah/8",
+                    "tr/ytc/jeremiah/9",
+                    "tr/ytc/jeremiah/10",
+                    "tr/ytc/jeremiah/11",
+                    "tr/ytc/jeremiah/12",
+                    "tr/ytc/jeremiah/13",
+                    "tr/ytc/jeremiah/14",
+                    "tr/ytc/jeremiah/15",
+                    "tr/ytc/jeremiah/16",
+                    "tr/ytc/jeremiah/17",
+                    "tr/ytc/jeremiah/18",
+                    "tr/ytc/jeremiah/19",
+                    "tr/ytc/jeremiah/20",
+                    "tr/ytc/jeremiah/21",
+                    "tr/ytc/jeremiah/22",
+                    "tr/ytc/jeremiah/23",
+                    "tr/ytc/jeremiah/24",
+                    "tr/ytc/jeremiah/25",
+                    "tr/ytc/jeremiah/26",
+                    "tr/ytc/jeremiah/27",
+                    "tr/ytc/jeremiah/28",
+                    "tr/ytc/jeremiah/29",
+                    "tr/ytc/jeremiah/30",
+                    "tr/ytc/jeremiah/31",
+                    "tr/ytc/jeremiah/32",
+                    "tr/ytc/jeremiah/33",
+                    "tr/ytc/jeremiah/34",
+                    "tr/ytc/jeremiah/35",
+                    "tr/ytc/jeremiah/36",
+                    "tr/ytc/jeremiah/37",
+                    "tr/ytc/jeremiah/38",
+                    "tr/ytc/jeremiah/39",
+                    "tr/ytc/jeremiah/40",
+                    "tr/ytc/jeremiah/41",
+                    "tr/ytc/jeremiah/42",
+                    "tr/ytc/jeremiah/43",
+                    "tr/ytc/jeremiah/44",
+                    "tr/ytc/jeremiah/45",
+                    "tr/ytc/jeremiah/46",
+                    "tr/ytc/jeremiah/47",
+                    "tr/ytc/jeremiah/48",
+                    "tr/ytc/jeremiah/49",
+                    "tr/ytc/jeremiah/50",
+                    "tr/ytc/jeremiah/51",
+                    "tr/ytc/jeremiah/52"
+                  ]
+                },
+                {
+                  "group": "AĞITLAR",
+                  "pages": [
+                    "tr/ytc/lamentations/index",
+                    "tr/ytc/lamentations/1",
+                    "tr/ytc/lamentations/2",
+                    "tr/ytc/lamentations/3",
+                    "tr/ytc/lamentations/4",
+                    "tr/ytc/lamentations/5"
+                  ]
+                },
+                {
+                  "group": "HEZEKİEL",
+                  "pages": [
+                    "tr/ytc/ezekiel/index",
+                    "tr/ytc/ezekiel/1",
+                    "tr/ytc/ezekiel/2",
+                    "tr/ytc/ezekiel/3",
+                    "tr/ytc/ezekiel/4",
+                    "tr/ytc/ezekiel/5",
+                    "tr/ytc/ezekiel/6",
+                    "tr/ytc/ezekiel/7",
+                    "tr/ytc/ezekiel/8",
+                    "tr/ytc/ezekiel/9",
+                    "tr/ytc/ezekiel/10",
+                    "tr/ytc/ezekiel/11",
+                    "tr/ytc/ezekiel/12",
+                    "tr/ytc/ezekiel/13",
+                    "tr/ytc/ezekiel/14",
+                    "tr/ytc/ezekiel/15",
+                    "tr/ytc/ezekiel/16",
+                    "tr/ytc/ezekiel/17",
+                    "tr/ytc/ezekiel/18",
+                    "tr/ytc/ezekiel/19",
+                    "tr/ytc/ezekiel/20",
+                    "tr/ytc/ezekiel/21",
+                    "tr/ytc/ezekiel/22",
+                    "tr/ytc/ezekiel/23",
+                    "tr/ytc/ezekiel/24",
+                    "tr/ytc/ezekiel/25",
+                    "tr/ytc/ezekiel/26",
+                    "tr/ytc/ezekiel/27",
+                    "tr/ytc/ezekiel/28",
+                    "tr/ytc/ezekiel/29",
+                    "tr/ytc/ezekiel/30",
+                    "tr/ytc/ezekiel/31",
+                    "tr/ytc/ezekiel/32",
+                    "tr/ytc/ezekiel/33",
+                    "tr/ytc/ezekiel/34",
+                    "tr/ytc/ezekiel/35",
+                    "tr/ytc/ezekiel/36",
+                    "tr/ytc/ezekiel/37",
+                    "tr/ytc/ezekiel/38",
+                    "tr/ytc/ezekiel/39",
+                    "tr/ytc/ezekiel/40",
+                    "tr/ytc/ezekiel/41",
+                    "tr/ytc/ezekiel/42",
+                    "tr/ytc/ezekiel/43",
+                    "tr/ytc/ezekiel/44",
+                    "tr/ytc/ezekiel/45",
+                    "tr/ytc/ezekiel/46",
+                    "tr/ytc/ezekiel/47",
+                    "tr/ytc/ezekiel/48"
+                  ]
+                },
+                {
+                  "group": "DANİEL",
+                  "pages": [
+                    "tr/ytc/daniel/index",
+                    "tr/ytc/daniel/1",
+                    "tr/ytc/daniel/2",
+                    "tr/ytc/daniel/3",
+                    "tr/ytc/daniel/4",
+                    "tr/ytc/daniel/5",
+                    "tr/ytc/daniel/6",
+                    "tr/ytc/daniel/7",
+                    "tr/ytc/daniel/8",
+                    "tr/ytc/daniel/9",
+                    "tr/ytc/daniel/10",
+                    "tr/ytc/daniel/11",
+                    "tr/ytc/daniel/12"
+                  ]
+                },
+                {
+                  "group": "HOŞEA",
+                  "pages": [
+                    "tr/ytc/hosea/index",
+                    "tr/ytc/hosea/1",
+                    "tr/ytc/hosea/2",
+                    "tr/ytc/hosea/3",
+                    "tr/ytc/hosea/4",
+                    "tr/ytc/hosea/5",
+                    "tr/ytc/hosea/6",
+                    "tr/ytc/hosea/7",
+                    "tr/ytc/hosea/8",
+                    "tr/ytc/hosea/9",
+                    "tr/ytc/hosea/10",
+                    "tr/ytc/hosea/11",
+                    "tr/ytc/hosea/12",
+                    "tr/ytc/hosea/13",
+                    "tr/ytc/hosea/14"
+                  ]
+                },
+                {
+                  "group": "YOEL",
+                  "pages": [
+                    "tr/ytc/joel/index",
+                    "tr/ytc/joel/1",
+                    "tr/ytc/joel/2",
+                    "tr/ytc/joel/3"
+                  ]
+                },
+                {
+                  "group": "AMOS",
+                  "pages": [
+                    "tr/ytc/amos/index",
+                    "tr/ytc/amos/1",
+                    "tr/ytc/amos/2",
+                    "tr/ytc/amos/3",
+                    "tr/ytc/amos/4",
+                    "tr/ytc/amos/5",
+                    "tr/ytc/amos/6",
+                    "tr/ytc/amos/7",
+                    "tr/ytc/amos/8",
+                    "tr/ytc/amos/9"
+                  ]
+                },
+                {
+                  "group": "OVADYA",
+                  "pages": [
+                    "tr/ytc/obadiah/index",
+                    "tr/ytc/obadiah/1"
+                  ]
+                },
+                {
+                  "group": "YONA",
+                  "pages": [
+                    "tr/ytc/jonah/index",
+                    "tr/ytc/jonah/1",
+                    "tr/ytc/jonah/2",
+                    "tr/ytc/jonah/3",
+                    "tr/ytc/jonah/4"
+                  ]
+                },
+                {
+                  "group": "MİKA",
+                  "pages": [
+                    "tr/ytc/micah/index",
+                    "tr/ytc/micah/1",
+                    "tr/ytc/micah/2",
+                    "tr/ytc/micah/3",
+                    "tr/ytc/micah/4",
+                    "tr/ytc/micah/5",
+                    "tr/ytc/micah/6",
+                    "tr/ytc/micah/7"
+                  ]
+                },
+                {
+                  "group": "NAHUM",
+                  "pages": [
+                    "tr/ytc/nahum/index",
+                    "tr/ytc/nahum/1",
+                    "tr/ytc/nahum/2",
+                    "tr/ytc/nahum/3"
+                  ]
+                },
+                {
+                  "group": "HABAKKUK",
+                  "pages": [
+                    "tr/ytc/habakkuk/index",
+                    "tr/ytc/habakkuk/1",
+                    "tr/ytc/habakkuk/2",
+                    "tr/ytc/habakkuk/3"
+                  ]
+                },
+                {
+                  "group": "SEFENYA",
+                  "pages": [
+                    "tr/ytc/zephaniah/index",
+                    "tr/ytc/zephaniah/1",
+                    "tr/ytc/zephaniah/2",
+                    "tr/ytc/zephaniah/3"
+                  ]
+                },
+                {
+                  "group": "HAGAY",
+                  "pages": [
+                    "tr/ytc/haggai/index",
+                    "tr/ytc/haggai/1",
+                    "tr/ytc/haggai/2"
+                  ]
+                },
+                {
+                  "group": "ZEKARiYA",
+                  "pages": [
+                    "tr/ytc/zechariah/index",
+                    "tr/ytc/zechariah/1",
+                    "tr/ytc/zechariah/2",
+                    "tr/ytc/zechariah/3",
+                    "tr/ytc/zechariah/4",
+                    "tr/ytc/zechariah/5",
+                    "tr/ytc/zechariah/6",
+                    "tr/ytc/zechariah/7",
+                    "tr/ytc/zechariah/8",
+                    "tr/ytc/zechariah/9",
+                    "tr/ytc/zechariah/10",
+                    "tr/ytc/zechariah/11",
+                    "tr/ytc/zechariah/12",
+                    "tr/ytc/zechariah/13",
+                    "tr/ytc/zechariah/14"
+                  ]
+                },
+                {
+                  "group": "MALAKİ",
+                  "pages": [
+                    "tr/ytc/malachi/index",
+                    "tr/ytc/malachi/1",
+                    "tr/ytc/malachi/2",
+                    "tr/ytc/malachi/3",
+                    "tr/ytc/malachi/4"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "Yeni Antlaşma",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "MATTA",
+                  "pages": [
+                    "tr/ytc/matthew/index",
+                    "tr/ytc/matthew/1",
+                    "tr/ytc/matthew/2",
+                    "tr/ytc/matthew/3",
+                    "tr/ytc/matthew/4",
+                    "tr/ytc/matthew/5",
+                    "tr/ytc/matthew/6",
+                    "tr/ytc/matthew/7",
+                    "tr/ytc/matthew/8",
+                    "tr/ytc/matthew/9",
+                    "tr/ytc/matthew/10",
+                    "tr/ytc/matthew/11",
+                    "tr/ytc/matthew/12",
+                    "tr/ytc/matthew/13",
+                    "tr/ytc/matthew/14",
+                    "tr/ytc/matthew/15",
+                    "tr/ytc/matthew/16",
+                    "tr/ytc/matthew/17",
+                    "tr/ytc/matthew/18",
+                    "tr/ytc/matthew/19",
+                    "tr/ytc/matthew/20",
+                    "tr/ytc/matthew/21",
+                    "tr/ytc/matthew/22",
+                    "tr/ytc/matthew/23",
+                    "tr/ytc/matthew/24",
+                    "tr/ytc/matthew/25",
+                    "tr/ytc/matthew/26",
+                    "tr/ytc/matthew/27",
+                    "tr/ytc/matthew/28"
+                  ]
+                },
+                {
+                  "group": "MARKOS",
+                  "pages": [
+                    "tr/ytc/mark/index",
+                    "tr/ytc/mark/1",
+                    "tr/ytc/mark/2",
+                    "tr/ytc/mark/3",
+                    "tr/ytc/mark/4",
+                    "tr/ytc/mark/5",
+                    "tr/ytc/mark/6",
+                    "tr/ytc/mark/7",
+                    "tr/ytc/mark/8",
+                    "tr/ytc/mark/9",
+                    "tr/ytc/mark/10",
+                    "tr/ytc/mark/11",
+                    "tr/ytc/mark/12",
+                    "tr/ytc/mark/13",
+                    "tr/ytc/mark/14",
+                    "tr/ytc/mark/15",
+                    "tr/ytc/mark/16"
+                  ]
+                },
+                {
+                  "group": "LUKA",
+                  "pages": [
+                    "tr/ytc/luke/index",
+                    "tr/ytc/luke/1",
+                    "tr/ytc/luke/2",
+                    "tr/ytc/luke/3",
+                    "tr/ytc/luke/4",
+                    "tr/ytc/luke/5",
+                    "tr/ytc/luke/6",
+                    "tr/ytc/luke/7",
+                    "tr/ytc/luke/8",
+                    "tr/ytc/luke/9",
+                    "tr/ytc/luke/10",
+                    "tr/ytc/luke/11",
+                    "tr/ytc/luke/12",
+                    "tr/ytc/luke/13",
+                    "tr/ytc/luke/14",
+                    "tr/ytc/luke/15",
+                    "tr/ytc/luke/16",
+                    "tr/ytc/luke/17",
+                    "tr/ytc/luke/18",
+                    "tr/ytc/luke/19",
+                    "tr/ytc/luke/20",
+                    "tr/ytc/luke/21",
+                    "tr/ytc/luke/22",
+                    "tr/ytc/luke/23",
+                    "tr/ytc/luke/24"
+                  ]
+                },
+                {
+                  "group": "YUHANNA",
+                  "pages": [
+                    "tr/ytc/john/index",
+                    "tr/ytc/john/1",
+                    "tr/ytc/john/2",
+                    "tr/ytc/john/3",
+                    "tr/ytc/john/4",
+                    "tr/ytc/john/5",
+                    "tr/ytc/john/6",
+                    "tr/ytc/john/7",
+                    "tr/ytc/john/8",
+                    "tr/ytc/john/9",
+                    "tr/ytc/john/10",
+                    "tr/ytc/john/11",
+                    "tr/ytc/john/12",
+                    "tr/ytc/john/13",
+                    "tr/ytc/john/14",
+                    "tr/ytc/john/15",
+                    "tr/ytc/john/16",
+                    "tr/ytc/john/17",
+                    "tr/ytc/john/18",
+                    "tr/ytc/john/19",
+                    "tr/ytc/john/20",
+                    "tr/ytc/john/21"
+                  ]
+                },
+                {
+                  "group": "ELÇİLERİN İŞLERİ",
+                  "pages": [
+                    "tr/ytc/acts/index",
+                    "tr/ytc/acts/1",
+                    "tr/ytc/acts/2",
+                    "tr/ytc/acts/3",
+                    "tr/ytc/acts/4",
+                    "tr/ytc/acts/5",
+                    "tr/ytc/acts/6",
+                    "tr/ytc/acts/7",
+                    "tr/ytc/acts/8",
+                    "tr/ytc/acts/9",
+                    "tr/ytc/acts/10",
+                    "tr/ytc/acts/11",
+                    "tr/ytc/acts/12",
+                    "tr/ytc/acts/13",
+                    "tr/ytc/acts/14",
+                    "tr/ytc/acts/15",
+                    "tr/ytc/acts/16",
+                    "tr/ytc/acts/17",
+                    "tr/ytc/acts/18",
+                    "tr/ytc/acts/19",
+                    "tr/ytc/acts/20",
+                    "tr/ytc/acts/21",
+                    "tr/ytc/acts/22",
+                    "tr/ytc/acts/23",
+                    "tr/ytc/acts/24",
+                    "tr/ytc/acts/25",
+                    "tr/ytc/acts/26",
+                    "tr/ytc/acts/27",
+                    "tr/ytc/acts/28"
+                  ]
+                },
+                {
+                  "group": "ROMALILAR",
+                  "pages": [
+                    "tr/ytc/romans/index",
+                    "tr/ytc/romans/1",
+                    "tr/ytc/romans/2",
+                    "tr/ytc/romans/3",
+                    "tr/ytc/romans/4",
+                    "tr/ytc/romans/5",
+                    "tr/ytc/romans/6",
+                    "tr/ytc/romans/7",
+                    "tr/ytc/romans/8",
+                    "tr/ytc/romans/9",
+                    "tr/ytc/romans/10",
+                    "tr/ytc/romans/11",
+                    "tr/ytc/romans/12",
+                    "tr/ytc/romans/13",
+                    "tr/ytc/romans/14",
+                    "tr/ytc/romans/15",
+                    "tr/ytc/romans/16"
+                  ]
+                },
+                {
+                  "group": "1. KORİNTLİLER",
+                  "pages": [
+                    "tr/ytc/1-corinthians/index",
+                    "tr/ytc/1-corinthians/1",
+                    "tr/ytc/1-corinthians/2",
+                    "tr/ytc/1-corinthians/3",
+                    "tr/ytc/1-corinthians/4",
+                    "tr/ytc/1-corinthians/5",
+                    "tr/ytc/1-corinthians/6",
+                    "tr/ytc/1-corinthians/7",
+                    "tr/ytc/1-corinthians/8",
+                    "tr/ytc/1-corinthians/9",
+                    "tr/ytc/1-corinthians/10",
+                    "tr/ytc/1-corinthians/11",
+                    "tr/ytc/1-corinthians/12",
+                    "tr/ytc/1-corinthians/13",
+                    "tr/ytc/1-corinthians/14",
+                    "tr/ytc/1-corinthians/15",
+                    "tr/ytc/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2. KORİNTLİLER",
+                  "pages": [
+                    "tr/ytc/2-corinthians/index",
+                    "tr/ytc/2-corinthians/1",
+                    "tr/ytc/2-corinthians/2",
+                    "tr/ytc/2-corinthians/3",
+                    "tr/ytc/2-corinthians/4",
+                    "tr/ytc/2-corinthians/5",
+                    "tr/ytc/2-corinthians/6",
+                    "tr/ytc/2-corinthians/7",
+                    "tr/ytc/2-corinthians/8",
+                    "tr/ytc/2-corinthians/9",
+                    "tr/ytc/2-corinthians/10",
+                    "tr/ytc/2-corinthians/11",
+                    "tr/ytc/2-corinthians/12",
+                    "tr/ytc/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "GALATYALILAR",
+                  "pages": [
+                    "tr/ytc/galatians/index",
+                    "tr/ytc/galatians/1",
+                    "tr/ytc/galatians/2",
+                    "tr/ytc/galatians/3",
+                    "tr/ytc/galatians/4",
+                    "tr/ytc/galatians/5",
+                    "tr/ytc/galatians/6"
+                  ]
+                },
+                {
+                  "group": "EFESLİLER",
+                  "pages": [
+                    "tr/ytc/ephesians/index",
+                    "tr/ytc/ephesians/1",
+                    "tr/ytc/ephesians/2",
+                    "tr/ytc/ephesians/3",
+                    "tr/ytc/ephesians/4",
+                    "tr/ytc/ephesians/5",
+                    "tr/ytc/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "FİLİPİLİLER",
+                  "pages": [
+                    "tr/ytc/philippians/index",
+                    "tr/ytc/philippians/1",
+                    "tr/ytc/philippians/2",
+                    "tr/ytc/philippians/3",
+                    "tr/ytc/philippians/4"
+                  ]
+                },
+                {
+                  "group": "KOLOSELİLER",
+                  "pages": [
+                    "tr/ytc/colossians/index",
+                    "tr/ytc/colossians/1",
+                    "tr/ytc/colossians/2",
+                    "tr/ytc/colossians/3",
+                    "tr/ytc/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1. SELANİKLİLER",
+                  "pages": [
+                    "tr/ytc/1-thessalonians/index",
+                    "tr/ytc/1-thessalonians/1",
+                    "tr/ytc/1-thessalonians/2",
+                    "tr/ytc/1-thessalonians/3",
+                    "tr/ytc/1-thessalonians/4",
+                    "tr/ytc/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2. SELANİKLİLER",
+                  "pages": [
+                    "tr/ytc/2-thessalonians/index",
+                    "tr/ytc/2-thessalonians/1",
+                    "tr/ytc/2-thessalonians/2",
+                    "tr/ytc/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1. TİMOTEOS",
+                  "pages": [
+                    "tr/ytc/1-timothy/index",
+                    "tr/ytc/1-timothy/1",
+                    "tr/ytc/1-timothy/2",
+                    "tr/ytc/1-timothy/3",
+                    "tr/ytc/1-timothy/4",
+                    "tr/ytc/1-timothy/5",
+                    "tr/ytc/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2. TİMOTEOS",
+                  "pages": [
+                    "tr/ytc/2-timothy/index",
+                    "tr/ytc/2-timothy/1",
+                    "tr/ytc/2-timothy/2",
+                    "tr/ytc/2-timothy/3",
+                    "tr/ytc/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "TİTUS",
+                  "pages": [
+                    "tr/ytc/titus/index",
+                    "tr/ytc/titus/1",
+                    "tr/ytc/titus/2",
+                    "tr/ytc/titus/3"
+                  ]
+                },
+                {
+                  "group": "FİLİMON",
+                  "pages": [
+                    "tr/ytc/philemon/index",
+                    "tr/ytc/philemon/1"
+                  ]
+                },
+                {
+                  "group": "İBRANİLER",
+                  "pages": [
+                    "tr/ytc/hebrews/index",
+                    "tr/ytc/hebrews/1",
+                    "tr/ytc/hebrews/2",
+                    "tr/ytc/hebrews/3",
+                    "tr/ytc/hebrews/4",
+                    "tr/ytc/hebrews/5",
+                    "tr/ytc/hebrews/6",
+                    "tr/ytc/hebrews/7",
+                    "tr/ytc/hebrews/8",
+                    "tr/ytc/hebrews/9",
+                    "tr/ytc/hebrews/10",
+                    "tr/ytc/hebrews/11",
+                    "tr/ytc/hebrews/12",
+                    "tr/ytc/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "YAKOV",
+                  "pages": [
+                    "tr/ytc/james/index",
+                    "tr/ytc/james/1",
+                    "tr/ytc/james/2",
+                    "tr/ytc/james/3",
+                    "tr/ytc/james/4",
+                    "tr/ytc/james/5"
+                  ]
+                },
+                {
+                  "group": "1. PETRUS",
+                  "pages": [
+                    "tr/ytc/1-peter/index",
+                    "tr/ytc/1-peter/1",
+                    "tr/ytc/1-peter/2",
+                    "tr/ytc/1-peter/3",
+                    "tr/ytc/1-peter/4",
+                    "tr/ytc/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "2. PETRUS",
+                  "pages": [
+                    "tr/ytc/2-peter/index",
+                    "tr/ytc/2-peter/1",
+                    "tr/ytc/2-peter/2",
+                    "tr/ytc/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "1. YUHANNA",
+                  "pages": [
+                    "tr/ytc/1-john/index",
+                    "tr/ytc/1-john/1",
+                    "tr/ytc/1-john/2",
+                    "tr/ytc/1-john/3",
+                    "tr/ytc/1-john/4",
+                    "tr/ytc/1-john/5"
+                  ]
+                },
+                {
+                  "group": "2. YUHANNA",
+                  "pages": [
+                    "tr/ytc/2-john/index",
+                    "tr/ytc/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3. YUHANNA",
+                  "pages": [
+                    "tr/ytc/3-john/index",
+                    "tr/ytc/3-john/1"
+                  ]
+                },
+                {
+                  "group": "YAHUDA",
+                  "pages": [
+                    "tr/ytc/jude/index",
+                    "tr/ytc/jude/1"
+                  ]
+                },
+                {
+                  "group": "VAHİY",
+                  "pages": [
+                    "tr/ytc/revelation/index",
+                    "tr/ytc/revelation/1",
+                    "tr/ytc/revelation/2",
+                    "tr/ytc/revelation/3",
+                    "tr/ytc/revelation/4",
+                    "tr/ytc/revelation/5",
+                    "tr/ytc/revelation/6",
+                    "tr/ytc/revelation/7",
+                    "tr/ytc/revelation/8",
+                    "tr/ytc/revelation/9",
+                    "tr/ytc/revelation/10",
+                    "tr/ytc/revelation/11",
+                    "tr/ytc/revelation/12",
+                    "tr/ytc/revelation/13",
+                    "tr/ytc/revelation/14",
+                    "tr/ytc/revelation/15",
+                    "tr/ytc/revelation/16",
+                    "tr/ytc/revelation/17",
+                    "tr/ytc/revelation/18",
+                    "tr/ytc/revelation/19",
+                    "tr/ytc/revelation/20",
+                    "tr/ytc/revelation/21",
+                    "tr/ytc/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "default": true
+    },
+    {
+      "version": "OBT",
+      "tabs": [
+        {
+          "tab": "Kutsal Kitap",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Open Basic Turkish New Testament",
+              "icon": "book-open",
+              "pages": [
+                "tr/obt/index"
+              ]
+            },
+            {
+              "group": "Yeni Antlaşma",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Matta",
+                  "pages": [
+                    "tr/obt/matthew/index",
+                    "tr/obt/matthew/1",
+                    "tr/obt/matthew/2",
+                    "tr/obt/matthew/3",
+                    "tr/obt/matthew/4",
+                    "tr/obt/matthew/5",
+                    "tr/obt/matthew/6",
+                    "tr/obt/matthew/7",
+                    "tr/obt/matthew/8",
+                    "tr/obt/matthew/9",
+                    "tr/obt/matthew/10",
+                    "tr/obt/matthew/11",
+                    "tr/obt/matthew/12",
+                    "tr/obt/matthew/13",
+                    "tr/obt/matthew/14",
+                    "tr/obt/matthew/15",
+                    "tr/obt/matthew/16",
+                    "tr/obt/matthew/17",
+                    "tr/obt/matthew/18",
+                    "tr/obt/matthew/19",
+                    "tr/obt/matthew/20",
+                    "tr/obt/matthew/21",
+                    "tr/obt/matthew/22",
+                    "tr/obt/matthew/23",
+                    "tr/obt/matthew/24",
+                    "tr/obt/matthew/25",
+                    "tr/obt/matthew/26",
+                    "tr/obt/matthew/27",
+                    "tr/obt/matthew/28"
+                  ]
+                },
+                {
+                  "group": "Markos",
+                  "pages": [
+                    "tr/obt/mark/index",
+                    "tr/obt/mark/1",
+                    "tr/obt/mark/2",
+                    "tr/obt/mark/3",
+                    "tr/obt/mark/4",
+                    "tr/obt/mark/5",
+                    "tr/obt/mark/6",
+                    "tr/obt/mark/7",
+                    "tr/obt/mark/8",
+                    "tr/obt/mark/9",
+                    "tr/obt/mark/10",
+                    "tr/obt/mark/11",
+                    "tr/obt/mark/12",
+                    "tr/obt/mark/13",
+                    "tr/obt/mark/14",
+                    "tr/obt/mark/15",
+                    "tr/obt/mark/16"
+                  ]
+                },
+                {
+                  "group": "Luka",
+                  "pages": [
+                    "tr/obt/luke/index",
+                    "tr/obt/luke/1",
+                    "tr/obt/luke/2",
+                    "tr/obt/luke/3",
+                    "tr/obt/luke/4",
+                    "tr/obt/luke/5",
+                    "tr/obt/luke/6",
+                    "tr/obt/luke/7",
+                    "tr/obt/luke/8",
+                    "tr/obt/luke/9",
+                    "tr/obt/luke/10",
+                    "tr/obt/luke/11",
+                    "tr/obt/luke/12",
+                    "tr/obt/luke/13",
+                    "tr/obt/luke/14",
+                    "tr/obt/luke/15",
+                    "tr/obt/luke/16",
+                    "tr/obt/luke/17",
+                    "tr/obt/luke/18",
+                    "tr/obt/luke/19",
+                    "tr/obt/luke/20",
+                    "tr/obt/luke/21",
+                    "tr/obt/luke/22",
+                    "tr/obt/luke/23",
+                    "tr/obt/luke/24"
+                  ]
+                },
+                {
+                  "group": "Yuhanna",
+                  "pages": [
+                    "tr/obt/john/index",
+                    "tr/obt/john/1",
+                    "tr/obt/john/2",
+                    "tr/obt/john/3",
+                    "tr/obt/john/4",
+                    "tr/obt/john/5",
+                    "tr/obt/john/6",
+                    "tr/obt/john/7",
+                    "tr/obt/john/8",
+                    "tr/obt/john/9",
+                    "tr/obt/john/10",
+                    "tr/obt/john/11",
+                    "tr/obt/john/12",
+                    "tr/obt/john/13",
+                    "tr/obt/john/14",
+                    "tr/obt/john/15",
+                    "tr/obt/john/16",
+                    "tr/obt/john/17",
+                    "tr/obt/john/18",
+                    "tr/obt/john/19",
+                    "tr/obt/john/20",
+                    "tr/obt/john/21"
+                  ]
+                },
+                {
+                  "group": "Elçilerin İşleri",
+                  "pages": [
+                    "tr/obt/acts/index",
+                    "tr/obt/acts/1",
+                    "tr/obt/acts/2",
+                    "tr/obt/acts/3",
+                    "tr/obt/acts/4",
+                    "tr/obt/acts/5",
+                    "tr/obt/acts/6",
+                    "tr/obt/acts/7",
+                    "tr/obt/acts/8",
+                    "tr/obt/acts/9",
+                    "tr/obt/acts/10",
+                    "tr/obt/acts/11",
+                    "tr/obt/acts/12",
+                    "tr/obt/acts/13",
+                    "tr/obt/acts/14",
+                    "tr/obt/acts/15",
+                    "tr/obt/acts/16",
+                    "tr/obt/acts/17",
+                    "tr/obt/acts/18",
+                    "tr/obt/acts/19",
+                    "tr/obt/acts/20",
+                    "tr/obt/acts/21",
+                    "tr/obt/acts/22",
+                    "tr/obt/acts/23",
+                    "tr/obt/acts/24",
+                    "tr/obt/acts/25",
+                    "tr/obt/acts/26",
+                    "tr/obt/acts/27",
+                    "tr/obt/acts/28"
+                  ]
+                },
+                {
+                  "group": "Romalılar",
+                  "pages": [
+                    "tr/obt/romans/index",
+                    "tr/obt/romans/1",
+                    "tr/obt/romans/2",
+                    "tr/obt/romans/3",
+                    "tr/obt/romans/4",
+                    "tr/obt/romans/5",
+                    "tr/obt/romans/6",
+                    "tr/obt/romans/7",
+                    "tr/obt/romans/8",
+                    "tr/obt/romans/9",
+                    "tr/obt/romans/10",
+                    "tr/obt/romans/11",
+                    "tr/obt/romans/12",
+                    "tr/obt/romans/13",
+                    "tr/obt/romans/14",
+                    "tr/obt/romans/15",
+                    "tr/obt/romans/16"
+                  ]
+                },
+                {
+                  "group": "1. Korintliler",
+                  "pages": [
+                    "tr/obt/1-corinthians/index",
+                    "tr/obt/1-corinthians/1",
+                    "tr/obt/1-corinthians/2",
+                    "tr/obt/1-corinthians/3",
+                    "tr/obt/1-corinthians/4",
+                    "tr/obt/1-corinthians/5",
+                    "tr/obt/1-corinthians/6",
+                    "tr/obt/1-corinthians/7",
+                    "tr/obt/1-corinthians/8",
+                    "tr/obt/1-corinthians/9",
+                    "tr/obt/1-corinthians/10",
+                    "tr/obt/1-corinthians/11",
+                    "tr/obt/1-corinthians/12",
+                    "tr/obt/1-corinthians/13",
+                    "tr/obt/1-corinthians/14",
+                    "tr/obt/1-corinthians/15",
+                    "tr/obt/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2. Korintliler",
+                  "pages": [
+                    "tr/obt/2-corinthians/index",
+                    "tr/obt/2-corinthians/1",
+                    "tr/obt/2-corinthians/2",
+                    "tr/obt/2-corinthians/3",
+                    "tr/obt/2-corinthians/4",
+                    "tr/obt/2-corinthians/5",
+                    "tr/obt/2-corinthians/6",
+                    "tr/obt/2-corinthians/7",
+                    "tr/obt/2-corinthians/8",
+                    "tr/obt/2-corinthians/9",
+                    "tr/obt/2-corinthians/10",
+                    "tr/obt/2-corinthians/11",
+                    "tr/obt/2-corinthians/12",
+                    "tr/obt/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "Galatyalılar",
+                  "pages": [
+                    "tr/obt/galatians/index",
+                    "tr/obt/galatians/1",
+                    "tr/obt/galatians/2",
+                    "tr/obt/galatians/3",
+                    "tr/obt/galatians/4",
+                    "tr/obt/galatians/5",
+                    "tr/obt/galatians/6"
+                  ]
+                },
+                {
+                  "group": "Efesliler",
+                  "pages": [
+                    "tr/obt/ephesians/index",
+                    "tr/obt/ephesians/1",
+                    "tr/obt/ephesians/2",
+                    "tr/obt/ephesians/3",
+                    "tr/obt/ephesians/4",
+                    "tr/obt/ephesians/5",
+                    "tr/obt/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "Filipililer",
+                  "pages": [
+                    "tr/obt/philippians/index",
+                    "tr/obt/philippians/1",
+                    "tr/obt/philippians/2",
+                    "tr/obt/philippians/3",
+                    "tr/obt/philippians/4"
+                  ]
+                },
+                {
+                  "group": "Koloseliler",
+                  "pages": [
+                    "tr/obt/colossians/index",
+                    "tr/obt/colossians/1",
+                    "tr/obt/colossians/2",
+                    "tr/obt/colossians/3",
+                    "tr/obt/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1. Selanikliler",
+                  "pages": [
+                    "tr/obt/1-thessalonians/index",
+                    "tr/obt/1-thessalonians/1",
+                    "tr/obt/1-thessalonians/2",
+                    "tr/obt/1-thessalonians/3",
+                    "tr/obt/1-thessalonians/4",
+                    "tr/obt/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2. Selanikliler",
+                  "pages": [
+                    "tr/obt/2-thessalonians/index",
+                    "tr/obt/2-thessalonians/1",
+                    "tr/obt/2-thessalonians/2",
+                    "tr/obt/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1. Timoteos",
+                  "pages": [
+                    "tr/obt/1-timothy/index",
+                    "tr/obt/1-timothy/1",
+                    "tr/obt/1-timothy/2",
+                    "tr/obt/1-timothy/3",
+                    "tr/obt/1-timothy/4",
+                    "tr/obt/1-timothy/5",
+                    "tr/obt/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2. Timoteos",
+                  "pages": [
+                    "tr/obt/2-timothy/index",
+                    "tr/obt/2-timothy/1",
+                    "tr/obt/2-timothy/2",
+                    "tr/obt/2-timothy/3",
+                    "tr/obt/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "Titus",
+                  "pages": [
+                    "tr/obt/titus/index",
+                    "tr/obt/titus/1",
+                    "tr/obt/titus/2",
+                    "tr/obt/titus/3"
+                  ]
+                },
+                {
+                  "group": "Filemon",
+                  "pages": [
+                    "tr/obt/philemon/index",
+                    "tr/obt/philemon/1"
+                  ]
+                },
+                {
+                  "group": "İbraniler",
+                  "pages": [
+                    "tr/obt/hebrews/index",
+                    "tr/obt/hebrews/1",
+                    "tr/obt/hebrews/2",
+                    "tr/obt/hebrews/3",
+                    "tr/obt/hebrews/4",
+                    "tr/obt/hebrews/5",
+                    "tr/obt/hebrews/6",
+                    "tr/obt/hebrews/7",
+                    "tr/obt/hebrews/8",
+                    "tr/obt/hebrews/9",
+                    "tr/obt/hebrews/10",
+                    "tr/obt/hebrews/11",
+                    "tr/obt/hebrews/12",
+                    "tr/obt/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "Yakub",
+                  "pages": [
+                    "tr/obt/james/index",
+                    "tr/obt/james/1",
+                    "tr/obt/james/2",
+                    "tr/obt/james/3",
+                    "tr/obt/james/4",
+                    "tr/obt/james/5"
+                  ]
+                },
+                {
+                  "group": "1. Petrus",
+                  "pages": [
+                    "tr/obt/1-peter/index",
+                    "tr/obt/1-peter/1",
+                    "tr/obt/1-peter/2",
+                    "tr/obt/1-peter/3",
+                    "tr/obt/1-peter/4",
+                    "tr/obt/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "2. Petrus",
+                  "pages": [
+                    "tr/obt/2-peter/index",
+                    "tr/obt/2-peter/1",
+                    "tr/obt/2-peter/2",
+                    "tr/obt/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "1. Yuhanna",
+                  "pages": [
+                    "tr/obt/1-john/index",
+                    "tr/obt/1-john/1",
+                    "tr/obt/1-john/2",
+                    "tr/obt/1-john/3",
+                    "tr/obt/1-john/4",
+                    "tr/obt/1-john/5"
+                  ]
+                },
+                {
+                  "group": "2. Yuhanna",
+                  "pages": [
+                    "tr/obt/2-john/index",
+                    "tr/obt/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3. Yuhanna",
+                  "pages": [
+                    "tr/obt/3-john/index",
+                    "tr/obt/3-john/1"
+                  ]
+                },
+                {
+                  "group": "Yahuda",
+                  "pages": [
+                    "tr/obt/jude/index",
+                    "tr/obt/jude/1"
+                  ]
+                },
+                {
+                  "group": "Vahiy",
+                  "pages": [
+                    "tr/obt/revelation/index",
+                    "tr/obt/revelation/1",
+                    "tr/obt/revelation/2",
+                    "tr/obt/revelation/3",
+                    "tr/obt/revelation/4",
+                    "tr/obt/revelation/5",
+                    "tr/obt/revelation/6",
+                    "tr/obt/revelation/7",
+                    "tr/obt/revelation/8",
+                    "tr/obt/revelation/9",
+                    "tr/obt/revelation/10",
+                    "tr/obt/revelation/11",
+                    "tr/obt/revelation/12",
+                    "tr/obt/revelation/13",
+                    "tr/obt/revelation/14",
+                    "tr/obt/revelation/15",
+                    "tr/obt/revelation/16",
+                    "tr/obt/revelation/17",
+                    "tr/obt/revelation/18",
+                    "tr/obt/revelation/19",
+                    "tr/obt/revelation/20",
+                    "tr/obt/revelation/21",
+                    "tr/obt/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tag": "NT"
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "The Bible",
+  "description": "Read the Bible in many translations and languages. Every book, chapter and verse, with footnotes, cross references, people, places and events.",
+  "colors": {
+    "primary": "#8B1E2D",
+    "light": "#E8A0A8",
+    "dark": "#6E1622"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "icons": {
+    "library": "lucide"
+  },
+  "appearance": {
+    "default": "system"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Source Serif 4",
+      "weight": 600
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Free Use Bible API",
+        "href": "https://bible.helloao.org/"
+      }
+    ],
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/brandonmcconnell/bible"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/brandonmcconnell/bible"
+    },
+    "links": [
+      {
+        "header": "Sources",
+        "items": [
+          {
+            "label": "Free Use Bible API",
+            "href": "https://bible.helloao.org/"
+          },
+          {
+            "label": "eBible.org",
+            "href": "https://ebible.org/"
+          },
+          {
+            "label": "OpenBible.info cross references",
+            "href": "https://www.openbible.info/labs/cross-references/"
+          },
+          {
+            "label": "Theographic Bible Metadata",
+            "href": "https://github.com/robertrouse/theographic-bible-metadata"
+          }
+        ]
+      },
+      {
+        "header": "Project",
+        "items": [
+          {
+            "label": "GitHub",
+            "href": "https://github.com/brandonmcconnell/bible"
+          },
+          {
+            "label": "Built with Mintlify",
+            "href": "https://mintlify.com"
+          }
+        ]
+      }
+    ]
+  },
+  "search": {
+    "prompt": "Search the Bible…"
+  },
+  "seo": {
+    "indexing": "navigable"
+  },
+  "interaction": {
+    "drilldown": false
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view"
+    ]
+  },
+  "errors": {
+    "404": {
+      "redirect": false
+    }
+  },
+  "redirects": [
+    {
+      "source": "/en",
+      "destination": "/en/kjv"
+    },
+    {
+      "source": "/es",
+      "destination": "/es/rvr1909"
+    },
+    {
+      "source": "/fr",
+      "destination": "/fr/lsg"
+    },
+    {
+      "source": "/de",
+      "destination": "/de/luther1912"
+    },
+    {
+      "source": "/pt-BR",
+      "destination": "/pt-BR/blivre"
+    },
+    {
+      "source": "/it",
+      "destination": "/it/riveduta1927"
+    },
+    {
+      "source": "/nl",
+      "destination": "/nl/nbg1951"
+    },
+    {
+      "source": "/ru",
+      "destination": "/ru/synodal"
+    },
+    {
+      "source": "/uk",
+      "destination": "/uk/bju1996"
+    },
+    {
+      "source": "/pl",
+      "destination": "/pl/ubg"
+    },
+    {
+      "source": "/cs",
+      "destination": "/cs/kralicka1613"
+    },
+    {
+      "source": "/ro",
+      "destination": "/ro/btf"
+    },
+    {
+      "source": "/hu",
+      "destination": "/hu/nyitott"
+    },
+    {
+      "source": "/sv",
+      "destination": "/sv/folkbibeln"
+    },
+    {
+      "source": "/da",
+      "destination": "/da/bibelen1931"
+    },
+    {
+      "source": "/no",
+      "destination": "/no/lbb"
+    },
+    {
+      "source": "/tr",
+      "destination": "/tr/ytc"
+    },
+    {
+      "source": "/ar",
+      "destination": "/ar/vandyck"
+    },
+    {
+      "source": "/he",
+      "destination": "/he/modern"
+    },
+    {
+      "source": "/hi",
+      "destination": "/hi/irv"
+    },
+    {
+      "source": "/id",
+      "destination": "/id/ayt"
+    },
+    {
+      "source": "/vi",
+      "destination": "/vi/vie1934"
+    },
+    {
+      "source": "/ja",
+      "destination": "/ja/shinkaiyaku1965"
+    },
+    {
+      "source": "/ko",
+      "destination": "/ko/krv1910"
+    },
+    {
+      "source": "/zh-Hans",
+      "destination": "/zh-Hans/cuvs"
+    },
+    {
+      "source": "/zh-Hant",
+      "destination": "/zh-Hant/cuvt"
+    }
+  ],
+  "navigation": {
+    "languages": [
+      {
+        "$ref": "./navigation/en.json"
+      },
+      {
+        "$ref": "./navigation/es.json"
+      },
+      {
+        "$ref": "./navigation/fr.json"
+      },
+      {
+        "$ref": "./navigation/de.json"
+      },
+      {
+        "$ref": "./navigation/pt-BR.json"
+      },
+      {
+        "$ref": "./navigation/it.json"
+      },
+      {
+        "$ref": "./navigation/nl.json"
+      },
+      {
+        "$ref": "./navigation/ru.json"
+      },
+      {
+        "$ref": "./navigation/uk.json"
+      },
+      {
+        "$ref": "./navigation/pl.json"
+      },
+      {
+        "$ref": "./navigation/cs.json"
+      },
+      {
+        "$ref": "./navigation/ro.json"
+      },
+      {
+        "$ref": "./navigation/hu.json"
+      },
+      {
+        "$ref": "./navigation/sv.json"
+      },
+      {
+        "$ref": "./navigation/da.json"
+      },
+      {
+        "$ref": "./navigation/no.json"
+      },
+      {
+        "$ref": "./navigation/tr.json"
+      },
+      {
+        "$ref": "./navigation/ar.json"
+      },
+      {
+        "$ref": "./navigation/he.json"
+      },
+      {
+        "$ref": "./navigation/hi.json"
+      },
+      {
+        "$ref": "./navigation/id.json"
+      },
+      {
+        "$ref": "./navigation/vi.json"
+      },
+      {
+        "$ref": "./navigation/ja.json"
+      },
+      {
+        "$ref": "./navigation/ko.json"
+      },
+      {
+        "$ref": "./navigation/zh-Hans.json"
+      },
+      {
+        "$ref": "./navigation/zh-Hant.json"
+      }
+    ]
+  }
+}

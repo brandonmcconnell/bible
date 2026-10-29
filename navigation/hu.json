@@ -1,0 +1,453 @@
+{
+  "language": "hu",
+  "versions": [
+    {
+      "version": "Nyitott ÚSZ",
+      "tabs": [
+        {
+          "tab": "Biblia",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Nyitott Újszövetség",
+              "icon": "book-open",
+              "pages": [
+                "hu/nyitott/index"
+              ]
+            },
+            {
+              "group": "Újszövetség",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "MÁTÉ",
+                  "pages": [
+                    "hu/nyitott/matthew/index",
+                    "hu/nyitott/matthew/1",
+                    "hu/nyitott/matthew/2",
+                    "hu/nyitott/matthew/3",
+                    "hu/nyitott/matthew/4",
+                    "hu/nyitott/matthew/5",
+                    "hu/nyitott/matthew/6",
+                    "hu/nyitott/matthew/7",
+                    "hu/nyitott/matthew/8",
+                    "hu/nyitott/matthew/9",
+                    "hu/nyitott/matthew/10",
+                    "hu/nyitott/matthew/11",
+                    "hu/nyitott/matthew/12",
+                    "hu/nyitott/matthew/13",
+                    "hu/nyitott/matthew/14",
+                    "hu/nyitott/matthew/15",
+                    "hu/nyitott/matthew/16",
+                    "hu/nyitott/matthew/17",
+                    "hu/nyitott/matthew/18",
+                    "hu/nyitott/matthew/19",
+                    "hu/nyitott/matthew/20",
+                    "hu/nyitott/matthew/21",
+                    "hu/nyitott/matthew/22",
+                    "hu/nyitott/matthew/23",
+                    "hu/nyitott/matthew/24",
+                    "hu/nyitott/matthew/25",
+                    "hu/nyitott/matthew/26",
+                    "hu/nyitott/matthew/27",
+                    "hu/nyitott/matthew/28"
+                  ]
+                },
+                {
+                  "group": "MÁRK",
+                  "pages": [
+                    "hu/nyitott/mark/index",
+                    "hu/nyitott/mark/1",
+                    "hu/nyitott/mark/2",
+                    "hu/nyitott/mark/3",
+                    "hu/nyitott/mark/4",
+                    "hu/nyitott/mark/5",
+                    "hu/nyitott/mark/6",
+                    "hu/nyitott/mark/7",
+                    "hu/nyitott/mark/8",
+                    "hu/nyitott/mark/9",
+                    "hu/nyitott/mark/10",
+                    "hu/nyitott/mark/11",
+                    "hu/nyitott/mark/12",
+                    "hu/nyitott/mark/13",
+                    "hu/nyitott/mark/14",
+                    "hu/nyitott/mark/15",
+                    "hu/nyitott/mark/16"
+                  ]
+                },
+                {
+                  "group": "LUKÁCS",
+                  "pages": [
+                    "hu/nyitott/luke/index",
+                    "hu/nyitott/luke/1",
+                    "hu/nyitott/luke/2",
+                    "hu/nyitott/luke/3",
+                    "hu/nyitott/luke/4",
+                    "hu/nyitott/luke/5",
+                    "hu/nyitott/luke/6",
+                    "hu/nyitott/luke/7",
+                    "hu/nyitott/luke/8",
+                    "hu/nyitott/luke/9",
+                    "hu/nyitott/luke/10",
+                    "hu/nyitott/luke/11",
+                    "hu/nyitott/luke/12",
+                    "hu/nyitott/luke/13",
+                    "hu/nyitott/luke/14",
+                    "hu/nyitott/luke/15",
+                    "hu/nyitott/luke/16",
+                    "hu/nyitott/luke/17",
+                    "hu/nyitott/luke/18",
+                    "hu/nyitott/luke/19",
+                    "hu/nyitott/luke/20",
+                    "hu/nyitott/luke/21",
+                    "hu/nyitott/luke/22",
+                    "hu/nyitott/luke/23",
+                    "hu/nyitott/luke/24"
+                  ]
+                },
+                {
+                  "group": "JÁNOS",
+                  "pages": [
+                    "hu/nyitott/john/index",
+                    "hu/nyitott/john/1",
+                    "hu/nyitott/john/2",
+                    "hu/nyitott/john/3",
+                    "hu/nyitott/john/4",
+                    "hu/nyitott/john/5",
+                    "hu/nyitott/john/6",
+                    "hu/nyitott/john/7",
+                    "hu/nyitott/john/8",
+                    "hu/nyitott/john/9",
+                    "hu/nyitott/john/10",
+                    "hu/nyitott/john/11",
+                    "hu/nyitott/john/12",
+                    "hu/nyitott/john/13",
+                    "hu/nyitott/john/14",
+                    "hu/nyitott/john/15",
+                    "hu/nyitott/john/16",
+                    "hu/nyitott/john/17",
+                    "hu/nyitott/john/18",
+                    "hu/nyitott/john/19",
+                    "hu/nyitott/john/20",
+                    "hu/nyitott/john/21"
+                  ]
+                },
+                {
+                  "group": "APOSTOLOK",
+                  "pages": [
+                    "hu/nyitott/acts/index",
+                    "hu/nyitott/acts/1",
+                    "hu/nyitott/acts/2",
+                    "hu/nyitott/acts/3",
+                    "hu/nyitott/acts/4",
+                    "hu/nyitott/acts/5",
+                    "hu/nyitott/acts/6",
+                    "hu/nyitott/acts/7",
+                    "hu/nyitott/acts/8",
+                    "hu/nyitott/acts/9",
+                    "hu/nyitott/acts/10",
+                    "hu/nyitott/acts/11",
+                    "hu/nyitott/acts/12",
+                    "hu/nyitott/acts/13",
+                    "hu/nyitott/acts/14",
+                    "hu/nyitott/acts/15",
+                    "hu/nyitott/acts/16",
+                    "hu/nyitott/acts/17",
+                    "hu/nyitott/acts/18",
+                    "hu/nyitott/acts/19",
+                    "hu/nyitott/acts/20",
+                    "hu/nyitott/acts/21",
+                    "hu/nyitott/acts/22",
+                    "hu/nyitott/acts/23",
+                    "hu/nyitott/acts/24",
+                    "hu/nyitott/acts/25",
+                    "hu/nyitott/acts/26",
+                    "hu/nyitott/acts/27",
+                    "hu/nyitott/acts/28"
+                  ]
+                },
+                {
+                  "group": "RÓMAIAKHOZ",
+                  "pages": [
+                    "hu/nyitott/romans/index",
+                    "hu/nyitott/romans/1",
+                    "hu/nyitott/romans/2",
+                    "hu/nyitott/romans/3",
+                    "hu/nyitott/romans/4",
+                    "hu/nyitott/romans/5",
+                    "hu/nyitott/romans/6",
+                    "hu/nyitott/romans/7",
+                    "hu/nyitott/romans/8",
+                    "hu/nyitott/romans/9",
+                    "hu/nyitott/romans/10",
+                    "hu/nyitott/romans/11",
+                    "hu/nyitott/romans/12",
+                    "hu/nyitott/romans/13",
+                    "hu/nyitott/romans/14",
+                    "hu/nyitott/romans/15",
+                    "hu/nyitott/romans/16"
+                  ]
+                },
+                {
+                  "group": "1 KORINTUSI",
+                  "pages": [
+                    "hu/nyitott/1-corinthians/index",
+                    "hu/nyitott/1-corinthians/1",
+                    "hu/nyitott/1-corinthians/2",
+                    "hu/nyitott/1-corinthians/3",
+                    "hu/nyitott/1-corinthians/4",
+                    "hu/nyitott/1-corinthians/5",
+                    "hu/nyitott/1-corinthians/6",
+                    "hu/nyitott/1-corinthians/7",
+                    "hu/nyitott/1-corinthians/8",
+                    "hu/nyitott/1-corinthians/9",
+                    "hu/nyitott/1-corinthians/10",
+                    "hu/nyitott/1-corinthians/11",
+                    "hu/nyitott/1-corinthians/12",
+                    "hu/nyitott/1-corinthians/13",
+                    "hu/nyitott/1-corinthians/14",
+                    "hu/nyitott/1-corinthians/15",
+                    "hu/nyitott/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2 KORINTUSI",
+                  "pages": [
+                    "hu/nyitott/2-corinthians/index",
+                    "hu/nyitott/2-corinthians/1",
+                    "hu/nyitott/2-corinthians/2",
+                    "hu/nyitott/2-corinthians/3",
+                    "hu/nyitott/2-corinthians/4",
+                    "hu/nyitott/2-corinthians/5",
+                    "hu/nyitott/2-corinthians/6",
+                    "hu/nyitott/2-corinthians/7",
+                    "hu/nyitott/2-corinthians/8",
+                    "hu/nyitott/2-corinthians/9",
+                    "hu/nyitott/2-corinthians/10",
+                    "hu/nyitott/2-corinthians/11",
+                    "hu/nyitott/2-corinthians/12",
+                    "hu/nyitott/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "GALATÁKHOZ",
+                  "pages": [
+                    "hu/nyitott/galatians/index",
+                    "hu/nyitott/galatians/1",
+                    "hu/nyitott/galatians/2",
+                    "hu/nyitott/galatians/3",
+                    "hu/nyitott/galatians/4",
+                    "hu/nyitott/galatians/5",
+                    "hu/nyitott/galatians/6"
+                  ]
+                },
+                {
+                  "group": "EFÉZUSIAKHOZ",
+                  "pages": [
+                    "hu/nyitott/ephesians/index",
+                    "hu/nyitott/ephesians/1",
+                    "hu/nyitott/ephesians/2",
+                    "hu/nyitott/ephesians/3",
+                    "hu/nyitott/ephesians/4",
+                    "hu/nyitott/ephesians/5",
+                    "hu/nyitott/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "FILIPPIEKHEZ",
+                  "pages": [
+                    "hu/nyitott/philippians/index",
+                    "hu/nyitott/philippians/1",
+                    "hu/nyitott/philippians/2",
+                    "hu/nyitott/philippians/3",
+                    "hu/nyitott/philippians/4"
+                  ]
+                },
+                {
+                  "group": "KOLOSSÉIAKHOZ",
+                  "pages": [
+                    "hu/nyitott/colossians/index",
+                    "hu/nyitott/colossians/1",
+                    "hu/nyitott/colossians/2",
+                    "hu/nyitott/colossians/3",
+                    "hu/nyitott/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1 TESSZALONIKA",
+                  "pages": [
+                    "hu/nyitott/1-thessalonians/index",
+                    "hu/nyitott/1-thessalonians/1",
+                    "hu/nyitott/1-thessalonians/2",
+                    "hu/nyitott/1-thessalonians/3",
+                    "hu/nyitott/1-thessalonians/4",
+                    "hu/nyitott/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2 TESSZALONIKA",
+                  "pages": [
+                    "hu/nyitott/2-thessalonians/index",
+                    "hu/nyitott/2-thessalonians/1",
+                    "hu/nyitott/2-thessalonians/2",
+                    "hu/nyitott/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1 TIMÓTEUSHOZ",
+                  "pages": [
+                    "hu/nyitott/1-timothy/index",
+                    "hu/nyitott/1-timothy/1",
+                    "hu/nyitott/1-timothy/2",
+                    "hu/nyitott/1-timothy/3",
+                    "hu/nyitott/1-timothy/4",
+                    "hu/nyitott/1-timothy/5",
+                    "hu/nyitott/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2 TIMÓTEUSHOZ",
+                  "pages": [
+                    "hu/nyitott/2-timothy/index",
+                    "hu/nyitott/2-timothy/1",
+                    "hu/nyitott/2-timothy/2",
+                    "hu/nyitott/2-timothy/3",
+                    "hu/nyitott/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "TITUSHOZ",
+                  "pages": [
+                    "hu/nyitott/titus/index",
+                    "hu/nyitott/titus/1",
+                    "hu/nyitott/titus/2",
+                    "hu/nyitott/titus/3"
+                  ]
+                },
+                {
+                  "group": "FILEMONHOZ",
+                  "pages": [
+                    "hu/nyitott/philemon/index",
+                    "hu/nyitott/philemon/1"
+                  ]
+                },
+                {
+                  "group": "ZSIDÓKHOZ",
+                  "pages": [
+                    "hu/nyitott/hebrews/index",
+                    "hu/nyitott/hebrews/1",
+                    "hu/nyitott/hebrews/2",
+                    "hu/nyitott/hebrews/3",
+                    "hu/nyitott/hebrews/4",
+                    "hu/nyitott/hebrews/5",
+                    "hu/nyitott/hebrews/6",
+                    "hu/nyitott/hebrews/7",
+                    "hu/nyitott/hebrews/8",
+                    "hu/nyitott/hebrews/9",
+                    "hu/nyitott/hebrews/10",
+                    "hu/nyitott/hebrews/11",
+                    "hu/nyitott/hebrews/12",
+                    "hu/nyitott/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "JAKAB",
+                  "pages": [
+                    "hu/nyitott/james/index",
+                    "hu/nyitott/james/1",
+                    "hu/nyitott/james/2",
+                    "hu/nyitott/james/3",
+                    "hu/nyitott/james/4",
+                    "hu/nyitott/james/5"
+                  ]
+                },
+                {
+                  "group": "1 PÉTER",
+                  "pages": [
+                    "hu/nyitott/1-peter/index",
+                    "hu/nyitott/1-peter/1",
+                    "hu/nyitott/1-peter/2",
+                    "hu/nyitott/1-peter/3",
+                    "hu/nyitott/1-peter/4",
+                    "hu/nyitott/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "2 PÉTER",
+                  "pages": [
+                    "hu/nyitott/2-peter/index",
+                    "hu/nyitott/2-peter/1",
+                    "hu/nyitott/2-peter/2",
+                    "hu/nyitott/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "1 JÁNOS",
+                  "pages": [
+                    "hu/nyitott/1-john/index",
+                    "hu/nyitott/1-john/1",
+                    "hu/nyitott/1-john/2",
+                    "hu/nyitott/1-john/3",
+                    "hu/nyitott/1-john/4",
+                    "hu/nyitott/1-john/5"
+                  ]
+                },
+                {
+                  "group": "2 JÁNOS",
+                  "pages": [
+                    "hu/nyitott/2-john/index",
+                    "hu/nyitott/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3 JÁNOS",
+                  "pages": [
+                    "hu/nyitott/3-john/index",
+                    "hu/nyitott/3-john/1"
+                  ]
+                },
+                {
+                  "group": "JÚDÁS",
+                  "pages": [
+                    "hu/nyitott/jude/index",
+                    "hu/nyitott/jude/1"
+                  ]
+                },
+                {
+                  "group": "JELENÉSEK",
+                  "pages": [
+                    "hu/nyitott/revelation/index",
+                    "hu/nyitott/revelation/1",
+                    "hu/nyitott/revelation/2",
+                    "hu/nyitott/revelation/3",
+                    "hu/nyitott/revelation/4",
+                    "hu/nyitott/revelation/5",
+                    "hu/nyitott/revelation/6",
+                    "hu/nyitott/revelation/7",
+                    "hu/nyitott/revelation/8",
+                    "hu/nyitott/revelation/9",
+                    "hu/nyitott/revelation/10",
+                    "hu/nyitott/revelation/11",
+                    "hu/nyitott/revelation/12",
+                    "hu/nyitott/revelation/13",
+                    "hu/nyitott/revelation/14",
+                    "hu/nyitott/revelation/15",
+                    "hu/nyitott/revelation/16",
+                    "hu/nyitott/revelation/17",
+                    "hu/nyitott/revelation/18",
+                    "hu/nyitott/revelation/19",
+                    "hu/nyitott/revelation/20",
+                    "hu/nyitott/revelation/21",
+                    "hu/nyitott/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "tag": "NT"
+    }
+  ]
+}

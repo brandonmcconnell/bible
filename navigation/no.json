@@ -1,0 +1,453 @@
+{
+  "language": "no",
+  "versions": [
+    {
+      "version": "LBB",
+      "tabs": [
+        {
+          "tab": "Bibelen",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Levende Bibelen (NT)",
+              "icon": "book-open",
+              "pages": [
+                "no/lbb/index"
+              ]
+            },
+            {
+              "group": "Det nye testamentet",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "MATTEUS",
+                  "pages": [
+                    "no/lbb/matthew/index",
+                    "no/lbb/matthew/1",
+                    "no/lbb/matthew/2",
+                    "no/lbb/matthew/3",
+                    "no/lbb/matthew/4",
+                    "no/lbb/matthew/5",
+                    "no/lbb/matthew/6",
+                    "no/lbb/matthew/7",
+                    "no/lbb/matthew/8",
+                    "no/lbb/matthew/9",
+                    "no/lbb/matthew/10",
+                    "no/lbb/matthew/11",
+                    "no/lbb/matthew/12",
+                    "no/lbb/matthew/13",
+                    "no/lbb/matthew/14",
+                    "no/lbb/matthew/15",
+                    "no/lbb/matthew/16",
+                    "no/lbb/matthew/17",
+                    "no/lbb/matthew/18",
+                    "no/lbb/matthew/19",
+                    "no/lbb/matthew/20",
+                    "no/lbb/matthew/21",
+                    "no/lbb/matthew/22",
+                    "no/lbb/matthew/23",
+                    "no/lbb/matthew/24",
+                    "no/lbb/matthew/25",
+                    "no/lbb/matthew/26",
+                    "no/lbb/matthew/27",
+                    "no/lbb/matthew/28"
+                  ]
+                },
+                {
+                  "group": "MARKUS",
+                  "pages": [
+                    "no/lbb/mark/index",
+                    "no/lbb/mark/1",
+                    "no/lbb/mark/2",
+                    "no/lbb/mark/3",
+                    "no/lbb/mark/4",
+                    "no/lbb/mark/5",
+                    "no/lbb/mark/6",
+                    "no/lbb/mark/7",
+                    "no/lbb/mark/8",
+                    "no/lbb/mark/9",
+                    "no/lbb/mark/10",
+                    "no/lbb/mark/11",
+                    "no/lbb/mark/12",
+                    "no/lbb/mark/13",
+                    "no/lbb/mark/14",
+                    "no/lbb/mark/15",
+                    "no/lbb/mark/16"
+                  ]
+                },
+                {
+                  "group": "LUKAS",
+                  "pages": [
+                    "no/lbb/luke/index",
+                    "no/lbb/luke/1",
+                    "no/lbb/luke/2",
+                    "no/lbb/luke/3",
+                    "no/lbb/luke/4",
+                    "no/lbb/luke/5",
+                    "no/lbb/luke/6",
+                    "no/lbb/luke/7",
+                    "no/lbb/luke/8",
+                    "no/lbb/luke/9",
+                    "no/lbb/luke/10",
+                    "no/lbb/luke/11",
+                    "no/lbb/luke/12",
+                    "no/lbb/luke/13",
+                    "no/lbb/luke/14",
+                    "no/lbb/luke/15",
+                    "no/lbb/luke/16",
+                    "no/lbb/luke/17",
+                    "no/lbb/luke/18",
+                    "no/lbb/luke/19",
+                    "no/lbb/luke/20",
+                    "no/lbb/luke/21",
+                    "no/lbb/luke/22",
+                    "no/lbb/luke/23",
+                    "no/lbb/luke/24"
+                  ]
+                },
+                {
+                  "group": "JOHANNES",
+                  "pages": [
+                    "no/lbb/john/index",
+                    "no/lbb/john/1",
+                    "no/lbb/john/2",
+                    "no/lbb/john/3",
+                    "no/lbb/john/4",
+                    "no/lbb/john/5",
+                    "no/lbb/john/6",
+                    "no/lbb/john/7",
+                    "no/lbb/john/8",
+                    "no/lbb/john/9",
+                    "no/lbb/john/10",
+                    "no/lbb/john/11",
+                    "no/lbb/john/12",
+                    "no/lbb/john/13",
+                    "no/lbb/john/14",
+                    "no/lbb/john/15",
+                    "no/lbb/john/16",
+                    "no/lbb/john/17",
+                    "no/lbb/john/18",
+                    "no/lbb/john/19",
+                    "no/lbb/john/20",
+                    "no/lbb/john/21"
+                  ]
+                },
+                {
+                  "group": "APOSTLENES GJERNINGER",
+                  "pages": [
+                    "no/lbb/acts/index",
+                    "no/lbb/acts/1",
+                    "no/lbb/acts/2",
+                    "no/lbb/acts/3",
+                    "no/lbb/acts/4",
+                    "no/lbb/acts/5",
+                    "no/lbb/acts/6",
+                    "no/lbb/acts/7",
+                    "no/lbb/acts/8",
+                    "no/lbb/acts/9",
+                    "no/lbb/acts/10",
+                    "no/lbb/acts/11",
+                    "no/lbb/acts/12",
+                    "no/lbb/acts/13",
+                    "no/lbb/acts/14",
+                    "no/lbb/acts/15",
+                    "no/lbb/acts/16",
+                    "no/lbb/acts/17",
+                    "no/lbb/acts/18",
+                    "no/lbb/acts/19",
+                    "no/lbb/acts/20",
+                    "no/lbb/acts/21",
+                    "no/lbb/acts/22",
+                    "no/lbb/acts/23",
+                    "no/lbb/acts/24",
+                    "no/lbb/acts/25",
+                    "no/lbb/acts/26",
+                    "no/lbb/acts/27",
+                    "no/lbb/acts/28"
+                  ]
+                },
+                {
+                  "group": "ROMERNE",
+                  "pages": [
+                    "no/lbb/romans/index",
+                    "no/lbb/romans/1",
+                    "no/lbb/romans/2",
+                    "no/lbb/romans/3",
+                    "no/lbb/romans/4",
+                    "no/lbb/romans/5",
+                    "no/lbb/romans/6",
+                    "no/lbb/romans/7",
+                    "no/lbb/romans/8",
+                    "no/lbb/romans/9",
+                    "no/lbb/romans/10",
+                    "no/lbb/romans/11",
+                    "no/lbb/romans/12",
+                    "no/lbb/romans/13",
+                    "no/lbb/romans/14",
+                    "no/lbb/romans/15",
+                    "no/lbb/romans/16"
+                  ]
+                },
+                {
+                  "group": "1. KORINTER",
+                  "pages": [
+                    "no/lbb/1-corinthians/index",
+                    "no/lbb/1-corinthians/1",
+                    "no/lbb/1-corinthians/2",
+                    "no/lbb/1-corinthians/3",
+                    "no/lbb/1-corinthians/4",
+                    "no/lbb/1-corinthians/5",
+                    "no/lbb/1-corinthians/6",
+                    "no/lbb/1-corinthians/7",
+                    "no/lbb/1-corinthians/8",
+                    "no/lbb/1-corinthians/9",
+                    "no/lbb/1-corinthians/10",
+                    "no/lbb/1-corinthians/11",
+                    "no/lbb/1-corinthians/12",
+                    "no/lbb/1-corinthians/13",
+                    "no/lbb/1-corinthians/14",
+                    "no/lbb/1-corinthians/15",
+                    "no/lbb/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2. KORINTER",
+                  "pages": [
+                    "no/lbb/2-corinthians/index",
+                    "no/lbb/2-corinthians/1",
+                    "no/lbb/2-corinthians/2",
+                    "no/lbb/2-corinthians/3",
+                    "no/lbb/2-corinthians/4",
+                    "no/lbb/2-corinthians/5",
+                    "no/lbb/2-corinthians/6",
+                    "no/lbb/2-corinthians/7",
+                    "no/lbb/2-corinthians/8",
+                    "no/lbb/2-corinthians/9",
+                    "no/lbb/2-corinthians/10",
+                    "no/lbb/2-corinthians/11",
+                    "no/lbb/2-corinthians/12",
+                    "no/lbb/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "GALATERNE",
+                  "pages": [
+                    "no/lbb/galatians/index",
+                    "no/lbb/galatians/1",
+                    "no/lbb/galatians/2",
+                    "no/lbb/galatians/3",
+                    "no/lbb/galatians/4",
+                    "no/lbb/galatians/5",
+                    "no/lbb/galatians/6"
+                  ]
+                },
+                {
+                  "group": "EFESERNE",
+                  "pages": [
+                    "no/lbb/ephesians/index",
+                    "no/lbb/ephesians/1",
+                    "no/lbb/ephesians/2",
+                    "no/lbb/ephesians/3",
+                    "no/lbb/ephesians/4",
+                    "no/lbb/ephesians/5",
+                    "no/lbb/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "FILIPPERNE",
+                  "pages": [
+                    "no/lbb/philippians/index",
+                    "no/lbb/philippians/1",
+                    "no/lbb/philippians/2",
+                    "no/lbb/philippians/3",
+                    "no/lbb/philippians/4"
+                  ]
+                },
+                {
+                  "group": "KOLOSSERNE",
+                  "pages": [
+                    "no/lbb/colossians/index",
+                    "no/lbb/colossians/1",
+                    "no/lbb/colossians/2",
+                    "no/lbb/colossians/3",
+                    "no/lbb/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1. TESSALONIKER",
+                  "pages": [
+                    "no/lbb/1-thessalonians/index",
+                    "no/lbb/1-thessalonians/1",
+                    "no/lbb/1-thessalonians/2",
+                    "no/lbb/1-thessalonians/3",
+                    "no/lbb/1-thessalonians/4",
+                    "no/lbb/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2. TESSALONIKER",
+                  "pages": [
+                    "no/lbb/2-thessalonians/index",
+                    "no/lbb/2-thessalonians/1",
+                    "no/lbb/2-thessalonians/2",
+                    "no/lbb/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1. TIMOTEUS",
+                  "pages": [
+                    "no/lbb/1-timothy/index",
+                    "no/lbb/1-timothy/1",
+                    "no/lbb/1-timothy/2",
+                    "no/lbb/1-timothy/3",
+                    "no/lbb/1-timothy/4",
+                    "no/lbb/1-timothy/5",
+                    "no/lbb/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2. TIMOTEUS",
+                  "pages": [
+                    "no/lbb/2-timothy/index",
+                    "no/lbb/2-timothy/1",
+                    "no/lbb/2-timothy/2",
+                    "no/lbb/2-timothy/3",
+                    "no/lbb/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "TITUS",
+                  "pages": [
+                    "no/lbb/titus/index",
+                    "no/lbb/titus/1",
+                    "no/lbb/titus/2",
+                    "no/lbb/titus/3"
+                  ]
+                },
+                {
+                  "group": "FILEMON",
+                  "pages": [
+                    "no/lbb/philemon/index",
+                    "no/lbb/philemon/1"
+                  ]
+                },
+                {
+                  "group": "HEBREERNE",
+                  "pages": [
+                    "no/lbb/hebrews/index",
+                    "no/lbb/hebrews/1",
+                    "no/lbb/hebrews/2",
+                    "no/lbb/hebrews/3",
+                    "no/lbb/hebrews/4",
+                    "no/lbb/hebrews/5",
+                    "no/lbb/hebrews/6",
+                    "no/lbb/hebrews/7",
+                    "no/lbb/hebrews/8",
+                    "no/lbb/hebrews/9",
+                    "no/lbb/hebrews/10",
+                    "no/lbb/hebrews/11",
+                    "no/lbb/hebrews/12",
+                    "no/lbb/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "JAKOB",
+                  "pages": [
+                    "no/lbb/james/index",
+                    "no/lbb/james/1",
+                    "no/lbb/james/2",
+                    "no/lbb/james/3",
+                    "no/lbb/james/4",
+                    "no/lbb/james/5"
+                  ]
+                },
+                {
+                  "group": "1. PETER",
+                  "pages": [
+                    "no/lbb/1-peter/index",
+                    "no/lbb/1-peter/1",
+                    "no/lbb/1-peter/2",
+                    "no/lbb/1-peter/3",
+                    "no/lbb/1-peter/4",
+                    "no/lbb/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "2. PETER",
+                  "pages": [
+                    "no/lbb/2-peter/index",
+                    "no/lbb/2-peter/1",
+                    "no/lbb/2-peter/2",
+                    "no/lbb/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "1. JOHANNES",
+                  "pages": [
+                    "no/lbb/1-john/index",
+                    "no/lbb/1-john/1",
+                    "no/lbb/1-john/2",
+                    "no/lbb/1-john/3",
+                    "no/lbb/1-john/4",
+                    "no/lbb/1-john/5"
+                  ]
+                },
+                {
+                  "group": "2. JOHANNES",
+                  "pages": [
+                    "no/lbb/2-john/index",
+                    "no/lbb/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3. JOHANNES",
+                  "pages": [
+                    "no/lbb/3-john/index",
+                    "no/lbb/3-john/1"
+                  ]
+                },
+                {
+                  "group": "JUDAS",
+                  "pages": [
+                    "no/lbb/jude/index",
+                    "no/lbb/jude/1"
+                  ]
+                },
+                {
+                  "group": "Johannes’ åpenbaring",
+                  "pages": [
+                    "no/lbb/revelation/index",
+                    "no/lbb/revelation/1",
+                    "no/lbb/revelation/2",
+                    "no/lbb/revelation/3",
+                    "no/lbb/revelation/4",
+                    "no/lbb/revelation/5",
+                    "no/lbb/revelation/6",
+                    "no/lbb/revelation/7",
+                    "no/lbb/revelation/8",
+                    "no/lbb/revelation/9",
+                    "no/lbb/revelation/10",
+                    "no/lbb/revelation/11",
+                    "no/lbb/revelation/12",
+                    "no/lbb/revelation/13",
+                    "no/lbb/revelation/14",
+                    "no/lbb/revelation/15",
+                    "no/lbb/revelation/16",
+                    "no/lbb/revelation/17",
+                    "no/lbb/revelation/18",
+                    "no/lbb/revelation/19",
+                    "no/lbb/revelation/20",
+                    "no/lbb/revelation/21",
+                    "no/lbb/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "default": true,
+      "tag": "NT"
+    }
+  ]
+}
