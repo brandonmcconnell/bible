@@ -17,6 +17,7 @@ import { HelloAoClient, type CompleteTranslation, type EntityChapter, type Trans
 import { uiStrings, type MintlifyLanguage } from './lib/i18n.ts';
 import { buildManifest, manifestScript } from './lib/manifest.ts';
 import {
+  buildLiveTranslation,
   buildPublishedTranslation,
   chapterPath,
   formatNumber,
@@ -144,10 +145,11 @@ function discoverTranslations(summaries: readonly TranslationSummary[], language
 
 /** Default first, then complete translations alphabetically, then partial ones. */
 function orderTranslations(translations: PublishedTranslation[]): PublishedTranslation[] {
-  const completeness = (t: PublishedTranslation): number => (t.books.length >= 66 ? 0 : 1);
+  // Default first, then complete translations, then licensed ones, then partial translations.
+  const rank = (t: PublishedTranslation): number => (t.live ? 1 : t.books.length >= 66 ? 0 : 2);
   return [...translations].sort((a, b) => {
     if (a.config.default !== b.config.default) return a.config.default ? -1 : 1;
-    if (completeness(a) !== completeness(b)) return completeness(a) - completeness(b);
+    if (rank(a) !== rank(b)) return rank(a) - rank(b);
     return a.label.localeCompare(b.label, 'en', { numeric: true });
   });
 }
@@ -225,6 +227,15 @@ async function main(): Promise<void> {
     });
     if (published.length === 0) continue;
     ensureDefault(published);
+
+    // Licensed translations: navigation only, text fetched live from the proxy.
+    for (const licensed of language.licensed ?? []) {
+      if (options.translations && !options.translations.has(licensed.slug)) continue;
+      if (taken.has(licensed.slug)) throw new Error(`Licensed translation slug "${licensed.slug}" collides with an API translation in ${language.code}`);
+      taken.add(licensed.slug);
+      const structure = await client.completeTranslation(licensed.structureFrom ?? 'eng_kjv');
+      published.push(buildLiveTranslation(language, licensed, options.sample ? restrictToSample(structure) : structure));
+    }
 
     builds.push({
       config: language,
@@ -391,7 +402,16 @@ async function main(): Promise<void> {
       commentaryBasePath: build.commentaryBasePath ? `/${build.commentaryBasePath}` : undefined,
     })),
     xrefBaseUrls,
+    siteConfig.liveProxyUrl,
   );
+  const liveCount = builds.reduce((n, b) => n + b.translations.filter((t) => t.live).length, 0);
+  if (liveCount > 0) {
+    log(
+      siteConfig.liveProxyUrl
+        ? `${liveCount} licensed translation(s) will load from ${siteConfig.liveProxyUrl}`
+        : `${liveCount} licensed translation(s) generated without a proxy URL (set BIBLE_PROXY_URL); their pages will show a "not configured" notice`,
+    );
+  }
   await writeText(MANIFEST_SCRIPT_PATH, manifestScript(manifest));
 
   const seconds = ((Date.now() - started) / 1000).toFixed(1);

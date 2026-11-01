@@ -1,0 +1,11 @@
+name = "bible-proxy"
+main = "src/index.ts"
+compatibility_date = "2025-09-01"
+
+# Non-secret configuration. Secrets (API keys) are set with `wrangler secret put`.
+[vars]
+# Comma-separated browser origins allowed to call the proxy. Use your docs domain(s).
+# `*` allows any origin (fine for testing, not recommended in production).
+ALLOWED_ORIGINS = "*"
+# Optional: pin API.Bible editions to bible ids when the abbreviation lookup is ambiguous.
+# API_BIBLE_IDS = "NKJV=xxxxxxxx-01,NASB2020=yyyyyyyy-01"

@@ -1,5 +1,6 @@
 # Generator source and API cache are not documentation content.
 generator/
+proxy/
 .cache/
 .github/
 node_modules/

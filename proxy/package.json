@@ -1,0 +1,19 @@
+{
+  "name": "bible-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloudflare Worker that serves licensed Bible translations (ESV, NLT, API.Bible) to the Mintlify site.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx dev.ts",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "deploy": "wrangler deploy",
+    "secrets": "echo 'Run: wrangler secret put ESV_API_KEY / NLT_API_KEY / API_BIBLE_KEY / ALLOWED_ORIGINS'"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "wrangler": "^4.0.0"
+  }
+}

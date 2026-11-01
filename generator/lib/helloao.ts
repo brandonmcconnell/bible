@@ -107,6 +107,8 @@ export interface ChapterData {
   number: number;
   content: ChapterItem[];
   footnotes: Footnote[];
+  /** Verse count reported by the API; used when `content` is not available (licensed translations). */
+  numberOfVerses: number | undefined;
 }
 
 export interface TranslationBook {
@@ -219,6 +221,7 @@ function decodeChapterData(value: unknown, ctx: string): ChapterData {
     number: expectNumber(o.number, `${ctx}.number`),
     content: decodeArray(o.content, `${ctx}.content`, decodeChapterItem),
     footnotes: optionalArray(o.footnotes, `${ctx}.footnotes`, decodeFootnote) ?? [],
+    numberOfVerses: undefined,
   };
 }
 
@@ -227,7 +230,9 @@ function decodeCompleteBook(value: unknown, ctx: string): TranslationBook {
   const title = o.title === null || o.title === undefined ? null : expectString(o.title, `${ctx}.title`);
   const chapters = expectArray(o.chapters, `${ctx}.chapters`).map((entry, i) => {
     const wrapper = expectRecord(entry, `${ctx}.chapters[${i}]`);
-    return decodeChapterData(wrapper.chapter, `${ctx}.chapters[${i}].chapter`);
+    const chapter = decodeChapterData(wrapper.chapter, `${ctx}.chapters[${i}].chapter`);
+    chapter.numberOfVerses = optionalNumber(wrapper.numberOfVerses, `${ctx}.chapters[${i}].numberOfVerses`);
+    return chapter;
   });
   return {
     id: expectString(o.id, `${ctx}.id`),

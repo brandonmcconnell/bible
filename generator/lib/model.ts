@@ -2,7 +2,7 @@
  * Builds the publishable model of a translation: which books it has, how they
  * are grouped into sections, and where each page lives.
  */
-import type { Canon, LanguageDefinition, TranslationOverrides } from '../config.ts';
+import type { Canon, LanguageDefinition, LicensedTranslation, TranslationOverrides } from '../config.ts';
 import { bookSlug, canonicalOrder, CATHOLIC_OLD_TESTAMENT_ORDER, englishBookName, sectionOf, type Section } from './books.ts';
 import type { ChapterData, CompleteTranslation, TranslationBook, TranslationSummary } from './helloao.ts';
 import { RTL_LANGUAGES, uiStrings, type UiStrings } from './i18n.ts';
@@ -44,6 +44,8 @@ export interface PublishedTranslation {
   language: LanguageDefinition;
   config: ResolvedTranslation;
   summary: TranslationSummary;
+  /** Set for licensed translations whose text is fetched at request time. */
+  live: LicensedTranslation | undefined;
   ui: UiStrings;
   name: string;
   label: string;
@@ -111,6 +113,7 @@ export function buildPublishedTranslation(
     language,
     config,
     summary: complete.translation,
+    live: undefined,
     ui,
     name: config.name,
     label: config.label,
@@ -166,6 +169,56 @@ function catholicSections(books: PublishedBook[], ui: UiStrings): PublishedSecti
   if (nt.length > 0) sections.push({ key: 'nt', label: ui.newTestament, books: nt });
   if (rest.length > 0) sections.push({ key: 'extra', label: ui.apocrypha, books: rest });
   return sections;
+}
+
+/**
+ * Builds the model for a licensed translation. The book/chapter structure is
+ * borrowed from `structure` (normally the KJV); verse content stays empty and
+ * is fetched by the reader script from the proxy.
+ */
+export function buildLiveTranslation(
+  language: LanguageDefinition,
+  licensed: LicensedTranslation,
+  structure: CompleteTranslation,
+): PublishedTranslation {
+  const summary: TranslationSummary = {
+    ...structure.translation,
+    id: `live:${licensed.provider}:${licensed.edition}`,
+    name: licensed.name,
+    englishName: licensed.name,
+    shortName: licensed.label,
+    website: licensed.website,
+    licenseUrl: licensed.website,
+  };
+  const skeleton: CompleteTranslation = {
+    translation: summary,
+    books: structure.books.map((book) => ({
+      ...book,
+      chapters: book.chapters.map((chapter) => ({
+        number: chapter.number,
+        content: [],
+        footnotes: [],
+        numberOfVerses: chapter.numberOfVerses ?? chapter.content.filter((item) => item.type === 'verse').length,
+      })),
+    })),
+  };
+  const config: ResolvedTranslation = {
+    id: summary.id,
+    slug: licensed.slug,
+    label: licensed.label,
+    name: licensed.name,
+    canon: 'protestant',
+    extraBooksLabel: 'apocrypha',
+    default: false,
+    tag: 'Licensed',
+  };
+  return { ...buildPublishedTranslation(language, config, skeleton), live: licensed };
+}
+
+/** Verses in a chapter: counted from content, else the API's reported count. */
+export function verseCount(chapter: ChapterData): number {
+  const counted = chapter.content.filter((item) => item.type === 'verse').length;
+  return counted > 0 ? counted : (chapter.numberOfVerses ?? 0);
 }
 
 /** Path of a chapter page, e.g. `en/kjv/genesis/1`. */

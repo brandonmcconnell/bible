@@ -3231,6 +3231,846 @@
           ]
         }
       ]
+    },
+    {
+      "version": "HG",
+      "tabs": [
+        {
+          "tab": "बाइबल",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "हिंदी लिटरल टेक्स्ट",
+              "icon": "book-open",
+              "pages": [
+                "hi/hg/index"
+              ]
+            },
+            {
+              "group": "नया नियम",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "तीतुस",
+                  "pages": [
+                    "hi/hg/titus/index",
+                    "hi/hg/titus/1",
+                    "hi/hg/titus/2",
+                    "hi/hg/titus/3"
+                  ]
+                },
+                {
+                  "group": "3 यूहन्ना",
+                  "pages": [
+                    "hi/hg/3-john/index",
+                    "hi/hg/3-john/1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tag": "NT"
+    },
+    {
+      "version": "HSB",
+      "tabs": [
+        {
+          "tab": "बाइबल",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Hindi Standard Bible",
+              "icon": "book-open",
+              "pages": [
+                "hi/hsb/index"
+              ]
+            },
+            {
+              "group": "पुराना नियम",
+              "icon": "scroll-text",
+              "pages": [
+                {
+                  "group": "Genesis",
+                  "pages": [
+                    "hi/hsb/genesis/index",
+                    "hi/hsb/genesis/1",
+                    "hi/hsb/genesis/2",
+                    "hi/hsb/genesis/3",
+                    "hi/hsb/genesis/4",
+                    "hi/hsb/genesis/5",
+                    "hi/hsb/genesis/6",
+                    "hi/hsb/genesis/7",
+                    "hi/hsb/genesis/8",
+                    "hi/hsb/genesis/9",
+                    "hi/hsb/genesis/10",
+                    "hi/hsb/genesis/11",
+                    "hi/hsb/genesis/12",
+                    "hi/hsb/genesis/13",
+                    "hi/hsb/genesis/14",
+                    "hi/hsb/genesis/15",
+                    "hi/hsb/genesis/16",
+                    "hi/hsb/genesis/17",
+                    "hi/hsb/genesis/18",
+                    "hi/hsb/genesis/19",
+                    "hi/hsb/genesis/20",
+                    "hi/hsb/genesis/21",
+                    "hi/hsb/genesis/22",
+                    "hi/hsb/genesis/23",
+                    "hi/hsb/genesis/24",
+                    "hi/hsb/genesis/25",
+                    "hi/hsb/genesis/26",
+                    "hi/hsb/genesis/27",
+                    "hi/hsb/genesis/28",
+                    "hi/hsb/genesis/29",
+                    "hi/hsb/genesis/30",
+                    "hi/hsb/genesis/31",
+                    "hi/hsb/genesis/32",
+                    "hi/hsb/genesis/33",
+                    "hi/hsb/genesis/34",
+                    "hi/hsb/genesis/35",
+                    "hi/hsb/genesis/36",
+                    "hi/hsb/genesis/37",
+                    "hi/hsb/genesis/38",
+                    "hi/hsb/genesis/39",
+                    "hi/hsb/genesis/40",
+                    "hi/hsb/genesis/41",
+                    "hi/hsb/genesis/42",
+                    "hi/hsb/genesis/43",
+                    "hi/hsb/genesis/44",
+                    "hi/hsb/genesis/45",
+                    "hi/hsb/genesis/46",
+                    "hi/hsb/genesis/47",
+                    "hi/hsb/genesis/48",
+                    "hi/hsb/genesis/49",
+                    "hi/hsb/genesis/50"
+                  ]
+                },
+                {
+                  "group": "Exodus",
+                  "pages": [
+                    "hi/hsb/exodus/index",
+                    "hi/hsb/exodus/1",
+                    "hi/hsb/exodus/2",
+                    "hi/hsb/exodus/3",
+                    "hi/hsb/exodus/4",
+                    "hi/hsb/exodus/5",
+                    "hi/hsb/exodus/6",
+                    "hi/hsb/exodus/7",
+                    "hi/hsb/exodus/8",
+                    "hi/hsb/exodus/9",
+                    "hi/hsb/exodus/10",
+                    "hi/hsb/exodus/11",
+                    "hi/hsb/exodus/12",
+                    "hi/hsb/exodus/13",
+                    "hi/hsb/exodus/14",
+                    "hi/hsb/exodus/15",
+                    "hi/hsb/exodus/16",
+                    "hi/hsb/exodus/17",
+                    "hi/hsb/exodus/18",
+                    "hi/hsb/exodus/19",
+                    "hi/hsb/exodus/20",
+                    "hi/hsb/exodus/21",
+                    "hi/hsb/exodus/22",
+                    "hi/hsb/exodus/23",
+                    "hi/hsb/exodus/24",
+                    "hi/hsb/exodus/25",
+                    "hi/hsb/exodus/26",
+                    "hi/hsb/exodus/27",
+                    "hi/hsb/exodus/28",
+                    "hi/hsb/exodus/29",
+                    "hi/hsb/exodus/30",
+                    "hi/hsb/exodus/31",
+                    "hi/hsb/exodus/32",
+                    "hi/hsb/exodus/33",
+                    "hi/hsb/exodus/34",
+                    "hi/hsb/exodus/35",
+                    "hi/hsb/exodus/36",
+                    "hi/hsb/exodus/37",
+                    "hi/hsb/exodus/38",
+                    "hi/hsb/exodus/39",
+                    "hi/hsb/exodus/40"
+                  ]
+                },
+                {
+                  "group": "Leviticus",
+                  "pages": [
+                    "hi/hsb/leviticus/index",
+                    "hi/hsb/leviticus/1",
+                    "hi/hsb/leviticus/2",
+                    "hi/hsb/leviticus/3",
+                    "hi/hsb/leviticus/4",
+                    "hi/hsb/leviticus/5",
+                    "hi/hsb/leviticus/6",
+                    "hi/hsb/leviticus/7",
+                    "hi/hsb/leviticus/8",
+                    "hi/hsb/leviticus/9",
+                    "hi/hsb/leviticus/10",
+                    "hi/hsb/leviticus/11",
+                    "hi/hsb/leviticus/12",
+                    "hi/hsb/leviticus/13",
+                    "hi/hsb/leviticus/14",
+                    "hi/hsb/leviticus/15",
+                    "hi/hsb/leviticus/16",
+                    "hi/hsb/leviticus/17",
+                    "hi/hsb/leviticus/18",
+                    "hi/hsb/leviticus/19",
+                    "hi/hsb/leviticus/20",
+                    "hi/hsb/leviticus/21",
+                    "hi/hsb/leviticus/22",
+                    "hi/hsb/leviticus/23",
+                    "hi/hsb/leviticus/24",
+                    "hi/hsb/leviticus/25",
+                    "hi/hsb/leviticus/26",
+                    "hi/hsb/leviticus/27"
+                  ]
+                },
+                {
+                  "group": "Psalms",
+                  "pages": [
+                    "hi/hsb/psalms/index",
+                    "hi/hsb/psalms/1",
+                    "hi/hsb/psalms/2",
+                    "hi/hsb/psalms/3",
+                    "hi/hsb/psalms/4",
+                    "hi/hsb/psalms/5",
+                    "hi/hsb/psalms/6",
+                    "hi/hsb/psalms/7",
+                    "hi/hsb/psalms/8",
+                    "hi/hsb/psalms/9",
+                    "hi/hsb/psalms/10",
+                    "hi/hsb/psalms/11",
+                    "hi/hsb/psalms/12",
+                    "hi/hsb/psalms/13",
+                    "hi/hsb/psalms/14",
+                    "hi/hsb/psalms/15",
+                    "hi/hsb/psalms/16",
+                    "hi/hsb/psalms/17",
+                    "hi/hsb/psalms/18",
+                    "hi/hsb/psalms/19",
+                    "hi/hsb/psalms/20",
+                    "hi/hsb/psalms/21",
+                    "hi/hsb/psalms/22",
+                    "hi/hsb/psalms/23",
+                    "hi/hsb/psalms/24",
+                    "hi/hsb/psalms/25",
+                    "hi/hsb/psalms/26",
+                    "hi/hsb/psalms/27",
+                    "hi/hsb/psalms/28",
+                    "hi/hsb/psalms/29",
+                    "hi/hsb/psalms/30",
+                    "hi/hsb/psalms/31",
+                    "hi/hsb/psalms/32",
+                    "hi/hsb/psalms/33",
+                    "hi/hsb/psalms/34",
+                    "hi/hsb/psalms/35",
+                    "hi/hsb/psalms/36",
+                    "hi/hsb/psalms/37",
+                    "hi/hsb/psalms/38",
+                    "hi/hsb/psalms/39",
+                    "hi/hsb/psalms/40",
+                    "hi/hsb/psalms/41",
+                    "hi/hsb/psalms/42",
+                    "hi/hsb/psalms/43",
+                    "hi/hsb/psalms/44",
+                    "hi/hsb/psalms/45",
+                    "hi/hsb/psalms/46",
+                    "hi/hsb/psalms/47",
+                    "hi/hsb/psalms/48",
+                    "hi/hsb/psalms/49",
+                    "hi/hsb/psalms/50",
+                    "hi/hsb/psalms/51",
+                    "hi/hsb/psalms/52",
+                    "hi/hsb/psalms/53",
+                    "hi/hsb/psalms/54",
+                    "hi/hsb/psalms/55",
+                    "hi/hsb/psalms/56",
+                    "hi/hsb/psalms/57",
+                    "hi/hsb/psalms/58",
+                    "hi/hsb/psalms/59",
+                    "hi/hsb/psalms/60",
+                    "hi/hsb/psalms/61",
+                    "hi/hsb/psalms/62",
+                    "hi/hsb/psalms/63",
+                    "hi/hsb/psalms/64",
+                    "hi/hsb/psalms/65",
+                    "hi/hsb/psalms/66",
+                    "hi/hsb/psalms/67",
+                    "hi/hsb/psalms/68",
+                    "hi/hsb/psalms/69",
+                    "hi/hsb/psalms/70",
+                    "hi/hsb/psalms/71",
+                    "hi/hsb/psalms/72",
+                    "hi/hsb/psalms/73",
+                    "hi/hsb/psalms/74",
+                    "hi/hsb/psalms/75",
+                    "hi/hsb/psalms/76",
+                    "hi/hsb/psalms/77",
+                    "hi/hsb/psalms/78",
+                    "hi/hsb/psalms/79",
+                    "hi/hsb/psalms/80",
+                    "hi/hsb/psalms/81",
+                    "hi/hsb/psalms/82",
+                    "hi/hsb/psalms/83",
+                    "hi/hsb/psalms/84",
+                    "hi/hsb/psalms/85",
+                    "hi/hsb/psalms/86",
+                    "hi/hsb/psalms/87",
+                    "hi/hsb/psalms/88",
+                    "hi/hsb/psalms/89",
+                    "hi/hsb/psalms/90",
+                    "hi/hsb/psalms/91",
+                    "hi/hsb/psalms/92",
+                    "hi/hsb/psalms/93",
+                    "hi/hsb/psalms/94",
+                    "hi/hsb/psalms/95",
+                    "hi/hsb/psalms/96",
+                    "hi/hsb/psalms/97",
+                    "hi/hsb/psalms/98",
+                    "hi/hsb/psalms/99",
+                    "hi/hsb/psalms/100",
+                    "hi/hsb/psalms/101",
+                    "hi/hsb/psalms/102",
+                    "hi/hsb/psalms/103",
+                    "hi/hsb/psalms/104",
+                    "hi/hsb/psalms/105",
+                    "hi/hsb/psalms/106",
+                    "hi/hsb/psalms/107",
+                    "hi/hsb/psalms/108",
+                    "hi/hsb/psalms/109",
+                    "hi/hsb/psalms/110",
+                    "hi/hsb/psalms/111",
+                    "hi/hsb/psalms/112",
+                    "hi/hsb/psalms/113",
+                    "hi/hsb/psalms/114",
+                    "hi/hsb/psalms/115",
+                    "hi/hsb/psalms/116",
+                    "hi/hsb/psalms/117",
+                    "hi/hsb/psalms/118",
+                    "hi/hsb/psalms/119",
+                    "hi/hsb/psalms/120",
+                    "hi/hsb/psalms/121",
+                    "hi/hsb/psalms/122",
+                    "hi/hsb/psalms/123",
+                    "hi/hsb/psalms/124",
+                    "hi/hsb/psalms/125",
+                    "hi/hsb/psalms/126",
+                    "hi/hsb/psalms/127",
+                    "hi/hsb/psalms/128",
+                    "hi/hsb/psalms/129",
+                    "hi/hsb/psalms/130",
+                    "hi/hsb/psalms/131",
+                    "hi/hsb/psalms/132",
+                    "hi/hsb/psalms/133",
+                    "hi/hsb/psalms/134",
+                    "hi/hsb/psalms/135",
+                    "hi/hsb/psalms/136",
+                    "hi/hsb/psalms/137",
+                    "hi/hsb/psalms/138",
+                    "hi/hsb/psalms/139",
+                    "hi/hsb/psalms/140",
+                    "hi/hsb/psalms/141",
+                    "hi/hsb/psalms/142",
+                    "hi/hsb/psalms/143",
+                    "hi/hsb/psalms/144",
+                    "hi/hsb/psalms/145",
+                    "hi/hsb/psalms/146",
+                    "hi/hsb/psalms/147",
+                    "hi/hsb/psalms/148",
+                    "hi/hsb/psalms/149",
+                    "hi/hsb/psalms/150"
+                  ]
+                },
+                {
+                  "group": "Proverbs",
+                  "pages": [
+                    "hi/hsb/proverbs/index",
+                    "hi/hsb/proverbs/1",
+                    "hi/hsb/proverbs/2",
+                    "hi/hsb/proverbs/3",
+                    "hi/hsb/proverbs/4",
+                    "hi/hsb/proverbs/5",
+                    "hi/hsb/proverbs/6",
+                    "hi/hsb/proverbs/7",
+                    "hi/hsb/proverbs/8",
+                    "hi/hsb/proverbs/9",
+                    "hi/hsb/proverbs/10",
+                    "hi/hsb/proverbs/11",
+                    "hi/hsb/proverbs/12",
+                    "hi/hsb/proverbs/13",
+                    "hi/hsb/proverbs/14",
+                    "hi/hsb/proverbs/15",
+                    "hi/hsb/proverbs/16",
+                    "hi/hsb/proverbs/17",
+                    "hi/hsb/proverbs/18",
+                    "hi/hsb/proverbs/19",
+                    "hi/hsb/proverbs/20",
+                    "hi/hsb/proverbs/21",
+                    "hi/hsb/proverbs/22",
+                    "hi/hsb/proverbs/23",
+                    "hi/hsb/proverbs/24",
+                    "hi/hsb/proverbs/25",
+                    "hi/hsb/proverbs/26",
+                    "hi/hsb/proverbs/27",
+                    "hi/hsb/proverbs/28",
+                    "hi/hsb/proverbs/29",
+                    "hi/hsb/proverbs/30",
+                    "hi/hsb/proverbs/31"
+                  ]
+                },
+                {
+                  "group": "Ecc",
+                  "pages": [
+                    "hi/hsb/ecclesiastes/index",
+                    "hi/hsb/ecclesiastes/1",
+                    "hi/hsb/ecclesiastes/2",
+                    "hi/hsb/ecclesiastes/3",
+                    "hi/hsb/ecclesiastes/4",
+                    "hi/hsb/ecclesiastes/5",
+                    "hi/hsb/ecclesiastes/6",
+                    "hi/hsb/ecclesiastes/7",
+                    "hi/hsb/ecclesiastes/8",
+                    "hi/hsb/ecclesiastes/9",
+                    "hi/hsb/ecclesiastes/10",
+                    "hi/hsb/ecclesiastes/11",
+                    "hi/hsb/ecclesiastes/12"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "नया नियम",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "मत्ती रचित सुसमाचार",
+                  "pages": [
+                    "hi/hsb/matthew/index",
+                    "hi/hsb/matthew/1",
+                    "hi/hsb/matthew/2",
+                    "hi/hsb/matthew/3",
+                    "hi/hsb/matthew/4",
+                    "hi/hsb/matthew/5",
+                    "hi/hsb/matthew/6",
+                    "hi/hsb/matthew/7",
+                    "hi/hsb/matthew/8",
+                    "hi/hsb/matthew/9",
+                    "hi/hsb/matthew/10",
+                    "hi/hsb/matthew/11",
+                    "hi/hsb/matthew/12",
+                    "hi/hsb/matthew/13",
+                    "hi/hsb/matthew/14",
+                    "hi/hsb/matthew/15",
+                    "hi/hsb/matthew/16",
+                    "hi/hsb/matthew/17",
+                    "hi/hsb/matthew/18",
+                    "hi/hsb/matthew/19",
+                    "hi/hsb/matthew/20",
+                    "hi/hsb/matthew/21",
+                    "hi/hsb/matthew/22",
+                    "hi/hsb/matthew/23",
+                    "hi/hsb/matthew/24",
+                    "hi/hsb/matthew/25",
+                    "hi/hsb/matthew/26",
+                    "hi/hsb/matthew/27",
+                    "hi/hsb/matthew/28"
+                  ]
+                },
+                {
+                  "group": "मरकुस रचित सुसमाचार",
+                  "pages": [
+                    "hi/hsb/mark/index",
+                    "hi/hsb/mark/1",
+                    "hi/hsb/mark/2",
+                    "hi/hsb/mark/3",
+                    "hi/hsb/mark/4",
+                    "hi/hsb/mark/5",
+                    "hi/hsb/mark/6",
+                    "hi/hsb/mark/7",
+                    "hi/hsb/mark/8",
+                    "hi/hsb/mark/9",
+                    "hi/hsb/mark/10",
+                    "hi/hsb/mark/11",
+                    "hi/hsb/mark/12",
+                    "hi/hsb/mark/13",
+                    "hi/hsb/mark/14",
+                    "hi/hsb/mark/15",
+                    "hi/hsb/mark/16"
+                  ]
+                },
+                {
+                  "group": "लूका रचित सुसमाचार",
+                  "pages": [
+                    "hi/hsb/luke/index",
+                    "hi/hsb/luke/1",
+                    "hi/hsb/luke/2",
+                    "hi/hsb/luke/3",
+                    "hi/hsb/luke/4",
+                    "hi/hsb/luke/5",
+                    "hi/hsb/luke/6",
+                    "hi/hsb/luke/7",
+                    "hi/hsb/luke/8",
+                    "hi/hsb/luke/9",
+                    "hi/hsb/luke/10",
+                    "hi/hsb/luke/11",
+                    "hi/hsb/luke/12",
+                    "hi/hsb/luke/13",
+                    "hi/hsb/luke/14",
+                    "hi/hsb/luke/15",
+                    "hi/hsb/luke/16",
+                    "hi/hsb/luke/17",
+                    "hi/hsb/luke/18",
+                    "hi/hsb/luke/19",
+                    "hi/hsb/luke/20",
+                    "hi/hsb/luke/21",
+                    "hi/hsb/luke/22",
+                    "hi/hsb/luke/23",
+                    "hi/hsb/luke/24"
+                  ]
+                },
+                {
+                  "group": "यूहन्‍ना रचित सुसमाचार",
+                  "pages": [
+                    "hi/hsb/john/index",
+                    "hi/hsb/john/1",
+                    "hi/hsb/john/2",
+                    "hi/hsb/john/3",
+                    "hi/hsb/john/4",
+                    "hi/hsb/john/5",
+                    "hi/hsb/john/6",
+                    "hi/hsb/john/7",
+                    "hi/hsb/john/8",
+                    "hi/hsb/john/9",
+                    "hi/hsb/john/10",
+                    "hi/hsb/john/11",
+                    "hi/hsb/john/12",
+                    "hi/hsb/john/13",
+                    "hi/hsb/john/14",
+                    "hi/hsb/john/15",
+                    "hi/hsb/john/16",
+                    "hi/hsb/john/17",
+                    "hi/hsb/john/18",
+                    "hi/hsb/john/19",
+                    "hi/hsb/john/20",
+                    "hi/hsb/john/21"
+                  ]
+                },
+                {
+                  "group": "प्रेरितों के कार्य",
+                  "pages": [
+                    "hi/hsb/acts/index",
+                    "hi/hsb/acts/1",
+                    "hi/hsb/acts/2",
+                    "hi/hsb/acts/3",
+                    "hi/hsb/acts/4",
+                    "hi/hsb/acts/5",
+                    "hi/hsb/acts/6",
+                    "hi/hsb/acts/7",
+                    "hi/hsb/acts/8",
+                    "hi/hsb/acts/9",
+                    "hi/hsb/acts/10",
+                    "hi/hsb/acts/11",
+                    "hi/hsb/acts/12",
+                    "hi/hsb/acts/13",
+                    "hi/hsb/acts/14",
+                    "hi/hsb/acts/15",
+                    "hi/hsb/acts/16",
+                    "hi/hsb/acts/17",
+                    "hi/hsb/acts/18",
+                    "hi/hsb/acts/19",
+                    "hi/hsb/acts/20",
+                    "hi/hsb/acts/21",
+                    "hi/hsb/acts/22",
+                    "hi/hsb/acts/23",
+                    "hi/hsb/acts/24",
+                    "hi/hsb/acts/25",
+                    "hi/hsb/acts/26",
+                    "hi/hsb/acts/27",
+                    "hi/hsb/acts/28"
+                  ]
+                },
+                {
+                  "group": "रोमियों",
+                  "pages": [
+                    "hi/hsb/romans/index",
+                    "hi/hsb/romans/1",
+                    "hi/hsb/romans/2",
+                    "hi/hsb/romans/3",
+                    "hi/hsb/romans/4",
+                    "hi/hsb/romans/5",
+                    "hi/hsb/romans/6",
+                    "hi/hsb/romans/7",
+                    "hi/hsb/romans/8",
+                    "hi/hsb/romans/9",
+                    "hi/hsb/romans/10",
+                    "hi/hsb/romans/11",
+                    "hi/hsb/romans/12",
+                    "hi/hsb/romans/13",
+                    "hi/hsb/romans/14",
+                    "hi/hsb/romans/15",
+                    "hi/hsb/romans/16"
+                  ]
+                },
+                {
+                  "group": "कुरिंथियों की पहली पत्री",
+                  "pages": [
+                    "hi/hsb/1-corinthians/index",
+                    "hi/hsb/1-corinthians/1",
+                    "hi/hsb/1-corinthians/2",
+                    "hi/hsb/1-corinthians/3",
+                    "hi/hsb/1-corinthians/4",
+                    "hi/hsb/1-corinthians/5",
+                    "hi/hsb/1-corinthians/6",
+                    "hi/hsb/1-corinthians/7",
+                    "hi/hsb/1-corinthians/8",
+                    "hi/hsb/1-corinthians/9",
+                    "hi/hsb/1-corinthians/10",
+                    "hi/hsb/1-corinthians/11",
+                    "hi/hsb/1-corinthians/12",
+                    "hi/hsb/1-corinthians/13",
+                    "hi/hsb/1-corinthians/14",
+                    "hi/hsb/1-corinthians/15",
+                    "hi/hsb/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "कुरिंथियों की दूसरी पत्री",
+                  "pages": [
+                    "hi/hsb/2-corinthians/index",
+                    "hi/hsb/2-corinthians/1",
+                    "hi/hsb/2-corinthians/2",
+                    "hi/hsb/2-corinthians/3",
+                    "hi/hsb/2-corinthians/4",
+                    "hi/hsb/2-corinthians/5",
+                    "hi/hsb/2-corinthians/6",
+                    "hi/hsb/2-corinthians/7",
+                    "hi/hsb/2-corinthians/8",
+                    "hi/hsb/2-corinthians/9",
+                    "hi/hsb/2-corinthians/10",
+                    "hi/hsb/2-corinthians/11",
+                    "hi/hsb/2-corinthians/12",
+                    "hi/hsb/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "गलातियों",
+                  "pages": [
+                    "hi/hsb/galatians/index",
+                    "hi/hsb/galatians/1",
+                    "hi/hsb/galatians/2",
+                    "hi/hsb/galatians/3",
+                    "hi/hsb/galatians/4",
+                    "hi/hsb/galatians/5",
+                    "hi/hsb/galatians/6"
+                  ]
+                },
+                {
+                  "group": "इफिसियों",
+                  "pages": [
+                    "hi/hsb/ephesians/index",
+                    "hi/hsb/ephesians/1",
+                    "hi/hsb/ephesians/2",
+                    "hi/hsb/ephesians/3",
+                    "hi/hsb/ephesians/4",
+                    "hi/hsb/ephesians/5",
+                    "hi/hsb/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "फिलिप्पियों",
+                  "pages": [
+                    "hi/hsb/philippians/index",
+                    "hi/hsb/philippians/1",
+                    "hi/hsb/philippians/2",
+                    "hi/hsb/philippians/3",
+                    "hi/hsb/philippians/4"
+                  ]
+                },
+                {
+                  "group": "कुलुस्सियों",
+                  "pages": [
+                    "hi/hsb/colossians/index",
+                    "hi/hsb/colossians/1",
+                    "hi/hsb/colossians/2",
+                    "hi/hsb/colossians/3",
+                    "hi/hsb/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1 थिस्सलुनीकियों",
+                  "pages": [
+                    "hi/hsb/1-thessalonians/index",
+                    "hi/hsb/1-thessalonians/1",
+                    "hi/hsb/1-thessalonians/2",
+                    "hi/hsb/1-thessalonians/3",
+                    "hi/hsb/1-thessalonians/4",
+                    "hi/hsb/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2 थिस्सलुनीकियों",
+                  "pages": [
+                    "hi/hsb/2-thessalonians/index",
+                    "hi/hsb/2-thessalonians/1",
+                    "hi/hsb/2-thessalonians/2",
+                    "hi/hsb/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1 तीमुथियुस",
+                  "pages": [
+                    "hi/hsb/1-timothy/index",
+                    "hi/hsb/1-timothy/1",
+                    "hi/hsb/1-timothy/2",
+                    "hi/hsb/1-timothy/3",
+                    "hi/hsb/1-timothy/4",
+                    "hi/hsb/1-timothy/5",
+                    "hi/hsb/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2 तीमुथियुस",
+                  "pages": [
+                    "hi/hsb/2-timothy/index",
+                    "hi/hsb/2-timothy/1",
+                    "hi/hsb/2-timothy/2",
+                    "hi/hsb/2-timothy/3",
+                    "hi/hsb/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "तीतुस",
+                  "pages": [
+                    "hi/hsb/titus/index",
+                    "hi/hsb/titus/1",
+                    "hi/hsb/titus/2",
+                    "hi/hsb/titus/3"
+                  ]
+                },
+                {
+                  "group": "फिलेमोन",
+                  "pages": [
+                    "hi/hsb/philemon/index",
+                    "hi/hsb/philemon/1"
+                  ]
+                },
+                {
+                  "group": "इब्रानियों",
+                  "pages": [
+                    "hi/hsb/hebrews/index",
+                    "hi/hsb/hebrews/1",
+                    "hi/hsb/hebrews/2",
+                    "hi/hsb/hebrews/3",
+                    "hi/hsb/hebrews/4",
+                    "hi/hsb/hebrews/5",
+                    "hi/hsb/hebrews/6",
+                    "hi/hsb/hebrews/7",
+                    "hi/hsb/hebrews/8",
+                    "hi/hsb/hebrews/9",
+                    "hi/hsb/hebrews/10",
+                    "hi/hsb/hebrews/11",
+                    "hi/hsb/hebrews/12",
+                    "hi/hsb/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "याकूब की पत्री",
+                  "pages": [
+                    "hi/hsb/james/index",
+                    "hi/hsb/james/1",
+                    "hi/hsb/james/2",
+                    "hi/hsb/james/3",
+                    "hi/hsb/james/4",
+                    "hi/hsb/james/5"
+                  ]
+                },
+                {
+                  "group": "पतरस की पहली पत्री",
+                  "pages": [
+                    "hi/hsb/1-peter/index",
+                    "hi/hsb/1-peter/1",
+                    "hi/hsb/1-peter/2",
+                    "hi/hsb/1-peter/3",
+                    "hi/hsb/1-peter/4",
+                    "hi/hsb/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "पतरस की दूसरी पत्री",
+                  "pages": [
+                    "hi/hsb/2-peter/index",
+                    "hi/hsb/2-peter/1",
+                    "hi/hsb/2-peter/2",
+                    "hi/hsb/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "यूहन्‍ना की पहली पत्री",
+                  "pages": [
+                    "hi/hsb/1-john/index",
+                    "hi/hsb/1-john/1",
+                    "hi/hsb/1-john/2",
+                    "hi/hsb/1-john/3",
+                    "hi/hsb/1-john/4",
+                    "hi/hsb/1-john/5"
+                  ]
+                },
+                {
+                  "group": "यूहन्‍ना की दूसरी पत्री",
+                  "pages": [
+                    "hi/hsb/2-john/index",
+                    "hi/hsb/2-john/1"
+                  ]
+                },
+                {
+                  "group": "यूहन्‍ना की तीसरी पत्री",
+                  "pages": [
+                    "hi/hsb/3-john/index",
+                    "hi/hsb/3-john/1"
+                  ]
+                },
+                {
+                  "group": "यहूदा की पत्री",
+                  "pages": [
+                    "hi/hsb/jude/index",
+                    "hi/hsb/jude/1"
+                  ]
+                },
+                {
+                  "group": "प्रकाशितवाक्य",
+                  "pages": [
+                    "hi/hsb/revelation/index",
+                    "hi/hsb/revelation/1",
+                    "hi/hsb/revelation/2",
+                    "hi/hsb/revelation/3",
+                    "hi/hsb/revelation/4",
+                    "hi/hsb/revelation/5",
+                    "hi/hsb/revelation/6",
+                    "hi/hsb/revelation/7",
+                    "hi/hsb/revelation/8",
+                    "hi/hsb/revelation/9",
+                    "hi/hsb/revelation/10",
+                    "hi/hsb/revelation/11",
+                    "hi/hsb/revelation/12",
+                    "hi/hsb/revelation/13",
+                    "hi/hsb/revelation/14",
+                    "hi/hsb/revelation/15",
+                    "hi/hsb/revelation/16",
+                    "hi/hsb/revelation/17",
+                    "hi/hsb/revelation/18",
+                    "hi/hsb/revelation/19",
+                    "hi/hsb/revelation/20",
+                    "hi/hsb/revelation/21",
+                    "hi/hsb/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tag": "Partial"
     }
   ]
 }

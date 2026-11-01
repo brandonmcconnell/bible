@@ -12,6 +12,8 @@
     "build:sample": "tsx generator/build.ts --sample",
     "clean": "tsx generator/build.ts --clean-only",
     "check": "tsc --noEmit -p tsconfig.json",
+    "check:proxy": "tsc --noEmit -p proxy/tsconfig.json",
+    "proxy:dev": "tsx proxy/dev.ts",
     "dev": "mint dev",
     "validate": "mint validate",
     "broken-links": "mint broken-links"

@@ -1853,7 +1853,7 @@
                   ]
                 },
                 {
-                  "group": "Joshua",
+                  "group": "Josué",
                   "pages": [
                     "pt-BR/bpm/joshua/index",
                     "pt-BR/bpm/joshua/1",
@@ -1910,7 +1910,7 @@
                   ]
                 },
                 {
-                  "group": "Ruth",
+                  "group": "Rute",
                   "pages": [
                     "pt-BR/bpm/ruth/index",
                     "pt-BR/bpm/ruth/1",
@@ -2123,7 +2123,7 @@
                   ]
                 },
                 {
-                  "group": "Ezra",
+                  "group": "Esdras",
                   "pages": [
                     "pt-BR/bpm/ezra/index",
                     "pt-BR/bpm/ezra/1",
@@ -2158,7 +2158,7 @@
                   ]
                 },
                 {
-                  "group": "Esther",
+                  "group": "Ester",
                   "pages": [
                     "pt-BR/bpm/esther/index",
                     "pt-BR/bpm/esther/1",
@@ -2174,7 +2174,7 @@
                   ]
                 },
                 {
-                  "group": "Job",
+                  "group": "Jó",
                   "pages": [
                     "pt-BR/bpm/job/index",
                     "pt-BR/bpm/job/1",
@@ -2433,7 +2433,7 @@
                   ]
                 },
                 {
-                  "group": "Canção de Salomão",
+                  "group": "Cantares de Salomão",
                   "pages": [
                     "pt-BR/bpm/song-of-solomon/index",
                     "pt-BR/bpm/song-of-solomon/1",
@@ -2660,7 +2660,7 @@
                   ]
                 },
                 {
-                  "group": "Oséias",
+                  "group": "Oseias",
                   "pages": [
                     "pt-BR/bpm/hosea/index",
                     "pt-BR/bpm/hosea/1",
@@ -2704,7 +2704,7 @@
                   ]
                 },
                 {
-                  "group": "Obadiah",
+                  "group": "Obadias",
                   "pages": [
                     "pt-BR/bpm/obadiah/index",
                     "pt-BR/bpm/obadiah/1"
@@ -2721,7 +2721,7 @@
                   ]
                 },
                 {
-                  "group": "Miquéias",
+                  "group": "Miqueias",
                   "pages": [
                     "pt-BR/bpm/micah/index",
                     "pt-BR/bpm/micah/1",
@@ -2734,7 +2734,7 @@
                   ]
                 },
                 {
-                  "group": "Nahum",
+                  "group": "Naum",
                   "pages": [
                     "pt-BR/bpm/nahum/index",
                     "pt-BR/bpm/nahum/1",
@@ -2743,7 +2743,7 @@
                   ]
                 },
                 {
-                  "group": "Habakkuk",
+                  "group": "Habacuque",
                   "pages": [
                     "pt-BR/bpm/habakkuk/index",
                     "pt-BR/bpm/habakkuk/1",
@@ -2752,7 +2752,7 @@
                   ]
                 },
                 {
-                  "group": "Zephaniah",
+                  "group": "Sofonias",
                   "pages": [
                     "pt-BR/bpm/zephaniah/index",
                     "pt-BR/bpm/zephaniah/1",
@@ -2761,7 +2761,7 @@
                   ]
                 },
                 {
-                  "group": "Haggai",
+                  "group": "Ageu",
                   "pages": [
                     "pt-BR/bpm/haggai/index",
                     "pt-BR/bpm/haggai/1",
@@ -3079,7 +3079,7 @@
                   ]
                 },
                 {
-                  "group": "1 Timothy",
+                  "group": "1 Timóteo",
                   "pages": [
                     "pt-BR/bpm/1-timothy/index",
                     "pt-BR/bpm/1-timothy/1",
@@ -3091,7 +3091,7 @@
                   ]
                 },
                 {
-                  "group": "2 Timothy",
+                  "group": "2 Timóteo",
                   "pages": [
                     "pt-BR/bpm/2-timothy/index",
                     "pt-BR/bpm/2-timothy/1",
@@ -3101,7 +3101,7 @@
                   ]
                 },
                 {
-                  "group": "Titus",
+                  "group": "Tito",
                   "pages": [
                     "pt-BR/bpm/titus/index",
                     "pt-BR/bpm/titus/1",
@@ -3110,7 +3110,7 @@
                   ]
                 },
                 {
-                  "group": "Filemon",
+                  "group": "Filemom",
                   "pages": [
                     "pt-BR/bpm/philemon/index",
                     "pt-BR/bpm/philemon/1"
@@ -3136,7 +3136,7 @@
                   ]
                 },
                 {
-                  "group": "James",
+                  "group": "Tiago",
                   "pages": [
                     "pt-BR/bpm/james/index",
                     "pt-BR/bpm/james/1",
@@ -3192,7 +3192,7 @@
                   ]
                 },
                 {
-                  "group": "Jude",
+                  "group": "Judas",
                   "pages": [
                     "pt-BR/bpm/jude/index",
                     "pt-BR/bpm/jude/1"
@@ -3227,10 +3227,320 @@
                   ]
                 }
               ]
+            },
+            {
+              "group": "Apócrifos",
+              "icon": "book-copy",
+              "pages": [
+                {
+                  "group": "Tobit",
+                  "pages": [
+                    "pt-BR/bpm/tobit/index",
+                    "pt-BR/bpm/tobit/1",
+                    "pt-BR/bpm/tobit/2",
+                    "pt-BR/bpm/tobit/3",
+                    "pt-BR/bpm/tobit/4",
+                    "pt-BR/bpm/tobit/5",
+                    "pt-BR/bpm/tobit/6",
+                    "pt-BR/bpm/tobit/7",
+                    "pt-BR/bpm/tobit/8",
+                    "pt-BR/bpm/tobit/9",
+                    "pt-BR/bpm/tobit/10",
+                    "pt-BR/bpm/tobit/11",
+                    "pt-BR/bpm/tobit/12",
+                    "pt-BR/bpm/tobit/13",
+                    "pt-BR/bpm/tobit/14"
+                  ]
+                },
+                {
+                  "group": "Judite",
+                  "pages": [
+                    "pt-BR/bpm/judith/index",
+                    "pt-BR/bpm/judith/1",
+                    "pt-BR/bpm/judith/2",
+                    "pt-BR/bpm/judith/3",
+                    "pt-BR/bpm/judith/4",
+                    "pt-BR/bpm/judith/5",
+                    "pt-BR/bpm/judith/6",
+                    "pt-BR/bpm/judith/7",
+                    "pt-BR/bpm/judith/8",
+                    "pt-BR/bpm/judith/9",
+                    "pt-BR/bpm/judith/10",
+                    "pt-BR/bpm/judith/11",
+                    "pt-BR/bpm/judith/12",
+                    "pt-BR/bpm/judith/13",
+                    "pt-BR/bpm/judith/14",
+                    "pt-BR/bpm/judith/15",
+                    "pt-BR/bpm/judith/16"
+                  ]
+                },
+                {
+                  "group": "Ester (Grego)",
+                  "pages": [
+                    "pt-BR/bpm/esther-greek/index",
+                    "pt-BR/bpm/esther-greek/1",
+                    "pt-BR/bpm/esther-greek/2",
+                    "pt-BR/bpm/esther-greek/3",
+                    "pt-BR/bpm/esther-greek/4",
+                    "pt-BR/bpm/esther-greek/5",
+                    "pt-BR/bpm/esther-greek/6",
+                    "pt-BR/bpm/esther-greek/7",
+                    "pt-BR/bpm/esther-greek/8",
+                    "pt-BR/bpm/esther-greek/9",
+                    "pt-BR/bpm/esther-greek/10"
+                  ]
+                },
+                {
+                  "group": "Sabedoria de Salomão",
+                  "pages": [
+                    "pt-BR/bpm/wisdom-of-solomon/index",
+                    "pt-BR/bpm/wisdom-of-solomon/1",
+                    "pt-BR/bpm/wisdom-of-solomon/2",
+                    "pt-BR/bpm/wisdom-of-solomon/3",
+                    "pt-BR/bpm/wisdom-of-solomon/4",
+                    "pt-BR/bpm/wisdom-of-solomon/5",
+                    "pt-BR/bpm/wisdom-of-solomon/6",
+                    "pt-BR/bpm/wisdom-of-solomon/7",
+                    "pt-BR/bpm/wisdom-of-solomon/8",
+                    "pt-BR/bpm/wisdom-of-solomon/9",
+                    "pt-BR/bpm/wisdom-of-solomon/10",
+                    "pt-BR/bpm/wisdom-of-solomon/11",
+                    "pt-BR/bpm/wisdom-of-solomon/12",
+                    "pt-BR/bpm/wisdom-of-solomon/13",
+                    "pt-BR/bpm/wisdom-of-solomon/14",
+                    "pt-BR/bpm/wisdom-of-solomon/15",
+                    "pt-BR/bpm/wisdom-of-solomon/16",
+                    "pt-BR/bpm/wisdom-of-solomon/17",
+                    "pt-BR/bpm/wisdom-of-solomon/18",
+                    "pt-BR/bpm/wisdom-of-solomon/19"
+                  ]
+                },
+                {
+                  "group": "Sirácida",
+                  "pages": [
+                    "pt-BR/bpm/sirach/index",
+                    "pt-BR/bpm/sirach/1",
+                    "pt-BR/bpm/sirach/2",
+                    "pt-BR/bpm/sirach/3",
+                    "pt-BR/bpm/sirach/4",
+                    "pt-BR/bpm/sirach/5",
+                    "pt-BR/bpm/sirach/6",
+                    "pt-BR/bpm/sirach/7",
+                    "pt-BR/bpm/sirach/8",
+                    "pt-BR/bpm/sirach/9",
+                    "pt-BR/bpm/sirach/10",
+                    "pt-BR/bpm/sirach/11",
+                    "pt-BR/bpm/sirach/12",
+                    "pt-BR/bpm/sirach/13",
+                    "pt-BR/bpm/sirach/14",
+                    "pt-BR/bpm/sirach/15",
+                    "pt-BR/bpm/sirach/16",
+                    "pt-BR/bpm/sirach/17",
+                    "pt-BR/bpm/sirach/18",
+                    "pt-BR/bpm/sirach/19",
+                    "pt-BR/bpm/sirach/20",
+                    "pt-BR/bpm/sirach/21",
+                    "pt-BR/bpm/sirach/22",
+                    "pt-BR/bpm/sirach/23",
+                    "pt-BR/bpm/sirach/24",
+                    "pt-BR/bpm/sirach/25",
+                    "pt-BR/bpm/sirach/26",
+                    "pt-BR/bpm/sirach/27",
+                    "pt-BR/bpm/sirach/28",
+                    "pt-BR/bpm/sirach/29",
+                    "pt-BR/bpm/sirach/30",
+                    "pt-BR/bpm/sirach/31",
+                    "pt-BR/bpm/sirach/32",
+                    "pt-BR/bpm/sirach/33",
+                    "pt-BR/bpm/sirach/34",
+                    "pt-BR/bpm/sirach/35",
+                    "pt-BR/bpm/sirach/36",
+                    "pt-BR/bpm/sirach/37",
+                    "pt-BR/bpm/sirach/38",
+                    "pt-BR/bpm/sirach/39",
+                    "pt-BR/bpm/sirach/40",
+                    "pt-BR/bpm/sirach/41",
+                    "pt-BR/bpm/sirach/42",
+                    "pt-BR/bpm/sirach/43",
+                    "pt-BR/bpm/sirach/44",
+                    "pt-BR/bpm/sirach/45",
+                    "pt-BR/bpm/sirach/46",
+                    "pt-BR/bpm/sirach/47",
+                    "pt-BR/bpm/sirach/48",
+                    "pt-BR/bpm/sirach/49",
+                    "pt-BR/bpm/sirach/50",
+                    "pt-BR/bpm/sirach/51"
+                  ]
+                },
+                {
+                  "group": "Baruc",
+                  "pages": [
+                    "pt-BR/bpm/baruch/index",
+                    "pt-BR/bpm/baruch/1",
+                    "pt-BR/bpm/baruch/2",
+                    "pt-BR/bpm/baruch/3",
+                    "pt-BR/bpm/baruch/4",
+                    "pt-BR/bpm/baruch/5",
+                    "pt-BR/bpm/baruch/6"
+                  ]
+                },
+                {
+                  "group": "1 Macabeus",
+                  "pages": [
+                    "pt-BR/bpm/1-maccabees/index",
+                    "pt-BR/bpm/1-maccabees/1",
+                    "pt-BR/bpm/1-maccabees/2",
+                    "pt-BR/bpm/1-maccabees/3",
+                    "pt-BR/bpm/1-maccabees/4",
+                    "pt-BR/bpm/1-maccabees/5",
+                    "pt-BR/bpm/1-maccabees/6",
+                    "pt-BR/bpm/1-maccabees/7",
+                    "pt-BR/bpm/1-maccabees/8",
+                    "pt-BR/bpm/1-maccabees/9",
+                    "pt-BR/bpm/1-maccabees/10",
+                    "pt-BR/bpm/1-maccabees/11",
+                    "pt-BR/bpm/1-maccabees/12",
+                    "pt-BR/bpm/1-maccabees/13",
+                    "pt-BR/bpm/1-maccabees/14",
+                    "pt-BR/bpm/1-maccabees/15",
+                    "pt-BR/bpm/1-maccabees/16"
+                  ]
+                },
+                {
+                  "group": "2 Macabeus",
+                  "pages": [
+                    "pt-BR/bpm/2-maccabees/index",
+                    "pt-BR/bpm/2-maccabees/1",
+                    "pt-BR/bpm/2-maccabees/2",
+                    "pt-BR/bpm/2-maccabees/3",
+                    "pt-BR/bpm/2-maccabees/4",
+                    "pt-BR/bpm/2-maccabees/5",
+                    "pt-BR/bpm/2-maccabees/6",
+                    "pt-BR/bpm/2-maccabees/7",
+                    "pt-BR/bpm/2-maccabees/8",
+                    "pt-BR/bpm/2-maccabees/9",
+                    "pt-BR/bpm/2-maccabees/10",
+                    "pt-BR/bpm/2-maccabees/11",
+                    "pt-BR/bpm/2-maccabees/12",
+                    "pt-BR/bpm/2-maccabees/13",
+                    "pt-BR/bpm/2-maccabees/14",
+                    "pt-BR/bpm/2-maccabees/15"
+                  ]
+                },
+                {
+                  "group": "3 Macabeus",
+                  "pages": [
+                    "pt-BR/bpm/3-maccabees/index",
+                    "pt-BR/bpm/3-maccabees/1",
+                    "pt-BR/bpm/3-maccabees/2",
+                    "pt-BR/bpm/3-maccabees/3",
+                    "pt-BR/bpm/3-maccabees/4",
+                    "pt-BR/bpm/3-maccabees/5",
+                    "pt-BR/bpm/3-maccabees/6",
+                    "pt-BR/bpm/3-maccabees/7"
+                  ]
+                },
+                {
+                  "group": "4 Macabeus",
+                  "pages": [
+                    "pt-BR/bpm/4-maccabees/index",
+                    "pt-BR/bpm/4-maccabees/1",
+                    "pt-BR/bpm/4-maccabees/2",
+                    "pt-BR/bpm/4-maccabees/3",
+                    "pt-BR/bpm/4-maccabees/4",
+                    "pt-BR/bpm/4-maccabees/5",
+                    "pt-BR/bpm/4-maccabees/6",
+                    "pt-BR/bpm/4-maccabees/7",
+                    "pt-BR/bpm/4-maccabees/8",
+                    "pt-BR/bpm/4-maccabees/9",
+                    "pt-BR/bpm/4-maccabees/10",
+                    "pt-BR/bpm/4-maccabees/11",
+                    "pt-BR/bpm/4-maccabees/12",
+                    "pt-BR/bpm/4-maccabees/13",
+                    "pt-BR/bpm/4-maccabees/14",
+                    "pt-BR/bpm/4-maccabees/15",
+                    "pt-BR/bpm/4-maccabees/16",
+                    "pt-BR/bpm/4-maccabees/17",
+                    "pt-BR/bpm/4-maccabees/18"
+                  ]
+                },
+                {
+                  "group": "1 Esdras",
+                  "pages": [
+                    "pt-BR/bpm/1-esdras/index",
+                    "pt-BR/bpm/1-esdras/1",
+                    "pt-BR/bpm/1-esdras/2",
+                    "pt-BR/bpm/1-esdras/3",
+                    "pt-BR/bpm/1-esdras/4",
+                    "pt-BR/bpm/1-esdras/5",
+                    "pt-BR/bpm/1-esdras/6",
+                    "pt-BR/bpm/1-esdras/7",
+                    "pt-BR/bpm/1-esdras/8",
+                    "pt-BR/bpm/1-esdras/9"
+                  ]
+                },
+                {
+                  "group": "2 Esdras",
+                  "pages": [
+                    "pt-BR/bpm/2-esdras/index",
+                    "pt-BR/bpm/2-esdras/1",
+                    "pt-BR/bpm/2-esdras/2",
+                    "pt-BR/bpm/2-esdras/3",
+                    "pt-BR/bpm/2-esdras/4",
+                    "pt-BR/bpm/2-esdras/5",
+                    "pt-BR/bpm/2-esdras/6",
+                    "pt-BR/bpm/2-esdras/7",
+                    "pt-BR/bpm/2-esdras/8",
+                    "pt-BR/bpm/2-esdras/9",
+                    "pt-BR/bpm/2-esdras/10",
+                    "pt-BR/bpm/2-esdras/11",
+                    "pt-BR/bpm/2-esdras/12",
+                    "pt-BR/bpm/2-esdras/13",
+                    "pt-BR/bpm/2-esdras/14",
+                    "pt-BR/bpm/2-esdras/15",
+                    "pt-BR/bpm/2-esdras/16"
+                  ]
+                },
+                {
+                  "group": "Oração de Manassés",
+                  "pages": [
+                    "pt-BR/bpm/prayer-of-manasseh/index",
+                    "pt-BR/bpm/prayer-of-manasseh/1"
+                  ]
+                },
+                {
+                  "group": "Salmo 151",
+                  "pages": [
+                    "pt-BR/bpm/psalm-151/index",
+                    "pt-BR/bpm/psalm-151/1"
+                  ]
+                },
+                {
+                  "group": "Daniel (Grego)",
+                  "pages": [
+                    "pt-BR/bpm/daniel-greek/index",
+                    "pt-BR/bpm/daniel-greek/1",
+                    "pt-BR/bpm/daniel-greek/2",
+                    "pt-BR/bpm/daniel-greek/3",
+                    "pt-BR/bpm/daniel-greek/4",
+                    "pt-BR/bpm/daniel-greek/5",
+                    "pt-BR/bpm/daniel-greek/6",
+                    "pt-BR/bpm/daniel-greek/7",
+                    "pt-BR/bpm/daniel-greek/8",
+                    "pt-BR/bpm/daniel-greek/9",
+                    "pt-BR/bpm/daniel-greek/10",
+                    "pt-BR/bpm/daniel-greek/11",
+                    "pt-BR/bpm/daniel-greek/12",
+                    "pt-BR/bpm/daniel-greek/13",
+                    "pt-BR/bpm/daniel-greek/14"
+                  ]
+                }
+              ]
             }
           ]
         }
-      ]
+      ],
+      "tag": "Apocrypha"
     },
     {
       "version": "NBV",

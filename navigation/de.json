@@ -8076,6 +8076,144 @@
           ]
         }
       ]
+    },
+    {
+      "version": "BTD",
+      "tabs": [
+        {
+          "tab": "Bibel",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Byzantinischer Text Deutsch. Die Evangelien übersetzt aus dem griechischen Text des Ökumenischen Patriarchats von Konstantinopel (1904/1912)",
+              "icon": "book-open",
+              "pages": [
+                "de/btd/index"
+              ]
+            },
+            {
+              "group": "Neues Testament",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Das Evangelium nach Matthä'us",
+                  "pages": [
+                    "de/btd/matthew/index",
+                    "de/btd/matthew/1",
+                    "de/btd/matthew/2",
+                    "de/btd/matthew/3",
+                    "de/btd/matthew/4",
+                    "de/btd/matthew/5",
+                    "de/btd/matthew/6",
+                    "de/btd/matthew/7",
+                    "de/btd/matthew/8",
+                    "de/btd/matthew/9",
+                    "de/btd/matthew/10",
+                    "de/btd/matthew/11",
+                    "de/btd/matthew/12",
+                    "de/btd/matthew/13",
+                    "de/btd/matthew/14",
+                    "de/btd/matthew/15",
+                    "de/btd/matthew/16",
+                    "de/btd/matthew/17",
+                    "de/btd/matthew/18",
+                    "de/btd/matthew/19",
+                    "de/btd/matthew/20",
+                    "de/btd/matthew/21",
+                    "de/btd/matthew/22",
+                    "de/btd/matthew/23",
+                    "de/btd/matthew/24",
+                    "de/btd/matthew/25",
+                    "de/btd/matthew/26",
+                    "de/btd/matthew/27",
+                    "de/btd/matthew/28"
+                  ]
+                },
+                {
+                  "group": "Das Evangelium nach Markus",
+                  "pages": [
+                    "de/btd/mark/index",
+                    "de/btd/mark/1",
+                    "de/btd/mark/2",
+                    "de/btd/mark/3",
+                    "de/btd/mark/4",
+                    "de/btd/mark/5",
+                    "de/btd/mark/6",
+                    "de/btd/mark/7",
+                    "de/btd/mark/8",
+                    "de/btd/mark/9",
+                    "de/btd/mark/10",
+                    "de/btd/mark/11",
+                    "de/btd/mark/12",
+                    "de/btd/mark/13",
+                    "de/btd/mark/14",
+                    "de/btd/mark/15",
+                    "de/btd/mark/16"
+                  ]
+                },
+                {
+                  "group": "Das Evangelium nach Lukas",
+                  "pages": [
+                    "de/btd/luke/index",
+                    "de/btd/luke/1",
+                    "de/btd/luke/2",
+                    "de/btd/luke/3",
+                    "de/btd/luke/4",
+                    "de/btd/luke/5",
+                    "de/btd/luke/6",
+                    "de/btd/luke/7",
+                    "de/btd/luke/8",
+                    "de/btd/luke/9",
+                    "de/btd/luke/10",
+                    "de/btd/luke/11",
+                    "de/btd/luke/12",
+                    "de/btd/luke/13",
+                    "de/btd/luke/14",
+                    "de/btd/luke/15",
+                    "de/btd/luke/16",
+                    "de/btd/luke/17",
+                    "de/btd/luke/18",
+                    "de/btd/luke/19",
+                    "de/btd/luke/20",
+                    "de/btd/luke/21",
+                    "de/btd/luke/22",
+                    "de/btd/luke/23",
+                    "de/btd/luke/24"
+                  ]
+                },
+                {
+                  "group": "Das Evangelium nach Johannes",
+                  "pages": [
+                    "de/btd/john/index",
+                    "de/btd/john/1",
+                    "de/btd/john/2",
+                    "de/btd/john/3",
+                    "de/btd/john/4",
+                    "de/btd/john/5",
+                    "de/btd/john/6",
+                    "de/btd/john/7",
+                    "de/btd/john/8",
+                    "de/btd/john/9",
+                    "de/btd/john/10",
+                    "de/btd/john/11",
+                    "de/btd/john/12",
+                    "de/btd/john/13",
+                    "de/btd/john/14",
+                    "de/btd/john/15",
+                    "de/btd/john/16",
+                    "de/btd/john/17",
+                    "de/btd/john/18",
+                    "de/btd/john/19",
+                    "de/btd/john/20",
+                    "de/btd/john/21"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tag": "NT"
     }
   ]
 }
