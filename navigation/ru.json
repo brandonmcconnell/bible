@@ -1616,6 +1616,305 @@
         }
       ],
       "default": true
+    },
+    {
+      "version": "FBD",
+      "tabs": [
+        {
+          "tab": "Библия",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Библия свободы",
+              "icon": "book-open",
+              "pages": [
+                "ru/fbd/index"
+              ]
+            },
+            {
+              "group": "Новый Завет",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Матфей",
+                  "pages": [
+                    "ru/fbd/matthew/index",
+                    "ru/fbd/matthew/1",
+                    "ru/fbd/matthew/2",
+                    "ru/fbd/matthew/3",
+                    "ru/fbd/matthew/4",
+                    "ru/fbd/matthew/5",
+                    "ru/fbd/matthew/6",
+                    "ru/fbd/matthew/7",
+                    "ru/fbd/matthew/8",
+                    "ru/fbd/matthew/9",
+                    "ru/fbd/matthew/10",
+                    "ru/fbd/matthew/11",
+                    "ru/fbd/matthew/12",
+                    "ru/fbd/matthew/13",
+                    "ru/fbd/matthew/14",
+                    "ru/fbd/matthew/15",
+                    "ru/fbd/matthew/16",
+                    "ru/fbd/matthew/17",
+                    "ru/fbd/matthew/18",
+                    "ru/fbd/matthew/19",
+                    "ru/fbd/matthew/20",
+                    "ru/fbd/matthew/21",
+                    "ru/fbd/matthew/22",
+                    "ru/fbd/matthew/23",
+                    "ru/fbd/matthew/24",
+                    "ru/fbd/matthew/25",
+                    "ru/fbd/matthew/26",
+                    "ru/fbd/matthew/27",
+                    "ru/fbd/matthew/28"
+                  ]
+                },
+                {
+                  "group": "Марк",
+                  "pages": [
+                    "ru/fbd/mark/index",
+                    "ru/fbd/mark/1",
+                    "ru/fbd/mark/2",
+                    "ru/fbd/mark/3",
+                    "ru/fbd/mark/4",
+                    "ru/fbd/mark/5",
+                    "ru/fbd/mark/6",
+                    "ru/fbd/mark/7",
+                    "ru/fbd/mark/8",
+                    "ru/fbd/mark/9",
+                    "ru/fbd/mark/10",
+                    "ru/fbd/mark/11",
+                    "ru/fbd/mark/12",
+                    "ru/fbd/mark/13",
+                    "ru/fbd/mark/14",
+                    "ru/fbd/mark/15",
+                    "ru/fbd/mark/16"
+                  ]
+                },
+                {
+                  "group": "Лука",
+                  "pages": [
+                    "ru/fbd/luke/index",
+                    "ru/fbd/luke/1",
+                    "ru/fbd/luke/2",
+                    "ru/fbd/luke/3",
+                    "ru/fbd/luke/4",
+                    "ru/fbd/luke/5",
+                    "ru/fbd/luke/6",
+                    "ru/fbd/luke/7",
+                    "ru/fbd/luke/8",
+                    "ru/fbd/luke/9",
+                    "ru/fbd/luke/10",
+                    "ru/fbd/luke/11",
+                    "ru/fbd/luke/12",
+                    "ru/fbd/luke/13",
+                    "ru/fbd/luke/14",
+                    "ru/fbd/luke/15",
+                    "ru/fbd/luke/16",
+                    "ru/fbd/luke/17",
+                    "ru/fbd/luke/18",
+                    "ru/fbd/luke/19",
+                    "ru/fbd/luke/20",
+                    "ru/fbd/luke/21",
+                    "ru/fbd/luke/22",
+                    "ru/fbd/luke/23",
+                    "ru/fbd/luke/24"
+                  ]
+                },
+                {
+                  "group": "Евангелие от Иоанна",
+                  "pages": [
+                    "ru/fbd/john/index",
+                    "ru/fbd/john/1",
+                    "ru/fbd/john/2",
+                    "ru/fbd/john/3",
+                    "ru/fbd/john/4",
+                    "ru/fbd/john/5",
+                    "ru/fbd/john/6",
+                    "ru/fbd/john/7",
+                    "ru/fbd/john/8",
+                    "ru/fbd/john/9",
+                    "ru/fbd/john/10",
+                    "ru/fbd/john/11",
+                    "ru/fbd/john/12",
+                    "ru/fbd/john/13",
+                    "ru/fbd/john/14",
+                    "ru/fbd/john/15",
+                    "ru/fbd/john/16",
+                    "ru/fbd/john/17",
+                    "ru/fbd/john/18",
+                    "ru/fbd/john/19",
+                    "ru/fbd/john/20",
+                    "ru/fbd/john/21"
+                  ]
+                },
+                {
+                  "group": "Деяния",
+                  "pages": [
+                    "ru/fbd/acts/index",
+                    "ru/fbd/acts/1",
+                    "ru/fbd/acts/2",
+                    "ru/fbd/acts/3",
+                    "ru/fbd/acts/4",
+                    "ru/fbd/acts/5",
+                    "ru/fbd/acts/6",
+                    "ru/fbd/acts/7",
+                    "ru/fbd/acts/8",
+                    "ru/fbd/acts/9",
+                    "ru/fbd/acts/10",
+                    "ru/fbd/acts/11",
+                    "ru/fbd/acts/12",
+                    "ru/fbd/acts/13",
+                    "ru/fbd/acts/14",
+                    "ru/fbd/acts/15",
+                    "ru/fbd/acts/16",
+                    "ru/fbd/acts/17",
+                    "ru/fbd/acts/18",
+                    "ru/fbd/acts/19",
+                    "ru/fbd/acts/20",
+                    "ru/fbd/acts/21",
+                    "ru/fbd/acts/22",
+                    "ru/fbd/acts/23",
+                    "ru/fbd/acts/24",
+                    "ru/fbd/acts/25",
+                    "ru/fbd/acts/26",
+                    "ru/fbd/acts/27",
+                    "ru/fbd/acts/28"
+                  ]
+                },
+                {
+                  "group": "Римлянам",
+                  "pages": [
+                    "ru/fbd/romans/index",
+                    "ru/fbd/romans/1",
+                    "ru/fbd/romans/2",
+                    "ru/fbd/romans/3",
+                    "ru/fbd/romans/4",
+                    "ru/fbd/romans/5",
+                    "ru/fbd/romans/6",
+                    "ru/fbd/romans/7",
+                    "ru/fbd/romans/8",
+                    "ru/fbd/romans/9",
+                    "ru/fbd/romans/10",
+                    "ru/fbd/romans/11",
+                    "ru/fbd/romans/12",
+                    "ru/fbd/romans/13",
+                    "ru/fbd/romans/14",
+                    "ru/fbd/romans/15",
+                    "ru/fbd/romans/16"
+                  ]
+                },
+                {
+                  "group": "1 Коринфянам",
+                  "pages": [
+                    "ru/fbd/1-corinthians/index",
+                    "ru/fbd/1-corinthians/1",
+                    "ru/fbd/1-corinthians/2",
+                    "ru/fbd/1-corinthians/3",
+                    "ru/fbd/1-corinthians/4",
+                    "ru/fbd/1-corinthians/5",
+                    "ru/fbd/1-corinthians/6",
+                    "ru/fbd/1-corinthians/7",
+                    "ru/fbd/1-corinthians/8",
+                    "ru/fbd/1-corinthians/9",
+                    "ru/fbd/1-corinthians/10",
+                    "ru/fbd/1-corinthians/11",
+                    "ru/fbd/1-corinthians/12",
+                    "ru/fbd/1-corinthians/13",
+                    "ru/fbd/1-corinthians/14",
+                    "ru/fbd/1-corinthians/15",
+                    "ru/fbd/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2 Коринфянам",
+                  "pages": [
+                    "ru/fbd/2-corinthians/index",
+                    "ru/fbd/2-corinthians/1",
+                    "ru/fbd/2-corinthians/2",
+                    "ru/fbd/2-corinthians/3",
+                    "ru/fbd/2-corinthians/4",
+                    "ru/fbd/2-corinthians/5",
+                    "ru/fbd/2-corinthians/6",
+                    "ru/fbd/2-corinthians/7",
+                    "ru/fbd/2-corinthians/8",
+                    "ru/fbd/2-corinthians/9",
+                    "ru/fbd/2-corinthians/10",
+                    "ru/fbd/2-corinthians/11",
+                    "ru/fbd/2-corinthians/12",
+                    "ru/fbd/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "Галатам",
+                  "pages": [
+                    "ru/fbd/galatians/index",
+                    "ru/fbd/galatians/1",
+                    "ru/fbd/galatians/2",
+                    "ru/fbd/galatians/3",
+                    "ru/fbd/galatians/4",
+                    "ru/fbd/galatians/5",
+                    "ru/fbd/galatians/6"
+                  ]
+                },
+                {
+                  "group": "Эфесянам",
+                  "pages": [
+                    "ru/fbd/ephesians/index",
+                    "ru/fbd/ephesians/1",
+                    "ru/fbd/ephesians/2",
+                    "ru/fbd/ephesians/3",
+                    "ru/fbd/ephesians/4",
+                    "ru/fbd/ephesians/5",
+                    "ru/fbd/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "Филиппийцам",
+                  "pages": [
+                    "ru/fbd/philippians/index",
+                    "ru/fbd/philippians/1",
+                    "ru/fbd/philippians/2",
+                    "ru/fbd/philippians/3",
+                    "ru/fbd/philippians/4"
+                  ]
+                },
+                {
+                  "group": "Колоссянам",
+                  "pages": [
+                    "ru/fbd/colossians/index",
+                    "ru/fbd/colossians/1",
+                    "ru/fbd/colossians/2",
+                    "ru/fbd/colossians/3",
+                    "ru/fbd/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1 Фессалоникийцам",
+                  "pages": [
+                    "ru/fbd/1-thessalonians/index",
+                    "ru/fbd/1-thessalonians/1",
+                    "ru/fbd/1-thessalonians/2",
+                    "ru/fbd/1-thessalonians/3",
+                    "ru/fbd/1-thessalonians/4",
+                    "ru/fbd/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2 Фессалоникийцам",
+                  "pages": [
+                    "ru/fbd/2-thessalonians/index",
+                    "ru/fbd/2-thessalonians/1",
+                    "ru/fbd/2-thessalonians/2",
+                    "ru/fbd/2-thessalonians/3"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tag": "NT"
     }
   ]
 }
