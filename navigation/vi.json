@@ -3231,6 +3231,537 @@
           ]
         }
       ]
+    },
+    {
+      "version": "Viet2020",
+      "tabs": [
+        {
+          "tab": "Kinh Thánh",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Bản Dịch Kinh Thánh Tiếng Việt 2020",
+              "icon": "book-open",
+              "pages": [
+                "vi/viet2020/index"
+              ]
+            },
+            {
+              "group": "Cựu Ước",
+              "icon": "scroll-text",
+              "pages": [
+                {
+                  "group": "Ruth",
+                  "pages": [
+                    "vi/viet2020/ruth/index",
+                    "vi/viet2020/ruth/1",
+                    "vi/viet2020/ruth/2",
+                    "vi/viet2020/ruth/3",
+                    "vi/viet2020/ruth/4"
+                  ]
+                },
+                {
+                  "group": "Amos",
+                  "pages": [
+                    "vi/viet2020/amos/index",
+                    "vi/viet2020/amos/1",
+                    "vi/viet2020/amos/2",
+                    "vi/viet2020/amos/3",
+                    "vi/viet2020/amos/4",
+                    "vi/viet2020/amos/5",
+                    "vi/viet2020/amos/6",
+                    "vi/viet2020/amos/7",
+                    "vi/viet2020/amos/8",
+                    "vi/viet2020/amos/9"
+                  ]
+                },
+                {
+                  "group": "Obadiah",
+                  "pages": [
+                    "vi/viet2020/obadiah/index",
+                    "vi/viet2020/obadiah/1"
+                  ]
+                },
+                {
+                  "group": "Jonah",
+                  "pages": [
+                    "vi/viet2020/jonah/index",
+                    "vi/viet2020/jonah/1",
+                    "vi/viet2020/jonah/2",
+                    "vi/viet2020/jonah/3",
+                    "vi/viet2020/jonah/4"
+                  ]
+                },
+                {
+                  "group": "Habakkuk",
+                  "pages": [
+                    "vi/viet2020/habakkuk/index",
+                    "vi/viet2020/habakkuk/1",
+                    "vi/viet2020/habakkuk/2",
+                    "vi/viet2020/habakkuk/3"
+                  ]
+                },
+                {
+                  "group": "Zephaniah",
+                  "pages": [
+                    "vi/viet2020/zephaniah/index",
+                    "vi/viet2020/zephaniah/1",
+                    "vi/viet2020/zephaniah/2",
+                    "vi/viet2020/zephaniah/3"
+                  ]
+                },
+                {
+                  "group": "Haggai",
+                  "pages": [
+                    "vi/viet2020/haggai/index",
+                    "vi/viet2020/haggai/1",
+                    "vi/viet2020/haggai/2"
+                  ]
+                },
+                {
+                  "group": "Malachi",
+                  "pages": [
+                    "vi/viet2020/malachi/index",
+                    "vi/viet2020/malachi/1",
+                    "vi/viet2020/malachi/2",
+                    "vi/viet2020/malachi/3",
+                    "vi/viet2020/malachi/4"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "Tân Ước",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Matthew",
+                  "pages": [
+                    "vi/viet2020/matthew/index",
+                    "vi/viet2020/matthew/1",
+                    "vi/viet2020/matthew/2",
+                    "vi/viet2020/matthew/3",
+                    "vi/viet2020/matthew/4",
+                    "vi/viet2020/matthew/5",
+                    "vi/viet2020/matthew/6",
+                    "vi/viet2020/matthew/7",
+                    "vi/viet2020/matthew/8",
+                    "vi/viet2020/matthew/9",
+                    "vi/viet2020/matthew/10",
+                    "vi/viet2020/matthew/11",
+                    "vi/viet2020/matthew/12",
+                    "vi/viet2020/matthew/13",
+                    "vi/viet2020/matthew/14",
+                    "vi/viet2020/matthew/15",
+                    "vi/viet2020/matthew/16",
+                    "vi/viet2020/matthew/17",
+                    "vi/viet2020/matthew/18",
+                    "vi/viet2020/matthew/19",
+                    "vi/viet2020/matthew/20",
+                    "vi/viet2020/matthew/21",
+                    "vi/viet2020/matthew/22",
+                    "vi/viet2020/matthew/23",
+                    "vi/viet2020/matthew/24",
+                    "vi/viet2020/matthew/25",
+                    "vi/viet2020/matthew/26",
+                    "vi/viet2020/matthew/27",
+                    "vi/viet2020/matthew/28"
+                  ]
+                },
+                {
+                  "group": "Mark",
+                  "pages": [
+                    "vi/viet2020/mark/index",
+                    "vi/viet2020/mark/1",
+                    "vi/viet2020/mark/2",
+                    "vi/viet2020/mark/3",
+                    "vi/viet2020/mark/4",
+                    "vi/viet2020/mark/5",
+                    "vi/viet2020/mark/6",
+                    "vi/viet2020/mark/7",
+                    "vi/viet2020/mark/8",
+                    "vi/viet2020/mark/9",
+                    "vi/viet2020/mark/10",
+                    "vi/viet2020/mark/11",
+                    "vi/viet2020/mark/12",
+                    "vi/viet2020/mark/13",
+                    "vi/viet2020/mark/14",
+                    "vi/viet2020/mark/15",
+                    "vi/viet2020/mark/16"
+                  ]
+                },
+                {
+                  "group": "Luke",
+                  "pages": [
+                    "vi/viet2020/luke/index",
+                    "vi/viet2020/luke/1",
+                    "vi/viet2020/luke/2",
+                    "vi/viet2020/luke/3",
+                    "vi/viet2020/luke/4",
+                    "vi/viet2020/luke/5",
+                    "vi/viet2020/luke/6",
+                    "vi/viet2020/luke/7",
+                    "vi/viet2020/luke/8",
+                    "vi/viet2020/luke/9",
+                    "vi/viet2020/luke/10",
+                    "vi/viet2020/luke/11",
+                    "vi/viet2020/luke/12",
+                    "vi/viet2020/luke/13",
+                    "vi/viet2020/luke/14",
+                    "vi/viet2020/luke/15",
+                    "vi/viet2020/luke/16",
+                    "vi/viet2020/luke/17",
+                    "vi/viet2020/luke/18",
+                    "vi/viet2020/luke/19",
+                    "vi/viet2020/luke/20",
+                    "vi/viet2020/luke/21",
+                    "vi/viet2020/luke/22",
+                    "vi/viet2020/luke/23",
+                    "vi/viet2020/luke/24"
+                  ]
+                },
+                {
+                  "group": "John",
+                  "pages": [
+                    "vi/viet2020/john/index",
+                    "vi/viet2020/john/1",
+                    "vi/viet2020/john/2",
+                    "vi/viet2020/john/3",
+                    "vi/viet2020/john/4",
+                    "vi/viet2020/john/5",
+                    "vi/viet2020/john/6",
+                    "vi/viet2020/john/7",
+                    "vi/viet2020/john/8",
+                    "vi/viet2020/john/9",
+                    "vi/viet2020/john/10",
+                    "vi/viet2020/john/11",
+                    "vi/viet2020/john/12",
+                    "vi/viet2020/john/13",
+                    "vi/viet2020/john/14",
+                    "vi/viet2020/john/15",
+                    "vi/viet2020/john/16",
+                    "vi/viet2020/john/17",
+                    "vi/viet2020/john/18",
+                    "vi/viet2020/john/19",
+                    "vi/viet2020/john/20",
+                    "vi/viet2020/john/21"
+                  ]
+                },
+                {
+                  "group": "Acts",
+                  "pages": [
+                    "vi/viet2020/acts/index",
+                    "vi/viet2020/acts/1",
+                    "vi/viet2020/acts/2",
+                    "vi/viet2020/acts/3",
+                    "vi/viet2020/acts/4",
+                    "vi/viet2020/acts/5",
+                    "vi/viet2020/acts/6",
+                    "vi/viet2020/acts/7",
+                    "vi/viet2020/acts/8",
+                    "vi/viet2020/acts/9",
+                    "vi/viet2020/acts/10",
+                    "vi/viet2020/acts/11",
+                    "vi/viet2020/acts/12",
+                    "vi/viet2020/acts/13",
+                    "vi/viet2020/acts/14",
+                    "vi/viet2020/acts/15",
+                    "vi/viet2020/acts/16",
+                    "vi/viet2020/acts/17",
+                    "vi/viet2020/acts/18",
+                    "vi/viet2020/acts/19",
+                    "vi/viet2020/acts/20",
+                    "vi/viet2020/acts/21",
+                    "vi/viet2020/acts/22",
+                    "vi/viet2020/acts/23",
+                    "vi/viet2020/acts/24",
+                    "vi/viet2020/acts/25",
+                    "vi/viet2020/acts/26",
+                    "vi/viet2020/acts/27",
+                    "vi/viet2020/acts/28"
+                  ]
+                },
+                {
+                  "group": "Romans",
+                  "pages": [
+                    "vi/viet2020/romans/index",
+                    "vi/viet2020/romans/1",
+                    "vi/viet2020/romans/2",
+                    "vi/viet2020/romans/3",
+                    "vi/viet2020/romans/4",
+                    "vi/viet2020/romans/5",
+                    "vi/viet2020/romans/6",
+                    "vi/viet2020/romans/7",
+                    "vi/viet2020/romans/8",
+                    "vi/viet2020/romans/9",
+                    "vi/viet2020/romans/10",
+                    "vi/viet2020/romans/11",
+                    "vi/viet2020/romans/12",
+                    "vi/viet2020/romans/13",
+                    "vi/viet2020/romans/14",
+                    "vi/viet2020/romans/15",
+                    "vi/viet2020/romans/16"
+                  ]
+                },
+                {
+                  "group": "1 Corinthians",
+                  "pages": [
+                    "vi/viet2020/1-corinthians/index",
+                    "vi/viet2020/1-corinthians/1",
+                    "vi/viet2020/1-corinthians/2",
+                    "vi/viet2020/1-corinthians/3",
+                    "vi/viet2020/1-corinthians/4",
+                    "vi/viet2020/1-corinthians/5",
+                    "vi/viet2020/1-corinthians/6",
+                    "vi/viet2020/1-corinthians/7",
+                    "vi/viet2020/1-corinthians/8",
+                    "vi/viet2020/1-corinthians/9",
+                    "vi/viet2020/1-corinthians/10",
+                    "vi/viet2020/1-corinthians/11",
+                    "vi/viet2020/1-corinthians/12",
+                    "vi/viet2020/1-corinthians/13",
+                    "vi/viet2020/1-corinthians/14",
+                    "vi/viet2020/1-corinthians/15",
+                    "vi/viet2020/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2 Corinthians",
+                  "pages": [
+                    "vi/viet2020/2-corinthians/index",
+                    "vi/viet2020/2-corinthians/1",
+                    "vi/viet2020/2-corinthians/2",
+                    "vi/viet2020/2-corinthians/3",
+                    "vi/viet2020/2-corinthians/4",
+                    "vi/viet2020/2-corinthians/5",
+                    "vi/viet2020/2-corinthians/6",
+                    "vi/viet2020/2-corinthians/7",
+                    "vi/viet2020/2-corinthians/8",
+                    "vi/viet2020/2-corinthians/9",
+                    "vi/viet2020/2-corinthians/10",
+                    "vi/viet2020/2-corinthians/11",
+                    "vi/viet2020/2-corinthians/12",
+                    "vi/viet2020/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "Galatians",
+                  "pages": [
+                    "vi/viet2020/galatians/index",
+                    "vi/viet2020/galatians/1",
+                    "vi/viet2020/galatians/2",
+                    "vi/viet2020/galatians/3",
+                    "vi/viet2020/galatians/4",
+                    "vi/viet2020/galatians/5",
+                    "vi/viet2020/galatians/6"
+                  ]
+                },
+                {
+                  "group": "Ephesians",
+                  "pages": [
+                    "vi/viet2020/ephesians/index",
+                    "vi/viet2020/ephesians/1",
+                    "vi/viet2020/ephesians/2",
+                    "vi/viet2020/ephesians/3",
+                    "vi/viet2020/ephesians/4",
+                    "vi/viet2020/ephesians/5",
+                    "vi/viet2020/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "Philippians",
+                  "pages": [
+                    "vi/viet2020/philippians/index",
+                    "vi/viet2020/philippians/1",
+                    "vi/viet2020/philippians/2",
+                    "vi/viet2020/philippians/3",
+                    "vi/viet2020/philippians/4"
+                  ]
+                },
+                {
+                  "group": "Colossians",
+                  "pages": [
+                    "vi/viet2020/colossians/index",
+                    "vi/viet2020/colossians/1",
+                    "vi/viet2020/colossians/2",
+                    "vi/viet2020/colossians/3",
+                    "vi/viet2020/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1 Thessalonians",
+                  "pages": [
+                    "vi/viet2020/1-thessalonians/index",
+                    "vi/viet2020/1-thessalonians/1",
+                    "vi/viet2020/1-thessalonians/2",
+                    "vi/viet2020/1-thessalonians/3",
+                    "vi/viet2020/1-thessalonians/4",
+                    "vi/viet2020/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2 Thessalonians",
+                  "pages": [
+                    "vi/viet2020/2-thessalonians/index",
+                    "vi/viet2020/2-thessalonians/1",
+                    "vi/viet2020/2-thessalonians/2",
+                    "vi/viet2020/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1 Timothy",
+                  "pages": [
+                    "vi/viet2020/1-timothy/index",
+                    "vi/viet2020/1-timothy/1",
+                    "vi/viet2020/1-timothy/2",
+                    "vi/viet2020/1-timothy/3",
+                    "vi/viet2020/1-timothy/4",
+                    "vi/viet2020/1-timothy/5",
+                    "vi/viet2020/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2 Timothy",
+                  "pages": [
+                    "vi/viet2020/2-timothy/index",
+                    "vi/viet2020/2-timothy/1",
+                    "vi/viet2020/2-timothy/2",
+                    "vi/viet2020/2-timothy/3",
+                    "vi/viet2020/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "Titus",
+                  "pages": [
+                    "vi/viet2020/titus/index",
+                    "vi/viet2020/titus/1",
+                    "vi/viet2020/titus/2",
+                    "vi/viet2020/titus/3"
+                  ]
+                },
+                {
+                  "group": "Philemon",
+                  "pages": [
+                    "vi/viet2020/philemon/index",
+                    "vi/viet2020/philemon/1"
+                  ]
+                },
+                {
+                  "group": "Hebrews",
+                  "pages": [
+                    "vi/viet2020/hebrews/index",
+                    "vi/viet2020/hebrews/1",
+                    "vi/viet2020/hebrews/2",
+                    "vi/viet2020/hebrews/3",
+                    "vi/viet2020/hebrews/4",
+                    "vi/viet2020/hebrews/5",
+                    "vi/viet2020/hebrews/6",
+                    "vi/viet2020/hebrews/7",
+                    "vi/viet2020/hebrews/8",
+                    "vi/viet2020/hebrews/9",
+                    "vi/viet2020/hebrews/10",
+                    "vi/viet2020/hebrews/11",
+                    "vi/viet2020/hebrews/12",
+                    "vi/viet2020/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "James",
+                  "pages": [
+                    "vi/viet2020/james/index",
+                    "vi/viet2020/james/1",
+                    "vi/viet2020/james/2",
+                    "vi/viet2020/james/3",
+                    "vi/viet2020/james/4",
+                    "vi/viet2020/james/5"
+                  ]
+                },
+                {
+                  "group": "1 Peter",
+                  "pages": [
+                    "vi/viet2020/1-peter/index",
+                    "vi/viet2020/1-peter/1",
+                    "vi/viet2020/1-peter/2",
+                    "vi/viet2020/1-peter/3",
+                    "vi/viet2020/1-peter/4",
+                    "vi/viet2020/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "2 Peter",
+                  "pages": [
+                    "vi/viet2020/2-peter/index",
+                    "vi/viet2020/2-peter/1",
+                    "vi/viet2020/2-peter/2",
+                    "vi/viet2020/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "1 John",
+                  "pages": [
+                    "vi/viet2020/1-john/index",
+                    "vi/viet2020/1-john/1",
+                    "vi/viet2020/1-john/2",
+                    "vi/viet2020/1-john/3",
+                    "vi/viet2020/1-john/4",
+                    "vi/viet2020/1-john/5"
+                  ]
+                },
+                {
+                  "group": "2 John",
+                  "pages": [
+                    "vi/viet2020/2-john/index",
+                    "vi/viet2020/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3 John",
+                  "pages": [
+                    "vi/viet2020/3-john/index",
+                    "vi/viet2020/3-john/1"
+                  ]
+                },
+                {
+                  "group": "Jude",
+                  "pages": [
+                    "vi/viet2020/jude/index",
+                    "vi/viet2020/jude/1"
+                  ]
+                },
+                {
+                  "group": "Revelation",
+                  "pages": [
+                    "vi/viet2020/revelation/index",
+                    "vi/viet2020/revelation/1",
+                    "vi/viet2020/revelation/2",
+                    "vi/viet2020/revelation/3",
+                    "vi/viet2020/revelation/4",
+                    "vi/viet2020/revelation/5",
+                    "vi/viet2020/revelation/6",
+                    "vi/viet2020/revelation/7",
+                    "vi/viet2020/revelation/8",
+                    "vi/viet2020/revelation/9",
+                    "vi/viet2020/revelation/10",
+                    "vi/viet2020/revelation/11",
+                    "vi/viet2020/revelation/12",
+                    "vi/viet2020/revelation/13",
+                    "vi/viet2020/revelation/14",
+                    "vi/viet2020/revelation/15",
+                    "vi/viet2020/revelation/16",
+                    "vi/viet2020/revelation/17",
+                    "vi/viet2020/revelation/18",
+                    "vi/viet2020/revelation/19",
+                    "vi/viet2020/revelation/20",
+                    "vi/viet2020/revelation/21",
+                    "vi/viet2020/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tag": "Partial"
     }
   ]
 }

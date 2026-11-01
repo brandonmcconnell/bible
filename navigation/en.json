@@ -7414,7 +7414,7 @@
                       ]
                     },
                     {
-                      "group": "Song of Songs",
+                      "group": "Song of Solomon",
                       "pages": [
                         "en/commentary/adam-clarke/song-of-solomon/index",
                         "en/commentary/adam-clarke/song-of-solomon/1",
@@ -8912,7 +8912,7 @@
                       ]
                     },
                     {
-                      "group": "Song of Songs",
+                      "group": "Song of Solomon",
                       "pages": [
                         "en/commentary/jamieson-fausset-brown/song-of-solomon/index",
                         "en/commentary/jamieson-fausset-brown/song-of-solomon/1",
@@ -15971,7 +15971,7 @@
                       ]
                     },
                     {
-                      "group": "Song of Songs",
+                      "group": "Song of Solomon",
                       "pages": [
                         "en/commentary/tyndale/song-of-solomon/index",
                         "en/commentary/tyndale/song-of-solomon/1",
@@ -16782,92 +16782,6 @@
                         "en/commentary/tyndale/revelation/20",
                         "en/commentary/tyndale/revelation/21",
                         "en/commentary/tyndale/revelation/22"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "group": "Apocrypha",
-                  "icon": "book-copy",
-                  "pages": [
-                    {
-                      "group": "Ezek",
-                      "pages": [
-                        "en/commentary/tyndale/ezek/index",
-                        "en/commentary/tyndale/ezek/1",
-                        "en/commentary/tyndale/ezek/2",
-                        "en/commentary/tyndale/ezek/3",
-                        "en/commentary/tyndale/ezek/4",
-                        "en/commentary/tyndale/ezek/5",
-                        "en/commentary/tyndale/ezek/6",
-                        "en/commentary/tyndale/ezek/7",
-                        "en/commentary/tyndale/ezek/8",
-                        "en/commentary/tyndale/ezek/9",
-                        "en/commentary/tyndale/ezek/10",
-                        "en/commentary/tyndale/ezek/11",
-                        "en/commentary/tyndale/ezek/12",
-                        "en/commentary/tyndale/ezek/13",
-                        "en/commentary/tyndale/ezek/14",
-                        "en/commentary/tyndale/ezek/15",
-                        "en/commentary/tyndale/ezek/16",
-                        "en/commentary/tyndale/ezek/17",
-                        "en/commentary/tyndale/ezek/18",
-                        "en/commentary/tyndale/ezek/19",
-                        "en/commentary/tyndale/ezek/20",
-                        "en/commentary/tyndale/ezek/21",
-                        "en/commentary/tyndale/ezek/22",
-                        "en/commentary/tyndale/ezek/23",
-                        "en/commentary/tyndale/ezek/24",
-                        "en/commentary/tyndale/ezek/25",
-                        "en/commentary/tyndale/ezek/26",
-                        "en/commentary/tyndale/ezek/27",
-                        "en/commentary/tyndale/ezek/28",
-                        "en/commentary/tyndale/ezek/29",
-                        "en/commentary/tyndale/ezek/30",
-                        "en/commentary/tyndale/ezek/31",
-                        "en/commentary/tyndale/ezek/32",
-                        "en/commentary/tyndale/ezek/33",
-                        "en/commentary/tyndale/ezek/34",
-                        "en/commentary/tyndale/ezek/35",
-                        "en/commentary/tyndale/ezek/36",
-                        "en/commentary/tyndale/ezek/37",
-                        "en/commentary/tyndale/ezek/38",
-                        "en/commentary/tyndale/ezek/39",
-                        "en/commentary/tyndale/ezek/40",
-                        "en/commentary/tyndale/ezek/41",
-                        "en/commentary/tyndale/ezek/42",
-                        "en/commentary/tyndale/ezek/43",
-                        "en/commentary/tyndale/ezek/44",
-                        "en/commentary/tyndale/ezek/45",
-                        "en/commentary/tyndale/ezek/46",
-                        "en/commentary/tyndale/ezek/47",
-                        "en/commentary/tyndale/ezek/48"
-                      ]
-                    },
-                    {
-                      "group": "Nah",
-                      "pages": [
-                        "en/commentary/tyndale/nah/index",
-                        "en/commentary/tyndale/nah/1",
-                        "en/commentary/tyndale/nah/2",
-                        "en/commentary/tyndale/nah/3"
-                      ]
-                    },
-                    {
-                      "group": "Phil",
-                      "pages": [
-                        "en/commentary/tyndale/phil/index",
-                        "en/commentary/tyndale/phil/1",
-                        "en/commentary/tyndale/phil/2",
-                        "en/commentary/tyndale/phil/3",
-                        "en/commentary/tyndale/phil/4"
-                      ]
-                    },
-                    {
-                      "group": "Phlm",
-                      "pages": [
-                        "en/commentary/tyndale/phlm/index",
-                        "en/commentary/tyndale/phlm/1"
                       ]
                     }
                   ]
@@ -35801,6 +35715,1631 @@
       "tag": "Apocrypha"
     },
     {
+      "version": "LEB",
+      "tabs": [
+        {
+          "tab": "Bible",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Lexham English Bible",
+              "icon": "book-open",
+              "pages": [
+                "en/leb/index"
+              ]
+            },
+            {
+              "group": "Old Testament",
+              "icon": "scroll-text",
+              "pages": [
+                {
+                  "group": "Genesis",
+                  "pages": [
+                    "en/leb/genesis/index",
+                    "en/leb/genesis/1",
+                    "en/leb/genesis/2",
+                    "en/leb/genesis/3",
+                    "en/leb/genesis/4",
+                    "en/leb/genesis/5",
+                    "en/leb/genesis/6",
+                    "en/leb/genesis/7",
+                    "en/leb/genesis/8",
+                    "en/leb/genesis/9",
+                    "en/leb/genesis/10",
+                    "en/leb/genesis/11",
+                    "en/leb/genesis/12",
+                    "en/leb/genesis/13",
+                    "en/leb/genesis/14",
+                    "en/leb/genesis/15",
+                    "en/leb/genesis/16",
+                    "en/leb/genesis/17",
+                    "en/leb/genesis/18",
+                    "en/leb/genesis/19",
+                    "en/leb/genesis/20",
+                    "en/leb/genesis/21",
+                    "en/leb/genesis/22",
+                    "en/leb/genesis/23",
+                    "en/leb/genesis/24",
+                    "en/leb/genesis/25",
+                    "en/leb/genesis/26",
+                    "en/leb/genesis/27",
+                    "en/leb/genesis/28",
+                    "en/leb/genesis/29",
+                    "en/leb/genesis/30",
+                    "en/leb/genesis/31",
+                    "en/leb/genesis/32",
+                    "en/leb/genesis/33",
+                    "en/leb/genesis/34",
+                    "en/leb/genesis/35",
+                    "en/leb/genesis/36",
+                    "en/leb/genesis/37",
+                    "en/leb/genesis/38",
+                    "en/leb/genesis/39",
+                    "en/leb/genesis/40",
+                    "en/leb/genesis/41",
+                    "en/leb/genesis/42",
+                    "en/leb/genesis/43",
+                    "en/leb/genesis/44",
+                    "en/leb/genesis/45",
+                    "en/leb/genesis/46",
+                    "en/leb/genesis/47",
+                    "en/leb/genesis/48",
+                    "en/leb/genesis/49",
+                    "en/leb/genesis/50"
+                  ]
+                },
+                {
+                  "group": "Exodus",
+                  "pages": [
+                    "en/leb/exodus/index",
+                    "en/leb/exodus/1",
+                    "en/leb/exodus/2",
+                    "en/leb/exodus/3",
+                    "en/leb/exodus/4",
+                    "en/leb/exodus/5",
+                    "en/leb/exodus/6",
+                    "en/leb/exodus/7",
+                    "en/leb/exodus/8",
+                    "en/leb/exodus/9",
+                    "en/leb/exodus/10",
+                    "en/leb/exodus/11",
+                    "en/leb/exodus/12",
+                    "en/leb/exodus/13",
+                    "en/leb/exodus/14",
+                    "en/leb/exodus/15",
+                    "en/leb/exodus/16",
+                    "en/leb/exodus/17",
+                    "en/leb/exodus/18",
+                    "en/leb/exodus/19",
+                    "en/leb/exodus/20",
+                    "en/leb/exodus/21",
+                    "en/leb/exodus/22",
+                    "en/leb/exodus/23",
+                    "en/leb/exodus/24",
+                    "en/leb/exodus/25",
+                    "en/leb/exodus/26",
+                    "en/leb/exodus/27",
+                    "en/leb/exodus/28",
+                    "en/leb/exodus/29",
+                    "en/leb/exodus/30",
+                    "en/leb/exodus/31",
+                    "en/leb/exodus/32",
+                    "en/leb/exodus/33",
+                    "en/leb/exodus/34",
+                    "en/leb/exodus/35",
+                    "en/leb/exodus/36",
+                    "en/leb/exodus/37",
+                    "en/leb/exodus/38",
+                    "en/leb/exodus/39",
+                    "en/leb/exodus/40"
+                  ]
+                },
+                {
+                  "group": "Leviticus",
+                  "pages": [
+                    "en/leb/leviticus/index",
+                    "en/leb/leviticus/1",
+                    "en/leb/leviticus/2",
+                    "en/leb/leviticus/3",
+                    "en/leb/leviticus/4",
+                    "en/leb/leviticus/5",
+                    "en/leb/leviticus/6",
+                    "en/leb/leviticus/7",
+                    "en/leb/leviticus/8",
+                    "en/leb/leviticus/9",
+                    "en/leb/leviticus/10",
+                    "en/leb/leviticus/11",
+                    "en/leb/leviticus/12",
+                    "en/leb/leviticus/13",
+                    "en/leb/leviticus/14",
+                    "en/leb/leviticus/15",
+                    "en/leb/leviticus/16",
+                    "en/leb/leviticus/17",
+                    "en/leb/leviticus/18",
+                    "en/leb/leviticus/19",
+                    "en/leb/leviticus/20",
+                    "en/leb/leviticus/21",
+                    "en/leb/leviticus/22",
+                    "en/leb/leviticus/23",
+                    "en/leb/leviticus/24",
+                    "en/leb/leviticus/25",
+                    "en/leb/leviticus/26",
+                    "en/leb/leviticus/27"
+                  ]
+                },
+                {
+                  "group": "Numbers",
+                  "pages": [
+                    "en/leb/numbers/index",
+                    "en/leb/numbers/1",
+                    "en/leb/numbers/2",
+                    "en/leb/numbers/3",
+                    "en/leb/numbers/4",
+                    "en/leb/numbers/5",
+                    "en/leb/numbers/6",
+                    "en/leb/numbers/7",
+                    "en/leb/numbers/8",
+                    "en/leb/numbers/9",
+                    "en/leb/numbers/10",
+                    "en/leb/numbers/11",
+                    "en/leb/numbers/12",
+                    "en/leb/numbers/13",
+                    "en/leb/numbers/14",
+                    "en/leb/numbers/15",
+                    "en/leb/numbers/16",
+                    "en/leb/numbers/17",
+                    "en/leb/numbers/18",
+                    "en/leb/numbers/19",
+                    "en/leb/numbers/20",
+                    "en/leb/numbers/21",
+                    "en/leb/numbers/22",
+                    "en/leb/numbers/23",
+                    "en/leb/numbers/24",
+                    "en/leb/numbers/25",
+                    "en/leb/numbers/26",
+                    "en/leb/numbers/27",
+                    "en/leb/numbers/28",
+                    "en/leb/numbers/29",
+                    "en/leb/numbers/30",
+                    "en/leb/numbers/31",
+                    "en/leb/numbers/32",
+                    "en/leb/numbers/33",
+                    "en/leb/numbers/34",
+                    "en/leb/numbers/35",
+                    "en/leb/numbers/36"
+                  ]
+                },
+                {
+                  "group": "Deuteronomy",
+                  "pages": [
+                    "en/leb/deuteronomy/index",
+                    "en/leb/deuteronomy/1",
+                    "en/leb/deuteronomy/2",
+                    "en/leb/deuteronomy/3",
+                    "en/leb/deuteronomy/4",
+                    "en/leb/deuteronomy/5",
+                    "en/leb/deuteronomy/6",
+                    "en/leb/deuteronomy/7",
+                    "en/leb/deuteronomy/8",
+                    "en/leb/deuteronomy/9",
+                    "en/leb/deuteronomy/10",
+                    "en/leb/deuteronomy/11",
+                    "en/leb/deuteronomy/12",
+                    "en/leb/deuteronomy/13",
+                    "en/leb/deuteronomy/14",
+                    "en/leb/deuteronomy/15",
+                    "en/leb/deuteronomy/16",
+                    "en/leb/deuteronomy/17",
+                    "en/leb/deuteronomy/18",
+                    "en/leb/deuteronomy/19",
+                    "en/leb/deuteronomy/20",
+                    "en/leb/deuteronomy/21",
+                    "en/leb/deuteronomy/22",
+                    "en/leb/deuteronomy/23",
+                    "en/leb/deuteronomy/24",
+                    "en/leb/deuteronomy/25",
+                    "en/leb/deuteronomy/26",
+                    "en/leb/deuteronomy/27",
+                    "en/leb/deuteronomy/28",
+                    "en/leb/deuteronomy/29",
+                    "en/leb/deuteronomy/30",
+                    "en/leb/deuteronomy/31",
+                    "en/leb/deuteronomy/32",
+                    "en/leb/deuteronomy/33",
+                    "en/leb/deuteronomy/34"
+                  ]
+                },
+                {
+                  "group": "Joshua",
+                  "pages": [
+                    "en/leb/joshua/index",
+                    "en/leb/joshua/1",
+                    "en/leb/joshua/2",
+                    "en/leb/joshua/3",
+                    "en/leb/joshua/4",
+                    "en/leb/joshua/5",
+                    "en/leb/joshua/6",
+                    "en/leb/joshua/7",
+                    "en/leb/joshua/8",
+                    "en/leb/joshua/9",
+                    "en/leb/joshua/10",
+                    "en/leb/joshua/11",
+                    "en/leb/joshua/12",
+                    "en/leb/joshua/13",
+                    "en/leb/joshua/14",
+                    "en/leb/joshua/15",
+                    "en/leb/joshua/16",
+                    "en/leb/joshua/17",
+                    "en/leb/joshua/18",
+                    "en/leb/joshua/19",
+                    "en/leb/joshua/20",
+                    "en/leb/joshua/21",
+                    "en/leb/joshua/22",
+                    "en/leb/joshua/23",
+                    "en/leb/joshua/24"
+                  ]
+                },
+                {
+                  "group": "Judges",
+                  "pages": [
+                    "en/leb/judges/index",
+                    "en/leb/judges/1",
+                    "en/leb/judges/2",
+                    "en/leb/judges/3",
+                    "en/leb/judges/4",
+                    "en/leb/judges/5",
+                    "en/leb/judges/6",
+                    "en/leb/judges/7",
+                    "en/leb/judges/8",
+                    "en/leb/judges/9",
+                    "en/leb/judges/10",
+                    "en/leb/judges/11",
+                    "en/leb/judges/12",
+                    "en/leb/judges/13",
+                    "en/leb/judges/14",
+                    "en/leb/judges/15",
+                    "en/leb/judges/16",
+                    "en/leb/judges/17",
+                    "en/leb/judges/18",
+                    "en/leb/judges/19",
+                    "en/leb/judges/20",
+                    "en/leb/judges/21"
+                  ]
+                },
+                {
+                  "group": "Ruth",
+                  "pages": [
+                    "en/leb/ruth/index",
+                    "en/leb/ruth/1",
+                    "en/leb/ruth/2",
+                    "en/leb/ruth/3",
+                    "en/leb/ruth/4"
+                  ]
+                },
+                {
+                  "group": "1 Samuel",
+                  "pages": [
+                    "en/leb/1-samuel/index",
+                    "en/leb/1-samuel/1",
+                    "en/leb/1-samuel/2",
+                    "en/leb/1-samuel/3",
+                    "en/leb/1-samuel/4",
+                    "en/leb/1-samuel/5",
+                    "en/leb/1-samuel/6",
+                    "en/leb/1-samuel/7",
+                    "en/leb/1-samuel/8",
+                    "en/leb/1-samuel/9",
+                    "en/leb/1-samuel/10",
+                    "en/leb/1-samuel/11",
+                    "en/leb/1-samuel/12",
+                    "en/leb/1-samuel/13",
+                    "en/leb/1-samuel/14",
+                    "en/leb/1-samuel/15",
+                    "en/leb/1-samuel/16",
+                    "en/leb/1-samuel/17",
+                    "en/leb/1-samuel/18",
+                    "en/leb/1-samuel/19",
+                    "en/leb/1-samuel/20",
+                    "en/leb/1-samuel/21",
+                    "en/leb/1-samuel/22",
+                    "en/leb/1-samuel/23",
+                    "en/leb/1-samuel/24",
+                    "en/leb/1-samuel/25",
+                    "en/leb/1-samuel/26",
+                    "en/leb/1-samuel/27",
+                    "en/leb/1-samuel/28",
+                    "en/leb/1-samuel/29",
+                    "en/leb/1-samuel/30",
+                    "en/leb/1-samuel/31"
+                  ]
+                },
+                {
+                  "group": "2 Samuel",
+                  "pages": [
+                    "en/leb/2-samuel/index",
+                    "en/leb/2-samuel/1",
+                    "en/leb/2-samuel/2",
+                    "en/leb/2-samuel/3",
+                    "en/leb/2-samuel/4",
+                    "en/leb/2-samuel/5",
+                    "en/leb/2-samuel/6",
+                    "en/leb/2-samuel/7",
+                    "en/leb/2-samuel/8",
+                    "en/leb/2-samuel/9",
+                    "en/leb/2-samuel/10",
+                    "en/leb/2-samuel/11",
+                    "en/leb/2-samuel/12",
+                    "en/leb/2-samuel/13",
+                    "en/leb/2-samuel/14",
+                    "en/leb/2-samuel/15",
+                    "en/leb/2-samuel/16",
+                    "en/leb/2-samuel/17",
+                    "en/leb/2-samuel/18",
+                    "en/leb/2-samuel/19",
+                    "en/leb/2-samuel/20",
+                    "en/leb/2-samuel/21",
+                    "en/leb/2-samuel/22",
+                    "en/leb/2-samuel/23",
+                    "en/leb/2-samuel/24"
+                  ]
+                },
+                {
+                  "group": "1 Kings",
+                  "pages": [
+                    "en/leb/1-kings/index",
+                    "en/leb/1-kings/1",
+                    "en/leb/1-kings/2",
+                    "en/leb/1-kings/3",
+                    "en/leb/1-kings/4",
+                    "en/leb/1-kings/5",
+                    "en/leb/1-kings/6",
+                    "en/leb/1-kings/7",
+                    "en/leb/1-kings/8",
+                    "en/leb/1-kings/9",
+                    "en/leb/1-kings/10",
+                    "en/leb/1-kings/11",
+                    "en/leb/1-kings/12",
+                    "en/leb/1-kings/13",
+                    "en/leb/1-kings/14",
+                    "en/leb/1-kings/15",
+                    "en/leb/1-kings/16",
+                    "en/leb/1-kings/17",
+                    "en/leb/1-kings/18",
+                    "en/leb/1-kings/19",
+                    "en/leb/1-kings/20",
+                    "en/leb/1-kings/21",
+                    "en/leb/1-kings/22"
+                  ]
+                },
+                {
+                  "group": "2 Kings",
+                  "pages": [
+                    "en/leb/2-kings/index",
+                    "en/leb/2-kings/1",
+                    "en/leb/2-kings/2",
+                    "en/leb/2-kings/3",
+                    "en/leb/2-kings/4",
+                    "en/leb/2-kings/5",
+                    "en/leb/2-kings/6",
+                    "en/leb/2-kings/7",
+                    "en/leb/2-kings/8",
+                    "en/leb/2-kings/9",
+                    "en/leb/2-kings/10",
+                    "en/leb/2-kings/11",
+                    "en/leb/2-kings/12",
+                    "en/leb/2-kings/13",
+                    "en/leb/2-kings/14",
+                    "en/leb/2-kings/15",
+                    "en/leb/2-kings/16",
+                    "en/leb/2-kings/17",
+                    "en/leb/2-kings/18",
+                    "en/leb/2-kings/19",
+                    "en/leb/2-kings/20",
+                    "en/leb/2-kings/21",
+                    "en/leb/2-kings/22",
+                    "en/leb/2-kings/23",
+                    "en/leb/2-kings/24",
+                    "en/leb/2-kings/25"
+                  ]
+                },
+                {
+                  "group": "1 Chronicles",
+                  "pages": [
+                    "en/leb/1-chronicles/index",
+                    "en/leb/1-chronicles/1",
+                    "en/leb/1-chronicles/2",
+                    "en/leb/1-chronicles/3",
+                    "en/leb/1-chronicles/4",
+                    "en/leb/1-chronicles/5",
+                    "en/leb/1-chronicles/6",
+                    "en/leb/1-chronicles/7",
+                    "en/leb/1-chronicles/8",
+                    "en/leb/1-chronicles/9",
+                    "en/leb/1-chronicles/10",
+                    "en/leb/1-chronicles/11",
+                    "en/leb/1-chronicles/12",
+                    "en/leb/1-chronicles/13",
+                    "en/leb/1-chronicles/14",
+                    "en/leb/1-chronicles/15",
+                    "en/leb/1-chronicles/16",
+                    "en/leb/1-chronicles/17",
+                    "en/leb/1-chronicles/18",
+                    "en/leb/1-chronicles/19",
+                    "en/leb/1-chronicles/20",
+                    "en/leb/1-chronicles/21",
+                    "en/leb/1-chronicles/22",
+                    "en/leb/1-chronicles/23",
+                    "en/leb/1-chronicles/24",
+                    "en/leb/1-chronicles/25",
+                    "en/leb/1-chronicles/26",
+                    "en/leb/1-chronicles/27",
+                    "en/leb/1-chronicles/28",
+                    "en/leb/1-chronicles/29"
+                  ]
+                },
+                {
+                  "group": "2 Chronicles",
+                  "pages": [
+                    "en/leb/2-chronicles/index",
+                    "en/leb/2-chronicles/1",
+                    "en/leb/2-chronicles/2",
+                    "en/leb/2-chronicles/3",
+                    "en/leb/2-chronicles/4",
+                    "en/leb/2-chronicles/5",
+                    "en/leb/2-chronicles/6",
+                    "en/leb/2-chronicles/7",
+                    "en/leb/2-chronicles/8",
+                    "en/leb/2-chronicles/9",
+                    "en/leb/2-chronicles/10",
+                    "en/leb/2-chronicles/11",
+                    "en/leb/2-chronicles/12",
+                    "en/leb/2-chronicles/13",
+                    "en/leb/2-chronicles/14",
+                    "en/leb/2-chronicles/15",
+                    "en/leb/2-chronicles/16",
+                    "en/leb/2-chronicles/17",
+                    "en/leb/2-chronicles/18",
+                    "en/leb/2-chronicles/19",
+                    "en/leb/2-chronicles/20",
+                    "en/leb/2-chronicles/21",
+                    "en/leb/2-chronicles/22",
+                    "en/leb/2-chronicles/23",
+                    "en/leb/2-chronicles/24",
+                    "en/leb/2-chronicles/25",
+                    "en/leb/2-chronicles/26",
+                    "en/leb/2-chronicles/27",
+                    "en/leb/2-chronicles/28",
+                    "en/leb/2-chronicles/29",
+                    "en/leb/2-chronicles/30",
+                    "en/leb/2-chronicles/31",
+                    "en/leb/2-chronicles/32",
+                    "en/leb/2-chronicles/33",
+                    "en/leb/2-chronicles/34",
+                    "en/leb/2-chronicles/35",
+                    "en/leb/2-chronicles/36"
+                  ]
+                },
+                {
+                  "group": "Ezra",
+                  "pages": [
+                    "en/leb/ezra/index",
+                    "en/leb/ezra/1",
+                    "en/leb/ezra/2",
+                    "en/leb/ezra/3",
+                    "en/leb/ezra/4",
+                    "en/leb/ezra/5",
+                    "en/leb/ezra/6",
+                    "en/leb/ezra/7",
+                    "en/leb/ezra/8",
+                    "en/leb/ezra/9",
+                    "en/leb/ezra/10"
+                  ]
+                },
+                {
+                  "group": "Nehemiah",
+                  "pages": [
+                    "en/leb/nehemiah/index",
+                    "en/leb/nehemiah/1",
+                    "en/leb/nehemiah/2",
+                    "en/leb/nehemiah/3",
+                    "en/leb/nehemiah/4",
+                    "en/leb/nehemiah/5",
+                    "en/leb/nehemiah/6",
+                    "en/leb/nehemiah/7",
+                    "en/leb/nehemiah/8",
+                    "en/leb/nehemiah/9",
+                    "en/leb/nehemiah/10",
+                    "en/leb/nehemiah/11",
+                    "en/leb/nehemiah/12",
+                    "en/leb/nehemiah/13"
+                  ]
+                },
+                {
+                  "group": "Esther",
+                  "pages": [
+                    "en/leb/esther/index",
+                    "en/leb/esther/1",
+                    "en/leb/esther/2",
+                    "en/leb/esther/3",
+                    "en/leb/esther/4",
+                    "en/leb/esther/5",
+                    "en/leb/esther/6",
+                    "en/leb/esther/7",
+                    "en/leb/esther/8",
+                    "en/leb/esther/9",
+                    "en/leb/esther/10"
+                  ]
+                },
+                {
+                  "group": "Job",
+                  "pages": [
+                    "en/leb/job/index",
+                    "en/leb/job/1",
+                    "en/leb/job/2",
+                    "en/leb/job/3",
+                    "en/leb/job/4",
+                    "en/leb/job/5",
+                    "en/leb/job/6",
+                    "en/leb/job/7",
+                    "en/leb/job/8",
+                    "en/leb/job/9",
+                    "en/leb/job/10",
+                    "en/leb/job/11",
+                    "en/leb/job/12",
+                    "en/leb/job/13",
+                    "en/leb/job/14",
+                    "en/leb/job/15",
+                    "en/leb/job/16",
+                    "en/leb/job/17",
+                    "en/leb/job/18",
+                    "en/leb/job/19",
+                    "en/leb/job/20",
+                    "en/leb/job/21",
+                    "en/leb/job/22",
+                    "en/leb/job/23",
+                    "en/leb/job/24",
+                    "en/leb/job/25",
+                    "en/leb/job/26",
+                    "en/leb/job/27",
+                    "en/leb/job/28",
+                    "en/leb/job/29",
+                    "en/leb/job/30",
+                    "en/leb/job/31",
+                    "en/leb/job/32",
+                    "en/leb/job/33",
+                    "en/leb/job/34",
+                    "en/leb/job/35",
+                    "en/leb/job/36",
+                    "en/leb/job/37",
+                    "en/leb/job/38",
+                    "en/leb/job/39",
+                    "en/leb/job/40",
+                    "en/leb/job/41",
+                    "en/leb/job/42"
+                  ]
+                },
+                {
+                  "group": "Psalm",
+                  "pages": [
+                    "en/leb/psalms/index",
+                    "en/leb/psalms/1",
+                    "en/leb/psalms/2",
+                    "en/leb/psalms/3",
+                    "en/leb/psalms/4",
+                    "en/leb/psalms/5",
+                    "en/leb/psalms/6",
+                    "en/leb/psalms/7",
+                    "en/leb/psalms/8",
+                    "en/leb/psalms/9",
+                    "en/leb/psalms/10",
+                    "en/leb/psalms/11",
+                    "en/leb/psalms/12",
+                    "en/leb/psalms/13",
+                    "en/leb/psalms/14",
+                    "en/leb/psalms/15",
+                    "en/leb/psalms/16",
+                    "en/leb/psalms/17",
+                    "en/leb/psalms/18",
+                    "en/leb/psalms/19",
+                    "en/leb/psalms/20",
+                    "en/leb/psalms/21",
+                    "en/leb/psalms/22",
+                    "en/leb/psalms/23",
+                    "en/leb/psalms/24",
+                    "en/leb/psalms/25",
+                    "en/leb/psalms/26",
+                    "en/leb/psalms/27",
+                    "en/leb/psalms/28",
+                    "en/leb/psalms/29",
+                    "en/leb/psalms/30",
+                    "en/leb/psalms/31",
+                    "en/leb/psalms/32",
+                    "en/leb/psalms/33",
+                    "en/leb/psalms/34",
+                    "en/leb/psalms/35",
+                    "en/leb/psalms/36",
+                    "en/leb/psalms/37",
+                    "en/leb/psalms/38",
+                    "en/leb/psalms/39",
+                    "en/leb/psalms/40",
+                    "en/leb/psalms/41",
+                    "en/leb/psalms/42",
+                    "en/leb/psalms/43",
+                    "en/leb/psalms/44",
+                    "en/leb/psalms/45",
+                    "en/leb/psalms/46",
+                    "en/leb/psalms/47",
+                    "en/leb/psalms/48",
+                    "en/leb/psalms/49",
+                    "en/leb/psalms/50",
+                    "en/leb/psalms/51",
+                    "en/leb/psalms/52",
+                    "en/leb/psalms/53",
+                    "en/leb/psalms/54",
+                    "en/leb/psalms/55",
+                    "en/leb/psalms/56",
+                    "en/leb/psalms/57",
+                    "en/leb/psalms/58",
+                    "en/leb/psalms/59",
+                    "en/leb/psalms/60",
+                    "en/leb/psalms/61",
+                    "en/leb/psalms/62",
+                    "en/leb/psalms/63",
+                    "en/leb/psalms/64",
+                    "en/leb/psalms/65",
+                    "en/leb/psalms/66",
+                    "en/leb/psalms/67",
+                    "en/leb/psalms/68",
+                    "en/leb/psalms/69",
+                    "en/leb/psalms/70",
+                    "en/leb/psalms/71",
+                    "en/leb/psalms/72",
+                    "en/leb/psalms/73",
+                    "en/leb/psalms/74",
+                    "en/leb/psalms/75",
+                    "en/leb/psalms/76",
+                    "en/leb/psalms/77",
+                    "en/leb/psalms/78",
+                    "en/leb/psalms/79",
+                    "en/leb/psalms/80",
+                    "en/leb/psalms/81",
+                    "en/leb/psalms/82",
+                    "en/leb/psalms/83",
+                    "en/leb/psalms/84",
+                    "en/leb/psalms/85",
+                    "en/leb/psalms/86",
+                    "en/leb/psalms/87",
+                    "en/leb/psalms/88",
+                    "en/leb/psalms/89",
+                    "en/leb/psalms/90",
+                    "en/leb/psalms/91",
+                    "en/leb/psalms/92",
+                    "en/leb/psalms/93",
+                    "en/leb/psalms/94",
+                    "en/leb/psalms/95",
+                    "en/leb/psalms/96",
+                    "en/leb/psalms/97",
+                    "en/leb/psalms/98",
+                    "en/leb/psalms/99",
+                    "en/leb/psalms/100",
+                    "en/leb/psalms/101",
+                    "en/leb/psalms/102",
+                    "en/leb/psalms/103",
+                    "en/leb/psalms/104",
+                    "en/leb/psalms/105",
+                    "en/leb/psalms/106",
+                    "en/leb/psalms/107",
+                    "en/leb/psalms/108",
+                    "en/leb/psalms/109",
+                    "en/leb/psalms/110",
+                    "en/leb/psalms/111",
+                    "en/leb/psalms/112",
+                    "en/leb/psalms/113",
+                    "en/leb/psalms/114",
+                    "en/leb/psalms/115",
+                    "en/leb/psalms/116",
+                    "en/leb/psalms/117",
+                    "en/leb/psalms/118",
+                    "en/leb/psalms/119",
+                    "en/leb/psalms/120",
+                    "en/leb/psalms/121",
+                    "en/leb/psalms/122",
+                    "en/leb/psalms/123",
+                    "en/leb/psalms/124",
+                    "en/leb/psalms/125",
+                    "en/leb/psalms/126",
+                    "en/leb/psalms/127",
+                    "en/leb/psalms/128",
+                    "en/leb/psalms/129",
+                    "en/leb/psalms/130",
+                    "en/leb/psalms/131",
+                    "en/leb/psalms/132",
+                    "en/leb/psalms/133",
+                    "en/leb/psalms/134",
+                    "en/leb/psalms/135",
+                    "en/leb/psalms/136",
+                    "en/leb/psalms/137",
+                    "en/leb/psalms/138",
+                    "en/leb/psalms/139",
+                    "en/leb/psalms/140",
+                    "en/leb/psalms/141",
+                    "en/leb/psalms/142",
+                    "en/leb/psalms/143",
+                    "en/leb/psalms/144",
+                    "en/leb/psalms/145",
+                    "en/leb/psalms/146",
+                    "en/leb/psalms/147",
+                    "en/leb/psalms/148",
+                    "en/leb/psalms/149",
+                    "en/leb/psalms/150"
+                  ]
+                },
+                {
+                  "group": "Proverbs",
+                  "pages": [
+                    "en/leb/proverbs/index",
+                    "en/leb/proverbs/1",
+                    "en/leb/proverbs/2",
+                    "en/leb/proverbs/3",
+                    "en/leb/proverbs/4",
+                    "en/leb/proverbs/5",
+                    "en/leb/proverbs/6",
+                    "en/leb/proverbs/7",
+                    "en/leb/proverbs/8",
+                    "en/leb/proverbs/9",
+                    "en/leb/proverbs/10",
+                    "en/leb/proverbs/11",
+                    "en/leb/proverbs/12",
+                    "en/leb/proverbs/13",
+                    "en/leb/proverbs/14",
+                    "en/leb/proverbs/15",
+                    "en/leb/proverbs/16",
+                    "en/leb/proverbs/17",
+                    "en/leb/proverbs/18",
+                    "en/leb/proverbs/19",
+                    "en/leb/proverbs/20",
+                    "en/leb/proverbs/21",
+                    "en/leb/proverbs/22",
+                    "en/leb/proverbs/23",
+                    "en/leb/proverbs/24",
+                    "en/leb/proverbs/25",
+                    "en/leb/proverbs/26",
+                    "en/leb/proverbs/27",
+                    "en/leb/proverbs/28",
+                    "en/leb/proverbs/29",
+                    "en/leb/proverbs/30",
+                    "en/leb/proverbs/31"
+                  ]
+                },
+                {
+                  "group": "Ecclesiastes",
+                  "pages": [
+                    "en/leb/ecclesiastes/index",
+                    "en/leb/ecclesiastes/1",
+                    "en/leb/ecclesiastes/2",
+                    "en/leb/ecclesiastes/3",
+                    "en/leb/ecclesiastes/4",
+                    "en/leb/ecclesiastes/5",
+                    "en/leb/ecclesiastes/6",
+                    "en/leb/ecclesiastes/7",
+                    "en/leb/ecclesiastes/8",
+                    "en/leb/ecclesiastes/9",
+                    "en/leb/ecclesiastes/10",
+                    "en/leb/ecclesiastes/11",
+                    "en/leb/ecclesiastes/12"
+                  ]
+                },
+                {
+                  "group": "Song of Solomon",
+                  "pages": [
+                    "en/leb/song-of-solomon/index",
+                    "en/leb/song-of-solomon/1",
+                    "en/leb/song-of-solomon/2",
+                    "en/leb/song-of-solomon/3",
+                    "en/leb/song-of-solomon/4",
+                    "en/leb/song-of-solomon/5",
+                    "en/leb/song-of-solomon/6",
+                    "en/leb/song-of-solomon/7",
+                    "en/leb/song-of-solomon/8"
+                  ]
+                },
+                {
+                  "group": "Isaiah",
+                  "pages": [
+                    "en/leb/isaiah/index",
+                    "en/leb/isaiah/1",
+                    "en/leb/isaiah/2",
+                    "en/leb/isaiah/3",
+                    "en/leb/isaiah/4",
+                    "en/leb/isaiah/5",
+                    "en/leb/isaiah/6",
+                    "en/leb/isaiah/7",
+                    "en/leb/isaiah/8",
+                    "en/leb/isaiah/9",
+                    "en/leb/isaiah/10",
+                    "en/leb/isaiah/11",
+                    "en/leb/isaiah/12",
+                    "en/leb/isaiah/13",
+                    "en/leb/isaiah/14",
+                    "en/leb/isaiah/15",
+                    "en/leb/isaiah/16",
+                    "en/leb/isaiah/17",
+                    "en/leb/isaiah/18",
+                    "en/leb/isaiah/19",
+                    "en/leb/isaiah/20",
+                    "en/leb/isaiah/21",
+                    "en/leb/isaiah/22",
+                    "en/leb/isaiah/23",
+                    "en/leb/isaiah/24",
+                    "en/leb/isaiah/25",
+                    "en/leb/isaiah/26",
+                    "en/leb/isaiah/27",
+                    "en/leb/isaiah/28",
+                    "en/leb/isaiah/29",
+                    "en/leb/isaiah/30",
+                    "en/leb/isaiah/31",
+                    "en/leb/isaiah/32",
+                    "en/leb/isaiah/33",
+                    "en/leb/isaiah/34",
+                    "en/leb/isaiah/35",
+                    "en/leb/isaiah/36",
+                    "en/leb/isaiah/37",
+                    "en/leb/isaiah/38",
+                    "en/leb/isaiah/39",
+                    "en/leb/isaiah/40",
+                    "en/leb/isaiah/41",
+                    "en/leb/isaiah/42",
+                    "en/leb/isaiah/43",
+                    "en/leb/isaiah/44",
+                    "en/leb/isaiah/45",
+                    "en/leb/isaiah/46",
+                    "en/leb/isaiah/47",
+                    "en/leb/isaiah/48",
+                    "en/leb/isaiah/49",
+                    "en/leb/isaiah/50",
+                    "en/leb/isaiah/51",
+                    "en/leb/isaiah/52",
+                    "en/leb/isaiah/53",
+                    "en/leb/isaiah/54",
+                    "en/leb/isaiah/55",
+                    "en/leb/isaiah/56",
+                    "en/leb/isaiah/57",
+                    "en/leb/isaiah/58",
+                    "en/leb/isaiah/59",
+                    "en/leb/isaiah/60",
+                    "en/leb/isaiah/61",
+                    "en/leb/isaiah/62",
+                    "en/leb/isaiah/63",
+                    "en/leb/isaiah/64",
+                    "en/leb/isaiah/65",
+                    "en/leb/isaiah/66"
+                  ]
+                },
+                {
+                  "group": "Jeremiah",
+                  "pages": [
+                    "en/leb/jeremiah/index",
+                    "en/leb/jeremiah/1",
+                    "en/leb/jeremiah/2",
+                    "en/leb/jeremiah/3",
+                    "en/leb/jeremiah/4",
+                    "en/leb/jeremiah/5",
+                    "en/leb/jeremiah/6",
+                    "en/leb/jeremiah/7",
+                    "en/leb/jeremiah/8",
+                    "en/leb/jeremiah/9",
+                    "en/leb/jeremiah/10",
+                    "en/leb/jeremiah/11",
+                    "en/leb/jeremiah/12",
+                    "en/leb/jeremiah/13",
+                    "en/leb/jeremiah/14",
+                    "en/leb/jeremiah/15",
+                    "en/leb/jeremiah/16",
+                    "en/leb/jeremiah/17",
+                    "en/leb/jeremiah/18",
+                    "en/leb/jeremiah/19",
+                    "en/leb/jeremiah/20",
+                    "en/leb/jeremiah/21",
+                    "en/leb/jeremiah/22",
+                    "en/leb/jeremiah/23",
+                    "en/leb/jeremiah/24",
+                    "en/leb/jeremiah/25",
+                    "en/leb/jeremiah/26",
+                    "en/leb/jeremiah/27",
+                    "en/leb/jeremiah/28",
+                    "en/leb/jeremiah/29",
+                    "en/leb/jeremiah/30",
+                    "en/leb/jeremiah/31",
+                    "en/leb/jeremiah/32",
+                    "en/leb/jeremiah/33",
+                    "en/leb/jeremiah/34",
+                    "en/leb/jeremiah/35",
+                    "en/leb/jeremiah/36",
+                    "en/leb/jeremiah/37",
+                    "en/leb/jeremiah/38",
+                    "en/leb/jeremiah/39",
+                    "en/leb/jeremiah/40",
+                    "en/leb/jeremiah/41",
+                    "en/leb/jeremiah/42",
+                    "en/leb/jeremiah/43",
+                    "en/leb/jeremiah/44",
+                    "en/leb/jeremiah/45",
+                    "en/leb/jeremiah/46",
+                    "en/leb/jeremiah/47",
+                    "en/leb/jeremiah/48",
+                    "en/leb/jeremiah/49",
+                    "en/leb/jeremiah/50",
+                    "en/leb/jeremiah/51",
+                    "en/leb/jeremiah/52"
+                  ]
+                },
+                {
+                  "group": "Lamentations",
+                  "pages": [
+                    "en/leb/lamentations/index",
+                    "en/leb/lamentations/1",
+                    "en/leb/lamentations/2",
+                    "en/leb/lamentations/3",
+                    "en/leb/lamentations/4",
+                    "en/leb/lamentations/5"
+                  ]
+                },
+                {
+                  "group": "Ezekiel",
+                  "pages": [
+                    "en/leb/ezekiel/index",
+                    "en/leb/ezekiel/1",
+                    "en/leb/ezekiel/2",
+                    "en/leb/ezekiel/3",
+                    "en/leb/ezekiel/4",
+                    "en/leb/ezekiel/5",
+                    "en/leb/ezekiel/6",
+                    "en/leb/ezekiel/7",
+                    "en/leb/ezekiel/8",
+                    "en/leb/ezekiel/9",
+                    "en/leb/ezekiel/10",
+                    "en/leb/ezekiel/11",
+                    "en/leb/ezekiel/12",
+                    "en/leb/ezekiel/13",
+                    "en/leb/ezekiel/14",
+                    "en/leb/ezekiel/15",
+                    "en/leb/ezekiel/16",
+                    "en/leb/ezekiel/17",
+                    "en/leb/ezekiel/18",
+                    "en/leb/ezekiel/19",
+                    "en/leb/ezekiel/20",
+                    "en/leb/ezekiel/21",
+                    "en/leb/ezekiel/22",
+                    "en/leb/ezekiel/23",
+                    "en/leb/ezekiel/24",
+                    "en/leb/ezekiel/25",
+                    "en/leb/ezekiel/26",
+                    "en/leb/ezekiel/27",
+                    "en/leb/ezekiel/28",
+                    "en/leb/ezekiel/29",
+                    "en/leb/ezekiel/30",
+                    "en/leb/ezekiel/31",
+                    "en/leb/ezekiel/32",
+                    "en/leb/ezekiel/33",
+                    "en/leb/ezekiel/34",
+                    "en/leb/ezekiel/35",
+                    "en/leb/ezekiel/36",
+                    "en/leb/ezekiel/37",
+                    "en/leb/ezekiel/38",
+                    "en/leb/ezekiel/39",
+                    "en/leb/ezekiel/40",
+                    "en/leb/ezekiel/41",
+                    "en/leb/ezekiel/42",
+                    "en/leb/ezekiel/43",
+                    "en/leb/ezekiel/44",
+                    "en/leb/ezekiel/45",
+                    "en/leb/ezekiel/46",
+                    "en/leb/ezekiel/47",
+                    "en/leb/ezekiel/48"
+                  ]
+                },
+                {
+                  "group": "Daniel",
+                  "pages": [
+                    "en/leb/daniel/index",
+                    "en/leb/daniel/1",
+                    "en/leb/daniel/2",
+                    "en/leb/daniel/3",
+                    "en/leb/daniel/4",
+                    "en/leb/daniel/5",
+                    "en/leb/daniel/6",
+                    "en/leb/daniel/7",
+                    "en/leb/daniel/8",
+                    "en/leb/daniel/9",
+                    "en/leb/daniel/10",
+                    "en/leb/daniel/11",
+                    "en/leb/daniel/12"
+                  ]
+                },
+                {
+                  "group": "Hosea",
+                  "pages": [
+                    "en/leb/hosea/index",
+                    "en/leb/hosea/1",
+                    "en/leb/hosea/2",
+                    "en/leb/hosea/3",
+                    "en/leb/hosea/4",
+                    "en/leb/hosea/5",
+                    "en/leb/hosea/6",
+                    "en/leb/hosea/7",
+                    "en/leb/hosea/8",
+                    "en/leb/hosea/9",
+                    "en/leb/hosea/10",
+                    "en/leb/hosea/11",
+                    "en/leb/hosea/12",
+                    "en/leb/hosea/13",
+                    "en/leb/hosea/14"
+                  ]
+                },
+                {
+                  "group": "Joel",
+                  "pages": [
+                    "en/leb/joel/index",
+                    "en/leb/joel/1",
+                    "en/leb/joel/2",
+                    "en/leb/joel/3"
+                  ]
+                },
+                {
+                  "group": "Amos",
+                  "pages": [
+                    "en/leb/amos/index",
+                    "en/leb/amos/1",
+                    "en/leb/amos/2",
+                    "en/leb/amos/3",
+                    "en/leb/amos/4",
+                    "en/leb/amos/5",
+                    "en/leb/amos/6",
+                    "en/leb/amos/7",
+                    "en/leb/amos/8",
+                    "en/leb/amos/9"
+                  ]
+                },
+                {
+                  "group": "Obadiah",
+                  "pages": [
+                    "en/leb/obadiah/index",
+                    "en/leb/obadiah/1"
+                  ]
+                },
+                {
+                  "group": "Jonah",
+                  "pages": [
+                    "en/leb/jonah/index",
+                    "en/leb/jonah/1",
+                    "en/leb/jonah/2",
+                    "en/leb/jonah/3",
+                    "en/leb/jonah/4"
+                  ]
+                },
+                {
+                  "group": "Micah",
+                  "pages": [
+                    "en/leb/micah/index",
+                    "en/leb/micah/1",
+                    "en/leb/micah/2",
+                    "en/leb/micah/3",
+                    "en/leb/micah/4",
+                    "en/leb/micah/5",
+                    "en/leb/micah/6",
+                    "en/leb/micah/7"
+                  ]
+                },
+                {
+                  "group": "Nahum",
+                  "pages": [
+                    "en/leb/nahum/index",
+                    "en/leb/nahum/1",
+                    "en/leb/nahum/2",
+                    "en/leb/nahum/3"
+                  ]
+                },
+                {
+                  "group": "Habakkuk",
+                  "pages": [
+                    "en/leb/habakkuk/index",
+                    "en/leb/habakkuk/1",
+                    "en/leb/habakkuk/2",
+                    "en/leb/habakkuk/3"
+                  ]
+                },
+                {
+                  "group": "Zephaniah",
+                  "pages": [
+                    "en/leb/zephaniah/index",
+                    "en/leb/zephaniah/1",
+                    "en/leb/zephaniah/2",
+                    "en/leb/zephaniah/3"
+                  ]
+                },
+                {
+                  "group": "Haggai",
+                  "pages": [
+                    "en/leb/haggai/index",
+                    "en/leb/haggai/1",
+                    "en/leb/haggai/2"
+                  ]
+                },
+                {
+                  "group": "Zechariah",
+                  "pages": [
+                    "en/leb/zechariah/index",
+                    "en/leb/zechariah/1",
+                    "en/leb/zechariah/2",
+                    "en/leb/zechariah/3",
+                    "en/leb/zechariah/4",
+                    "en/leb/zechariah/5",
+                    "en/leb/zechariah/6",
+                    "en/leb/zechariah/7",
+                    "en/leb/zechariah/8",
+                    "en/leb/zechariah/9",
+                    "en/leb/zechariah/10",
+                    "en/leb/zechariah/11",
+                    "en/leb/zechariah/12",
+                    "en/leb/zechariah/13",
+                    "en/leb/zechariah/14"
+                  ]
+                },
+                {
+                  "group": "Malachi",
+                  "pages": [
+                    "en/leb/malachi/index",
+                    "en/leb/malachi/1",
+                    "en/leb/malachi/2",
+                    "en/leb/malachi/3",
+                    "en/leb/malachi/4"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "New Testament",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Matthew",
+                  "pages": [
+                    "en/leb/matthew/index",
+                    "en/leb/matthew/1",
+                    "en/leb/matthew/2",
+                    "en/leb/matthew/3",
+                    "en/leb/matthew/4",
+                    "en/leb/matthew/5",
+                    "en/leb/matthew/6",
+                    "en/leb/matthew/7",
+                    "en/leb/matthew/8",
+                    "en/leb/matthew/9",
+                    "en/leb/matthew/10",
+                    "en/leb/matthew/11",
+                    "en/leb/matthew/12",
+                    "en/leb/matthew/13",
+                    "en/leb/matthew/14",
+                    "en/leb/matthew/15",
+                    "en/leb/matthew/16",
+                    "en/leb/matthew/17",
+                    "en/leb/matthew/18",
+                    "en/leb/matthew/19",
+                    "en/leb/matthew/20",
+                    "en/leb/matthew/21",
+                    "en/leb/matthew/22",
+                    "en/leb/matthew/23",
+                    "en/leb/matthew/24",
+                    "en/leb/matthew/25",
+                    "en/leb/matthew/26",
+                    "en/leb/matthew/27",
+                    "en/leb/matthew/28"
+                  ]
+                },
+                {
+                  "group": "Mark",
+                  "pages": [
+                    "en/leb/mark/index",
+                    "en/leb/mark/1",
+                    "en/leb/mark/2",
+                    "en/leb/mark/3",
+                    "en/leb/mark/4",
+                    "en/leb/mark/5",
+                    "en/leb/mark/6",
+                    "en/leb/mark/7",
+                    "en/leb/mark/8",
+                    "en/leb/mark/9",
+                    "en/leb/mark/10",
+                    "en/leb/mark/11",
+                    "en/leb/mark/12",
+                    "en/leb/mark/13",
+                    "en/leb/mark/14",
+                    "en/leb/mark/15",
+                    "en/leb/mark/16"
+                  ]
+                },
+                {
+                  "group": "Luke",
+                  "pages": [
+                    "en/leb/luke/index",
+                    "en/leb/luke/1",
+                    "en/leb/luke/2",
+                    "en/leb/luke/3",
+                    "en/leb/luke/4",
+                    "en/leb/luke/5",
+                    "en/leb/luke/6",
+                    "en/leb/luke/7",
+                    "en/leb/luke/8",
+                    "en/leb/luke/9",
+                    "en/leb/luke/10",
+                    "en/leb/luke/11",
+                    "en/leb/luke/12",
+                    "en/leb/luke/13",
+                    "en/leb/luke/14",
+                    "en/leb/luke/15",
+                    "en/leb/luke/16",
+                    "en/leb/luke/17",
+                    "en/leb/luke/18",
+                    "en/leb/luke/19",
+                    "en/leb/luke/20",
+                    "en/leb/luke/21",
+                    "en/leb/luke/22",
+                    "en/leb/luke/23",
+                    "en/leb/luke/24"
+                  ]
+                },
+                {
+                  "group": "John",
+                  "pages": [
+                    "en/leb/john/index",
+                    "en/leb/john/1",
+                    "en/leb/john/2",
+                    "en/leb/john/3",
+                    "en/leb/john/4",
+                    "en/leb/john/5",
+                    "en/leb/john/6",
+                    "en/leb/john/7",
+                    "en/leb/john/8",
+                    "en/leb/john/9",
+                    "en/leb/john/10",
+                    "en/leb/john/11",
+                    "en/leb/john/12",
+                    "en/leb/john/13",
+                    "en/leb/john/14",
+                    "en/leb/john/15",
+                    "en/leb/john/16",
+                    "en/leb/john/17",
+                    "en/leb/john/18",
+                    "en/leb/john/19",
+                    "en/leb/john/20",
+                    "en/leb/john/21"
+                  ]
+                },
+                {
+                  "group": "Acts",
+                  "pages": [
+                    "en/leb/acts/index",
+                    "en/leb/acts/1",
+                    "en/leb/acts/2",
+                    "en/leb/acts/3",
+                    "en/leb/acts/4",
+                    "en/leb/acts/5",
+                    "en/leb/acts/6",
+                    "en/leb/acts/7",
+                    "en/leb/acts/8",
+                    "en/leb/acts/9",
+                    "en/leb/acts/10",
+                    "en/leb/acts/11",
+                    "en/leb/acts/12",
+                    "en/leb/acts/13",
+                    "en/leb/acts/14",
+                    "en/leb/acts/15",
+                    "en/leb/acts/16",
+                    "en/leb/acts/17",
+                    "en/leb/acts/18",
+                    "en/leb/acts/19",
+                    "en/leb/acts/20",
+                    "en/leb/acts/21",
+                    "en/leb/acts/22",
+                    "en/leb/acts/23",
+                    "en/leb/acts/24",
+                    "en/leb/acts/25",
+                    "en/leb/acts/26",
+                    "en/leb/acts/27",
+                    "en/leb/acts/28"
+                  ]
+                },
+                {
+                  "group": "Romans",
+                  "pages": [
+                    "en/leb/romans/index",
+                    "en/leb/romans/1",
+                    "en/leb/romans/2",
+                    "en/leb/romans/3",
+                    "en/leb/romans/4",
+                    "en/leb/romans/5",
+                    "en/leb/romans/6",
+                    "en/leb/romans/7",
+                    "en/leb/romans/8",
+                    "en/leb/romans/9",
+                    "en/leb/romans/10",
+                    "en/leb/romans/11",
+                    "en/leb/romans/12",
+                    "en/leb/romans/13",
+                    "en/leb/romans/14",
+                    "en/leb/romans/15",
+                    "en/leb/romans/16"
+                  ]
+                },
+                {
+                  "group": "1 Corinthians",
+                  "pages": [
+                    "en/leb/1-corinthians/index",
+                    "en/leb/1-corinthians/1",
+                    "en/leb/1-corinthians/2",
+                    "en/leb/1-corinthians/3",
+                    "en/leb/1-corinthians/4",
+                    "en/leb/1-corinthians/5",
+                    "en/leb/1-corinthians/6",
+                    "en/leb/1-corinthians/7",
+                    "en/leb/1-corinthians/8",
+                    "en/leb/1-corinthians/9",
+                    "en/leb/1-corinthians/10",
+                    "en/leb/1-corinthians/11",
+                    "en/leb/1-corinthians/12",
+                    "en/leb/1-corinthians/13",
+                    "en/leb/1-corinthians/14",
+                    "en/leb/1-corinthians/15",
+                    "en/leb/1-corinthians/16"
+                  ]
+                },
+                {
+                  "group": "2 Corinthians",
+                  "pages": [
+                    "en/leb/2-corinthians/index",
+                    "en/leb/2-corinthians/1",
+                    "en/leb/2-corinthians/2",
+                    "en/leb/2-corinthians/3",
+                    "en/leb/2-corinthians/4",
+                    "en/leb/2-corinthians/5",
+                    "en/leb/2-corinthians/6",
+                    "en/leb/2-corinthians/7",
+                    "en/leb/2-corinthians/8",
+                    "en/leb/2-corinthians/9",
+                    "en/leb/2-corinthians/10",
+                    "en/leb/2-corinthians/11",
+                    "en/leb/2-corinthians/12",
+                    "en/leb/2-corinthians/13"
+                  ]
+                },
+                {
+                  "group": "Galatians",
+                  "pages": [
+                    "en/leb/galatians/index",
+                    "en/leb/galatians/1",
+                    "en/leb/galatians/2",
+                    "en/leb/galatians/3",
+                    "en/leb/galatians/4",
+                    "en/leb/galatians/5",
+                    "en/leb/galatians/6"
+                  ]
+                },
+                {
+                  "group": "Ephesians",
+                  "pages": [
+                    "en/leb/ephesians/index",
+                    "en/leb/ephesians/1",
+                    "en/leb/ephesians/2",
+                    "en/leb/ephesians/3",
+                    "en/leb/ephesians/4",
+                    "en/leb/ephesians/5",
+                    "en/leb/ephesians/6"
+                  ]
+                },
+                {
+                  "group": "Philippians",
+                  "pages": [
+                    "en/leb/philippians/index",
+                    "en/leb/philippians/1",
+                    "en/leb/philippians/2",
+                    "en/leb/philippians/3",
+                    "en/leb/philippians/4"
+                  ]
+                },
+                {
+                  "group": "Colossians",
+                  "pages": [
+                    "en/leb/colossians/index",
+                    "en/leb/colossians/1",
+                    "en/leb/colossians/2",
+                    "en/leb/colossians/3",
+                    "en/leb/colossians/4"
+                  ]
+                },
+                {
+                  "group": "1 Thessalonians",
+                  "pages": [
+                    "en/leb/1-thessalonians/index",
+                    "en/leb/1-thessalonians/1",
+                    "en/leb/1-thessalonians/2",
+                    "en/leb/1-thessalonians/3",
+                    "en/leb/1-thessalonians/4",
+                    "en/leb/1-thessalonians/5"
+                  ]
+                },
+                {
+                  "group": "2 Thessalonians",
+                  "pages": [
+                    "en/leb/2-thessalonians/index",
+                    "en/leb/2-thessalonians/1",
+                    "en/leb/2-thessalonians/2",
+                    "en/leb/2-thessalonians/3"
+                  ]
+                },
+                {
+                  "group": "1 Timothy",
+                  "pages": [
+                    "en/leb/1-timothy/index",
+                    "en/leb/1-timothy/1",
+                    "en/leb/1-timothy/2",
+                    "en/leb/1-timothy/3",
+                    "en/leb/1-timothy/4",
+                    "en/leb/1-timothy/5",
+                    "en/leb/1-timothy/6"
+                  ]
+                },
+                {
+                  "group": "2 Timothy",
+                  "pages": [
+                    "en/leb/2-timothy/index",
+                    "en/leb/2-timothy/1",
+                    "en/leb/2-timothy/2",
+                    "en/leb/2-timothy/3",
+                    "en/leb/2-timothy/4"
+                  ]
+                },
+                {
+                  "group": "Titus",
+                  "pages": [
+                    "en/leb/titus/index",
+                    "en/leb/titus/1",
+                    "en/leb/titus/2",
+                    "en/leb/titus/3"
+                  ]
+                },
+                {
+                  "group": "Philemon",
+                  "pages": [
+                    "en/leb/philemon/index",
+                    "en/leb/philemon/1"
+                  ]
+                },
+                {
+                  "group": "Hebrews",
+                  "pages": [
+                    "en/leb/hebrews/index",
+                    "en/leb/hebrews/1",
+                    "en/leb/hebrews/2",
+                    "en/leb/hebrews/3",
+                    "en/leb/hebrews/4",
+                    "en/leb/hebrews/5",
+                    "en/leb/hebrews/6",
+                    "en/leb/hebrews/7",
+                    "en/leb/hebrews/8",
+                    "en/leb/hebrews/9",
+                    "en/leb/hebrews/10",
+                    "en/leb/hebrews/11",
+                    "en/leb/hebrews/12",
+                    "en/leb/hebrews/13"
+                  ]
+                },
+                {
+                  "group": "James",
+                  "pages": [
+                    "en/leb/james/index",
+                    "en/leb/james/1",
+                    "en/leb/james/2",
+                    "en/leb/james/3",
+                    "en/leb/james/4",
+                    "en/leb/james/5"
+                  ]
+                },
+                {
+                  "group": "1 Peter",
+                  "pages": [
+                    "en/leb/1-peter/index",
+                    "en/leb/1-peter/1",
+                    "en/leb/1-peter/2",
+                    "en/leb/1-peter/3",
+                    "en/leb/1-peter/4",
+                    "en/leb/1-peter/5"
+                  ]
+                },
+                {
+                  "group": "2 Peter",
+                  "pages": [
+                    "en/leb/2-peter/index",
+                    "en/leb/2-peter/1",
+                    "en/leb/2-peter/2",
+                    "en/leb/2-peter/3"
+                  ]
+                },
+                {
+                  "group": "1 John",
+                  "pages": [
+                    "en/leb/1-john/index",
+                    "en/leb/1-john/1",
+                    "en/leb/1-john/2",
+                    "en/leb/1-john/3",
+                    "en/leb/1-john/4",
+                    "en/leb/1-john/5"
+                  ]
+                },
+                {
+                  "group": "2 John",
+                  "pages": [
+                    "en/leb/2-john/index",
+                    "en/leb/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3 John",
+                  "pages": [
+                    "en/leb/3-john/index",
+                    "en/leb/3-john/1"
+                  ]
+                },
+                {
+                  "group": "Jude",
+                  "pages": [
+                    "en/leb/jude/index",
+                    "en/leb/jude/1"
+                  ]
+                },
+                {
+                  "group": "Revelation",
+                  "pages": [
+                    "en/leb/revelation/index",
+                    "en/leb/revelation/1",
+                    "en/leb/revelation/2",
+                    "en/leb/revelation/3",
+                    "en/leb/revelation/4",
+                    "en/leb/revelation/5",
+                    "en/leb/revelation/6",
+                    "en/leb/revelation/7",
+                    "en/leb/revelation/8",
+                    "en/leb/revelation/9",
+                    "en/leb/revelation/10",
+                    "en/leb/revelation/11",
+                    "en/leb/revelation/12",
+                    "en/leb/revelation/13",
+                    "en/leb/revelation/14",
+                    "en/leb/revelation/15",
+                    "en/leb/revelation/16",
+                    "en/leb/revelation/17",
+                    "en/leb/revelation/18",
+                    "en/leb/revelation/19",
+                    "en/leb/revelation/20",
+                    "en/leb/revelation/21",
+                    "en/leb/revelation/22"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "Study",
+          "icon": "library",
+          "href": "/en/study"
+        },
+        {
+          "tab": "Commentaries",
+          "icon": "book-marked",
+          "href": "/en/commentary"
+        }
+      ]
+    },
+    {
       "version": "LSV",
       "tabs": [
         {
@@ -40676,6 +42215,508 @@
       ]
     },
     {
+      "version": "NMV",
+      "tabs": [
+        {
+          "tab": "Bible",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "New Messianic Version",
+              "icon": "book-open",
+              "pages": [
+                "en/nmv/index"
+              ]
+            },
+            {
+              "group": "Old Testament",
+              "icon": "scroll-text",
+              "pages": [
+                {
+                  "group": "Genesis",
+                  "pages": [
+                    "en/nmv/genesis/index",
+                    "en/nmv/genesis/1"
+                  ]
+                },
+                {
+                  "group": "Exodus",
+                  "pages": [
+                    "en/nmv/exodus/index",
+                    "en/nmv/exodus/1"
+                  ]
+                },
+                {
+                  "group": "Leviticus",
+                  "pages": [
+                    "en/nmv/leviticus/index",
+                    "en/nmv/leviticus/1"
+                  ]
+                },
+                {
+                  "group": "Numbers",
+                  "pages": [
+                    "en/nmv/numbers/index",
+                    "en/nmv/numbers/1"
+                  ]
+                },
+                {
+                  "group": "Deuteronomy",
+                  "pages": [
+                    "en/nmv/deuteronomy/index",
+                    "en/nmv/deuteronomy/1"
+                  ]
+                },
+                {
+                  "group": "Joshua",
+                  "pages": [
+                    "en/nmv/joshua/index",
+                    "en/nmv/joshua/1"
+                  ]
+                },
+                {
+                  "group": "Judges",
+                  "pages": [
+                    "en/nmv/judges/index",
+                    "en/nmv/judges/1"
+                  ]
+                },
+                {
+                  "group": "Ruth",
+                  "pages": [
+                    "en/nmv/ruth/index",
+                    "en/nmv/ruth/1"
+                  ]
+                },
+                {
+                  "group": "1 Samuel",
+                  "pages": [
+                    "en/nmv/1-samuel/index",
+                    "en/nmv/1-samuel/1"
+                  ]
+                },
+                {
+                  "group": "2 Samuel",
+                  "pages": [
+                    "en/nmv/2-samuel/index",
+                    "en/nmv/2-samuel/1"
+                  ]
+                },
+                {
+                  "group": "1 Kings",
+                  "pages": [
+                    "en/nmv/1-kings/index",
+                    "en/nmv/1-kings/1"
+                  ]
+                },
+                {
+                  "group": "2 Kings",
+                  "pages": [
+                    "en/nmv/2-kings/index",
+                    "en/nmv/2-kings/1"
+                  ]
+                },
+                {
+                  "group": "1 Chronicles",
+                  "pages": [
+                    "en/nmv/1-chronicles/index",
+                    "en/nmv/1-chronicles/1"
+                  ]
+                },
+                {
+                  "group": "2 Chronicles",
+                  "pages": [
+                    "en/nmv/2-chronicles/index",
+                    "en/nmv/2-chronicles/1"
+                  ]
+                },
+                {
+                  "group": "Ezra",
+                  "pages": [
+                    "en/nmv/ezra/index",
+                    "en/nmv/ezra/1"
+                  ]
+                },
+                {
+                  "group": "Nehemiah",
+                  "pages": [
+                    "en/nmv/nehemiah/index",
+                    "en/nmv/nehemiah/1"
+                  ]
+                },
+                {
+                  "group": "Ester",
+                  "pages": [
+                    "en/nmv/esther/index",
+                    "en/nmv/esther/1"
+                  ]
+                },
+                {
+                  "group": "Job",
+                  "pages": [
+                    "en/nmv/job/index",
+                    "en/nmv/job/1"
+                  ]
+                },
+                {
+                  "group": "Tehillim - Psalms",
+                  "pages": [
+                    "en/nmv/psalms/index",
+                    "en/nmv/psalms/1"
+                  ]
+                },
+                {
+                  "group": "Mishlei - Proverbs",
+                  "pages": [
+                    "en/nmv/proverbs/index",
+                    "en/nmv/proverbs/1"
+                  ]
+                },
+                {
+                  "group": "Ecclesiastes",
+                  "pages": [
+                    "en/nmv/ecclesiastes/index",
+                    "en/nmv/ecclesiastes/1"
+                  ]
+                },
+                {
+                  "group": "Song of Solomon",
+                  "pages": [
+                    "en/nmv/song-of-solomon/index",
+                    "en/nmv/song-of-solomon/1"
+                  ]
+                },
+                {
+                  "group": "Isaiah",
+                  "pages": [
+                    "en/nmv/isaiah/index",
+                    "en/nmv/isaiah/1"
+                  ]
+                },
+                {
+                  "group": "Jeremiah",
+                  "pages": [
+                    "en/nmv/jeremiah/index",
+                    "en/nmv/jeremiah/1"
+                  ]
+                },
+                {
+                  "group": "Lamentations",
+                  "pages": [
+                    "en/nmv/lamentations/index",
+                    "en/nmv/lamentations/1"
+                  ]
+                },
+                {
+                  "group": "Ezekiel",
+                  "pages": [
+                    "en/nmv/ezekiel/index",
+                    "en/nmv/ezekiel/1"
+                  ]
+                },
+                {
+                  "group": "Daniel",
+                  "pages": [
+                    "en/nmv/daniel/index",
+                    "en/nmv/daniel/1"
+                  ]
+                },
+                {
+                  "group": "Hosea",
+                  "pages": [
+                    "en/nmv/hosea/index",
+                    "en/nmv/hosea/1"
+                  ]
+                },
+                {
+                  "group": "Joel",
+                  "pages": [
+                    "en/nmv/joel/index",
+                    "en/nmv/joel/1"
+                  ]
+                },
+                {
+                  "group": "Amos",
+                  "pages": [
+                    "en/nmv/amos/index",
+                    "en/nmv/amos/1"
+                  ]
+                },
+                {
+                  "group": "Obadiah",
+                  "pages": [
+                    "en/nmv/obadiah/index",
+                    "en/nmv/obadiah/1"
+                  ]
+                },
+                {
+                  "group": "Jonah",
+                  "pages": [
+                    "en/nmv/jonah/index",
+                    "en/nmv/jonah/1"
+                  ]
+                },
+                {
+                  "group": "Micah",
+                  "pages": [
+                    "en/nmv/micah/index",
+                    "en/nmv/micah/1"
+                  ]
+                },
+                {
+                  "group": "Nahum",
+                  "pages": [
+                    "en/nmv/nahum/index",
+                    "en/nmv/nahum/1"
+                  ]
+                },
+                {
+                  "group": "Habakkuk",
+                  "pages": [
+                    "en/nmv/habakkuk/index",
+                    "en/nmv/habakkuk/1"
+                  ]
+                },
+                {
+                  "group": "Zephaniah",
+                  "pages": [
+                    "en/nmv/zephaniah/index",
+                    "en/nmv/zephaniah/1"
+                  ]
+                },
+                {
+                  "group": "Hagai",
+                  "pages": [
+                    "en/nmv/haggai/index",
+                    "en/nmv/haggai/1"
+                  ]
+                },
+                {
+                  "group": "Zechariah",
+                  "pages": [
+                    "en/nmv/zechariah/index",
+                    "en/nmv/zechariah/1"
+                  ]
+                },
+                {
+                  "group": "Malachi",
+                  "pages": [
+                    "en/nmv/malachi/index",
+                    "en/nmv/malachi/1"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "New Testament",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Gosel",
+                  "pages": [
+                    "en/nmv/matthew/index",
+                    "en/nmv/matthew/1"
+                  ]
+                },
+                {
+                  "group": "Mark",
+                  "pages": [
+                    "en/nmv/mark/index",
+                    "en/nmv/mark/1"
+                  ]
+                },
+                {
+                  "group": "Luke",
+                  "pages": [
+                    "en/nmv/luke/index",
+                    "en/nmv/luke/1"
+                  ]
+                },
+                {
+                  "group": "John",
+                  "pages": [
+                    "en/nmv/john/index",
+                    "en/nmv/john/1"
+                  ]
+                },
+                {
+                  "group": "Acts",
+                  "pages": [
+                    "en/nmv/acts/index",
+                    "en/nmv/acts/1"
+                  ]
+                },
+                {
+                  "group": "Romans",
+                  "pages": [
+                    "en/nmv/romans/index",
+                    "en/nmv/romans/1"
+                  ]
+                },
+                {
+                  "group": "1 Corinthians",
+                  "pages": [
+                    "en/nmv/1-corinthians/index",
+                    "en/nmv/1-corinthians/1"
+                  ]
+                },
+                {
+                  "group": "2 Corinthians",
+                  "pages": [
+                    "en/nmv/2-corinthians/index",
+                    "en/nmv/2-corinthians/1"
+                  ]
+                },
+                {
+                  "group": "Galatians",
+                  "pages": [
+                    "en/nmv/galatians/index",
+                    "en/nmv/galatians/1"
+                  ]
+                },
+                {
+                  "group": "Ephesians",
+                  "pages": [
+                    "en/nmv/ephesians/index",
+                    "en/nmv/ephesians/1"
+                  ]
+                },
+                {
+                  "group": "Philippians",
+                  "pages": [
+                    "en/nmv/philippians/index",
+                    "en/nmv/philippians/1"
+                  ]
+                },
+                {
+                  "group": "Colossians",
+                  "pages": [
+                    "en/nmv/colossians/index",
+                    "en/nmv/colossians/1"
+                  ]
+                },
+                {
+                  "group": "1 Thessalonians",
+                  "pages": [
+                    "en/nmv/1-thessalonians/index",
+                    "en/nmv/1-thessalonians/1"
+                  ]
+                },
+                {
+                  "group": "2 Thessalonians",
+                  "pages": [
+                    "en/nmv/2-thessalonians/index",
+                    "en/nmv/2-thessalonians/1"
+                  ]
+                },
+                {
+                  "group": "1 Timothy",
+                  "pages": [
+                    "en/nmv/1-timothy/index",
+                    "en/nmv/1-timothy/1"
+                  ]
+                },
+                {
+                  "group": "2 Timothy",
+                  "pages": [
+                    "en/nmv/2-timothy/index",
+                    "en/nmv/2-timothy/1"
+                  ]
+                },
+                {
+                  "group": "Titus",
+                  "pages": [
+                    "en/nmv/titus/index",
+                    "en/nmv/titus/1"
+                  ]
+                },
+                {
+                  "group": "Philemon",
+                  "pages": [
+                    "en/nmv/philemon/index",
+                    "en/nmv/philemon/1"
+                  ]
+                },
+                {
+                  "group": "Hebrews",
+                  "pages": [
+                    "en/nmv/hebrews/index",
+                    "en/nmv/hebrews/1"
+                  ]
+                },
+                {
+                  "group": "Jacob",
+                  "pages": [
+                    "en/nmv/james/index",
+                    "en/nmv/james/1"
+                  ]
+                },
+                {
+                  "group": "1 Peter",
+                  "pages": [
+                    "en/nmv/1-peter/index",
+                    "en/nmv/1-peter/1"
+                  ]
+                },
+                {
+                  "group": "2 Peter",
+                  "pages": [
+                    "en/nmv/2-peter/index",
+                    "en/nmv/2-peter/1"
+                  ]
+                },
+                {
+                  "group": "1 John",
+                  "pages": [
+                    "en/nmv/1-john/index",
+                    "en/nmv/1-john/1"
+                  ]
+                },
+                {
+                  "group": "2 John",
+                  "pages": [
+                    "en/nmv/2-john/index",
+                    "en/nmv/2-john/1"
+                  ]
+                },
+                {
+                  "group": "3 John",
+                  "pages": [
+                    "en/nmv/3-john/index",
+                    "en/nmv/3-john/1"
+                  ]
+                },
+                {
+                  "group": "Judah",
+                  "pages": [
+                    "en/nmv/jude/index",
+                    "en/nmv/jude/1"
+                  ]
+                },
+                {
+                  "group": "Revelation",
+                  "pages": [
+                    "en/nmv/revelation/index",
+                    "en/nmv/revelation/1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "Study",
+          "icon": "library",
+          "href": "/en/study"
+        },
+        {
+          "tab": "Commentaries",
+          "icon": "book-marked",
+          "href": "/en/commentary"
+        }
+      ]
+    },
+    {
       "version": "OJB",
       "tabs": [
         {
@@ -41853,8 +43894,7 @@
                     "en/ojb/malachi/index",
                     "en/ojb/malachi/1",
                     "en/ojb/malachi/2",
-                    "en/ojb/malachi/3",
-                    "en/ojb/malachi/4"
+                    "en/ojb/malachi/3"
                   ]
                 }
               ]
@@ -68793,6 +70833,60 @@
                     "en/barkly/genesis/49",
                     "en/barkly/genesis/50"
                   ]
+                },
+                {
+                  "group": "Ruth",
+                  "pages": [
+                    "en/barkly/ruth/index",
+                    "en/barkly/ruth/1",
+                    "en/barkly/ruth/2",
+                    "en/barkly/ruth/3",
+                    "en/barkly/ruth/4"
+                  ]
+                },
+                {
+                  "group": "Esther",
+                  "pages": [
+                    "en/barkly/esther/index",
+                    "en/barkly/esther/1",
+                    "en/barkly/esther/2",
+                    "en/barkly/esther/3",
+                    "en/barkly/esther/4",
+                    "en/barkly/esther/5",
+                    "en/barkly/esther/6",
+                    "en/barkly/esther/7",
+                    "en/barkly/esther/8",
+                    "en/barkly/esther/9",
+                    "en/barkly/esther/10"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": "New Testament",
+              "icon": "cross",
+              "pages": [
+                {
+                  "group": "Mark",
+                  "pages": [
+                    "en/barkly/mark/index",
+                    "en/barkly/mark/1",
+                    "en/barkly/mark/2",
+                    "en/barkly/mark/3",
+                    "en/barkly/mark/4",
+                    "en/barkly/mark/5",
+                    "en/barkly/mark/6",
+                    "en/barkly/mark/7",
+                    "en/barkly/mark/8",
+                    "en/barkly/mark/9",
+                    "en/barkly/mark/10",
+                    "en/barkly/mark/11",
+                    "en/barkly/mark/12",
+                    "en/barkly/mark/13",
+                    "en/barkly/mark/14",
+                    "en/barkly/mark/15",
+                    "en/barkly/mark/16"
+                  ]
                 }
               ]
             }
@@ -68809,7 +70903,7 @@
           "href": "/en/commentary"
         }
       ],
-      "tag": "OT"
+      "tag": "Partial"
     },
     {
       "version": "Brenton LXX",
@@ -70743,6 +72837,51 @@
         }
       ],
       "tag": "NT"
+    },
+    {
+      "version": "ETEJ",
+      "tabs": [
+        {
+          "tab": "Bible",
+          "icon": "book-open",
+          "groups": [
+            {
+              "group": "Easy to Translate English Jonah",
+              "icon": "book-open",
+              "pages": [
+                "en/etej/index"
+              ]
+            },
+            {
+              "group": "Old Testament",
+              "icon": "scroll-text",
+              "pages": [
+                {
+                  "group": "Jonah",
+                  "pages": [
+                    "en/etej/jonah/index",
+                    "en/etej/jonah/1",
+                    "en/etej/jonah/2",
+                    "en/etej/jonah/3",
+                    "en/etej/jonah/4"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "Study",
+          "icon": "library",
+          "href": "/en/study"
+        },
+        {
+          "tab": "Commentaries",
+          "icon": "book-marked",
+          "href": "/en/commentary"
+        }
+      ],
+      "tag": "OT"
     },
     {
       "version": "GHT",
@@ -76650,7 +78789,6 @@
                     "en/nyangumarta-english/genesis/2",
                     "en/nyangumarta-english/genesis/3",
                     "en/nyangumarta-english/genesis/4",
-                    "en/nyangumarta-english/genesis/5",
                     "en/nyangumarta-english/genesis/6",
                     "en/nyangumarta-english/genesis/7",
                     "en/nyangumarta-english/genesis/8",
@@ -78686,497 +80824,6 @@
       "tag": "Apocrypha"
     },
     {
-      "version": "PEV",
-      "tabs": [
-        {
-          "tab": "Bible",
-          "icon": "book-open",
-          "groups": [
-            {
-              "group": "Plain English Version",
-              "icon": "book-open",
-              "pages": [
-                "en/pev/index"
-              ]
-            },
-            {
-              "group": "Old Testament",
-              "icon": "scroll-text",
-              "pages": [
-                {
-                  "group": "Genesis",
-                  "pages": [
-                    "en/pev/genesis/index",
-                    "en/pev/genesis/1",
-                    "en/pev/genesis/2",
-                    "en/pev/genesis/3",
-                    "en/pev/genesis/4",
-                    "en/pev/genesis/5",
-                    "en/pev/genesis/6",
-                    "en/pev/genesis/7",
-                    "en/pev/genesis/8",
-                    "en/pev/genesis/9",
-                    "en/pev/genesis/10",
-                    "en/pev/genesis/11",
-                    "en/pev/genesis/12",
-                    "en/pev/genesis/13",
-                    "en/pev/genesis/14",
-                    "en/pev/genesis/15",
-                    "en/pev/genesis/16",
-                    "en/pev/genesis/17",
-                    "en/pev/genesis/18",
-                    "en/pev/genesis/19",
-                    "en/pev/genesis/20",
-                    "en/pev/genesis/21",
-                    "en/pev/genesis/22",
-                    "en/pev/genesis/23",
-                    "en/pev/genesis/24",
-                    "en/pev/genesis/25",
-                    "en/pev/genesis/26",
-                    "en/pev/genesis/27",
-                    "en/pev/genesis/28",
-                    "en/pev/genesis/29",
-                    "en/pev/genesis/30",
-                    "en/pev/genesis/31",
-                    "en/pev/genesis/32",
-                    "en/pev/genesis/33",
-                    "en/pev/genesis/34",
-                    "en/pev/genesis/35",
-                    "en/pev/genesis/36",
-                    "en/pev/genesis/37",
-                    "en/pev/genesis/38",
-                    "en/pev/genesis/39",
-                    "en/pev/genesis/40",
-                    "en/pev/genesis/41",
-                    "en/pev/genesis/42",
-                    "en/pev/genesis/43",
-                    "en/pev/genesis/44",
-                    "en/pev/genesis/45",
-                    "en/pev/genesis/46",
-                    "en/pev/genesis/47",
-                    "en/pev/genesis/48",
-                    "en/pev/genesis/49",
-                    "en/pev/genesis/50"
-                  ]
-                },
-                {
-                  "group": "1 Samuel",
-                  "pages": [
-                    "en/pev/1-samuel/index",
-                    "en/pev/1-samuel/1",
-                    "en/pev/1-samuel/2",
-                    "en/pev/1-samuel/3",
-                    "en/pev/1-samuel/4",
-                    "en/pev/1-samuel/5",
-                    "en/pev/1-samuel/7",
-                    "en/pev/1-samuel/8",
-                    "en/pev/1-samuel/9",
-                    "en/pev/1-samuel/10",
-                    "en/pev/1-samuel/11",
-                    "en/pev/1-samuel/15",
-                    "en/pev/1-samuel/16",
-                    "en/pev/1-samuel/17",
-                    "en/pev/1-samuel/18",
-                    "en/pev/1-samuel/19",
-                    "en/pev/1-samuel/20",
-                    "en/pev/1-samuel/21",
-                    "en/pev/1-samuel/22",
-                    "en/pev/1-samuel/24",
-                    "en/pev/1-samuel/25",
-                    "en/pev/1-samuel/26",
-                    "en/pev/1-samuel/28",
-                    "en/pev/1-samuel/31"
-                  ]
-                },
-                {
-                  "group": "2 Samuel",
-                  "pages": [
-                    "en/pev/2-samuel/index",
-                    "en/pev/2-samuel/1",
-                    "en/pev/2-samuel/2",
-                    "en/pev/2-samuel/3",
-                    "en/pev/2-samuel/5",
-                    "en/pev/2-samuel/7",
-                    "en/pev/2-samuel/11",
-                    "en/pev/2-samuel/12",
-                    "en/pev/2-samuel/15",
-                    "en/pev/2-samuel/16",
-                    "en/pev/2-samuel/17",
-                    "en/pev/2-samuel/18",
-                    "en/pev/2-samuel/21"
-                  ]
-                },
-                {
-                  "group": "Psalms",
-                  "pages": [
-                    "en/pev/psalms/index",
-                    "en/pev/psalms/15",
-                    "en/pev/psalms/23",
-                    "en/pev/psalms/34",
-                    "en/pev/psalms/40",
-                    "en/pev/psalms/46",
-                    "en/pev/psalms/121"
-                  ]
-                },
-                {
-                  "group": "Proverbs",
-                  "pages": [
-                    "en/pev/proverbs/index",
-                    "en/pev/proverbs/3"
-                  ]
-                },
-                {
-                  "group": "Jonah",
-                  "pages": [
-                    "en/pev/jonah/index",
-                    "en/pev/jonah/1",
-                    "en/pev/jonah/2",
-                    "en/pev/jonah/3",
-                    "en/pev/jonah/4"
-                  ]
-                }
-              ]
-            },
-            {
-              "group": "New Testament",
-              "icon": "cross",
-              "pages": [
-                {
-                  "group": "Matthew",
-                  "pages": [
-                    "en/pev/matthew/index",
-                    "en/pev/matthew/1",
-                    "en/pev/matthew/2",
-                    "en/pev/matthew/3",
-                    "en/pev/matthew/4",
-                    "en/pev/matthew/5",
-                    "en/pev/matthew/6",
-                    "en/pev/matthew/7",
-                    "en/pev/matthew/8",
-                    "en/pev/matthew/9",
-                    "en/pev/matthew/10",
-                    "en/pev/matthew/11",
-                    "en/pev/matthew/12",
-                    "en/pev/matthew/13",
-                    "en/pev/matthew/17",
-                    "en/pev/matthew/18",
-                    "en/pev/matthew/20",
-                    "en/pev/matthew/21",
-                    "en/pev/matthew/24",
-                    "en/pev/matthew/25",
-                    "en/pev/matthew/27",
-                    "en/pev/matthew/28"
-                  ]
-                },
-                {
-                  "group": "Mark",
-                  "pages": [
-                    "en/pev/mark/index",
-                    "en/pev/mark/1",
-                    "en/pev/mark/2",
-                    "en/pev/mark/3",
-                    "en/pev/mark/4",
-                    "en/pev/mark/5",
-                    "en/pev/mark/6",
-                    "en/pev/mark/7",
-                    "en/pev/mark/8",
-                    "en/pev/mark/9",
-                    "en/pev/mark/10",
-                    "en/pev/mark/11",
-                    "en/pev/mark/12",
-                    "en/pev/mark/13",
-                    "en/pev/mark/14",
-                    "en/pev/mark/15",
-                    "en/pev/mark/16"
-                  ]
-                },
-                {
-                  "group": "Luke",
-                  "pages": [
-                    "en/pev/luke/index",
-                    "en/pev/luke/1",
-                    "en/pev/luke/2",
-                    "en/pev/luke/4",
-                    "en/pev/luke/6",
-                    "en/pev/luke/7",
-                    "en/pev/luke/8",
-                    "en/pev/luke/9",
-                    "en/pev/luke/10",
-                    "en/pev/luke/11",
-                    "en/pev/luke/12",
-                    "en/pev/luke/13",
-                    "en/pev/luke/14",
-                    "en/pev/luke/15",
-                    "en/pev/luke/16",
-                    "en/pev/luke/17",
-                    "en/pev/luke/18",
-                    "en/pev/luke/19",
-                    "en/pev/luke/22",
-                    "en/pev/luke/23",
-                    "en/pev/luke/24"
-                  ]
-                },
-                {
-                  "group": "John",
-                  "pages": [
-                    "en/pev/john/index",
-                    "en/pev/john/1",
-                    "en/pev/john/2",
-                    "en/pev/john/3",
-                    "en/pev/john/4",
-                    "en/pev/john/5",
-                    "en/pev/john/6",
-                    "en/pev/john/7",
-                    "en/pev/john/8",
-                    "en/pev/john/9",
-                    "en/pev/john/10",
-                    "en/pev/john/11",
-                    "en/pev/john/12",
-                    "en/pev/john/13",
-                    "en/pev/john/14",
-                    "en/pev/john/15",
-                    "en/pev/john/16",
-                    "en/pev/john/17",
-                    "en/pev/john/18",
-                    "en/pev/john/19",
-                    "en/pev/john/20",
-                    "en/pev/john/21"
-                  ]
-                },
-                {
-                  "group": "Acts",
-                  "pages": [
-                    "en/pev/acts/index",
-                    "en/pev/acts/1",
-                    "en/pev/acts/2",
-                    "en/pev/acts/3",
-                    "en/pev/acts/4",
-                    "en/pev/acts/5",
-                    "en/pev/acts/6",
-                    "en/pev/acts/7",
-                    "en/pev/acts/8",
-                    "en/pev/acts/9",
-                    "en/pev/acts/10",
-                    "en/pev/acts/11",
-                    "en/pev/acts/12",
-                    "en/pev/acts/13",
-                    "en/pev/acts/14",
-                    "en/pev/acts/15",
-                    "en/pev/acts/16",
-                    "en/pev/acts/17",
-                    "en/pev/acts/18",
-                    "en/pev/acts/19",
-                    "en/pev/acts/20",
-                    "en/pev/acts/21",
-                    "en/pev/acts/22",
-                    "en/pev/acts/23",
-                    "en/pev/acts/24",
-                    "en/pev/acts/25",
-                    "en/pev/acts/26",
-                    "en/pev/acts/27",
-                    "en/pev/acts/28"
-                  ]
-                },
-                {
-                  "group": "Romans",
-                  "pages": [
-                    "en/pev/romans/index",
-                    "en/pev/romans/1",
-                    "en/pev/romans/2",
-                    "en/pev/romans/3",
-                    "en/pev/romans/4",
-                    "en/pev/romans/5",
-                    "en/pev/romans/6",
-                    "en/pev/romans/7",
-                    "en/pev/romans/8",
-                    "en/pev/romans/10",
-                    "en/pev/romans/12",
-                    "en/pev/romans/13",
-                    "en/pev/romans/14",
-                    "en/pev/romans/15",
-                    "en/pev/romans/16"
-                  ]
-                },
-                {
-                  "group": "1 Corinthians",
-                  "pages": [
-                    "en/pev/1-corinthians/index",
-                    "en/pev/1-corinthians/1",
-                    "en/pev/1-corinthians/2",
-                    "en/pev/1-corinthians/3",
-                    "en/pev/1-corinthians/4",
-                    "en/pev/1-corinthians/5",
-                    "en/pev/1-corinthians/6",
-                    "en/pev/1-corinthians/7",
-                    "en/pev/1-corinthians/8",
-                    "en/pev/1-corinthians/9",
-                    "en/pev/1-corinthians/10",
-                    "en/pev/1-corinthians/11",
-                    "en/pev/1-corinthians/12",
-                    "en/pev/1-corinthians/13",
-                    "en/pev/1-corinthians/14",
-                    "en/pev/1-corinthians/15",
-                    "en/pev/1-corinthians/16"
-                  ]
-                },
-                {
-                  "group": "Galatians",
-                  "pages": [
-                    "en/pev/galatians/index",
-                    "en/pev/galatians/1",
-                    "en/pev/galatians/2",
-                    "en/pev/galatians/3",
-                    "en/pev/galatians/4",
-                    "en/pev/galatians/5",
-                    "en/pev/galatians/6"
-                  ]
-                },
-                {
-                  "group": "Ephesians",
-                  "pages": [
-                    "en/pev/ephesians/index",
-                    "en/pev/ephesians/1",
-                    "en/pev/ephesians/2",
-                    "en/pev/ephesians/3",
-                    "en/pev/ephesians/4",
-                    "en/pev/ephesians/5",
-                    "en/pev/ephesians/6"
-                  ]
-                },
-                {
-                  "group": "Philippians",
-                  "pages": [
-                    "en/pev/philippians/index",
-                    "en/pev/philippians/1",
-                    "en/pev/philippians/2",
-                    "en/pev/philippians/3",
-                    "en/pev/philippians/4"
-                  ]
-                },
-                {
-                  "group": "Colossians",
-                  "pages": [
-                    "en/pev/colossians/index",
-                    "en/pev/colossians/1",
-                    "en/pev/colossians/2",
-                    "en/pev/colossians/3",
-                    "en/pev/colossians/4"
-                  ]
-                },
-                {
-                  "group": "1 Thessalonians",
-                  "pages": [
-                    "en/pev/1-thessalonians/index",
-                    "en/pev/1-thessalonians/1",
-                    "en/pev/1-thessalonians/2",
-                    "en/pev/1-thessalonians/3",
-                    "en/pev/1-thessalonians/4",
-                    "en/pev/1-thessalonians/5"
-                  ]
-                },
-                {
-                  "group": "2 Thessalonians",
-                  "pages": [
-                    "en/pev/2-thessalonians/index",
-                    "en/pev/2-thessalonians/1",
-                    "en/pev/2-thessalonians/2",
-                    "en/pev/2-thessalonians/3"
-                  ]
-                },
-                {
-                  "group": "1 Timothy",
-                  "pages": [
-                    "en/pev/1-timothy/index",
-                    "en/pev/1-timothy/1",
-                    "en/pev/1-timothy/2",
-                    "en/pev/1-timothy/3",
-                    "en/pev/1-timothy/4",
-                    "en/pev/1-timothy/5",
-                    "en/pev/1-timothy/6"
-                  ]
-                },
-                {
-                  "group": "2 Timothy",
-                  "pages": [
-                    "en/pev/2-timothy/index",
-                    "en/pev/2-timothy/1",
-                    "en/pev/2-timothy/2",
-                    "en/pev/2-timothy/3",
-                    "en/pev/2-timothy/4"
-                  ]
-                },
-                {
-                  "group": "Titus",
-                  "pages": [
-                    "en/pev/titus/index",
-                    "en/pev/titus/1",
-                    "en/pev/titus/2",
-                    "en/pev/titus/3"
-                  ]
-                },
-                {
-                  "group": "Philemon",
-                  "pages": [
-                    "en/pev/philemon/index",
-                    "en/pev/philemon/1"
-                  ]
-                },
-                {
-                  "group": "James",
-                  "pages": [
-                    "en/pev/james/index",
-                    "en/pev/james/1",
-                    "en/pev/james/2",
-                    "en/pev/james/3",
-                    "en/pev/james/4",
-                    "en/pev/james/5"
-                  ]
-                },
-                {
-                  "group": "1 Peter",
-                  "pages": [
-                    "en/pev/1-peter/index",
-                    "en/pev/1-peter/1",
-                    "en/pev/1-peter/2",
-                    "en/pev/1-peter/3",
-                    "en/pev/1-peter/4",
-                    "en/pev/1-peter/5"
-                  ]
-                },
-                {
-                  "group": "2 Peter",
-                  "pages": [
-                    "en/pev/2-peter/index",
-                    "en/pev/2-peter/1",
-                    "en/pev/2-peter/2",
-                    "en/pev/2-peter/3"
-                  ]
-                },
-                {
-                  "group": "Jude",
-                  "pages": [
-                    "en/pev/jude/index",
-                    "en/pev/jude/1"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tab": "Study",
-          "icon": "library",
-          "href": "/en/study"
-        },
-        {
-          "tab": "Commentaries",
-          "icon": "book-marked",
-          "href": "/en/commentary"
-        }
-      ],
-      "tag": "Partial"
-    },
-    {
       "version": "Targum Onkelos",
       "tabs": [
         {
@@ -79560,7 +81207,7 @@
                   ]
                 },
                 {
-                  "group": "THE ACTS OF THE APOSTLES",
+                  "group": "THE ACTS OF THE HOLY APOSTLES",
                   "pages": [
                     "en/tcent/acts/index",
                     "en/tcent/acts/1",
