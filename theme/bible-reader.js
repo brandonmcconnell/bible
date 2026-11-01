@@ -9,7 +9,11 @@
  *     footnotes, headings, cross references, red-letter text and serif font;
  *   - verse selection with copy-with-reference and a cross-reference panel;
  *   - #v5 / #v5-8 deep links and ←/→ keyboard chapter navigation;
-   - sidebar decoration: chapter lists become wrapping grids of numbers.
+   - sidebar decoration: chapter lists become wrapping grids of numbers;
+   - language switcher: Mintlify greys out a language unless the same page
+     path exists under it, which never happens here because translation slugs
+     differ per language. Greyed-out languages are re-enabled and routed to
+     that language's default translation at the same book and chapter.
  * Settings persist in localStorage and are applied as classes on <html> so the
  * stylesheet does the actual work.
  */
@@ -122,6 +126,7 @@
 
   function init() {
     decorateSidebar();
+    fixLanguageMenu();
     var chapter = currentChapter();
     var actions = document.getElementById('bible-actions');
     if (!chapter) {
@@ -660,6 +665,60 @@
         list.classList.add('bible-ch-grid');
       }
     }
+  }
+
+  // -------------------------------------------------------------------------
+  // Language switcher: route greyed-out languages to their default translation
+  // -------------------------------------------------------------------------
+
+  function currentLanguageCode() {
+    var chapter = currentChapter();
+    if (chapter) return chapter.getAttribute('data-lang') || '';
+    var match = /^\/([^/]+)/.exec(window.location.pathname);
+    return match ? match[1] : '';
+  }
+
+  /** The equivalent page in another language: same chapter in its default translation, else its landing page. */
+  function languageTargetUrl(code) {
+    var m = manifest();
+    var language = m && m.languages ? m.languages[code] : null;
+    if (!language || !language.default) return null;
+    var base = '/' + code + '/' + language.default;
+    var chapter = currentChapter();
+    if (!chapter) return base;
+    var ctx = context(chapter);
+    var target = language.translations ? language.translations[language.default] : null;
+    if (!translationHasBook(ctx, target, ctx.bookId)) return base;
+    var url = base + '/' + ctx.bookSlug;
+    if (hasChapter(chapterSpec(ctx, ctx.bookId, target), ctx.chapter)) url += '/' + ctx.chapter;
+    return url;
+  }
+
+  function fixLanguageMenu() {
+    var items = document.querySelectorAll('#localization-select-content [role="menuitem"][aria-disabled="true"]');
+    var current = currentLanguageCode();
+    for (var i = 0; i < items.length; i += 1) {
+      var item = items[i];
+      var code = (item.id || '').replace(/^localization-select-item-/, '');
+      if (!code || code === current) continue;
+      var url = languageTargetUrl(code);
+      if (!url) continue;
+      item.removeAttribute('data-disabled');
+      item.setAttribute('aria-disabled', 'false');
+      if (item.getAttribute('data-bible-lang') === url) continue;
+      item.setAttribute('data-bible-lang', url);
+      item.addEventListener('click', onLanguageItemActivate, true);
+      item.addEventListener('keydown', onLanguageItemActivate, true);
+    }
+  }
+
+  function onLanguageItemActivate(event) {
+    if (event.type === 'keydown' && event.key !== 'Enter' && event.key !== ' ') return;
+    var url = event.currentTarget.getAttribute('data-bible-lang');
+    if (!url) return;
+    event.preventDefault();
+    event.stopPropagation();
+    window.location.assign(url);
   }
 
   // -------------------------------------------------------------------------
