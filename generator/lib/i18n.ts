@@ -75,6 +75,11 @@ export interface UiStrings {
   commentary: string;
   introduction: string;
   readChapter: string;
+  liveLoading: string;
+  liveNoScript: string;
+  liveUnavailable: string;
+  liveNotConfigured: string;
+  liveIntro: string;
   dataProvidedBy: string;
   readingToolsHelp: string;
   studyIntro: string;
@@ -149,6 +154,12 @@ const en: UiStrings = {
   commentary: 'Commentary',
   introduction: 'Introduction',
   readChapter: 'Read the chapter',
+  liveLoading: 'Loading…',
+  liveNoScript: 'This translation is loaded from its publisher when the page is viewed and needs JavaScript.',
+  liveUnavailable: 'The text could not be loaded right now. Please try again in a moment.',
+  liveNotConfigured: 'This translation is not configured on this site yet. Its text is served live from the publisher and requires the proxy to be deployed.',
+  liveIntro:
+    'This translation is used under license. Its text is not stored on this site: each chapter is fetched from the publisher when you open it, and it is not included in search.',
   dataProvidedBy: 'Text provided by the Free Use Bible API.',
   readingToolsHelp:
     'Use the toolbar above each chapter to change the text size, show or hide verse numbers, footnotes, headings and cross references, and to switch translations while staying in the same chapter.',

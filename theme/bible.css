@@ -805,3 +805,40 @@ html.dark .bible-actions button.ba-primary {
     display: none !important;
   }
 }
+
+/* --------------------------------------------------------------------------
+   Licensed translations (text fetched at request time)
+   -------------------------------------------------------------------------- */
+
+.bible-chapter .live-status {
+  color: var(--bible-muted);
+  font-style: italic;
+  margin: 0.5rem 0 1rem;
+}
+
+.live-notice {
+  margin: 1.5rem 0 0;
+  padding: 0.75rem 0.9rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--bible-border);
+  background: var(--bible-surface-2);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--bible-muted);
+}
+
+.live-notice p,
+.live-notice span[data-as="p"] {
+  margin: 0;
+}
+
+.live-notice p + p {
+  margin-top: 0.4rem;
+}
+
+/* Footnotes section injected after a live chapter */
+.bible-footnotes.live h2 {
+  font-family: var(--bible-serif);
+  font-size: 1.25rem;
+  margin: 1.75rem 0 0.75rem;
+}

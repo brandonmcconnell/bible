@@ -9,7 +9,7 @@
 import { englishBookName } from './books.ts';
 import type { ChapterData, CrossRefChapter, EntityChapter, Footnote, ScoredVerseRef, VersePart } from './helloao.ts';
 import { escapeAttr, escapeHeading, escapeText, formatVerseList, frontmatter } from './mdx.ts';
-import { chapterPath, formatNumber, type PublishedBook, type PublishedTranslation } from './model.ts';
+import { chapterPath, formatNumber, verseCount, type PublishedBook, type PublishedTranslation } from './model.ts';
 
 export interface ChapterRenderOptions {
   /** Theographic mentions for this chapter (English study section only). */
@@ -296,6 +296,24 @@ function renderRelated(
   return ['<div className="bible-entities">', '', `## ${escapeHeading(ui.inThisChapter)}`, '', ...rows, '', '</div>'].join('\n');
 }
 
+/**
+ * Placeholder for licensed translations. The reader script replaces the
+ * `.bt` element with the fetched text and keeps the notice.
+ */
+function renderLiveShell(translation: PublishedTranslation, live: NonNullable<PublishedTranslation['live']>): string {
+  const { ui } = translation;
+  return [
+    `<div className="bt bt-live"${translation.dir === 'rtl' ? ' dir="rtl"' : ''}>`,
+    `<p className="live-status">${escapeText(ui.liveLoading)}</p>`,
+    `<noscript><p>${escapeText(ui.liveNoScript)}</p></noscript>`,
+    '</div>',
+    '',
+    '<div className="live-notice">',
+    `<p>${escapeText(live.copyright)} [${escapeText(displayUrl(live.website))}](${live.website})</p>`,
+    '</div>',
+  ].join('\n');
+}
+
 /** Formats a reference using the translation's own book names, falling back to English. */
 export function formatReference(translation: PublishedTranslation, ref: ScoredVerseRef): string {
   const name = translation.bookById.get(ref.book)?.name ?? englishBookName(ref.book);
@@ -349,7 +367,7 @@ export function renderChapterPage(
 
   const title = `${book.name} ${chapter.number}`;
   const description = book.title ? `${book.title} · ${translation.name}` : translation.name;
-  const verseCount = chapter.content.filter((item) => item.type === 'verse').length;
+  const verses = verseCount(chapter);
 
   const containerAttrs = [
     `className="bible-chapter"`,
@@ -363,14 +381,29 @@ export function renderChapterPage(
     `data-book-slug="${book.slug}"`,
     `data-book-name="${escapeAttr(book.name)}"`,
     `data-chapter="${chapter.number}"`,
-    `data-verses="${verseCount}"`,
-  ].join(' ');
+    `data-verses="${verses}"`,
+  ];
+  if (translation.live) {
+    containerAttrs.push(
+      `data-live="${translation.live.provider}"`,
+      `data-live-edition="${escapeAttr(translation.live.edition)}"`,
+      `data-live-copyright="${escapeAttr(translation.live.copyright)}"`,
+      `data-live-url="${escapeAttr(translation.live.website)}"`,
+    );
+  }
 
   const parts: string[] = [
-    frontmatter({ title, sidebarTitle: String(chapter.number), description }),
-    `<div ${containerAttrs}>`,
+    frontmatter({
+      title,
+      sidebarTitle: String(chapter.number),
+      description,
+      // Licensed text is fetched at request time, so there is nothing to index or search.
+      noindex: translation.live ? true : undefined,
+      searchable: translation.live ? false : undefined,
+    }),
+    `<div ${containerAttrs.join(' ')}>`,
     '',
-    writer.finish(),
+    translation.live ? renderLiveShell(translation, translation.live) : writer.finish(),
     '',
     '</div>',
   ];
@@ -393,7 +426,7 @@ export function renderBookPage(translation: PublishedTranslation, book: Publishe
   const { ui } = translation;
   const locale = translation.language.htmlLang;
   const chapterLinks = book.chapters.map((chapter) => `[${chapter.number}](/${chapterPath(book, chapter.number)})`);
-  const verseTotal = book.chapters.reduce((sum, chapter) => sum + chapter.content.filter((c) => c.type === 'verse').length, 0);
+  const verseTotal = book.chapters.reduce((sum, chapter) => sum + verseCount(chapter), 0);
 
   const lines: string[] = [
     frontmatter({
@@ -431,10 +464,7 @@ export function renderTranslationPage(
   const { ui, summary } = translation;
   const locale = translation.language.htmlLang;
   const chapterCount = translation.books.reduce((sum, book) => sum + book.chapters.length, 0);
-  const verseCount = translation.books.reduce(
-    (sum, book) => sum + book.chapters.reduce((s, c) => s + c.content.filter((item) => item.type === 'verse').length, 0),
-    0,
-  );
+  const verseTotal = translation.books.reduce((sum, book) => sum + book.chapters.reduce((s, c) => s + verseCount(c), 0), 0);
 
   const lines: string[] = [
     frontmatter({
@@ -450,9 +480,22 @@ export function renderTranslationPage(
     ...metaBlock([
       `${formatNumber(translation.books.length, locale)} ${ui.books.toLowerCase()}`,
       `${formatNumber(chapterCount, locale)} ${ui.chapters.toLowerCase()}`,
-      `${formatNumber(verseCount, locale)} ${ui.verses.toLowerCase()}`,
+      `${formatNumber(verseTotal, locale)} ${ui.verses.toLowerCase()}`,
     ]),
   ];
+
+  if (translation.live) {
+    lines.push(
+      `## ${escapeHeading(ui.license)}`,
+      '',
+      escapeText(ui.liveIntro),
+      '',
+      escapeText(translation.live.copyright),
+      '',
+      `[${escapeText(displayUrl(translation.live.website))}](${translation.live.website})`,
+      '',
+    );
+  }
 
   for (const section of translation.sections) {
     lines.push(`## ${escapeHeading(section.label)}`, '', '<div className="bgrid">');

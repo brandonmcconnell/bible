@@ -23,6 +23,9 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+        env:
+          # URL of the deployed proxy/ worker; leave unset until it exists.
+          BIBLE_PROXY_URL: ${{ vars.BIBLE_PROXY_URL }}
       - run: npx mint validate
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7

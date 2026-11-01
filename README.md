@@ -13,6 +13,7 @@ Nothing under the language folders is written by hand. A TypeScript generator di
 | Feature | How it works |
 | --- | --- |
 | **Every translation the API offers in a Mintlify language: 123 translations in 26 languages** (51 in English alone, from the KJV and BSB to the Geneva Bible, Wycliffe, the Septuagint in English and the JPS Tanakh) | One Mintlify `version` per translation, one Mintlify `language` per language. Translations are discovered from the API at build time; `generator/config.ts` only holds the ISO→Mintlify language map and curated slugs/labels/defaults. The remaining 1,133 translations are in 978 languages Mintlify has no language code for (Sanskrit, Koine Greek, Latin, and hundreds of minority languages) and are skipped, with a count printed by the build. |
+| **Licensed modern translations: ESV, NLT, NKJV, NASB, CSB, AMP, MSG** | Their publishers forbid storing the text, so these are served *live*: the site generates the navigation and empty chapter pages, and a small Cloudflare Worker in `proxy/` holds the publisher API keys and fetches each chapter when a reader opens it. Everything else (verse spans, toolbar, copy, footnotes, red letter) works on the fetched text. See [proxy/README.md](proxy/README.md) for keys, terms and deployment. NIV and NRSVue need a negotiated license with their rights holders and are not included. |
 | **Seven commentaries** (Matthew Henry, Jamieson-Fausset-Brown, John Gill, Adam Clarke, John Calvin, Keil & Delitzsch, Tyndale Open Study Notes) | A *Commentaries* tab with a dropdown per commentary; one page per chapter with the commentary's introduction and verse-by-verse notes, each note linking to the verse. Every English chapter page links to the commentaries that cover it. |
 | **Every verse is its own `<span class="v">`** | Verse numbers are drawn with `::before { content: attr(data-v) }`; cross references with `::after { content: attr(data-xref) }`. The scripture text itself stays clean and copyable. |
 | **Deuterocanon / Apocrypha handled per translation** | Translations only get the books they actually contain. Protestant translations put extra books in an *Apocrypha* group; Catholic translations (Douay-Rheims) interleave them in the traditional Old Testament order. Missing chapters and verses simply do not appear. |
@@ -38,6 +39,7 @@ theme/bible.css           Hand-written. Reader styles (verse numbers, footnotes,
 theme/bible-reader.js     Hand-written. Reader toolbar, selection, copy, cross-reference panel
 theme/bible-manifest.js   Generated. Translations/books/chapters + UI strings for the reader script
 generator/                The TypeScript generator (ignored by Mintlify via .mintignore)
+proxy/                    Cloudflare Worker serving licensed translations (ESV, NLT, API.Bible)
 logo/, favicon.svg        Branding
 ```
 
@@ -79,6 +81,8 @@ in `generator/config.ts`:
   API's short name and an automatic tag (*Apocrypha*, *Catholic*, *NT*, *OT* or *Partial*).
 - `minBooks` drops small portions (single books, selections); it is `0` by default so everything is included.
 - Each language can opt into `study` (Theographic data, English) and `commentaries` (`'all'` or a list of ids).
+- `licensed` lists translations served live through the proxy (`slug`, `label`, `name`, `provider`, `edition`,
+  `copyright`, `website`). Set `BIBLE_PROXY_URL` when building so the pages know where to fetch from.
 
 The `Regenerate content` GitHub Actions workflow does the same on demand (or monthly) and opens a pull request.
 
@@ -100,6 +104,9 @@ The `Regenerate content` GitHub Actions workflow does the same on demand (or mon
 ## Content licenses
 
 Scripture text, commentaries, cross references and study data are **not** covered by this repository's MIT license.
+Licensed translations (ESV, NLT, NKJV, …) are never stored in this repository; they are fetched from their publishers
+under the non-commercial terms summarized in [proxy/README.md](proxy/README.md), which is also where the obligations
+(copyright notices, FUMS, rate limits) are listed.
 Each translation and commentary page links to its own license; everything the API offers is public domain or openly
 licensed (mostly via [eBible.org](https://ebible.org/) and [berean.bible](https://berean.bible/)). Cross references are
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (OpenBible.info) and Theographic data is

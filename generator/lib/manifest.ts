@@ -21,11 +21,20 @@ import type { PublishedTranslation } from './model.ts';
 /** Chapter count when chapters run 1..n, otherwise the explicit list of chapter numbers. */
 export type ChapterSpec = number | number[];
 
+export interface ManifestLive {
+  provider: string;
+  edition: string;
+  copyright: string;
+  url: string;
+}
+
 export interface ManifestTranslation {
   id: string;
   label: string;
   name: string;
   dir: 'ltr' | 'rtl';
+  /** Present for licensed translations whose text is fetched from the proxy. */
+  live?: ManifestLive;
   /** Book ids in display order, or the key of a shared list in `Manifest.bookSets`. */
   b: string[] | string;
   /** Chapter specs that differ from `Manifest.bookChapters`. */
@@ -46,6 +55,8 @@ export interface ManifestLanguage {
 
 export interface Manifest {
   generatedAt: string;
+  /** Base URL of the proxy that serves licensed translations; empty when not configured. */
+  liveProxyUrl: string;
   /** Base URLs to try, in order, when loading `/<BOOK>/<chapter>.json` cross-reference files. */
   xrefBaseUrls: string[];
   bookSlugs: Record<string, string>;
@@ -94,7 +105,7 @@ function commonChapterSpecs(translations: readonly PublishedTranslation[]): Reco
   return result;
 }
 
-export function buildManifest(languages: readonly ManifestInput[], xrefBaseUrls: string[]): Manifest {
+export function buildManifest(languages: readonly ManifestInput[], xrefBaseUrls: string[], liveProxyUrl: string): Manifest {
   const bookSlugs: Record<string, string> = {};
   for (const id of allKnownBookIds()) bookSlugs[id] = bookSlug(id);
 
@@ -118,6 +129,7 @@ export function buildManifest(languages: readonly ManifestInput[], xrefBaseUrls:
 
   const manifest: Manifest = {
     generatedAt: new Date().toISOString(),
+    liveProxyUrl,
     xrefBaseUrls,
     bookSlugs,
     bookNames: englishBookNames(),
@@ -159,6 +171,14 @@ export function buildManifest(languages: readonly ManifestInput[], xrefBaseUrls:
         b: bookSetIds.get(bookIds.join(',')) ?? bookIds,
       };
       if (Object.keys(deviations).length > 0) manifestTranslation.x = deviations;
+      if (translation.live) {
+        manifestTranslation.live = {
+          provider: translation.live.provider,
+          edition: translation.live.edition,
+          copyright: translation.live.copyright,
+          url: translation.live.website,
+        };
+      }
       entry.translations[translation.slug] = manifestTranslation;
     }
     manifest.languages[config.code] = entry;

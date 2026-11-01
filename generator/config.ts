@@ -44,6 +44,37 @@ export interface TranslationOverrides {
   exclude?: boolean;
 }
 
+/** Where the text of a licensed translation comes from at request time (see proxy/). */
+export type LiveProvider = 'esv' | 'nlt' | 'api-bible';
+
+/**
+ * A translation whose text may not be stored or republished (ESV, NLT, NKJV,
+ * NASB, CSB, …). Pages are generated with full navigation but without text;
+ * the reader script fetches each chapter from the proxy when it is viewed.
+ */
+export interface LicensedTranslation {
+  /** URL segment, e.g. `esv` → `/en/esv/genesis/1`. */
+  slug: string;
+  /** Short label for the version switcher. */
+  label: string;
+  name: string;
+  provider: LiveProvider;
+  /**
+   * Provider-specific edition id: `esv` for ESV; `NLT`/`NLTUK`/`NTV` for the
+   * NLT API; an API.Bible bible id or abbreviation (e.g. `NKJV`) for API.Bible.
+   */
+  edition: string;
+  /** Copyright notice the license requires on every page that shows the text. */
+  copyright: string;
+  /** Publisher link the license requires. */
+  website: string;
+  /**
+   * API translation id whose book/chapter structure is used for navigation.
+   * Defaults to the KJV (66 books). Use a translation with the same canon.
+   */
+  structureFrom?: string;
+}
+
 export interface LanguageDefinition {
   /** Mintlify language code; also the first URL segment. */
   code: MintlifyLanguage;
@@ -57,6 +88,8 @@ export interface LanguageDefinition {
   study?: boolean;
   /** Include commentaries from the API whose language matches (`'all'` or a list of ids). */
   commentaries?: 'all' | string[];
+  /** Licensed translations served live through the proxy. */
+  licensed?: LicensedTranslation[];
 }
 
 export interface SiteConfig {
@@ -85,10 +118,95 @@ export interface SiteConfig {
    * cross-reference JSON files when the docs host does not serve them.
    */
   cdnBaseUrl: string;
+  /**
+   * Base URL of the deployed `proxy/` worker that serves licensed translations,
+   * e.g. `https://bible-proxy.example.workers.dev`. Overridden by the
+   * `BIBLE_PROXY_URL` environment variable at build time. When empty, licensed
+   * chapter pages show a "not configured" notice instead of text.
+   */
+  liveProxyUrl: string;
 }
 
 export const LANGUAGES: LanguageDefinition[] = [
-  { code: 'en', name: 'English', htmlLang: 'en', iso: ['eng'], study: true, commentaries: 'all' },
+  {
+    code: 'en',
+    name: 'English',
+    htmlLang: 'en',
+    iso: ['eng'],
+    study: true,
+    commentaries: 'all',
+    licensed: [
+      {
+        slug: 'esv',
+        label: 'ESV',
+        name: 'English Standard Version',
+        provider: 'esv',
+        edition: 'esv',
+        copyright:
+          'Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved. The ESV text may not be quoted in any publication made available to the public by a Creative Commons license. The ESV may not be translated into any other language.',
+        website: 'https://www.esv.org/',
+      },
+      {
+        slug: 'nlt',
+        label: 'NLT',
+        name: 'New Living Translation',
+        provider: 'nlt',
+        edition: 'NLT',
+        copyright:
+          'Scripture quotations marked (NLT) are taken from the Holy Bible, New Living Translation, copyright © 1996, 2004, 2015 by Tyndale House Foundation. Used by permission of Tyndale House Publishers, Carol Stream, Illinois 60188. All rights reserved.',
+        website: 'https://www.tyndale.com/nlt/',
+      },
+      {
+        slug: 'nkjv',
+        label: 'NKJV',
+        name: 'New King James Version',
+        provider: 'api-bible',
+        edition: 'NKJV',
+        copyright: 'Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.',
+        website: 'https://www.thomasnelsonbibles.com/nkjv-bible/',
+      },
+      {
+        slug: 'nasb',
+        label: 'NASB',
+        name: 'New American Standard Bible (2020)',
+        provider: 'api-bible',
+        edition: 'NASB2020',
+        copyright:
+          'Scripture quotations taken from the (NASB®) New American Standard Bible®, Copyright © 1960, 1971, 1977, 1995, 2020 by The Lockman Foundation. Used by permission. All rights reserved. lockman.org',
+        website: 'https://www.lockman.org/',
+      },
+      {
+        slug: 'csb',
+        label: 'CSB',
+        name: 'Christian Standard Bible',
+        provider: 'api-bible',
+        edition: 'CSB',
+        copyright:
+          'Scripture quotations marked CSB have been taken from the Christian Standard Bible®, Copyright © 2017 by Holman Bible Publishers. Used by permission. Christian Standard Bible® and CSB® are federally registered trademarks of Holman Bible Publishers.',
+        website: 'https://csbible.com/',
+      },
+      {
+        slug: 'amp',
+        label: 'AMP',
+        name: 'Amplified Bible',
+        provider: 'api-bible',
+        edition: 'AMP',
+        copyright:
+          'Scripture quotations taken from the Amplified® Bible (AMP), Copyright © 2015 by The Lockman Foundation. Used by permission. lockman.org',
+        website: 'https://www.lockman.org/',
+      },
+      {
+        slug: 'msg',
+        label: 'MSG',
+        name: 'The Message',
+        provider: 'api-bible',
+        edition: 'MSG',
+        copyright:
+          'Scripture quotations marked MSG are taken from THE MESSAGE, copyright © 1993, 2002, 2018 by Eugene H. Peterson. Used by permission of NavPress. All rights reserved. Represented by Tyndale House Publishers.',
+        website: 'https://messagebible.com/',
+      },
+    ],
+  },
   { code: 'es', name: 'Español', htmlLang: 'es', iso: ['spa'] },
   { code: 'fr', name: 'Français', htmlLang: 'fr', iso: ['fra'] },
   { code: 'de', name: 'Deutsch', htmlLang: 'de', iso: ['deu'] },
@@ -130,6 +248,7 @@ export const siteConfig: SiteConfig = {
   datasets: { crossReferences: 'open-cross-ref', entities: 'theographic' },
   repositoryUrl: 'https://github.com/brandonmcconnell/bible',
   cdnBaseUrl: 'https://cdn.jsdelivr.net/gh/brandonmcconnell/bible@main',
+  liveProxyUrl: process.env['BIBLE_PROXY_URL'] ?? '',
   curated: {
     // English
     eng_kjv: { slug: 'kjv', label: 'KJV', name: 'King James Version', default: true },

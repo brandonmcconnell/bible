@@ -10,6 +10,10 @@
  *   - verse selection with copy-with-reference and a cross-reference panel;
  *   - #v5 / #v5-8 deep links and ←/→ keyboard chapter navigation;
    - sidebar decoration: chapter lists become wrapping grids of numbers;
+   - licensed translations (ESV, NLT, NKJV, …): chapter pages ship without
+     text; it is fetched from the proxy (theme/bible-manifest.js →
+     liveProxyUrl) when the page is viewed and rendered into the same verse
+     spans, so every feature above works on it too;
    - language switcher: Mintlify greys out a language unless the same page
      path exists under it, which never happens here because translation slugs
      differ per language. Greyed-out languages are re-enabled and routed to
@@ -139,6 +143,14 @@
     if (actions) {
       actions.hidden = true;
       hidePanel();
+    }
+    if (chapter.hasAttribute('data-live')) {
+      loadLiveChapter(chapter).then(function () {
+        buildToolbar(chapter);
+        wireVerses(chapter);
+        applyHash(chapter);
+      });
+      return;
     }
     buildToolbar(chapter);
     wireVerses(chapter);
@@ -643,6 +655,197 @@
     var slug = ctx.manifest.bookSlugs ? ctx.manifest.bookSlugs[targetBook] : null;
     if (!slug) return null;
     return '/' + ctx.lang + '/' + ctx.translationSlug + '/' + slug + '/' + targetChapter;
+  }
+
+  // -------------------------------------------------------------------------
+  // Licensed translations: fetch the chapter from the proxy and render it
+  // -------------------------------------------------------------------------
+
+  function escapeHtml(text) {
+    return String(text).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function liveStatus(chapter, message) {
+    var bt = chapter.querySelector('.bt');
+    if (!bt) return;
+    bt.innerHTML = '<p class="live-status">' + escapeHtml(message) + '</p>';
+  }
+
+  function loadLiveChapter(chapter) {
+    var ctx = context(chapter);
+    var ui = ctx.ui;
+    var m = ctx.manifest;
+    var proxy = m && typeof m.liveProxyUrl === 'string' ? m.liveProxyUrl.replace(/\/+$/, '') : '';
+    if (!proxy) {
+      liveStatus(chapter, t(ui, 'liveNotConfigured', 'This translation is not configured on this site yet.'));
+      return Promise.resolve();
+    }
+    var provider = chapter.getAttribute('data-live') || '';
+    var edition = chapter.getAttribute('data-live-edition') || '';
+    var url = proxy + '/v1/' + encodeURIComponent(provider) + '/' + encodeURIComponent(edition) + '/' + ctx.bookId + '/' + ctx.chapter;
+    return fetch(url, { headers: { accept: 'application/json' } })
+      .then(function (response) {
+        return response.json().then(function (body) {
+          if (!response.ok) throw new Error(body && body.error ? body.error : 'HTTP ' + response.status);
+          return body;
+        });
+      })
+      .then(function (data) {
+        renderLiveChapter(chapter, data, ctx);
+        if (data.fumsToken) reportFums(data.fumsToken);
+      })
+      .catch(function (error) {
+        var detail = error && error.message ? ' (' + error.message + ')' : '';
+        liveStatus(chapter, t(ui, 'liveUnavailable', 'The text could not be loaded right now.') + detail);
+      });
+  }
+
+  /** API.Bible's Fair Use Management System: required on every page that shows its text. */
+  function reportFums(token) {
+    var img = document.createElement('img');
+    img.alt = '';
+    img.width = 1;
+    img.height = 1;
+    img.style.position = 'absolute';
+    img.style.opacity = '0';
+    img.src = 'https://fums.api.bible/f3?t=' + encodeURIComponent(token) + '&dId=' + encodeURIComponent(deviceId()) + '&sId=' + encodeURIComponent(sessionId()) + '&r=' + encodeURIComponent(location.pathname);
+    document.body.appendChild(img);
+  }
+
+  function deviceId() {
+    try {
+      var id = window.localStorage.getItem('bible.fums.device');
+      if (!id) {
+        id = Math.random().toString(36).slice(2) + Date.now().toString(36);
+        window.localStorage.setItem('bible.fums.device', id);
+      }
+      return id;
+    } catch (error) {
+      return 'anon';
+    }
+  }
+
+  function sessionId() {
+    try {
+      var id = window.sessionStorage.getItem('bible.fums.session');
+      if (!id) {
+        id = Math.random().toString(36).slice(2);
+        window.sessionStorage.setItem('bible.fums.session', id);
+      }
+      return id;
+    } catch (error) {
+      return 'anon';
+    }
+  }
+
+  function footnoteLabel(index) {
+    var n = index;
+    var label = '';
+    do {
+      label = String.fromCharCode(97 + (n % 26)) + label;
+      n = Math.floor(n / 26) - 1;
+    } while (n >= 0);
+    return label;
+  }
+
+  function renderLiveParts(parts, notes) {
+    var html = '';
+    var atLineStart = true;
+    for (var i = 0; i < parts.length; i += 1) {
+      var part = parts[i];
+      if (typeof part === 'string') {
+        html += escapeHtml(part);
+        if (part.trim()) atLineStart = false;
+      } else if (part && part.lineBreak) {
+        html += '<br>';
+        atLineStart = true;
+      } else if (part && typeof part.noteId === 'number') {
+        var note = notes[part.noteId];
+        if (note) {
+          html += '<sup class="fn"><a href="#fn-' + note.label + '" id="fnref-' + note.label + '" data-fn="' + escapeHtml(note.text) + '">' + note.label + '</a></sup>';
+        }
+      } else if (part && typeof part.text === 'string') {
+        var classes = [];
+        if (typeof part.poem === 'number') classes.push('pl', 'pl-' + Math.min(Math.max(part.poem, 1), 4));
+        if (part.wordsOfJesus) classes.push('woj');
+        if (typeof part.poem === 'number' && !atLineStart) html += '<br>';
+        html += classes.length ? '<span class="' + classes.join(' ') + '">' + escapeHtml(part.text) + '</span>' : escapeHtml(part.text);
+        if (part.text.trim()) atLineStart = false;
+      }
+    }
+    return html;
+  }
+
+  function renderLiveChapter(chapter, data, ctx) {
+    var ui = ctx.ui;
+    var bt = chapter.querySelector('.bt');
+    if (!bt) return;
+    var notes = {};
+    var footnotes = Array.isArray(data.footnotes) ? data.footnotes : [];
+    for (var n = 0; n < footnotes.length; n += 1) notes[footnotes[n].noteId] = { label: footnoteLabel(n), text: footnotes[n].text };
+
+    var html = '';
+    var paragraph = '';
+    var paragraphIsPoetry = false;
+    var seenVerse = false;
+    function closeParagraph() {
+      if (!paragraph) return;
+      html += '<div class="bp' + (paragraphIsPoetry ? ' poetry' : '') + '">' + paragraph + '</div>';
+      paragraph = '';
+      paragraphIsPoetry = false;
+    }
+    var content = Array.isArray(data.content) ? data.content : [];
+    for (var i = 0; i < content.length; i += 1) {
+      var item = content[i];
+      if (item.type === 'heading') {
+        closeParagraph();
+        html += '<h2>' + escapeHtml(item.text) + '</h2>';
+      } else if (item.type === 'subtitle') {
+        closeParagraph();
+        html += '<div class="hs">' + escapeHtml(item.text) + '</div>';
+      } else if (item.type === 'line_break') {
+        closeParagraph();
+      } else if (item.type === 'verse') {
+        var parts = Array.isArray(item.parts) ? item.parts : [];
+        for (var p = 0; p < parts.length; p += 1) {
+          if (parts[p] && typeof parts[p].poem === 'number') paragraphIsPoetry = true;
+        }
+        paragraph += '<span class="v" id="v' + item.number + '" data-v="' + item.number + '"> ' + renderLiveParts(parts, notes) + '</span>';
+        seenVerse = true;
+      }
+    }
+    closeParagraph();
+    if (!seenVerse) {
+      liveStatus(chapter, t(ui, 'liveUnavailable', 'The text could not be loaded right now.'));
+      return;
+    }
+    bt.innerHTML = html;
+    bt.classList.remove('bt-live');
+
+    var existing = chapter.parentElement ? chapter.parentElement.querySelector('.bible-footnotes.live') : null;
+    if (existing) existing.parentElement.removeChild(existing);
+    if (footnotes.length > 0) {
+      var list = '';
+      for (var f = 0; f < footnotes.length; f += 1) {
+        var note = notes[footnotes[f].noteId];
+        list += '<li id="fn-' + note.label + '"><a href="#fnref-' + note.label + '" class="fnb">' + note.label + '</a> ' + escapeHtml(note.text) + '</li>';
+      }
+      var section = document.createElement('div');
+      section.className = 'bible-footnotes live';
+      section.innerHTML = '<h2>' + escapeHtml(t(ui, 'footnotes', 'Footnotes')) + '</h2><ol class="fnl">' + list + '</ol>';
+      chapter.insertAdjacentElement('afterend', section);
+    }
+    if (data.copyright) {
+      var notice = chapter.querySelector('.live-notice p');
+      if (notice && notice.textContent.indexOf(data.copyright.slice(0, 40)) === -1) {
+        var extra = document.createElement('p');
+        extra.textContent = data.copyright;
+        notice.parentElement.insertBefore(extra, notice);
+      }
+    }
+    chapter.setAttribute('data-verses', String(chapter.querySelectorAll('.v').length));
   }
 
   // -------------------------------------------------------------------------
